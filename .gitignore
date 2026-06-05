@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Large model/data files (too big for GitHub)
+yolov8n.pt
+*.pt
+*.onnx
+
+# Large generated JSON indexes (can be rebuilt)
+keyword_dictionary.json
+keyword_dictionary_compact.json
+rag_index.json
+
+# Logs & temp
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Scratch work
+scratch/
