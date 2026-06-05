@@ -143,6 +143,11 @@ PEOPLE_DB = []           # list of all chunk dicts from people_data/ files
 PEOPLE_ALIAS_MAP = {}    # lowercase alias string → set of people_data file paths (canonical person key)
 PEOPLE_BY_KEY = {}       # canonical person key → list of chunk dicts (sorted by chunk_index)
 
+# ── Courses Database (courses_data/) ─────────────────────────────────────────
+COURSES_DB = []          # list of all chunk dicts from courses_data/ files
+COURSES_BY_KEY = {}      # course slug → list of chunk dicts (sorted by chunk_index)
+COURSES_ALIAS_MAP = {}   # lowercase alias string → set of course slugs
+
 def load_people_data():
     """Loads all JSON files in people_data/ into PEOPLE_DB and builds an alias lookup map."""
     global PEOPLE_DB, PEOPLE_ALIAS_MAP, PEOPLE_BY_KEY
@@ -255,10 +260,18 @@ def search_people_data(query):
     # Return text of all non-alias chunks (alias-chunks are helper text, not profile text)
     text_chunks = [c.get('text', '') for c in chunks if 'alias-chunk' not in c.get('id', '') and c.get('text', '')]
 
+    # Collect all unique aliases for this person
+    aliases = []
+    for c in chunks:
+        for a in c.get('aliases', []):
+            if a not in aliases:
+                aliases.append(a)
+
     return {
         'found': True,
         'person_key': person_key,
         'name': name,
+        'aliases': aliases,
         'chunks': text_chunks
     }
 
@@ -504,9 +517,333 @@ def search_university_data(query, top_n=3):
     top = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:top_n]
     return [UNIVERSITY_DATA[i]["text"] for i, _ in top]
 
+def load_courses_data():
+    """Loads all JSON files in courses_data/ into COURSES_DB and builds slug/alias lookup maps."""
+    global COURSES_DB, COURSES_BY_KEY, COURSES_ALIAS_MAP
+    data_dir = "courses_data"
+    if not os.path.exists(data_dir):
+        print("[WARN] courses_data/ folder not found — course lookup disabled.")
+        return
+
+    COURSES_DB.clear()
+    COURSES_BY_KEY.clear()
+    COURSES_ALIAS_MAP.clear()
+
+    # Skip aggregate/summary files
+    _SKIP = {"all_courses_flat.json", "courses_summary.json"}
+    files = sorted(f for f in os.listdir(data_dir) if f.endswith('.json') and f not in _SKIP)
+
+    for filename in files:
+        filepath = os.path.join(data_dir, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                chunks = json.load(f)
+            if not isinstance(chunks, list):
+                continue
+
+            # Canonical key is the filename without .json  e.g. "computer-science-bsc-hons"
+            course_key = filename[:-5]
+            if course_key not in COURSES_BY_KEY:
+                COURSES_BY_KEY[course_key] = []
+
+            for chunk in chunks:
+                if not isinstance(chunk, dict):
+                    continue
+                chunk['_course_key'] = course_key
+                COURSES_DB.append(chunk)
+                COURSES_BY_KEY[course_key].append(chunk)
+
+        except Exception as e:
+            print(f"[WARN] Failed to load courses_data/{filename}: {e}")
+
+    # Sort chunks per course by chunk_index
+    for key in COURSES_BY_KEY:
+        COURSES_BY_KEY[key].sort(key=lambda c: c.get('chunk_index', 0))
+
+    # Build alias map: slug words + programme name words + common short forms
+    for course_key in COURSES_BY_KEY:
+        # Full slug (e.g. "computer-science-bsc-hons")
+        COURSES_ALIAS_MAP.setdefault(course_key, set()).add(course_key)
+        # Slug with spaces (e.g. "computer science bsc hons")
+        slug_spaced = course_key.replace('-', ' ')
+        COURSES_ALIAS_MAP.setdefault(slug_spaced, set()).add(course_key)
+        # Individual slug words >= 4 chars
+        for word in course_key.split('-'):
+            if len(word) >= 4:
+                COURSES_ALIAS_MAP.setdefault(word.lower(), set()).add(course_key)
+        # Extract programme name from the first chunk title
+        first_chunks = COURSES_BY_KEY[course_key]
+        if first_chunks:
+            title = first_chunks[0].get('title', '')
+            # Title format: "Programme Name: Section" — take the part before ':'
+            prog_name = title.split(':')[0].strip().lower()
+            if prog_name:
+                COURSES_ALIAS_MAP.setdefault(prog_name, set()).add(course_key)
+                # Also register each word of the programme name
+                for word in prog_name.split():
+                    if len(word) >= 4:
+                        COURSES_ALIAS_MAP.setdefault(word, set()).add(course_key)
+
+    print(f"[INFO] Loaded courses_data: {len(COURSES_BY_KEY)} courses, {len(COURSES_ALIAS_MAP)} aliases, {len(COURSES_DB)} chunks")
+
+
+def search_courses_data(query):
+    """
+    Alias-aware course lookup in courses_data/.
+    Scores all matching candidates by query-token overlap to resolve ambiguity
+    (e.g. 'msc finance' should rank finance-msc above accounting-and-finance-bsc-hons).
+    """
+    if not query or not COURSES_BY_KEY:
+        return {'found': False}
+
+    clean = query.strip().lower()
+    q_tokens = [t.strip('.,;:!?()') for t in clean.split() if t.strip('.,;:!?()')]
+
+    if not q_tokens:
+        return {'found': False}
+
+    # Detect requested study levels
+    query_has_msc = any(t in ("msc", "master", "masters") for t in q_tokens)
+    query_has_bsc = any(t in ("bsc", "bachelor", "bachelors") for t in q_tokens)
+    query_has_beng = any(t in ("beng",) for t in q_tokens)
+
+    scores = {}
+
+    for course_key, chunks in COURSES_BY_KEY.items():
+        score = 0.0
+        slug_tokens = course_key.split('-')
+
+        # Determine course study level
+        course_level = None
+        if "msc" in slug_tokens:
+            course_level = "msc"
+        elif "bsc" in slug_tokens:
+            course_level = "bsc"
+        elif "beng" in slug_tokens:
+            course_level = "beng"
+
+        # 1. Study level matching (strong differentiator)
+        if query_has_msc:
+            if course_level == "msc":
+                score += 15.0
+            elif course_level in ("bsc", "beng"):
+                score -= 15.0
+        if query_has_bsc:
+            if course_level == "bsc":
+                score += 15.0
+            elif course_level in ("msc", "beng"):
+                score -= 15.0
+        if query_has_beng:
+            if course_level == "beng":
+                score += 15.0
+            elif course_level in ("msc", "bsc"):
+                score -= 15.0
+
+        # 2. Token overlap with course slug
+        matched_tokens = 0
+        for qt in q_tokens:
+            if qt in slug_tokens:
+                score += 8.0
+                matched_tokens += 1
+            else:
+                # Substring match within slug tokens
+                for st in slug_tokens:
+                    if len(qt) >= 4 and qt in st:
+                        score += 3.0
+                        matched_tokens += 1
+                        break
+                    elif len(st) >= 4 and st in qt:
+                        score += 3.0
+                        matched_tokens += 1
+                        break
+
+        # 3. Exact slug match
+        spaced_slug = course_key.replace('-', ' ')
+        if clean == course_key or clean == spaced_slug:
+            score += 50.0
+
+        # 4. Word-set match bonus (e.g. "msc data science" vs "data-science-msc")
+        slug_token_set = set(slug_tokens)
+        q_token_set = set(q_tokens)
+        if q_token_set == slug_token_set:
+            score += 30.0
+        elif q_token_set.issubset(slug_token_set):
+            score += 15.0
+
+        # 5. First chunk title matching
+        if chunks:
+            title = chunks[0].get('title', '')
+            prog_name = title.split(':')[0].strip().lower() if ':' in title else ''
+            if prog_name:
+                if clean == prog_name:
+                    score += 40.0
+                # Match tokens against programme name
+                prog_words = prog_name.split()
+                for qt in q_tokens:
+                    if qt in prog_words:
+                        score += 5.0
+                    else:
+                        for pw in prog_words:
+                            if len(qt) >= 4 and qt in pw:
+                                score += 2.0
+                                break
+
+        # We need at least one keyword token match to consider this course
+        if matched_tokens > 0:
+            # Tie-breaker: prefer shorter/more-specific slugs by subtracting a fraction of slug length
+            score -= len(slug_tokens) * 0.1
+            scores[course_key] = score
+
+    if not scores:
+        return {'found': False}
+
+    # Rank and select best candidate
+    best_key, best_score = max(scores.items(), key=lambda x: x[1])
+
+    # Threshold score to filter out irrelevant/weak matches
+    if best_score < 5.0:
+        return {'found': False}
+
+    chunks = COURSES_BY_KEY[best_key]
+    name = ''
+    for c in chunks:
+        title = c.get('title', '')
+        if ':' in title:
+            name = title.split(':')[0].strip()
+            break
+    if not name:
+        name = best_key.replace('-', ' ').title()
+
+    # Select most relevant chunks (using their summary/short version) based on query intent
+    clean_q = clean.lower()
+    intent_fees = any(w in clean_q for w in ["fee", "cost", "tuition", "inr", "scholarship", "deposit", "payment", "instalment", "pay"])
+    intent_eligibility = any(w in clean_q for w in ["eligibility", "criteria", "admission", "apply", "application", "requirement", "score", "mark", "gpa", "ielts", "grade", "cbse", "cisce", "board"])
+    intent_curriculum = any(w in clean_q for w in ["study", "curriculum", "module", "subject", "semester", "syllabus", "learn", "structure", "hons", "honours"])
+    intent_careers = any(w in clean_q for w in ["career", "job", "employability", "employer", "prospect"])
+
+    matched_chunks = []
+    if intent_fees:
+        matched_chunks = [c for c in chunks if c.get("topic") == "fees"]
+    elif intent_eligibility:
+        matched_chunks = [c for c in chunks if c.get("topic") == "admissions"]
+    elif intent_curriculum:
+        matched_chunks = [c for c in chunks if c.get("topic") == "programme-curriculum"]
+    elif intent_careers:
+        matched_chunks = [c for c in chunks if c.get("topic") == "careers"]
+
+    # Fallback to overview if no specific intent matches or no chunks found
+    if not matched_chunks:
+        overview_chunks = [c for c in chunks if c.get("topic") == "programme-overview"]
+        if overview_chunks:
+            matched_chunks = overview_chunks[:2]
+        else:
+            matched_chunks = chunks[:2]
+
+    # Return summaries (concise, pre-written details) to prevent LLM from getting long-winded/boring
+    selected_texts = []
+    for c in matched_chunks:
+        summary = c.get("summary", "").strip()
+        if summary:
+            selected_texts.append(summary)
+        else:
+            text = c.get("text", "").strip()
+            if len(text) > 250:
+                selected_texts.append(text[:250] + "...")
+            else:
+                selected_texts.append(text)
+
+    return {
+        'found': True,
+        'course_key': best_key,
+        'name': name,
+        'chunks': selected_texts
+    }
+
+
+_COURSE_KW_STOP = frozenset(
+    "the is at in of and to for a an on it by as or be was are with that this from but "
+    "not have has had can will what how who when where which about your you they their "
+    "there been would could should does did its also than then very just more do our we "
+    "all any each few some most other into over such only these those through between "
+    "during before after above below up down out off no nor so too own same both if "
+    "while tell me about please find list show associated related course courses programme "
+    "programs study studying join pursue offer offered".split()
+)
+
+
+def search_courses_by_keyword(query, top_n=5):
+    """
+    Keyword-based course search across courses_data/.
+    Returns a list of dicts: [{'name': '...', 'overview': '...', 'slug': '...', 'score': N}, ...]
+    """
+    if not query or not COURSES_BY_KEY:
+        return []
+
+    clean_q = query.lower().strip()
+    raw_tokens = [t.strip('.,;:!?()') for t in clean_q.split() if len(t) >= 3 and t not in _COURSE_KW_STOP]
+    search_terms = set(raw_tokens)
+
+    if not search_terms:
+        return []
+
+    course_scores = defaultdict(float)
+    course_names = {}
+    course_overviews = {}
+    course_slugs = {}
+
+    for course_key, chunks in COURSES_BY_KEY.items():
+        best_name = course_key.replace('-', ' ').title()
+        best_overview = ''
+
+        for chunk in chunks:
+            title = chunk.get('title', '')
+            if title and ':' in title:
+                parts = title.split(':', 1)
+                if not best_name or best_name == course_key.replace('-', ' ').title():
+                    best_name = parts[0].strip()
+
+            summary = chunk.get('summary', '') or chunk.get('text', '')[:200]
+            if summary and not best_overview:
+                best_overview = summary
+
+            text = chunk.get('text', '').lower()
+            kw_text = ' '.join(chunk.get('keywords', [])).lower()
+            combined = f"{title.lower()} {text} {kw_text}"
+
+            for term in search_terms:
+                if len(term) >= 3 and term in combined:
+                    course_scores[course_key] += 1.0
+                if len(term) >= 4 and term in title.lower():
+                    course_scores[course_key] += 1.5
+
+        course_names[course_key] = best_name
+        course_overviews[course_key] = best_overview
+        course_slugs[course_key] = course_key
+
+    if not course_scores:
+        return []
+
+    ranked = sorted(
+        [(k, v) for k, v in course_scores.items() if v > 0],
+        key=lambda x: x[1], reverse=True
+    )[:top_n]
+
+    results = []
+    for course_key, score in ranked:
+        results.append({
+            'name': course_names.get(course_key, course_key.replace('-', ' ').title()),
+            'overview': course_overviews.get(course_key, ''),
+            'slug': course_key,
+            'score': round(score, 2)
+        })
+
+    return results
+
+
 # Initialize on startup
 load_university_data()
 load_people_data()
+load_courses_data()
 
 class ControlHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -553,6 +890,28 @@ class ControlHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Content-type', 'application/json')
             self.end_headers()
             self.wfile.write(json.dumps(ports).encode())
+
+        elif self.path.startswith('/api/courses/keyword-search'):
+            query = ""
+            if '?' in self.path:
+                qs = urllib.parse.parse_qs(self.path.split('?', 1)[1])
+                query = qs.get('q', [''])[0]
+            results = search_courses_by_keyword(query)
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps({'found': len(results) > 0, 'courses': results}).encode())
+
+        elif self.path.startswith('/api/courses/search'):
+            query = ""
+            if '?' in self.path:
+                qs = urllib.parse.parse_qs(self.path.split('?', 1)[1])
+                query = qs.get('q', [''])[0]
+            result = search_courses_data(query)
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps(result).encode())
 
         elif self.path.startswith('/api/university/search'):
             query = ""

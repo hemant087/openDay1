@@ -1,0 +1,416 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Programme Overview",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 0,
+    "text": "International Management MSc. Join MSc International Management in India. Gain skills in strategy, marketing, leadership, and global business. Apply now for 2026 intake.",
+    "tokens": 23,
+    "language": "en",
+    "summary": "International Management MSc. Join MSc International Management in India.",
+    "keywords": [
+      "International",
+      "Management",
+      "Msc",
+      "Join",
+      "Gain",
+      "Skills",
+      "Strategy",
+      "Marketing"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "International": 0.97,
+      "Management": 0.97,
+      "Msc": 0.97,
+      "Join": 0.83,
+      "Gain": 0.83,
+      "Skills": 0.83,
+      "Strategy": 0.83,
+      "Marketing": 0.83
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "MSc",
+      "India"
+    ],
+    "topic": "programme-overview",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Programme Overview",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 1,
+    "text": "Learn how a business operates and study key management concepts on our MSc International Management degree. The programme will give you insights into becoming an effective business manager in core management functions in our globalised workplace. It is open to graduates from a range of academic and professional backgrounds. The programme incorporates inter-disciplinary perspectives into management teaching, such as the application of technologies and sustainable business practices. You will learn: how organisations operate and are managed how to resolve issues through your understanding of management concepts analytical, communication and self-management skills",
+    "tokens": 91,
+    "language": "en",
+    "summary": "International Management MSc - Programme Overview: Learn how a business operates and study key management concepts on our MSc International Management degree. The programme will give you insights into becoming an effective business manager in core management functions in our globalised workplace.",
+    "keywords": [
+      "Management",
+      "Business",
+      "Learn",
+      "Concepts",
+      "Operates",
+      "Key",
+      "Msc",
+      "International"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Management": 0.97,
+      "Business": 0.83,
+      "Learn": 0.79,
+      "Concepts": 0.79,
+      "Operates": 0.74,
+      "Key": 0.74,
+      "Msc": 0.74,
+      "International": 0.74
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "MSc"
+    ],
+    "topic": "programme-overview",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: What You Will Study",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 2,
+    "text": "This is a full-time 1 year degree programme. The first 9 months of the programme comprises taught study, divided into 2 semesters. In semester 3 (the final 3 months) you’ll complete an individual research project for your dissertation. The course modules cover: management within a global context strategic management marketing accounting and control responsible leadership decision making operations management Programme structure The programme is built on a number of core and compulsory modules, that are designed to ensure that students gain a comprehensive understanding of the fundamentals of business. The programme includes modules such as: Managing within a global context: offered by the Department of Human Resource Management and Organisational Behaviour, this module explores advanced perspectives on management, leadership, power, culture and diversity. Career management in a digital age: developed by a globally recognised expert in the area of career management. Risk-taking and decision-making: this module emphasises how combining qualitative and quantitative thinking enhances effective decision-making in the face of risk and uncertainty. The Programme Description Document contains an overview of the programme, its aims, information on programme modules and shows how we assess student progress as they learn with us. As a research-led University, we undertake a continuous review of our programmes to ensure quality enhancement and to manage our resources. As a result, this programme may be revised during a student’s period of registration; however, any revision will be balanced against the requirement that the student should receive the educational service expected. Please read our Disclaimer to see why, when, and how changes may be made to a student’s programme.",
+    "tokens": 262,
+    "language": "en",
+    "summary": "International Management MSc - What You Will Study: This is a full-time 1 year degree programme. The first 9 months of the programme comprises taught study, divided into 2 semesters.",
+    "keywords": [
+      "Management",
+      "Modules",
+      "Decision",
+      "Making",
+      "Months",
+      "Research",
+      "Within",
+      "Global"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Management": 0.97,
+      "Modules": 0.85,
+      "Decision": 0.82,
+      "Making": 0.82,
+      "Months": 0.78,
+      "Research": 0.78,
+      "Within": 0.78,
+      "Global": 0.78
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi"
+    ],
+    "topic": "programme-curriculum",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Key Information",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 3,
+    "text": "We are mandated by the University Grants Commission (UGC) to deliver the equivalent programme and quality as we offer in the UK. To match the programme lengths of internationally respected UK awarded degrees, the MSc International Management degree has a duration of one year. View University of Southampton Delhi term dates . Dates mentioned are subject to change. Our programmes are taught in English, and content is equivalent to the MSc International Management degree delivered at University of Southampton in the UK.",
+    "tokens": 82,
+    "language": "en",
+    "summary": "International Management MSc - Key Information: We are mandated by the University Grants Commission (UGC) to deliver the equivalent programme and quality as we offer in the UK. To match the programme lengths of internationally respected UK awarded degrees, the MSc International Management degre...",
+    "keywords": [
+      "Equivalent",
+      "Msc",
+      "International",
+      "Management",
+      "Dates",
+      "Mandated",
+      "Grants",
+      "Commission"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Equivalent": 0.97,
+      "Msc": 0.97,
+      "International": 0.97,
+      "Management": 0.97,
+      "Dates": 0.97,
+      "Mandated": 0.83,
+      "Grants": 0.83,
+      "Commission": 0.83
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "UGC",
+      "UK",
+      "MSc"
+    ],
+    "topic": "programme-info",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Your Future Career",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 4,
+    "text": "We are a top 20 UK university for employability ( QS Graduate Employability Rankings 2022 ) and offer extensive support for today’s competitive and rapidly changing managment landscape. By the end of this Master’s in International Management, you’ll have essential skills for management careers in diverse organisations. Career opportunities Graduates commonly work in a range of organisations or sectors in business and industry, at government agencies, third sector organisations in disciplines such as finance, marketing and project management or as entrepreneurs at start-ups. Careers directly related to this course: auditor business analyst business development manager company secretary credit officer human resources officer project manager managing consultant marketing manager data analyst financial analyst public affairs manager Careers services at University of Southampton Delhi Our proprietary Southampton skills model is integrated into our curriculum. When you join us, you’ll be able to use our skills model to track, plan, and benefit your career development and progress. As well as support from the Careers and Employability team in Delhi, you’ll have access to our market-leading employability development offering. This includes: online resources regular workshops personalised career guidance and support through our MyCareer platform and e-mentoring With links to multinational and industrial organisations, we enable you to engage with employers and explore potential career paths. We also host regular alumni events in-person across major cities in India, allowing you to grow your own networks. Our support is ongoing, and once you graduate, you’ll be part of a global community of over 220,000 alumni that spans over 180 countries.",
+    "tokens": 254,
+    "language": "en",
+    "summary": "International Management MSc - Your Future Career: We are a top 20 UK university for employability ( QS Graduate Employability Rankings 2022 ) and offer extensive support for today’s competitive and rapidly changing managment landscape. By the end of this Master’s in International Management, you’...",
+    "keywords": [
+      "Employability",
+      "Support",
+      "Careers",
+      "Organisations",
+      "Career",
+      "Manager",
+      "Management",
+      "Skills"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Employability": 0.97,
+      "Support": 0.97,
+      "Careers": 0.97,
+      "Organisations": 0.97,
+      "Career": 0.97,
+      "Manager": 0.97,
+      "Management": 0.9,
+      "Skills": 0.9
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "UK",
+      "QS",
+      "India"
+    ],
+    "topic": "careers",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Eligibility Criteria",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 5,
+    "text": "To apply for this programme, you’ll need an upper second-class degree, termed a 2:1 degree, or international equivalent in one of the following subjects: engineering humanities business mathematics physical sciences information systems management social sciences languages English language requirement We accept several ways of meeting our English Language requirement. These include: IELTS Test, with scores of 6.5 overall (6.0 in reading, writing, speaking, and listening) other tests listed on our website an approved academic qualification having the required grade If you’ve successfully completed a degree, taught and assessed in English, up to 2 years before the date of first enrolment at the University of Southampton, we may be able to accept this as evidence of your English language ability. Refer to our English Language proficiency guide for more information about English language requirements. Our academic admissions criteria Typical academic admissions criteria represent the usual level of academic attainment an applicant is expected to achieve prior to being admitted to that programme. These criteria are not intended to provide a guarantee that all applicants who satisfy the criteria may be offered a place, nor that all applicants to be made an offer will receive an identical offer to one another.",
+    "tokens": 199,
+    "language": "en",
+    "summary": "International Management MSc - Eligibility Criteria: To apply for this programme, you’ll need an upper second-class degree, termed a 2:1 degree, or international equivalent in one of the following subjects: engineering humanities business mathematics physical sciences information systems management ...",
+    "keywords": [
+      "English",
+      "Language",
+      "Criteria",
+      "One",
+      "Sciences",
+      "Information",
+      "Requirement",
+      "Accept"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "English": 0.97,
+      "Language": 0.93,
+      "Criteria": 0.88,
+      "One": 0.79,
+      "Sciences": 0.79,
+      "Information": 0.79,
+      "Requirement": 0.79,
+      "Accept": 0.79
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "IELTS"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Fees and Costs",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 6,
+    "text": "The fees for the year starting in August 2026 for Indian students are: 16,17,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,61,700 INR for India students The balance of the yearly tuition fee is paid in 3 instalments. 3,88,080 INR by Monday 07 September 2026 5,33,610 INR by Monday 25 January 2027 5,33,610 INR by Monday 19 April 2027 Fees for international students The fees for the year starting in August 2026 for international students are: 18,48,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,84,800 INR for international students If you are an international student, you’ll have to make 3 separate payments of: 4,33,520 INR by Monday 07 September 2026 6,09,840 INR by Monday 25 January 2027 6,09,840 INR by Monday 19 April 2027 We may adjust the fees in the future to account for inflation and changes in other costs. Exact payment dates for future years will vary according to the academic calendar. Scholarships We offer competitive scholarships to talented students.",
+    "tokens": 238,
+    "language": "en",
+    "summary": "International Management MSc - Fees and Costs: The fees for the year starting in August 2026 for Indian students are: 16,17,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee.",
+    "keywords": [
+      "Inr",
+      "Deposit",
+      "Monday",
+      "Fee",
+      "Fees",
+      "Starting",
+      "August",
+      "International"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Inr": 0.97,
+      "Deposit": 0.86,
+      "Monday": 0.86,
+      "Fee": 0.83,
+      "Fees": 0.81,
+      "Starting": 0.81,
+      "August": 0.81,
+      "International": 0.81
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "August 2026",
+      "INR",
+      "India"
+    ],
+    "topic": "fees",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-7",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: How to Apply",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 7,
+    "text": "We are now accepting registrations for a place at our campus in the Delhi NCR for the academic year starting August 2026. Potential students can understand more about our application process by looking at helpful guidance and advice on university admissions pages. To start the application process, register yourself.",
+    "tokens": 49,
+    "language": "en",
+    "summary": "International Management MSc - How to Apply: We are now accepting registrations for a place at our campus in the Delhi NCR for the academic year starting August 2026. Potential students can understand more about our application process by looking at helpful guidance and advice on university ...",
+    "keywords": [
+      "Application",
+      "Process",
+      "Now",
+      "Accepting",
+      "Registrations",
+      "Place",
+      "Campus",
+      "Ncr"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Application": 0.97,
+      "Process": 0.97,
+      "Now": 0.83,
+      "Accepting": 0.83,
+      "Registrations": 0.83,
+      "Place": 0.83,
+      "Campus": 0.83,
+      "Ncr": 0.83
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "August 2026"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-8",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: Fees Summary",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 8,
+    "text": "Fees for International Management MSc. Annual fee for Indian students: 16,17,000 INR | Annual fee for international students: 18,48,000 INR",
+    "tokens": 20,
+    "language": "en",
+    "summary": "Fees for International Management MSc. Annual fee for Indian students: 16,17,000 INR | Annual fee for international students: 18,48,000 INR",
+    "keywords": [
+      "International",
+      "Annual",
+      "Fee",
+      "Inr",
+      "Fees",
+      "Management",
+      "Msc"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "International": 0.97,
+      "Annual": 0.97,
+      "Fee": 0.97,
+      "Inr": 0.97,
+      "Fees": 0.83,
+      "Management": 0.83,
+      "Msc": 0.83
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi",
+      "MSc",
+      "INR"
+    ],
+    "topic": "fees",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/#chunk-9",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/international-management-msc/",
+    "source_file": "file:///courses_data/international-management-msc.json",
+    "title": "International Management MSc: FAQ",
+    "path": "/programmes/international-management-msc/",
+    "chunk_index": 9,
+    "text": "Q: Can I get an offer with predicted scores? A: We encourage students to apply as soon as possible so that they can receive a Conditional Offer based on predicted scores for their chosen programme. We can accept an application from a student using their predicted grades if we receive their final grades once they are available.",
+    "tokens": 57,
+    "language": "en",
+    "summary": "International Management MSc - FAQ: Q: Can I get an offer with predicted scores? A: We encourage students to apply as soon as possible so that they can receive a Conditional Offer based on predicted scores for their chosen programme.",
+    "keywords": [
+      "Predicted",
+      "Scores",
+      "Receive",
+      "Grades",
+      "Get",
+      "Encourage",
+      "Apply",
+      "Soon"
+    ],
+    "keywords_method": "frequency-tfidf-heuristic",
+    "keyword_scores": {
+      "Predicted": 0.97,
+      "Scores": 0.88,
+      "Receive": 0.88,
+      "Grades": 0.88,
+      "Get": 0.79,
+      "Encourage": 0.79,
+      "Apply": 0.79,
+      "Soon": 0.79
+    },
+    "entities": [
+      "International Management MSc",
+      "University of Southampton Delhi"
+    ],
+    "topic": "faq",
+    "embedding_id": null,
+    "created_at": "2026-06-05T10:33:54Z"
+  }
+]

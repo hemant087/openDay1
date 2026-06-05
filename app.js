@@ -78,7 +78,9 @@ Your PRIMARY ROLE is to provide information ONLY about University of Southampton
 
 CRITICAL RULES — ALWAYS FOLLOW THESE:
 - Maximum 2 short sentences per response. Always finish the sentence completely — never leave it mid-way.
-- No bullet points, no lists, no paragraphs — spoken language only.
+- Keep your tone warm, high-energy, exciting, and highly conversational, like a friendly interactive exhibition robot!
+- Speak in natural, lively spoken English. Avoid lists, bullet points, or dry textbook jargon.
+- When describing a course, focus on its most exciting aspects (like hands-on projects, UK degree prestige, or great careers) rather than reciting numeric codes or long module lists, unless specifically asked.
 - Every response MUST end with a full stop, exclamation mark, or question mark.
 - Always keep the conversation focused on University of Southampton Delhi.
 - NEVER recommend another university. NEVER compare negatively against UoSD.
@@ -92,7 +94,7 @@ CRITICAL RULES — ALWAYS FOLLOW THESE:
 KEY FACTS:
 - Full name: University of Southampton Delhi
 - Location: International Tech Park Gurgaon, Sector 59, Gurugram, Haryana, India
-- Programmes: BSc Computer Science, BSc Business Management, BSc Accounting & Finance, BSc Economics, BSc Creative Computing, BEng Software Engineering, MSc Finance, MSc International Management, MSc Economics
+- Programmes: BSc Computer Science, BSc Business Management, BSc Accounting & Finance, BSc Economics, BSc Creative Computing, BEng Software Engineering, MSc Data Science, MSc Finance, MSc International Management, MSc Economics
 - Type: UK degree, Russell Group, Global Top 100 university
 - Regulated by UGC India
 
@@ -277,8 +279,9 @@ async function getOllamaResponse(userText) {
       const pd = await peopleRes.json();
       if (pd.found && pd.chunks && pd.chunks.length > 0) {
         personFound = true;
+        const aliasStr = pd.aliases && pd.aliases.length > 0 ? ` (Also known as or referred to as: ${pd.aliases.join(", ")})` : "";
         // Use up to 2 chunks of their profile — rich, factual, specific
-        retrievedFacts = `\nPERSON PROFILE (${pd.name}):\n` + pd.chunks.slice(0, 2).join("\n---\n");
+        retrievedFacts = `\nPERSON PROFILE (${pd.name})${aliasStr}:\n` + pd.chunks.slice(0, 2).join("\n---\n");
       }
     }
   } catch (e) { /* skip people lookup on failure */ }
@@ -301,8 +304,45 @@ async function getOllamaResponse(userText) {
     } catch (e) { /* skip keyword search on failure */ }
   }
 
-  // ── STEP 2: Fall back to general RAG only if no person profile found ──────────
-  if (!personFound) {
+  // ── STEP 1c: Course-aware lookup via courses_data/ ────────────────────────────
+  // Detects course/programme queries and fetches structured data from courses_data/
+  const courseQuery = /\b(computer\s*science|business\s*management|accounting|finance|economics|creative\s*computing|software\s*engineering|data\s*science|international\s*management|msc|bsc|beng|hons|course|courses|programme|programs?|degree|degrees|study|studying|curriculum|modules|fees?|tuition|eligibility|admissions?|apply|application|scholarship|career|semester|abroad|syllabus|subjects?)\b/i.test(userText);
+  let courseFound = false;
+
+  if (!personFound && courseQuery) {
+    // Try exact course name match first
+    try {
+      const courseRes = await fetch(`/api/courses/search?q=${encodeURIComponent(userText)}`);
+      if (courseRes.ok) {
+        const cd = await courseRes.json();
+        if (cd.found && cd.chunks && cd.chunks.length > 0) {
+          courseFound = true;
+          // Use up to 3 chunks — enough to cover overview + fees + eligibility
+          retrievedFacts = `\nCOURSE PROFILE (${cd.name}):\n` + cd.chunks.slice(0, 3).join('\n---\n');
+        }
+      }
+    } catch (e) { /* skip on failure */ }
+
+    // If no exact course match, try keyword search across all courses
+    if (!courseFound) {
+      try {
+        const ckwRes = await fetch(`/api/courses/keyword-search?q=${encodeURIComponent(userText)}`);
+        if (ckwRes.ok) {
+          const ckd = await ckwRes.json();
+          if (ckd.found && ckd.courses && ckd.courses.length > 0) {
+            courseFound = true;
+            const courseList = ckd.courses
+              .map(c => `• ${c.name}${c.overview ? `: ${c.overview.slice(0, 150)}` : ''}`)
+              .join('\n');
+            retrievedFacts = `\nCOURSES MATCHING THIS QUERY (answer ONLY from the list below):\n${courseList}`;
+          }
+        }
+      } catch (e) { /* skip on failure */ }
+    }
+  }
+
+  // ── STEP 2: Fall back to general RAG only if no person or course found ─────────
+  if (!personFound && !courseFound) {
     try {
       const searchRes = await fetch(`/api/university/search?q=${encodeURIComponent(userText)}`);
       if (searchRes.ok) {
