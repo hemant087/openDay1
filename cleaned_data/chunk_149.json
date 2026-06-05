@@ -1,0 +1,63 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/southampton-university-opens-gurugram-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/southampton-university-opens-gurugram-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Inaugurates First Gurugram Campus in India",
+    "path": "/news/southampton-university-opens-gurugram-campus/",
+    "chunk_index": 0,
+    "text": "According to university and government officials, the Gurugram campus will initially offer six-degree programmes. Read article at Hindustan Times The University of Southampton on Wednesday inaugurated its first international campus in Gurugram, located at the International Tech Park in Sector 59, becoming the first foreign university to set up a full-fledged campus in India under the National Education Policy (NEP) 2020.The launch event was attended by Union education minister Dharmendra Pradhan, Haryana chief minister Nayab Singh Saini, and British high commissioner to India Lindy Cameron, alongside several dignitaries including UGC chairman Vineet Joshi and Southampton University vice chancellor Lord Patel. Calling it a “key milestone” for India’s education sector, Pradhan said the establishment reflects India’s growing prominence in the global higher education landscape. “Back in 2014, only 11 Indian institutions featured in the QS World Rankings. Today, that number has gone up to 54,” he said. “This growth signifies the strengthening global trust in our education system. The NEP-2020 has created an enabling framework to bring globally renowned universities to India. Southampton is one of the first to begin academic sessions, and more are in the pipeline.”According to university and government officials, the Gurugram campus will initially offer six-degree programmes. These include four undergraduate courses—B.Sc. in Business Management, Accounting and Finance, Computer Science, and Economics—and two postgraduate programmes—M.Sc. in Finance and M.Sc. in International Management. To be sure, this institution was among the first to take advantage of the UGC’s 2023 guidelines, which allow top global universities to set up fully independent campuses in India.At the event, CM Saini said the establishment of the campus reinforces Haryana’s growing reputation as a destination for global education. “The Southampton University campus in Gurugram is not just the addition of another university but a major step in building Haryana as a global education hub,” he said. “This is aligned with Prime Minister Modi’s vision of ‘Viksit Bharat by 2047’ and the principle of Vasudhaiva Kutumbakam—the world is one family.”",
+    "tokens": 405,
+    "language": "en",
+    "summary": "The University of Southampton inaugurated its first international campus in Gurugram, India, offering six degree programmes. This marks a significant milestone under India's National Education Policy 2020, attended by prominent dignitaries.",
+    "keywords": [
+      "Gurugram campus",
+      "international campus",
+      "National Education Policy 2020",
+      "UGC 2023 guidelines",
+      "degree programmes",
+      "global education hub",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Gurugram campus": 0.95,
+      "international campus": 0.90,
+      "National Education Policy 2020": 0.88,
+      "UGC 2023 guidelines": 0.82,
+      "degree programmes": 0.80,
+      "global education hub": 0.75,
+      "University of Southampton Delhi": 0.93
+    },
+    "entities": [
+      "University of Southampton",
+      "Hindustan Times",
+      "Dharmendra Pradhan",
+      "Nayab Singh Saini",
+      "Lindy Cameron",
+      "Vineet Joshi",
+      "Lord Patel",
+      "UGC",
+      "QS World Rankings",
+      "Prime Minister Modi",
+      "Gurugram",
+      "International Tech Park",
+      "Sector 59",
+      "India",
+      "Haryana",
+      "National Education Policy (NEP) 2020",
+      "UGC’s 2023 guidelines",
+      "B.Sc. in Business Management",
+      "B.Sc. in Accounting and Finance",
+      "B.Sc. in Computer Science",
+      "B.Sc. in Economics",
+      "M.Sc. in Finance",
+      "M.Sc. in International Management",
+      "Campus inauguration",
+      "Launch event"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:46.628Z"
+  }
+]

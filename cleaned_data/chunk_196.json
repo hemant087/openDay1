@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/celebrating-progress-university-of-southampton-delhi-names-new-academic-provost/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/celebrating-progress-university-of-southampton-delhi-names-new-academic-provost/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Names New Academic Provost",
+    "path": "/news/celebrating-progress-university-of-southampton-delhi-names-new-academic-provost/",
+    "chunk_index": 0,
+    "text": "Celebrating Progress: University of Southampton Delhi Names New Academic Provost 19 February 2025 Read article at BiZ News Desk 19 February 2025",
+    "tokens": 22,
+    "language": "en",
+    "summary": "The University of Southampton Delhi announced the appointment of a new Academic Provost on February 19, 2025, with further details available via BiZ News Desk.",
+    "keywords": [
+      "Academic Provost",
+      "University of Southampton Delhi",
+      "BiZ News Desk",
+      "Leadership appointment",
+      "News announcement",
+      "February 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Provost": 0.95,
+      "University of Southampton Delhi": 0.9,
+      "BiZ News Desk": 0.88,
+      "Leadership appointment": 0.85,
+      "News announcement": 0.82,
+      "February 2025": 0.79
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BiZ News Desk",
+      "Academic Provost appointment"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-director-to-enhance-learning-teaching-4/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-director-to-enhance-learning-teaching-4/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Appoints Director to Enhance Learning & Teaching",
+    "path": "/news/university-of-southampton-appoints-director-to-enhance-learning-teaching-4/",
+    "chunk_index": 0,
+    "text": "University of Southampton Appoints Director to Enhance Learning & Teaching 24 February 2025 Read article at The 9th Estate 24 February 2025",
+    "tokens": 24,
+    "language": "en",
+    "summary": "The University of Southampton announced the appointment of a Director to enhance learning and teaching on 24 February 2025, with full details available at The 9th Estate.",
+    "keywords": [
+      "University of Southampton",
+      "Director appointment",
+      "learning and teaching",
+      "The 9th Estate",
+      "academic leadership",
+      "news announcement"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton": 0.0,
+      "Director appointment": 0.0,
+      "learning and teaching": 0.0,
+      "The 9th Estate": 0.0,
+      "academic leadership": 0.0,
+      "news announcement": 0.0
+    },
+    "entities": [
+      "University of Southampton",
+      "The 9th Estate"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:21.360Z"
+  }
+]

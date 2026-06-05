@@ -1,0 +1,45 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/cambridge-scholarship/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/cambridge-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Cambridge Scholarship Award for A-Level Graduates at UoSD",
+    "path": "/funding/cambridge-scholarship/",
+    "chunk_index": 0,
+    "text": "Cambridge Scholarship Award\nAward duration: 1 academic year\nStudy period covered: Aug 2025 - Jun 2026\nFunding type: Competitive scholarship\nAugust 2025 intake: Applications for this award are now closed for August 2025\n\nAbout the award\nUniversity of Southampton Delhi will offer up to four exclusive scholarships for Cambridge A-Level graduates in India applying for the August 2025 intake. These scholarships will contribute towards 1 year of tuition fees at University of Southampton Delhi in academic year 25/26. University will waive application fees for all Cambridge students applying between 01 May and 31 May 2025. Cambridge applicants will benefit from a priority application review through a dedicated evaluation team, ensuring an efficient and streamlined admissions process. The Cambridge Scholarship Awards will be announced in June/July 2025.\n\nWhat we will award\nUp to 4 exclusive scholarship awards of a flat contribution of 220,000 INR towards tuition fees due to University of Southampton Delhi in academic year 25/26.\n\nWhich programmes qualify for this award?\nStudents who enrol on one of these programmes could qualify for this award:\n- Accounting and Finance BSc (Hons)\n- Business Management BSc (Hons)\n- Computer Science BSc (Hons)\n- Economics BSc (Hons)\n\nHow we make award decisions\nUniversity’s Scholarship Committee will select recipients based on outstanding academic performance and excellence in A-Level results. The committee will make a final decision on this scholarship.\n\nMaking an application for this award\nIf you already have made an application to study, you can now make an application for this competitive scholarship. We welcome applications from all Cambridge students applying to any of our undergraduate programmes for the University of Southampton Delhi August 2025 intake. To be considered for this prestigious award, students must complete a scholarship application, showcasing their exceptional academic achievements and commitment to excellence.\n\nYou might also want to know\nIs there an application fee waiver for Cambridge students applying to the University of Southampton Delhi?\nYes, all Cambridge students applying to any undergraduate programme at University of Southampton Delhi between 01 May and 31 May 2025 will have their application fees waived.\n\nWho is eligible to apply for the Cambridge Scholarship Awards?\nThe Cambridge Scholarship Awards are open to all Cambridge A-Level graduates in India who are applying to selected undergraduate programmes at University of Southampton Delhi.",
+    "tokens": 353,
+    "language": "en",
+    "summary": "The University of Southampton Delhi offers up to four Cambridge Scholarship Awards for A-Level graduates in India, covering 220,000 INR towards 2025/26 tuition fees for selected undergraduate programmes.",
+    "keywords": [
+      "Cambridge Scholarship Award",
+      "A-Level graduates",
+      "tuition fees",
+      "University of Southampton Delhi",
+      "undergraduate programmes",
+      "academic performance",
+      "application fee waiver"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Cambridge Scholarship Award": 0.95,
+      "A-Level graduates": 0.90,
+      "tuition fees": 0.88,
+      "University of Southampton Delhi": 0.87,
+      "undergraduate programmes": 0.85,
+      "academic performance": 0.82,
+      "application fee waiver": 0.79
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Cambridge Scholarship Award",
+      "Accounting and Finance BSc (Hons)",
+      "Business Management BSc (Hons)",
+      "Computer Science BSc (Hons)",
+      "Economics BSc (Hons)",
+      "India"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/new-director-of-learning-and-teaching-appointed-at-university-of-southampton-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/new-director-of-learning-and-teaching-appointed-at-university-of-southampton-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "UoSD Appoints New Director of Learning and Teaching",
+    "path": "/news/new-director-of-learning-and-teaching-appointed-at-university-of-southampton-delhi-campus/",
+    "chunk_index": 0,
+    "text": "New Director of Learning and Teaching Appointed at University of Southampton Delhi Campus. The appointment was announced on 24 February 2025. Further details are available by reading the article at Edu News.",
+    "tokens": 38,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced a new Director of Learning and Teaching on 24 February 2025, with more details available via Edu News.",
+    "keywords": [
+      "Director of Learning and Teaching",
+      "University of Southampton Delhi",
+      "new appointment",
+      "Edu News"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Director of Learning and Teaching": 0.95,
+      "University of Southampton Delhi": 0.90,
+      "new appointment": 0.88,
+      "Edu News": 0.80
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00Z"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/ms-monisha-tandon#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/ms-monisha-tandon",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Ms Monisha Tandon: Head of Career Advancement Services Profile",
+    "path": "/team/ms-monisha-tandon",
+    "chunk_index": 0,
+    "text": "Ms Monisha Tandon joined University of Southampton Delhi in July 2025 as Head of Career Advancement Services. She aims to bring transformative impact by staying focused on establishing high-impact academic-industry linkages, advancing global best practices in career development services, and creating a future-forward student experience that reflects the university's academic excellence and international legacy. Role: Head of Career Advancement Services Department: Professional staff. Monisha Tandon has played pivotal roles in over two decades of leadership experience in higher education, with expertise spanning student admissions, career services, institutional branding, and strategic industry partnerships. Her professional journey includes impactful roles at reputed institutions such as NIIT University and Shiv Nadar University, where she has consistently driven growth, built high-performing teams, and forged impactful industry and academic collaborations. Known for her ability to blend data-driven decision-making with empathetic leadership, she has delivered measurable outcomes in student success, institutional branding, and employer engagement. A strong believer in the power of education as a catalyst for change to transform lives, Monisha is committed to combine strategic vision with operational execution. Her approach is rooted in collaboration, data-driven planning, and an unwavering commitment to student success to shape institutional strategy, driving student-centric initiatives, and building sustainable stakeholder relationships.",
+    "tokens": 277,
+    "language": "en",
+    "summary": "Monisha Tandon, Head of Career Advancement Services at University of Southampton Delhi, brings over two decades of leadership experience in higher education, focusing on academic-industry linkages and student success.",
+    "keywords": [
+      "Career Advancement Services",
+      "academic-industry linkages",
+      "higher education leadership",
+      "student success",
+      "institutional branding",
+      "strategic industry partnerships",
+      "career development"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Career Advancement Services": 0.95,
+      "academic-industry linkages": 0.9,
+      "higher education leadership": 0.88,
+      "student success": 0.85,
+      "institutional branding": 0.82,
+      "strategic industry partnerships": 0.8,
+      "career development": 0.78
+    },
+    "entities": [
+      "Monisha Tandon",
+      "University of Southampton Delhi",
+      "NIIT University",
+      "Shiv Nadar University"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z",
+    "aliases": [
+      "Ms Monisha Tandon",
+      "Ms. Monisha Tandon",
+      "Monisha Tandon",
+      "M. Tandon",
+      "Monisha Tandoon",
+      "Monisha Tandon",
+      "Monisha Tandom",
+      "Dr Monisha Tandon",
+      "Ms Monisha Tandom",
+      "Monnisha Tandon"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/ms-monisha-tandon#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/ms-monisha-tandon",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Ms Monisha Tandon: Name Aliases and Alternate Spellings",
+    "path": "/team/ms-monisha-tandon",
+    "chunk_index": 1,
+    "text": "Ms Monisha Tandon is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Ms Monisha Tandon, Ms. Monisha Tandon, Monisha Tandon, M. Tandon, Monisha Tandoon, Monisha Tandon, Monisha Tandom, Dr Monisha Tandon, Ms Monisha Tandom, Monnisha Tandon. All of these names refer to the same individual.",
+    "tokens": 58,
+    "language": "en",
+    "summary": "Alias resolution chunk for Ms Monisha Tandon. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "ms. monisha tandon",
+      "monisha tandoon",
+      "university of southampton delhi",
+      "ms monisha tandon",
+      "faculty",
+      "staff",
+      "m. tandon",
+      "monisha tandon"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "ms. monisha tandon": 0.95,
+      "monisha tandoon": 0.9,
+      "university of southampton delhi": 0.85,
+      "ms monisha tandon": 0.8,
+      "faculty": 0.75,
+      "staff": 0.7,
+      "m. tandon": 0.65,
+      "monisha tandon": 0.6
+    },
+    "entities": [
+      "Ms Monisha Tandon",
+      "Ms Monisha Tandon",
+      "Ms. Monisha Tandon",
+      "Monisha Tandon",
+      "M. Tandon",
+      "Monisha Tandoon",
+      "Monisha Tandon",
+      "Monisha Tandom",
+      "Dr Monisha Tandon",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Ms Monisha Tandon",
+      "Ms. Monisha Tandon",
+      "Monisha Tandon",
+      "M. Tandon",
+      "Monisha Tandoon",
+      "Monisha Tandon",
+      "Monisha Tandom",
+      "Dr Monisha Tandon",
+      "Ms Monisha Tandom",
+      "Monnisha Tandon"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:00:00Z"
+  }
+]

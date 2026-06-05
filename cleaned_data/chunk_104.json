@@ -1,0 +1,43 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-02072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-02072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Tour 02 July 2025",
+    "path": "/events/campus-tour-02072025/",
+    "chunk_index": 0,
+    "text": "Campus tour 02 July | August 2025 intake | SOLD OUT\nEvent Status: Completed\nDate & Time: July 02, 2025 4:00 PM IST\nLocation: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India\nBook now Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Open address in Google Maps",
+    "tokens": 105,
+    "language": "en",
+    "summary": "The University of Southampton Delhi hosted a completed in-person campus tour on July 2, 2025, for the August 2025 intake, allowing attendees to explore facilities and campus life.",
+    "keywords": [
+      "campus tour",
+      "University of Southampton Delhi",
+      "in-person event",
+      "August 2025 intake",
+      "campus life",
+      "International Tech Park Gurgaon"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.95,
+      "University of Southampton Delhi": 0.88,
+      "in-person event": 0.82,
+      "August 2025 intake": 0.78,
+      "campus life": 0.75,
+      "International Tech Park Gurgaon": 0.70
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Campus tour",
+      "August 2025 intake",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:19.702Z"
+  }
+]

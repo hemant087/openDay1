@@ -1,0 +1,40 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/check-in-to-student-hostel/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/check-in-to-student-hostel/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Hostel Check-in Process and Requirements",
+    "path": "/welcome/check-in-to-student-hostel/",
+    "chunk_index": 0,
+    "text": "Check in to student hostel. This page shows you how to check in to the student hostel. You must check in before you travel to the accommodation or move into your room. Verify documents: You must have verified your documents before you are able to move into your room. Verification checks take place on campus, so you should come to campus with your documents rather than travelling to the student hostel. The official shuttlebus will take you from campus to the student hostel. You must also make accommodation fee payments before you move into your room. These payments are: a deposit to secure your room, and a first instalment towards your remaining accommodation fees. When you have completed both verification checks and made payments, you can check in to your room from 23 August 2025. What you will need: Original documents that need to be checked and verified. Any proof of payment or receipts that show that you have paid accommodation fees. Verify your documents: You should have original documents verified before you check in to the student hostel. See more about verification. Pay accommodation fees: You must pay a deposit and accommodation fee instalment before you check in to the student hostel. What is your next step? Enrol at the university: You must officially enrol to join the university as a student. See more about enrolment.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "This guide outlines the student hostel check-in process, detailing requirements for document verification and accommodation fee payments before moving into your room from August 23, 2025.",
+    "keywords": [
+      "student hostel check-in",
+      "document verification",
+      "accommodation fee payments",
+      "deposit payment",
+      "campus verification",
+      "university enrolment",
+      "student accommodation"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student hostel check-in": 0.95,
+      "document verification": 0.90,
+      "accommodation fee payments": 0.88,
+      "deposit payment": 0.85,
+      "campus verification": 0.82,
+      "university enrolment": 0.80,
+      "student accommodation": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Hostel Check-in"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-05-15T12:00:00Z"
+  }
+]

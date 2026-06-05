@@ -1,0 +1,194 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/accommodation/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/accommodation/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Hostel Overview and Room Types",
+    "path": "/accommodation/",
+    "chunk_index": 0,
+    "text": "The University of Southampton Delhi offers high-quality, affordable student accommodation in its hostel, designed as a home away from home. It provides a peaceful residential setting and strong community, ideal for focused study and personal growth. Room features, layout, and floor space vary, and students will be clearly informed upon booking. Due to limited supply, interested applicants should express interest without commitment after applying to study, to receive information on availability and booking.\n\nAccommodation options include single, twin occupancy male, or twin occupancy female rooms, allowing students to share with a known individual or make new friends. All rooms are spacious, fully furnished with a bed, wardrobe, storage, study workstation, and a private en suite washroom with toilet and shower. Some rooms include cooking facilities, with access to larger communal cooking areas available for all. Rooms are air-conditioned, well-ventilated, and feature lockable windows or balcony doors, ensuring high standards of comfort and fit-out. Specific types include 'Twin deluxe with kitchen' for two students, 'Single standard with kitchen', and 'Single standard' rooms, some of which also offer a balcony.",
+    "tokens": 213,
+    "language": "en",
+    "summary": "The University of Southampton Delhi offers high-quality, affordable student hostel accommodation with various furnished room types like single and twin, promoting a peaceful study environment and community.",
+    "keywords": [
+      "student accommodation",
+      "hostel",
+      "room types",
+      "furnished rooms",
+      "en suite washroom",
+      "cooking facilities",
+      "express interest"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student accommodation": 0.95,
+      "hostel": 0.88,
+      "room types": 0.82,
+      "furnished rooms": 0.79,
+      "en suite washroom": 0.75,
+      "cooking facilities": 0.70,
+      "express interest": 0.68
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:19.181Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/accommodation/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/accommodation/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Hostel Services, Security, and Community Life",
+    "path": "/accommodation/",
+    "chunk_index": 1,
+    "text": "The University of Southampton Delhi hostel provides professional housekeeping with daily visits and weekly linen changes, alongside laundry and ironing services. On-site support includes a resident warden available 24 hours for health and wellbeing, reception staff, and male and female security teams.\n\nThe hostel fosters a safe, respectful, and community-driven environment within a welcoming, gated community exclusively for university students. Male and female rooms are on separate, access-controlled floors to ensure privacy and dignity, supplemented by on-site security, a resident warden, and female guards stationed outside female quarters. A building curfew is in place for safety, with 24/7 CCTV surveillance in communal areas and security staff conducting regular patrols. The hostel is located in a quiet gated community ensuring true peace of mind.",
+    "tokens": 152,
+    "language": "en",
+    "summary": "The hostel offers professional housekeeping, 24-hour on-site support, and a secure, respectful gated community with gender-segregated floors, CCTV, and resident security for student wellbeing.",
+    "keywords": [
+      "housekeeping services",
+      "on-site support",
+      "resident warden",
+      "student security",
+      "gated community",
+      "CCTV surveillance",
+      "gender segregation"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "housekeeping services": 0.90,
+      "on-site support": 0.85,
+      "resident warden": 0.80,
+      "student security": 0.78,
+      "gated community": 0.75,
+      "CCTV surveillance": 0.72,
+      "gender segregation": 0.69
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:19.181Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/accommodation/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/accommodation/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Catering, Social Facilities and Campus Transport",
+    "path": "/accommodation/",
+    "chunk_index": 2,
+    "text": "Healthy, convenient catering at the University of Southampton Delhi hostel offers breakfast and evening meals seven days a week, with a weekly menu catering to regional cuisines and dietary requirements. Communal cooking facilities are also available, alongside private options in some rooms. Social spaces in communal areas feature activities like pool, video games, board games, and widescreen televisions, along with shared refrigerator space, pot washing, and drinking water fountains. Scheduled celebration events are also organized throughout the year.\n\nThe student hostel offers excellent transport connections, being a short ride from the campus and well-connected to the National Capital Region. A complimentary private shuttle bus runs at regular intervals every weekday. Public transport is accessible via a 10-minute walk to the nearest Metro station. For car or taxi, the campus is approximately a 15-minute drive away, with limited on-street parking near the hostel.",
+    "tokens": 190,
+    "language": "en",
+    "summary": "The hostel provides daily catering with diverse menus, communal social spaces with games, and convenient transport to campus via free shuttle bus, Metro, or car within the National Capital Region.",
+    "keywords": [
+      "student catering",
+      "communal cooking",
+      "social spaces",
+      "celebration events",
+      "campus transport",
+      "private shuttle bus",
+      "Metro station",
+      "National Capital Region"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student catering": 0.92,
+      "communal cooking": 0.85,
+      "social spaces": 0.80,
+      "celebration events": 0.75,
+      "campus transport": 0.90,
+      "private shuttle bus": 0.88,
+      "Metro station": 0.81,
+      "National Capital Region": 0.77
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "National Capital Region"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:19.181Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/accommodation/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/accommodation/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Accommodation Rental Rates and Payment Details",
+    "path": "/accommodation/",
+    "chunk_index": 3,
+    "text": "The University of Southampton Delhi offers premium accommodation with various rental periods at fair prices. Twin occupancy rooms with half board (breakfast and evening meals) cost around INR 4.0 lakh per student for a 40-week contract. Single occupancy rooms with half board for a 40-week contract are approximately INR 6.75 lakh per student. A refundable security deposit equivalent to two months' rent is required.\n\nStandard contracts are for 40 weeks, aligning with the academic year, though some 50-week contracts are available. Students typically move in a few days before term starts in August. Payment options include a 7.5% discount for full rental period payment upfront, or an easy plan of three equal instalments throughout the academic year, with the first due before move-in.",
+    "tokens": 140,
+    "language": "en",
+    "summary": "Accommodation at University of Southampton Delhi includes twin (INR 4.0 lakh) and single (INR 6.75 lakh) rooms for 40-week contracts with half board, requiring a two-month security deposit.",
+    "keywords": [
+      "accommodation rates",
+      "twin occupancy",
+      "single occupancy",
+      "half board",
+      "security deposit",
+      "accommodation contract",
+      "payment plan",
+      "rental discount"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "accommodation rates": 0.93,
+      "twin occupancy": 0.88,
+      "single occupancy": 0.85,
+      "half board": 0.80,
+      "security deposit": 0.78,
+      "accommodation contract": 0.75,
+      "payment plan": 0.72,
+      "rental discount": 0.69
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:19.181Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/accommodation/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/accommodation/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Booking and Campus Visit Frequently Asked Questions",
+    "path": "/accommodation/",
+    "chunk_index": 4,
+    "text": "When can I book a room at the student hostel? You can apply for a room at the student hostel when you have completed your application to study. We expect demand for rooms to be high, but you can express interest in accommodation for free, which does not commit you to any contract. We will be in touch with those who have shown interest in accommodation to advise on availability and how to book a room.\n\nWhen will the next academic year start? You can see the most up to date information about start dates on our page showing key information.\n\nHow can I travel between the student hostel and campus? Perhaps the best way to get to campus in the morning from our student hostel, or back there again at night, is the private shuttle bus. This free service will run at regular intervals every weekday.\n\nCan I visit the campus in person or book a tour? Our campus is located at International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101. The best way to see campus is to book a pre-planned tour from our events page.",
+    "tokens": 160,
+    "language": "en",
+    "summary": "FAQs cover booking hostel rooms post-application, finding academic year start dates, utilizing the free private shuttle for campus travel, and booking tours to visit the Gurgaon campus.",
+    "keywords": [
+      "hostel booking",
+      "academic year start",
+      "campus travel",
+      "private shuttle bus",
+      "campus visit",
+      "International Tech Park Gurgaon",
+      "events page"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "hostel booking": 0.94,
+      "academic year start": 0.87,
+      "campus travel": 0.85,
+      "private shuttle bus": 0.82,
+      "campus visit": 0.78,
+      "International Tech Park Gurgaon": 0.75,
+      "events page": 0.69
+    },
+    "entities": [
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:19.181Z"
+  }
+]

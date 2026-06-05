@@ -1,0 +1,41 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-25112025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-25112025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Tour Event",
+    "path": "/events/campus-tour-25112025/",
+    "chunk_index": 0,
+    "text": "Campus tour 25 November Event Status: Book Now Date & Time: November 25, 2025 3:00 PM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Book now Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first-hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Open address in Google Maps",
+    "tokens": 143,
+    "language": "en",
+    "summary": "Explore the University of Southampton Delhi's state-of-the-art campus and vibrant student community during an in-person tour on November 25, 2025, in Gurugram.",
+    "keywords": [
+      "campus tour",
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "November 2025 event",
+      "campus facilities",
+      "student life"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.95,
+      "University of Southampton Delhi": 0.90,
+      "International Tech Park Gurgaon": 0.88,
+      "November 2025 event": 0.85,
+      "campus facilities": 0.80,
+      "student life": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Campus tour 25 November",
+      "November 25, 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

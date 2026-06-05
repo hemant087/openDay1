@@ -1,0 +1,53 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/forms/competitive-scholarships/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/forms/competitive-scholarships/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Competitive Scholarships and Application Details at University of Southampton Delhi",
+    "path": "/forms/competitive-scholarships/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi is proud to scholarships open to new students starting their undergraduate or postgraduate taught studies at University of Southampton Delhi in August 2025. Delhi Presidential Scholarships – offers one undergraduate scholarship covering full tuition fees for the three-year period of academic study of the degree, and one postgraduate competitive scholarship, covering full tuition fees for one academic year of the postgraduate degree with University of Southampton Delhi. Applications for this award are now closed for August 2025. Future Talent Scholarship – offers up to 12 competitive scholarships to undergraduate and postgraduate students, offering an INR 220,000 tuition fee reduction in the first academic year of study Applications for this award are now closed for August 2025. Cambridge Scholarship Award – offers up to 4 competitive scholarships to Cambridge A-Level graduates applying for undergraduate programmes, offering an INR 220,000 tuition fee reduction in the first academic year of study. Applications for this award are now closed for August 2025. Please refer to the scholarship summary page for information on deadlines, as well as eligibility criteria, terms and conditions, how we award the scholarship, and when you’ll find out if your application is successful. We strongly recommend that you keep a copy of answers to longer questions in a separate document. If your internet connection fails while you are part way through completing the form, or your web browser crashes, you can easily paste them from the copy you have kept elsewhere into a new form. To be considered for these scholarships you need to have already made a programme application for August 2025 entry and then submit the scholarship application form below. You will need your Application ID number, which you received when you submitted your programme application. Can I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary. Will I lose my deposit if I get a full scholarship? If you are awarded a full scholarship - which waives 100% of Tuition Fees - we will refund the value of any Deposit that you may have already paid. How can I contribute to the community as a scholarship student? We would encourage - and expect - that the recipient of a scholarship or bursary will act as a Student Ambassador to promote University of Southampton Delhi while they study with us. How would I receive my scholarship or bursary? There is no cash alternative to the waiver of Tuition Fees made under a scholarship or bursary. We will reduce the amount of Tuition Fees that you will pay by the value of the award.",
+    "tokens": 480,
+    "language": "en",
+    "summary": "The University of Southampton Delhi offers competitive scholarships for undergraduate and postgraduate students, including the Delhi Presidential, Future Talent, and Cambridge Scholarship Awards for August 2025 entry, with detailed application guidelines.",
+    "keywords": [
+      "competitive scholarships",
+      "Delhi Presidential Scholarships",
+      "Future Talent Scholarship",
+      "Cambridge Scholarship Award",
+      "tuition fee reduction",
+      "undergraduate scholarships",
+      "postgraduate scholarships",
+      "August 2025 entry",
+      "scholarship application process",
+      "student ambassador",
+      "tuition fee waiver",
+      "application ID"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "competitive scholarships": 0.95,
+      "delhi presidential scholarships": 0.92,
+      "future talent scholarship": 0.90,
+      "cambridge scholarship award": 0.88,
+      "tuition fee reduction": 0.85,
+      "undergraduate scholarships": 0.82,
+      "postgraduate scholarships": 0.81,
+      "august 2025 entry": 0.80,
+      "scholarship application process": 0.78,
+      "student ambassador": 0.75,
+      "tuition fee waiver": 0.73,
+      "application id": 0.70
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Delhi Presidential Scholarships",
+      "Future Talent Scholarship",
+      "Cambridge Scholarship Award",
+      "August 2025"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  }
+]

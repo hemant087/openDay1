@@ -1,0 +1,42 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/ms-monisha-tandon#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/ms-monisha-tandon",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Ms Monisha Tandon: Head of Career Advancement Services Profile",
+    "path": "/team/ms-monisha-tandon",
+    "chunk_index": 0,
+    "text": "Ms Monisha Tandon joined University of Southampton Delhi in July 2025 as Head of Career Advancement Services. She aims to bring transformative impact by staying focused on establishing high-impact academic-industry linkages, advancing global best practices in career development services, and creating a future-forward student experience that reflects the university's academic excellence and international legacy. Role: Head of Career Advancement Services Department: Professional staff. Monisha Tandon has played pivotal roles in over two decades of leadership experience in higher education, with expertise spanning student admissions, career services, institutional branding, and strategic industry partnerships. Her professional journey includes impactful roles at reputed institutions such as NIIT University and Shiv Nadar University, where she has consistently driven growth, built high-performing teams, and forged impactful industry and academic collaborations. Known for her ability to blend data-driven decision-making with empathetic leadership, she has delivered measurable outcomes in student success, institutional branding, and employer engagement. A strong believer in the power of education as a catalyst for change to transform lives, Monisha is committed to combine strategic vision with operational execution. Her approach is rooted in collaboration, data-driven planning, and an unwavering commitment to student success to shape institutional strategy, driving student-centric initiatives, and building sustainable stakeholder relationships.",
+    "tokens": 277,
+    "language": "en",
+    "summary": "Monisha Tandon, Head of Career Advancement Services at University of Southampton Delhi, brings over two decades of leadership experience in higher education, focusing on academic-industry linkages and student success.",
+    "keywords": [
+      "Career Advancement Services",
+      "academic-industry linkages",
+      "higher education leadership",
+      "student success",
+      "institutional branding",
+      "strategic industry partnerships",
+      "career development"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Career Advancement Services": 0.95,
+      "academic-industry linkages": 0.90,
+      "higher education leadership": 0.88,
+      "student success": 0.85,
+      "institutional branding": 0.82,
+      "strategic industry partnerships": 0.80,
+      "career development": 0.78
+    },
+    "entities": [
+      "Monisha Tandon",
+      "University of Southampton Delhi",
+      "NIIT University",
+      "Shiv Nadar University"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

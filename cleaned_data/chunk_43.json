@@ -1,0 +1,119 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/postgraduate-delhi-presidential-scholarship/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/postgraduate-delhi-presidential-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Postgraduate Delhi Presidential Scholarship: Overview and Award Details",
+    "path": "/funding/postgraduate-delhi-presidential-scholarship/",
+    "chunk_index": 0,
+    "text": "The Postgraduate Delhi Presidential Scholarship offers a 1-academic-year award covering August 2025 to June 2026. This competitive scholarship is for postgraduate study, though applications for the August 2025 intake are now closed.\n\nAbout the award: To recognise and encourage academic excellence at University of Southampton Delhi, a Delhi Presidential Scholarship will be awarded to one postgraduate student starting in August 2025. This scholarship fully funds the tuition fees for the 1-year duration of a University of Southampton Delhi postgraduate programme. The Scholarship Committee makes decisions based on an exceptional scholarship application, past academic performance, and outstanding potential. The recipient of the Postgraduate Delhi Presidential Scholarship will be announced in June 2025.\n\nWhat we will award: A 100% waiver of the tuition fees due to University of Southampton Delhi in academic year 2025/2026 for one domestic postgraduate student.",
+    "tokens": 165,
+    "language": "en",
+    "summary": "The Postgraduate Delhi Presidential Scholarship provides a full tuition fee waiver for one domestic postgraduate student from August 2025, based on academic excellence and potential.",
+    "keywords": [
+      "Postgraduate Delhi Presidential Scholarship",
+      "tuition fee waiver",
+      "academic excellence",
+      "postgraduate programme",
+      "August 2025 intake",
+      "competitive scholarship"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Postgraduate Delhi Presidential Scholarship": 0.95,
+      "tuition fee waiver": 0.9,
+      "academic excellence": 0.88,
+      "postgraduate programme": 0.85,
+      "August 2025 intake": 0.82,
+      "competitive scholarship": 0.8
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Postgraduate Delhi Presidential Scholarship",
+      "Delhi Presidential Scholarship",
+      "Finance MSc",
+      "International Management MSc"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/postgraduate-delhi-presidential-scholarship/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/postgraduate-delhi-presidential-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Postgraduate Delhi Scholarship: Eligible Programmes and Selection Criteria",
+    "path": "/funding/postgraduate-delhi-presidential-scholarship/",
+    "chunk_index": 1,
+    "text": "Which programmes qualify for this award? Students who enrol on one of these programmes could qualify for this award:\n- Finance MSc\n- International Management MSc\n\nHow we make award decisions: We aim to manage our scholarships and bursaries fairly, providing support for academically gifted students and helping those who might otherwise struggle to study with us. We consider a range of criteria, including academic achievements demonstrated in the application to study, in addition to individual scholarship and bursary applications. This information helps us to produce a shortlist of candidates for an award. Those on the shortlist will be invited to meet with us to discuss their application. A scholarships panel will make a final decision on scholarship and bursary applications.",
+    "tokens": 161,
+    "language": "en",
+    "summary": "The Delhi Presidential Scholarship is available for Finance MSc and International Management MSc programmes, with decisions based on academic achievements and panel interviews.",
+    "keywords": [
+      "eligible programmes",
+      "Finance MSc",
+      "International Management MSc",
+      "scholarship selection",
+      "award decisions",
+      "academic achievements",
+      "scholarships panel"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "eligible programmes": 0.92,
+      "Finance MSc": 0.89,
+      "International Management MSc": 0.87,
+      "scholarship selection": 0.85,
+      "award decisions": 0.83,
+      "academic achievements": 0.81,
+      "scholarships panel": 0.78
+    },
+    "entities": [
+      "Finance MSc",
+      "International Management MSc"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/postgraduate-delhi-presidential-scholarship/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/postgraduate-delhi-presidential-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Applying for Postgraduate Delhi Presidential Scholarship and FAQ",
+    "path": "/funding/postgraduate-delhi-presidential-scholarship/",
+    "chunk_index": 2,
+    "text": "Making an application for this award: Applications are no longer accepted for students wishing to start their programme in August 2025. This competitive scholarship is open to any domestic student applying for a postgraduate programme in the University of Southampton Delhi August 2025 intake. Applicants must complete a specific scholarship application demonstrating their commitment to the values, academic aspirations, and community spirit of University of Southampton Delhi.\n\nYou might also want to know:\nWill I lose my deposit if I get a full scholarship? If awarded a full scholarship, any deposit paid will be refunded.\nHow can I contribute to the community as a scholarship student? Recipients are encouraged and expected to act as Student Ambassadors for University of Southampton Delhi.\nHow would I receive my scholarship or bursary? There is no cash alternative; the award reduces the amount of Tuition Fees payable.\nCan I apply for a scholarship or bursary? Applications are welcome from any self-funding student paying domestic Tuition Fees. Programme eligibility and other criteria are detailed on individual award pages. You must first apply to a specific programme before applying for a scholarship or bursary.\nWhat are the terms and conditions for scholarships? Current terms and conditions are available here.",
+    "tokens": 242,
+    "language": "en",
+    "summary": "Applications for the August 2025 Postgraduate Delhi Presidential Scholarship are closed, with FAQs addressing deposit refunds, student ambassador roles, fee waiver methods, and general application criteria.",
+    "keywords": [
+      "scholarship application",
+      "August 2025 intake",
+      "domestic student",
+      "deposit refund",
+      "Student Ambassador",
+      "tuition fees waiver",
+      "self-funding student",
+      "terms and conditions"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "scholarship application": 0.93,
+      "August 2025 intake": 0.9,
+      "domestic student": 0.88,
+      "deposit refund": 0.85,
+      "Student Ambassador": 0.82,
+      "tuition fees waiver": 0.8,
+      "self-funding student": 0.78,
+      "terms and conditions": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Postgraduate Delhi Presidential Scholarship"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

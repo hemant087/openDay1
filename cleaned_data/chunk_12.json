@@ -1,0 +1,278 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Mandatory Public Self-Disclosure Information",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 0,
+    "text": "Public self-disclosure. Details shown are mandatory self-disclosure for the benefit of interested parties such as students, parents, research scholars, regulatory bodies and alumni. Please use your browser's inbuilt search to find specific items on the page.",
+    "tokens": 49,
+    "language": "en",
+    "summary": "This section provides mandatory self-disclosure details for students, parents, research scholars, regulatory bodies, and alumni, recommending the use of browser search for specific items.",
+    "keywords": [
+      "public self-disclosure",
+      "mandatory information",
+      "interested parties",
+      "regulatory compliance",
+      "alumni benefits"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "public self-disclosure": 0.92,
+      "mandatory information": 0.85
+    },
+    "entities": [],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Overview and Governance",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 1,
+    "text": "About University of Southampton Delhi. About us. Acts and statutes, MoA and MoU. Institutional development plan. Accreditation and ranking. Annual reports. Annual accounts.",
+    "tokens": 38,
+    "language": "en",
+    "summary": "This section outlines the University of Southampton Delhi's foundational documents, institutional development plans, accreditation, ranking, and financial reports.",
+    "keywords": [
+      "University of Southampton Delhi governance",
+      "institutional development plan",
+      "accreditation and ranking",
+      "annual financial reports",
+      "acts and statutes"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university of southampton delhi governance": 0.92,
+      "institutional development plan": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Administrative Leadership",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 2,
+    "text": "Administration. Chancellor. Pro Chancellor. Vice-Chancellor. Pro-Vice-Chancellor. Registrar. Principal Finance Officer. Controller of Examinations. Chief Vigilance Officer. Ombudsperson.",
+    "tokens": 36,
+    "language": "en",
+    "summary": "This section lists key administrative roles at the University of Southampton Delhi, including the Chancellor, Vice-Chancellor, Registrar, and other core officers.",
+    "keywords": [
+      "university administration roles",
+      "Chancellor",
+      "Vice-Chancellor",
+      "Registrar",
+      "Ombudsperson",
+      "finance officer"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university administration roles": 0.92,
+      "chancellor": 0.85
+    },
+    "entities": [
+      "Chancellor",
+      "Pro Chancellor",
+      "Vice-Chancellor",
+      "Pro-Vice-Chancellor",
+      "Registrar",
+      "Principal Finance Officer",
+      "Controller of Examinations",
+      "Chief Vigilance Officer",
+      "Ombudsperson"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University Academic Structure and Programs",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 3,
+    "text": "Academic leadership. Academics. Academic programmes. Academic calendar. Academic statutes and ordinances. Department, school and centre staff. Internal Quality Assurance. Library.",
+    "tokens": 38,
+    "language": "en",
+    "summary": "This section details the academic leadership, programs, calendar, governing statutes, staff structure, internal quality assurance, and library services.",
+    "keywords": [
+      "academic leadership structure",
+      "academic programmes",
+      "academic calendar",
+      "academic statutes and ordinances",
+      "internal quality assurance",
+      "university library services"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "academic leadership structure": 0.92,
+      "academic programmes": 0.85
+    },
+    "entities": [
+      "Library"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Admissions, Fees, and Scholarship Information",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 4,
+    "text": "Admissions and fees. Prospectus. Admission process and guidelines. Fee refund/hike policy. Scholarships.",
+    "tokens": 20,
+    "language": "en",
+    "summary": "This section covers the admission prospectus, application process, fee policies, and available scholarship opportunities at the university.",
+    "keywords": [
+      "admissions prospectus",
+      "admission process guidelines",
+      "fee refund policy",
+      "scholarship opportunities",
+      "tuition fees"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "admissions prospectus": 0.92,
+      "admission process guidelines": 0.85
+    },
+    "entities": [
+      "Scholarships"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Research, Incubation, and Facilities",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 5,
+    "text": "Research. Research and development. Incubation, start-ups and entrepreneurship. Central facilities. Other research facilities.",
+    "tokens": 23,
+    "language": "en",
+    "summary": "This section outlines the university's research and development activities, including incubation centers, support for start-ups, and various research facilities.",
+    "keywords": [
+      "research and development initiatives",
+      "incubation facilities",
+      "start-ups and entrepreneurship",
+      "central research facilities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "research and development initiatives": 0.92,
+      "incubation facilities": 0.85
+    },
+    "entities": [],
+    "topic": "other",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Life and Support Services",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 6,
+    "text": "Student life. Sports facilities. Student accommodation hostel. Placement cell. Student grievances and Ombudsperson. Internal complaints committee. Grievances and complaints contact.",
+    "tokens": 33,
+    "language": "en",
+    "summary": "This section details student life aspects, including sports, accommodation, placement services, and mechanisms for student grievances and complaints.",
+    "keywords": [
+      "student sports facilities",
+      "student accommodation hostel",
+      "placement cell services",
+      "student grievances",
+      "internal complaints committee",
+      "health and wellbeing"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student sports facilities": 0.92,
+      "student accommodation hostel": 0.85
+    },
+    "entities": [
+      "Ombudsperson"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-7",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Alumni Association and Connect Cell",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 7,
+    "text": "Alumni. Alumni association. Alumni connect cell.",
+    "tokens": 10,
+    "language": "en",
+    "summary": "This section provides information about the university's alumni association and the dedicated alumni connect cell.",
+    "keywords": [
+      "alumni association",
+      "alumni connect cell",
+      "alumni relations"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "alumni association": 0.92,
+      "alumni connect cell": 0.85
+    },
+    "entities": [
+      "Alumni Association"
+    ],
+    "topic": "other",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/public-self-disclosure/#chunk-8",
+    "source_url": "https://www.delhi.southampton.ac.uk/public-self-disclosure/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Information Corner and University Updates",
+    "path": "/public-self-disclosure/",
+    "chunk_index": 8,
+    "text": "Information corner. Central Public Information Officer. Circulars and Notices. Announcements. Newsletters. News. Recent events. Job openings. Study in India. Picture gallery. Our campus. Our accommodation. Our alumni. Our team. Contact us. Get in touch. Find our locations.",
+    "tokens": 58,
+    "language": "en",
+    "summary": "This section serves as an information hub, detailing the Public Information Officer, circulars, announcements, newsletters, news, events, job openings, and contact information.",
+    "keywords": [
+      "public information officer",
+      "circulars and notices",
+      "university announcements",
+      "newsletters and events",
+      "job openings",
+      "contact information"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "public information officer": 0.92,
+      "circulars and notices": 0.85
+    },
+    "entities": [
+      "Central Public Information Officer",
+      "Study in India"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

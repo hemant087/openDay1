@@ -1,0 +1,40 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-professor-eloise-phillips-as-academic-provost-for-new-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-professor-eloise-phillips-as-academic-provost-for-new-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Appoints Academic Provost for New Delhi Campus",
+    "path": "/news/university-of-southampton-appoints-professor-eloise-phillips-as-academic-provost-for-new-delhi-campus/",
+    "chunk_index": 0,
+    "text": "University of Southampton appoints Professor Eloise Phillips as academic provost for New Delhi campus. This appointment was announced on 19 February 2025, with further details available in an article at India Today, also dated 19 February 2025.",
+    "tokens": 49,
+    "language": "en",
+    "summary": "The University of Southampton has appointed Professor Eloise Phillips as the academic provost for its New Delhi campus, announced on February 19, 2025.",
+    "keywords": [
+      "University of Southampton",
+      "Professor Eloise Phillips",
+      "academic provost",
+      "New Delhi campus",
+      "appointment",
+      "India Today"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton": 0.95,
+      "Professor Eloise Phillips": 0.93,
+      "academic provost": 0.90,
+      "New Delhi campus": 0.88,
+      "appointment": 0.85,
+      "India Today": 0.82
+    },
+    "entities": [
+      "Professor Eloise Phillips",
+      "University of Southampton",
+      "New Delhi campus",
+      "India Today"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00Z"
+  }
+]

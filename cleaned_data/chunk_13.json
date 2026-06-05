@@ -1,0 +1,152 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus/library/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus/library/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Introduction to University of Southampton Delhi Library",
+    "path": "/campus/library/",
+    "chunk_index": 0,
+    "text": "Library The library has a wide collection of information resources, in both digital and print format, alongside services that support teaching and research across the university. Read, research and collaborate The library at University of Southampton Delhi offers a welcoming, inclusive environment designed to support your academic and personal development. Whether you are preparing for assignments, collaborating on group work, or simply looking for a quiet space to focus, our library is here to support your journey.With access to extensive print and digital collections, student-focused services, and expert support from qualified library professionals, our aim to help you succeed.",
+    "tokens": 119,
+    "language": "en",
+    "summary": "The University of Southampton Delhi Library provides extensive digital and print resources in a welcoming, inclusive environment to support student academic and personal development through various services and expert staff.",
+    "keywords": [
+      "University of Southampton Delhi Library",
+      "academic development",
+      "print resources",
+      "digital collections",
+      "student support",
+      "research",
+      "library services"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi Library": 1.0,
+      "academic development": 1.0,
+      "print resources": 1.0,
+      "digital collections": 1.0,
+      "student support": 1.0,
+      "research": 1.0,
+      "library services": 1.0
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:16.954Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus/library/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus/library/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Library Services and Resources",
+    "path": "/campus/library/",
+    "chunk_index": 1,
+    "text": "What we offer Study spaces: Choose from quiet zones, group work areas, and study pods.Access to resources: Access to the University of Southampton’s digital library, including e-books, e-journals, databases, and subject guides.Print collections: A curated selection of core and supplementary reading materials tailored to your programme.Information literacy: Learn how to identify, evaluate and ethically use information in your academic work.Inclusive library: Resources and reading lists that reflect a wide range of voices, cultures and perspectives.",
+    "tokens": 106,
+    "language": "en",
+    "summary": "The library offers diverse study spaces, access to the University of Southampton's digital library, curated print collections, information literacy training, and inclusive resources reflecting various perspectives.",
+    "keywords": [
+      "library services",
+      "study spaces",
+      "digital library",
+      "print collections",
+      "e-books",
+      "e-journals",
+      "databases",
+      "information literacy",
+      "inclusive resources"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "library services": 1.0,
+      "study spaces": 1.0,
+      "digital library": 1.0,
+      "print collections": 1.0,
+      "e-books": 1.0,
+      "e-journals": 1.0,
+      "databases": 1.0,
+      "information literacy": 1.0,
+      "inclusive resources": 1.0
+    },
+    "entities": [
+      "University of Southampton"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:16.954Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus/library/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus/library/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Library's Role in Student Academic Success at UoSD",
+    "path": "/campus/library/",
+    "chunk_index": 2,
+    "text": "Supporting your success We understand the role a modern library plays in your academic success. That’s why we work closely with academic teams to ensure the resources and support we offer are relevant, up-to-date, and aligned with your curriculum. From your first assignment to your final dissertation, the library team is here to help you thrive.",
+    "tokens": 75,
+    "language": "en",
+    "summary": "The library actively collaborates with academic teams to provide relevant, up-to-date resources and support, assisting students from their first assignment through to their final dissertation.",
+    "keywords": [
+      "academic success",
+      "library support",
+      "curriculum alignment",
+      "dissertation",
+      "academic teams",
+      "student support"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "academic success": 1.0,
+      "library support": 1.0,
+      "curriculum alignment": 1.0,
+      "dissertation": 1.0,
+      "academic teams": 1.0,
+      "student support": 1.0
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:16.954Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus/library/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus/library/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Fostering Diversity and Inclusion in UoSD Library",
+    "path": "/campus/library/",
+    "chunk_index": 3,
+    "text": "A place for everyone We are committed to diversity, inclusion and belonging, striving to build a space that feels safe, respectful, and empowering to all members of our university community.",
+    "tokens": 41,
+    "language": "en",
+    "summary": "The University of Southampton Delhi Library is dedicated to fostering diversity, inclusion, and belonging, creating a safe, respectful, and empowering environment for all university community members.",
+    "keywords": [
+      "diversity",
+      "inclusion",
+      "belonging",
+      "safe space",
+      "respectful environment",
+      "university community",
+      "library environment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "diversity": 1.0,
+      "inclusion": 1.0,
+      "belonging": 1.0,
+      "safe space": 1.0,
+      "respectful environment": 1.0,
+      "university community": 1.0,
+      "library environment": 1.0
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:16.954Z"
+  }
+]

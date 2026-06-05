@@ -1,0 +1,115 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/vineet-aggarwal#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/vineet-aggarwal",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Mr Vineet Aggarwal: Overview and Role",
+    "path": "/team/vineet-aggarwal",
+    "chunk_index": 0,
+    "text": "Mr Vineet Aggarwal\nMr Vineet Aggarwal is Head of Marketing at University of Southampton Delhi. A seasoned Marketing and Branding professional with over 19 years of experience in driving brand transformation, performance marketing, and high-impact customer acquisition across diverse industries.\nRole: Head of Marketing\nDepartment: Professional staff",
+    "tokens": 37,
+    "language": "en",
+    "summary": "Mr Vineet Aggarwal is Head of Marketing at University of Southampton Delhi with over 19 years of experience in brand transformation and performance marketing.",
+    "keywords": [
+      "marketing",
+      "branding",
+      "Head of Marketing",
+      "University of Southampton Delhi",
+      "professional staff",
+      "brand transformation",
+      "performance marketing"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "marketing": 0.95,
+      "branding": 0.9,
+      "Head of Marketing": 0.85,
+      "University of Southampton Delhi": 0.8,
+      "professional staff": 0.75,
+      "brand transformation": 0.7,
+      "performance marketing": 0.65
+    },
+    "entities": [
+      "Mr Vineet Aggarwal",
+      "University of Southampton Delhi",
+      "Marketing"
+    ],
+    "aliases": [
+      "Mr Vineet Aggarwal",
+      "Mr. Vineet Aggarwal",
+      "Vineet Aggarwal",
+      "V. Aggarwal",
+      "Vinit Aggarwal",
+      "Vineet Agarwal",
+      "Mr Vineet Agarwal",
+      "Mr. Vineet Agarwal",
+      "Vineet Aggrwal",
+      "Vineet Agrawal"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:45:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/vineet-aggarwal#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/vineet-aggarwal",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Mr Vineet Aggarwal: Name Aliases and Alternate Spellings",
+    "path": "/team/vineet-aggarwal",
+    "chunk_index": 1,
+    "text": "Mr Vineet Aggarwal is a staff member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Mr Vineet Aggarwal, Mr. Vineet Aggarwal, Vineet Aggarwal, V. Aggarwal, Vinit Aggarwal, Vineet Agarwal, Mr Vineet Agarwal, Mr. Vineet Agarwal, Vineet Aggrwal, Vineet Agrawal. All of these names refer to the same individual.",
+    "tokens": 58,
+    "language": "en",
+    "summary": "Alias resolution chunk for Mr Vineet Aggarwal. Lists alternate spellings to prevent retrieval errors.",
+    "keywords": [
+      "university of southampton delhi",
+      "staff",
+      "mr vineet aggarwal",
+      "marketing",
+      "vinit aggarwal",
+      "vineet aggarwal",
+      "v. aggarwal",
+      "mr. vineet aggarwal",
+      "vineet agarwal"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "university of southampton delhi": 0.95,
+      "staff": 0.9,
+      "mr vineet aggarwal": 0.85,
+      "marketing": 0.8,
+      "vinit aggarwal": 0.75,
+      "vineet aggarwal": 0.7,
+      "v. aggarwal": 0.65,
+      "mr. vineet aggarwal": 0.6,
+      "vineet agarwal": 0.55
+    },
+    "entities": [
+      "Mr Vineet Aggarwal",
+      "Mr Vineet Aggarwal",
+      "Mr. Vineet Aggarwal",
+      "Vineet Aggarwal",
+      "V. Aggarwal",
+      "Vinit Aggarwal",
+      "Vineet Agarwal",
+      "Mr Vineet Agarwal",
+      "Mr. Vineet Agarwal",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Mr Vineet Aggarwal",
+      "Mr. Vineet Aggarwal",
+      "Vineet Aggarwal",
+      "V. Aggarwal",
+      "Vinit Aggarwal",
+      "Vineet Agarwal",
+      "Mr Vineet Agarwal",
+      "Mr. Vineet Agarwal",
+      "Vineet Aggrwal",
+      "Vineet Agrawal"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:45:00Z"
+  }
+]

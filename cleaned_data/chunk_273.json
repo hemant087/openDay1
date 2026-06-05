@@ -1,0 +1,262 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "BSc Accounting and Finance Programme Overview and Accreditations",
+    "path": "/programmes/accounting-and-finance-bsc/",
+    "chunk_index": 0,
+    "text": "Accounting and Finance BSc (Hons) Award BSc (Hons) Duration 3 years Course Type Full Time Start Date 24 August 2026 Apply now Download Prospectus Contact Us\n\nChoosing this programme\nOur BSc (Hons) Accounting and Finance is a prestigious degree for students aiming to enter the fields of commerce, accountancy and finance. It offers flexibility in career planning. Students can work towards the requirements of global firms, professional preparation and certification, or research. Learn how to prepare and interpret financial and managerial information and gain a sound understanding of investment and finance, while shaping the degree towards your objectives. The degree is mapped to the latest developments in financial reporting, from sustainability reporting through to international reporting standards. The School of Business at University of Southampton is the only business school in Europe that holds a licence to impart training in Sustainability Reporting. You will graduate with an internationally recognised Honours qualification in 3 years, simultaneously gaining practical experience through client projects and keeping pace with preparations for professional certifications and qualifications. The content is equivalent to a BSc (Hons) Accounting and Finance degree delivered to University of Southampton students in the UK. We expect that the programme will: Take students towards a wide range of professional goals, while conveniently completing a rigorous and globally recognised undergraduate degree. Offer a window into International Financial Reporting Standards that are closely aligned to UK Financial Reporting Standards for a global picture, while being contextualised to India. Provide valuable accreditations that entitle students to earn specific exam exemptions for professional bodies including: Association of Chartered Certified Accountants (ACCA) Association of International Accountants (AIA) Chartered Institute of Management Accountants (CIMA) Chartered Institute of Public Finance and Accountancy (CIPFA) Institute of Chartered Accountants of Scotland (ICAS) University of Southampton Business School is accredited to the Association to Advance Collegiate Schools of Business (AACSB) that signifies excellence in business education.",
+    "tokens": 405,
+    "language": "en",
+    "summary": "The BSc (Hons) Accounting and Finance programme at University of Southampton Delhi offers a prestigious, flexible degree aligned with global financial reporting standards, including sustainability. It provides exemptions for major professional accounting bodies and is equivalent to the UK programme.",
+    "keywords": [
+      "BSc Accounting and Finance",
+      "Sustainability Reporting",
+      "Professional Certifications",
+      "Exam Exemptions",
+      "International Financial Reporting Standards",
+      "AACSB Accreditation",
+      "University of Southampton Business School"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "bsc accounting and finance": 0.95,
+      "sustainability reporting": 0.88,
+      "professional certifications": 0.82,
+      "exam exemptions": 0.79,
+      "international financial reporting standards": 0.87,
+      "aacsb accreditation": 0.85,
+      "university of southampton business school": 0.80
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Accounting and Finance",
+      "University of Southampton",
+      "Association of Chartered Certified Accountants",
+      "ACCA",
+      "Association of International Accountants",
+      "AIA",
+      "Chartered Institute of Management Accountants",
+      "CIMA",
+      "Chartered Institute of Public Finance and Accountancy",
+      "CIPFA",
+      "Institute of Chartered Accountants of Scotland",
+      "ICAS",
+      "Association to Advance Collegiate Schools of Business",
+      "AACSB",
+      "School of Business at University of Southampton"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Accounting and Finance BSc Curriculum and Semester Abroad",
+    "path": "/programmes/accounting-and-finance-bsc/",
+    "chunk_index": 1,
+    "text": "What you will study\nStudents take a number of core and compulsory modules before selecting optional modules based on their interest. You are prepared for the rigour of professional qualifications or management roles in finance by selecting different combinations of core, compulsory and optional modules. Optional modules may include modules related to the core discipline as well as topics built around contemporary, real-world trends that change from time to time.\n\nYear 1 overview\nYou will gain a vital understanding of the theories and techniques of successful management, management accounting and financial management.\n\nYear 2 overview\nYou’ll gain a greater understanding of business essentials such as financial accounting, company law, portfolio theory, and the principles of audit and taxation. You can choose from module options including human resource management and management ethics.\n\nYear 3 overview\nThe research dissertation module in year 3 is key to the development of critical thinking. Every student uniformly acquires a research background in the undergraduate degree, emerging as an independent thinker with an Honours degree in three years. Your optional module choices include auditing, strategic management, and futures and options.\n\nProgramme structure\nThe programme covers foundational concepts in year 1 before building specialisation and perspective through available optional modules in Year 2 and Year 3. The Programme Description Document contains an overview of the programme, its aims, information on programme modules and shows how we assess student progress as they learn with us. Examples of what you can expect to learn on this degree programme, based on recent academic teaching, include: Sustainability Reporting: Students work with a small and medium enterprise to prepare a sustainability report in terms of the Global Reporting initiative and earn a certification. Programme modules aligned to accreditation norms: Programme modules that are designed to support certification in accounting by professional bodies through exam exemptions. As a research-led University, we undertake a continuous review of our programmes to ensure quality enhancement and to manage our resources. As a result, this programme may be revised during a student’s period of registration; however, any revision will be balanced against the requirement that the student should receive the educational service expected. Please read our Disclaimer to see why, when, and how changes may be made to a student’s programme.\n\nSemester abroad\nYou will have the possibility to spend a semester at University of Southampton UK in Year 2, learning in a vibrant academic and cultural context. The selection of students for a semester abroad will depend on academic performance and a decision by programme lead.",
+    "tokens": 492,
+    "language": "en",
+    "summary": "The BSc (Hons) Accounting and Finance curriculum progresses from foundational concepts in Year 1 to specialized optional modules and a research dissertation in Year 3. It includes practical experiences like Sustainability Reporting and offers a semester abroad option at University of Southampton UK.",
+    "keywords": [
+      "Programme Curriculum",
+      "Core Modules",
+      "Optional Modules",
+      "Sustainability Reporting",
+      "Research Dissertation",
+      "Semester Abroad",
+      "Accreditation Norms"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "programme curriculum": 0.90,
+      "core modules": 0.85,
+      "optional modules": 0.83,
+      "sustainability reporting": 0.88,
+      "research dissertation": 0.81,
+      "semester abroad": 0.79,
+      "accreditation norms": 0.77
+    },
+    "entities": [
+      "BSc (Hons) Accounting and Finance",
+      "Global Reporting Initiative",
+      "University of Southampton UK"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "BSc Accounting and Finance Key Info and Career Services",
+    "path": "/programmes/accounting-and-finance-bsc/",
+    "chunk_index": 2,
+    "text": "Key information\nWe are mandated by the University Grants Commission (UGC) to deliver the equivalent programme and quality as we offer in the UK. To match the programme lengths of internationally respected UK awarded degrees, the BSc (Hons) Accounting and Finance degree has a duration of three years. View University of Southampton Delhi term dates. Dates mentioned are subject to change. Our programmes are taught in English, and content is equivalent to the BSc (Hons) Accounting and Finance degree delivered at University of Southampton in the UK.\n\nYour future career\nWe are a top 20 UK university for employability (QS Graduate Employability Rankings 2022) and offer extensive support for today’s competitive and rapidly changing employment landscape. Career opportunities With an accounting and finance degree from a double-world top 100 university, you’ll have versatile analytical and problem-solving skills for many professional roles within the sector. You could choose to become: an actuary an auditor a chartered accountant a corporate finance executive a financial risk analyst a financial adviser an investment analyst a management accountant a management consultant a stockbroker a tax specialist or tax adviser\n\nCareers services at University of Southampton Delhi\nOur proprietary Southampton skills model is integrated into our curriculum. When you join us, you’ll be able to use our skills model to track, plan, and benefit your career development and progress. As well as support from the Careers and Employability team in Delhi, you’ll have access to our market-leading employability development offering. This includes: online resources regular workshops personalised career guidance and support through our MyCareer platform and e-mentoring With links to multinational and industrial organisations, we enable you to engage with employers and explore potential career paths. We also host regular alumni events in-person across major cities in India, allowing you to grow your own networks. Our support is ongoing, and once you graduate, you’ll be part of a global community of over 220,000 alumni that spans over 180 countries.",
+    "tokens": 444,
+    "language": "en",
+    "summary": "The BSc (Hons) Accounting and Finance programme at University of Southampton Delhi is UGC mandated, mirrors the UK degree, and prepares students for diverse finance careers. It offers robust career services, including skills tracking, workshops, and a global alumni network.",
+    "keywords": [
+      "University Grants Commission (UGC)",
+      "BSc Accounting and Finance",
+      "Employability Rankings",
+      "Career Opportunities",
+      "Career Services",
+      "Southampton Skills Model",
+      "Alumni Network"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university grants commission (ugc)": 0.90,
+      "bsc accounting and finance": 0.88,
+      "employability rankings": 0.85,
+      "career opportunities": 0.82,
+      "career services": 0.87,
+      "southampton skills model": 0.80,
+      "alumni network": 0.78
+    },
+    "entities": [
+      "University Grants Commission",
+      "UGC",
+      "BSc (Hons) Accounting and Finance",
+      "University of Southampton Delhi",
+      "University of Southampton UK",
+      "QS Graduate Employability Rankings 2022",
+      "MyCareer"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "BSc Accounting and Finance Eligibility and English Requirements",
+    "path": "/programmes/accounting-and-finance-bsc/",
+    "chunk_index": 3,
+    "text": "Eligibility criteria\nStudents must meet overall academic scores and subject-specific scores to be eligible for the programme. Students studying under CBSE, CISCE and State Boards require Mathematics up to Class X; Class XII Mathematics is not required. In order to be eligible for the programme, students must have:\n\nCentral Board of Secondary Education (CBSE): A minimum of 78% (overall) in your All-India Senior School Certificate Examination (Standard XII) with a minimum of 75% in Mathematics in your Secondary School Examination (Standard X)\n\nCouncil for the Indian School Certificate Examinations (CISCE): A minimum of 78% (overall) in your Indian School Certificate examination (Standard XII) with a minimum of 75% in Mathematics in your Indian Certificate of Secondary Education (Standard X)\n\nState Board: A minimum of 83% (overall) in your Higher Secondary Certificate (Standard XII) examination with a minimum of 75% in Mathematics in your Secondary Certificate Examination (Standard X)\n\nInternational Baccalaureate: 34 points and above, including 17 points at Higher level Offers will be made on the individual Diploma Course subject(s) and the career-related study qualification. The CP core will not form part of the offer. Where there is a subject pre-requisite(s), applicants will be required to study the subject(s) at Higher Level in the Diploma course subject and/or take a specified unit in the career-related study qualification. Applicants may also be asked to achieve a specific grade in those elements. Please see the University of Southampton International Baccalaureate Career-Related Programme (IBCP) Statement for further information. Applicants are advised to contact the Admissions Office for more information.\n\nA Levels: AAB, plus Grade B or above in GCSE Maths\n\nEnglish language requirement\nWe accept several ways of meeting our English Language requirement. These include: IELTS Test, with scores of 6.5 overall (6.0 in reading, writing, speaking, and listening) other tests listed on our website an approved academic qualification having the required grade If you’ve been taught and assessed in English, including at a CBSE or CISCE school, for your final 4 years of high school, and have achieved at least 70% in English Language, we may be able to accept this as evidence of your English language ability. Refer to our English Language proficiency guide for more information about English language requirements.\n\nOur academic admissions criteria\nTypical academic admissions criteria represent the usual level of academic attainment an applicant is expected to achieve prior to being admitted to that programme. These criteria are not intended to provide a guarantee that all applicants who satisfy the criteria may be offered a place, nor that all applicants to be made an offer will receive an identical offer to one another.",
+    "tokens": 605,
+    "language": "en",
+    "summary": "Prospective students for BSc (Hons) Accounting and Finance must meet specific academic and English language requirements. Detailed criteria are provided for various Indian boards (CBSE, CISCE, State Board), International Baccalaureate, and A Levels, along with accepted English proficiency tests like IELTS.",
+    "keywords": [
+      "Eligibility Criteria",
+      "Academic Requirements",
+      "English Language Requirement",
+      "CBSE",
+      "CISCE",
+      "International Baccalaureate",
+      "IELTS Test"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "eligibility criteria": 0.95,
+      "academic requirements": 0.89,
+      "english language requirement": 0.87,
+      "cbse": 0.80,
+      "cisce": 0.79,
+      "international baccalaureate": 0.86,
+      "ielts test": 0.83
+    },
+    "entities": [
+      "CBSE",
+      "CISCE",
+      "State Board",
+      "International Baccalaureate",
+      "A Levels",
+      "GCSE Maths",
+      "IELTS Test",
+      "University of Southampton International Baccalaureate Career-Related Programme"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "BSc Accounting and Finance Fees, Scholarships, and Application",
+    "path": "/programmes/accounting-and-finance-bsc/",
+    "chunk_index": 4,
+    "text": "Our fees\nThe fees for the year starting in August 2026 for Indian students are: 13,86,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,38,600 INR for India students The balance of the yearly tuition fee is paid in 3 instalments. 3,32,640 INR by Monday 07 September 2026 4,57,380 INR by Monday 25 January 2027 4,57,380 INR by Monday 19 April 2027 Fees for international students The fees for the year starting in August 2026 for international students are: 16,17,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,61,700 INR for international students If you are an international student, you’ll have to make 3 separate payments of: 3,88,080 INR by Monday 07 September 2026 5,33,610 INR by Monday 25 January 2027 5,33,610 INR by Monday 19 April 2027 We may adjust the fees in the future to account for inflation and changes in other costs. Exact payment dates for future years will vary according to the academic calendar.\n\nScholarships\nWe offer competitive scholarships to talented students.\n\nOur application process\nWe are now accepting registrations for a place at our campus in the Delhi NCR for the academic year starting August 2026. Potential students can understand more about our application process by looking at helpful guidance and advice on university admissions pages. To start the application process, register yourself.\n\nHow to apply\nOur programmes are taught in English, and content is equivalent to that delivered to other University of Southampton students. To match the programme lengths of internationally respected UK awarded degrees, undergraduates study for three years, and postgraduates study for one year.\n\nApply now",
+    "tokens": 444,
+    "language": "en",
+    "summary": "This section details the tuition fees for Indian and international students for the BSc (Hons) Accounting and Finance programme starting August 2026, including deposit and instalment schedules. It also highlights available scholarships and outlines the application process for the Delhi NCR campus.",
+    "keywords": [
+      "Tuition Fees",
+      "Indian Students",
+      "International Students",
+      "Payment Schedule",
+      "Scholarships",
+      "Application Process",
+      "Delhi NCR Campus"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "tuition fees": 0.95,
+      "indian students": 0.88,
+      "international students": 0.87,
+      "payment schedule": 0.82,
+      "scholarships": 0.85,
+      "application process": 0.89,
+      "delhi ncr campus": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Delhi NCR",
+      "University of Southampton"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/accounting-and-finance-bsc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Frequently Asked Questions for Prospective Students",
+    "path": "/programmes/accounting-and-finance-bsc/",
+    "chunk_index": 5,
+    "text": "You might also want to know\nCan I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary.\n\nCan I get an offer with predicted scores? We encourage students to apply as soon as possible so that they can receive a Conditional Offer based on predicted scores for their chosen programme. We can accept an application from a student using their predicted grades if we receive their final grades once they are available.\n\nWhy is an Honours degree good for me? An Honours degree, shown with (Hons) in the programme title, mean that students will understand the fundamentals of their discipline and then build specialisation and perspective through optional modules. These fast-paced, intense programmes deliver essential learning in the first academic year and offer optional course modules, or electives, in the second year. Honours degrees are offered at University of Southampton campuses across the world, reflecting teaching and learning to a higher academic standard, meaning that an Honours degree would hold more value post graduation for future study and career development.\n\nWhy is my degree award BSc (Hons) or BEng (Hons)? Degrees with a BA and BSc award do not represent a stream, but a broad categorisation that reflects student choice and leaning. Our BSc (Hons) and BEng (Hons) undergraduate degrees are oriented towards specialist, technical roles in industry with an analytical approach, not science subjects.\n\nHow can I earn an Honours degree in just 3 years? The University Grants Commission (UGC) has mandated University of Southampton Delhi to make sure that programmes delivered in India are the same as those delivered at University of Southampton in the UK. Three years is the standard length of an undergraduate Honours degree in England where University of Southampton sets academic standards. This 3 year length reflects a trend towards accelerated learning where students see a return on their tuition fees as quickly as possible, whilst still maintaining high academic standards and the quality of the degree awarded. University of Southampton 3 year undergraduate degrees, and 1 year postgraduate degrees, are accepted widely internationally.\n\nWhat is an option? Our programmes are designed to make sure that students quickly understand the fundamentals of their discipline, and then build specialisation and perspective through electives, or optional, modules. These optional modules are typically offered in academic years 2 and 3, adding depth and breadth to core learning from previous years. As these options are often built around real-world trends, the specific choice of module available to students from year to year may vary.",
+    "tokens": 634,
+    "language": "en",
+    "summary": "This FAQ section addresses common student queries regarding scholarships, conditional offers based on predicted scores, the value and structure of a 3-year Honours degree (BSc/BEng), and the role of optional modules in specialization. It also clarifies that University of Southampton Delhi programmes align with UK standards.",
+    "keywords": [
+      "Scholarship Application",
+      "Predicted Scores",
+      "Honours Degree",
+      "BSc (Hons)",
+      "BEng (Hons)",
+      "3-Year Undergraduate",
+      "Optional Modules"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "scholarship application": 0.88,
+      "predicted scores": 0.85,
+      "honours degree": 0.90,
+      "bsc (hons)": 0.82,
+      "beng (hons)": 0.80,
+      "3-year undergraduate": 0.84,
+      "optional modules": 0.81
+    },
+    "entities": [
+      "University of Southampton",
+      "BSc (Hons)",
+      "BEng (Hons)",
+      "University Grants Commission",
+      "UGC",
+      "University of Southampton Delhi",
+      "University of Southampton UK"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

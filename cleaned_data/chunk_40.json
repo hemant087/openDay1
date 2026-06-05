@@ -1,0 +1,125 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/future-talent-scholarship/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/future-talent-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Future Talent Scholarship: Overview, Value, and Eligible Programmes",
+    "path": "/funding/future-talent-scholarship/",
+    "chunk_index": 0,
+    "text": "Future Talent Scholarship. Award duration: 1 academic year. Study period covered: Aug 2025 - Jun 2026. Funding type: Competitive scholarship. August 2025 intake: Applications for this award are now closed for August 2025.\n\nAbout the award: We will offer a Future Talent Scholarship to up to 12 gifted students, selected across all University of Southampton Delhi programmes, in support of their academic studies from August 2025. This competitive scholarship will contribute towards 1 year of tuition fees at University of Southampton Delhi in academic year 25/26. Our Scholarship Committee will make their award decision based on the student’s impressive past performance and high standards of academic achievement. We will announce the first recipient of our Future Talent Scholarships in May/June 2025, with final recipients announced in July 2025, depending on the release dates of exam board results.\n\nWhat we will award: Up to 12 individual awards of a flat contribution of 220,000 INR towards tuition fees due to University of Southampton Delhi in academic year 25/26.\n\nWhich programmes qualify for this award? Students who enrol on one of these programmes could qualify for this award:\n- Accounting and Finance BSc (Hons)\n- Business Management BSc (Hons)\n- Computer Science BSc (Hons)\n- Economics BSc (Hons)\n- Finance MSc\n- International Management MSc",
+    "tokens": 242,
+    "language": "en",
+    "summary": "The competitive Future Talent Scholarship offers up to 12 awards of 220,000 INR towards tuition fees for academically gifted students at University of Southampton Delhi, starting August 2025 for specific programmes.",
+    "keywords": [
+      "Future Talent Scholarship",
+      "tuition fees",
+      "academic achievement",
+      "eligible programmes",
+      "University of Southampton Delhi",
+      "competitive scholarship",
+      "220,000 INR"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Future Talent Scholarship": 0.95,
+      "tuition fees": 0.88,
+      "academic achievement": 0.82,
+      "eligible programmes": 0.78,
+      "University of Southampton Delhi": 0.75,
+      "competitive scholarship": 0.70,
+      "220,000 INR": 0.65
+    },
+    "entities": [
+      "Future Talent Scholarship",
+      "University of Southampton Delhi",
+      "Scholarship Committee",
+      "Accounting and Finance BSc (Hons)",
+      "Business Management BSc (Hons)",
+      "Computer Science BSc (Hons)",
+      "Economics BSc (Hons)",
+      "Finance MSc",
+      "International Management MSc",
+      "August 2025 intake"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/future-talent-scholarship/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/future-talent-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Future Talent Scholarship Application and Award Decision Process",
+    "path": "/funding/future-talent-scholarship/",
+    "chunk_index": 1,
+    "text": "How we make award decisions: We aim to manage our scholarships and bursaries fairly, providing support for academically gifted students, and helping those who might otherwise struggle to study with us. We consider a range of criteria, including the academic achievements shown on an application to study in addition to individual scholarship and bursary applications. This information helps us to produce a shortlist of candidates for an award. We will invite those on the shortlist to meet with us to discuss their application. A scholarships panel will make a final decision on scholarship and bursary applications.\n\nMaking an application for this award: We cannot accept any further applications for this award for students wishing to start their programme in August 2025. We welcome applications for this competitive scholarship from any domestic student making an application to study any of our programmes in the University of Southampton Delhi August 2025 intake. Students who wish to be considered for this award must complete a specific scholarship application showing impressive past performance and high standards of academic achievement. This should signpost their potential for future excellence in their chosen area of study at University of Southampton Delhi.",
+    "tokens": 234,
+    "language": "en",
+    "summary": "University of Southampton Delhi awards scholarships and bursaries based on academic merit and application criteria, leading to a shortlisted interview. Applications for the August 2025 Future Talent Scholarship are closed; future applicants need to submit a specific scholarship form.",
+    "keywords": [
+      "scholarship application",
+      "award decisions",
+      "academic achievements",
+      "domestic students",
+      "scholarships panel",
+      "August 2025 intake",
+      "future excellence"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "scholarship application": 0.93,
+      "award decisions": 0.87,
+      "academic achievements": 0.80,
+      "domestic students": 0.76,
+      "scholarships panel": 0.72,
+      "August 2025 intake": 0.68,
+      "future excellence": 0.63
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "scholarships panel",
+      "Future Talent Scholarship"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/future-talent-scholarship/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/future-talent-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Scholarship Student Responsibilities and General Terms",
+    "path": "/funding/future-talent-scholarship/",
+    "chunk_index": 2,
+    "text": "You might also want to know:\n\nHow can I contribute to the community as a scholarship student? We would encourage - and expect - that the recipient of a scholarship or bursary will act as a Student Ambassador to promote University of Southampton Delhi while they study with us.\n\nHow would I receive my scholarship or bursary? There is no cash alternative to the waiver of Tuition Fees made under a scholarship or bursary. We will reduce the amount of Tuition Fees that you will pay by the value of the award.\n\nCan I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary.\n\nWhat are the terms and conditions for scholarships? You can see our current terms and conditions for scholarships and bursaries here.",
+    "tokens": 191,
+    "language": "en",
+    "summary": "Scholarship recipients are expected to act as Student Ambassadors, with awards issued as tuition fee waivers, not cash. Eligibility extends to self-funding domestic students, requiring a prior program application for consideration.",
+    "keywords": [
+      "Student Ambassador",
+      "scholarship terms",
+      "tuition fee waiver",
+      "self-funding students",
+      "domestic tuition fees",
+      "programme eligibility",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Student Ambassador": 0.90,
+      "scholarship terms": 0.85,
+      "tuition fee waiver": 0.79,
+      "self-funding students": 0.75,
+      "domestic tuition fees": 0.70,
+      "programme eligibility": 0.65,
+      "University of Southampton Delhi": 0.60
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Ambassador"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

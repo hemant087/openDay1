@@ -1,0 +1,40 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-appointed-director-of-learning-and-teaching/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-appointed-director-of-learning-and-teaching/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Appoints New Learning & Teaching Director",
+    "path": "/news/university-of-southampton-delhi-appointed-director-of-learning-and-teaching/",
+    "chunk_index": 0,
+    "text": "The University of Southampton Delhi announced the appointment of a new Director of Learning and Teaching. This news, featuring a headshot of Sagaya Amalathas, was published on 25 February 2025. The full article can be read at Shiksha.",
+    "tokens": 50,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced the appointment of Sagaya Amalathas as the new Director of Learning and Teaching on February 25, 2025. The complete details are available on Shiksha.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Director of Learning and Teaching",
+      "Sagaya Amalathas",
+      "Academic appointment",
+      "News announcement",
+      "Shiksha article"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Director of Learning and Teaching": 0.90,
+      "Sagaya Amalathas": 0.88,
+      "Academic appointment": 0.80,
+      "News announcement": 0.75,
+      "Shiksha article": 0.70
+    },
+    "entities": [
+      "Sagaya Amalathas",
+      "University of Southampton Delhi",
+      "Shiksha",
+      "Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

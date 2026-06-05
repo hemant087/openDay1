@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/policies/complaints/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/policies/complaints/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Complaints Policy Overview",
+    "path": "/policies/complaints/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi is committed to ensuring a fair and transparent mechanism for addressing grievances. Students, faculty, and staff may lodge complaints related to academic, administrative, or personal harassment by writing to the Head of Student Experience. The university guarantees timely resolution while protecting the rights of all parties involved. Read more about our complaints policy. Write to our Head of Student Experience to make a complaint.",
+    "tokens": 68,
+    "language": "en",
+    "summary": "University of Southampton Delhi provides a fair process for grievances from students, faculty, and staff, handled by the Head of Student Experience for timely resolution.",
+    "keywords": [
+      "complaints policy",
+      "grievance mechanism",
+      "Head of Student Experience",
+      "academic complaints",
+      "administrative complaints",
+      "personal harassment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "complaints policy": 0.95,
+      "grievance mechanism": 0.88,
+      "Head of Student Experience": 0.92,
+      "academic complaints": 0.85,
+      "administrative complaints": 0.83,
+      "personal harassment": 0.81
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Head of Student Experience"
+    ],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2024-05-15T10:30:00.000Z"
+  }
+]

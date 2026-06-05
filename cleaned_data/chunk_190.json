@@ -1,0 +1,37 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-appoints-professor-eloise-phillips-as-academic-provost/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-appoints-professor-eloise-phillips-as-academic-provost/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Appoints Academic Provost",
+    "path": "/news/university-of-southampton-delhi-appoints-professor-eloise-phillips-as-academic-provost/",
+    "chunk_index": 0,
+    "text": "The University of Southampton Delhi announced the appointment of Professor Eloise Phillips as its Academic Provost on 19 January 2025. Further details regarding this appointment are available by reading the article at Shiksha.",
+    "tokens": 31,
+    "language": "en",
+    "summary": "University of Southampton Delhi appointed Professor Eloise Phillips as Academic Provost on January 19, 2025. Additional details are available at Shiksha.",
+    "keywords": [
+      "Academic Provost",
+      "Eloise Phillips",
+      "University of Southampton Delhi",
+      "Shiksha",
+      "appointment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Provost": 0.95,
+      "Eloise Phillips": 0.92,
+      "University of Southampton Delhi": 0.90,
+      "Shiksha": 0.88,
+      "appointment": 0.85
+    },
+    "entities": [
+      "Professor Eloise Phillips",
+      "University of Southampton Delhi",
+      "Shiksha"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

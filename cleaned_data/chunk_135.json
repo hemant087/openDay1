@@ -1,0 +1,58 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/haryana-cm-saini-union-minister-pradhan-inaugurate-university-of-southampton-campus-in-gurugram/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/haryana-cm-saini-union-minister-pradhan-inaugurate-university-of-southampton-campus-in-gurugram/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Haryana CM Saini, Union Minister Pradhan Inaugurate Southampton Gurugram Campus",
+    "path": "/news/haryana-cm-saini-union-minister-pradhan-inaugurate-university-of-southampton-campus-in-gurugram/",
+    "chunk_index": 0,
+    "text": "Haryana Chief Minister Nayab Singh Saini and Union Education Minister Dharmendra Pradhan on Wednesday inaugurated the University of Southampton campus in Gurugram, according to a statement. After the inauguration, both leaders also visited the campus, an official said. The chief minister said the establishment of the University of Southampton campus in Gurugram, under the National Education Policy and the principle of “One Earth, One Family, One Future,” would help raise the standards of higher education in India. He expressed pride that Haryana was becoming the first choice for foreign investors due to its excellent infrastructure. He said the University of Southampton — one of the top 100 universities in the world — has now set foot in Gurugram. He added that the day marked a golden chapter in India’s education landscape, calling it not just the inauguration of a new campus, but a major step toward realising the dreams of India’s youth and the vision of a Viksit Bharat by 2047. Under the National Education Policy, the UGC has, for the first time, approved a full-fledged international university campus in India. Saini called it a direct result of the NEP’s vision and a reflection of Prime Minister Narendra Modi’s principle of Vasudhaiva Kutumbakam. He further said the Gurugram campus would prove to be a milestone in making Haryana a global hub of education. “Our goal is to make Haryana such a skill hub where our youth not only become job seekers, but also job providers,” he added. Union Education Minister Dharmendra Pradhan said a historic transformation is taking place in India’s higher education system under the leadership of Prime Minister Modi. He noted that Indian universities have made significant progress in the QS World University Rankings. “In 2014, only 11 Indian universities were included in the QS rankings, whereas this number has now risen to 54,” he said, calling it a sign of growing quality, innovation and global trust in India’s education system. UK High Commissioner to India Lindy Cameron, who also addressed the event, said the launch of the full-fledged campus of England’s prestigious University of Southampton in Haryana reflects the strengthening education partnership between modern India and modern Britain. At present, four undergraduate and two postgraduate courses are available at the Gurugram campus. These include B.Sc. Business Management, B.Sc. Accounting and Finance, B.Sc. Computer Science, B.Sc. Economics, M.Sc. Finance, and M.Sc. International Management.",
+    "tokens": 362,
+    "language": "en",
+    "summary": "Haryana Chief Minister Nayab Singh Saini and Union Education Minister Dharmendra Pradhan inaugurated the University of Southampton's Gurugram campus, enhancing India's higher education and strengthening the UK-India partnership, while offering various undergraduate and postgraduate programs.",
+    "keywords": [
+      "University of Southampton Gurugram campus",
+      "Haryana Chief Minister",
+      "Union Education Minister",
+      "National Education Policy",
+      "UK-India education partnership",
+      "undergraduate programmes",
+      "postgraduate programmes"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Gurugram campus": 0.95,
+      "National Education Policy": 0.90,
+      "Dharmendra Pradhan": 0.88,
+      "Nayab Singh Saini": 0.87,
+      "UK-India education partnership": 0.85,
+      "undergraduate programmes": 0.82,
+      "postgraduate programmes": 0.80
+    },
+    "entities": [
+      "Nayab Singh Saini",
+      "Dharmendra Pradhan",
+      "University of Southampton",
+      "Gurugram",
+      "National Education Policy",
+      "India",
+      "Viksit Bharat",
+      "UGC",
+      "Narendra Modi",
+      "Haryana",
+      "QS World University Rankings",
+      "Lindy Cameron",
+      "UK",
+      "Britain",
+      "B.Sc. Business Management",
+      "B.Sc. Accounting and Finance",
+      "B.Sc. Computer Science",
+      "B.Sc. Economics",
+      "M.Sc. Finance",
+      "M.Sc. International Management"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

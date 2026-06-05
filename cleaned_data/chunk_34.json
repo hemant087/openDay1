@@ -1,0 +1,303 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Computer Science BSc (Hons) Programme Overview",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 0,
+    "text": "Computer Science BSc (Hons)\n\nAward BSc (Hons) Duration 3 years Course Type Full Time Start Date 24 August 2026\n\nChoosing this programme\n\nOn this computer science degree, you’ll learn how to design and build software programs and systems. You’ll find out about the latest advances in areas like machine learning, cyber security and computer vision in this fast-moving industry and gain the knowledge to develop technologies that can make a difference to people’s lives. The curriculum ensures strong understanding of basics in mathematics, theory of computing and systems including computer architecture and computer networking. Pathways in Cyber Security, Data and Algorithms, Systems and Networks, Artificial Intelligence, and Applications continue from foundational levels into the third year, and potentially towards a specialist master’s degree. The world-leading undergraduate programme offers in-depth, comprehensive knowledge and aligns with the Association for Computing Machinery (ACM) computing curriculum. You’ll study in state-of-the-art teaching labs with the latest equipment and high-quality displays. The content is equivalent to a BSc (Hons) Computer Science degree delivered to University of Southampton students in the UK.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "This section provides an overview of the University of Southampton Delhi's 3-year full-time Computer Science BSc (Hons) programme, detailing its focus on software design, machine learning, and cyber security.",
+    "keywords": [
+      "Computer Science",
+      "BSc Honours",
+      "programme overview",
+      "software design",
+      "machine learning",
+      "cyber security",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Computer Science": 0.9,
+      "BSc Honours": 0.9,
+      "programme overview": 0.9,
+      "software design": 0.9,
+      "machine learning": 0.9,
+      "cyber security": 0.9,
+      "University of Southampton Delhi": 0.9
+    },
+    "entities": [
+      "Computer Science BSc (Hons)",
+      "University of Southampton Delhi",
+      "Association for Computing Machinery (ACM)"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Computer Science BSc (Hons) Curriculum and Structure",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 1,
+    "text": "What you will study\n\nA strong programming pathway runs through three years with Python as a first language, C as a second, Java as a third followed by Haskell as a fourth language. Through a mix of theoretical, design and practical subjects, you’ll learn about: basic computer science theory the ethical and legal frameworks which computer scientists and software engineers work within the practicalities of working with computers key techniques and application areas Year 1 overview You’ll study the logical and mathematical theory underpinning computer science. You’ll also gain an understanding of the fundamentals of computer hardware. As an introduction to software engineering, you’ll cover data structures and algorithms. You’ll also look at the principles of programming. Year 2 overview You’ll deepen your understanding of computer science by studying topics, such as artificial intelligence, communication protocols and the TCP/IP layered model. Year 3 overview A compulsory final year project is the capstone assessment for the three-year degree. Regular project work ensures teamwork, project planning, time management, presentation taking learning towards the successful completion of a brief. An individual project is a chance to conduct in-depth research in an area of computer science that interests you, under the supervision of an academic with expertise in your chosen field. Cybersecurity, applications and artificial intelligence pathways span diverse modules and you will get to choose optional modules on areas like: advanced databases machine learning technologies natural language processing security of cyber physical systems social computing techniques\n\nProgramme structure\n\nThis programme builds a comprehensive foundation in the discipline through inclusion of various modules as compulsory that are otherwise considered elective. Optional modules are geared to employability: they are attractive to students and well-received by industry. It includes research-led, contemporary compulsory modules on areas like formal specification and verification, the design of programming languages and interpreters and on artificial intelligence. The Programme Description Document contains an overview of the programme, its aims, information on programme modules and shows how we assess student progress as they learn with us. As a research-led University, we undertake a continuous review of our programmes to ensure quality enhancement and to manage our resources. As a result, this programme may be revised during a student’s period of registration; however, any revision will be balanced against the requirement that the student should receive the educational service expected. Please read our Disclaimer to see why, when, and how changes may be made to a student’s programme.\n\nSemester abroad\n\nYou will have the possibility to spend a semester at University of Southampton UK in Year 2, learning in a vibrant academic and cultural context. The selection of students for a semester abroad will depend on academic performance and a decision by programme lead.",
+    "tokens": 605,
+    "language": "en",
+    "summary": "Details the Computer Science BSc (Hons) curriculum, including programming languages like Python, C, Java, and Haskell, year-specific modules, research-led content, and options for a semester abroad in the UK.",
+    "keywords": [
+      "Computer Science curriculum",
+      "programming languages",
+      "Python",
+      "C",
+      "Java",
+      "Haskell",
+      "Artificial Intelligence",
+      "cyber physical systems",
+      "semester abroad"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Computer Science curriculum": 0.9,
+      "programming languages": 0.9,
+      "Python": 0.9,
+      "C": 0.9,
+      "Java": 0.9,
+      "Haskell": 0.9,
+      "Artificial Intelligence": 0.9,
+      "cyber physical systems": 0.9,
+      "semester abroad": 0.9
+    },
+    "entities": [
+      "Python",
+      "C",
+      "Java",
+      "Haskell",
+      "Artificial Intelligence",
+      "University of Southampton UK"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Key Information and Quality of Computer Science BSc (Hons)",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 2,
+    "text": "Key information\n\nWe are mandated by the University Grants Commission (UGC) to deliver the equivalent programme and quality as we offer in the UK. To match the programme lengths of internationally respected UK awarded degrees, the BSc (Hons) Computer Science degree has a duration of three years. View University of Southampton Delhi term dates. Dates mentioned are subject to change. Our programmes are taught in English, and content is equivalent to the BSc (Hons) Computer Science degree delivered at University of Southampton in the UK.",
+    "tokens": 105,
+    "language": "en",
+    "summary": "This section provides key information on the Computer Science BSc (Hons) program, highlighting its UGC mandate, 3-year duration, and equivalence to degrees offered at the University of Southampton in the UK.",
+    "keywords": [
+      "programme quality",
+      "UGC mandate",
+      "3-year degree",
+      "UK equivalent degree",
+      "University Grants Commission",
+      "term dates"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "programme quality": 0.9,
+      "UGC mandate": 0.9,
+      "3-year degree": 0.9,
+      "UK equivalent degree": 0.9,
+      "University Grants Commission": 0.9,
+      "term dates": 0.9
+    },
+    "entities": [
+      "University Grants Commission (UGC)",
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "Computer Science BSc (Hons)"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Computer Science BSc (Hons) Career Prospects and Employability",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 3,
+    "text": "Your future career\n\nWe are a top 20 UK university for employability (QS Graduate Employability Rankings 2022) and offer extensive support for today’s competitive and rapidly changing employment landscape. With this Computer Science degree, you can pursue programming, software development, IT project management, or information systems oversight. Recommendations of University of Southampton Industrial Advisory Board in the UK and partner companies feed into this course curriculum. It is a foundation for further study at master’s degree or PhD level anywhere in the world. Most of our graduates opt for computer science jobs in high-tech companies. Potential roles include: software engineer app developer web developer systems analyst\n\nCareers services at University of Southampton Delhi\n\nOur proprietary Southampton skills model is integrated into our curriculum. When you join us, you’ll be able to use our skills model to track, plan, and benefit your career development and progress. As well as support from the Careers and Employability team in Delhi, you’ll have access to our market-leading employability development offering. This includes: online resources regular workshops personalised career guidance and support through our MyCareer platform and e-mentoring With links to multinational and industrial organisations, we enable you to engage with employers and explore potential career paths. We also host regular alumni events in-person across major cities in India, allowing you to grow your own networks. Our support is ongoing, and once you graduate, you’ll be part of a global community of over 220,000 alumni that spans over 180 countries.",
+    "tokens": 298,
+    "language": "en",
+    "summary": "Graduates of the Computer Science BSc (Hons) program are prepared for roles like software engineer and app developer, supported by the university's career services and global alumni network.",
+    "keywords": [
+      "Computer Science careers",
+      "software engineer",
+      "app developer",
+      "web developer",
+      "systems analyst",
+      "employability",
+      "Southampton skills model",
+      "alumni network"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Computer Science careers": 0.9,
+      "software engineer": 0.9,
+      "app developer": 0.9,
+      "web developer": 0.9,
+      "systems analyst": 0.9,
+      "employability": 0.9,
+      "Southampton skills model": 0.9,
+      "alumni network": 0.9
+    },
+    "entities": [
+      "University of Southampton",
+      "QS Graduate Employability Rankings 2022",
+      "Computer Science degree",
+      "University of Southampton Delhi",
+      "MyCareer platform"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Computer Science BSc (Hons) Eligibility and English Language Requirements",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 4,
+    "text": "Eligibility criteria\n\nStudents must meet the overall academic and mathematics scores for Grade 12 to be eligible for our programmes. Those who have studied academic disciplines in the Humanities or Commerce or Sciences including subjects such as Political Science or Business Studies can apply for the Programme. Mathematics in Class XII is a required subject. In order to be eligible for the programme, students must have:\n\nCentral Board of Secondary Education (CBSE): Minimum 82% (overall) in your All-India Senior School Certificate Examination (Standard XII) with 85% in Standard XII Mathematics\n\nCouncil for the Indian School Certificate Examinations (CISCE): Minimum 82% (overall) in your Indian School Certificate examination (Standard XII) with 85% in Standard XII Mathematics\n\nState Board: Minimum 87% (overall) in your Higher Secondary Certificate (Standard XII) examination with 85% in Standard XII Mathematics\n\nInternational Baccalaureate: 38 points and above, including 19 points at Higher Level, including 6 at Higher Level Mathematics (Analysis and Approaches) or 7 at Higher Level (Applications and Interpretations). Offers will be made on the individual Diploma Course subject(s) and the career-related study qualification. The CP core will not form part of the offer. Where there is a subject pre-requisite(s), applicants will be required to study the subject(s) at Higher Level in the Diploma course subject and/or take a specified unit in the career-related study qualification. Applicants may also be asked to achieve a specific grade in those elements. Please see the University of Southampton International Baccalaureate Career-Related Programme (IBCP) Statement for further information. Applicants are advised to contact the Admissions Office for more information.\n\nA Levels: A*AA including mathematics (minimum grade A).\n\nEnglish language requirement\n\nWe accept several ways of meeting our English Language requirement. These include: IELTS Test, with scores of 6.5 overall (6.0 in reading, writing, speaking, and listening) other tests listed on our website an approved academic qualification having the required grade If you’ve been taught and assessed in English, including at a CBSE or CISCE school, for your final 4 years of high school, and have achieved at least 70% in English Language, we may be able to accept this as evidence of your English language ability. Refer to our English Language proficiency guide for more information about English language requirements.\n\nOur academic admissions criteria\n\nTypical academic admissions criteria represent the usual level of academic attainment an applicant is expected to achieve prior to being admitted to that programme. These criteria are not intended to provide a guarantee that all applicants who satisfy the criteria may be offered a place, nor that all applicants to be made an offer will receive an identical offer to one another.",
+    "tokens": 573,
+    "language": "en",
+    "summary": "Outlines academic eligibility for the Computer Science BSc (Hons) program, including specific Grade 12 scores from various boards and English language proficiency requirements like IELTS.",
+    "keywords": [
+      "eligibility criteria",
+      "academic requirements",
+      "Grade 12",
+      "CBSE",
+      "CISCE",
+      "State Board",
+      "International Baccalaureate",
+      "A Levels",
+      "English language requirement",
+      "IELTS"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "eligibility criteria": 0.9,
+      "academic requirements": 0.9,
+      "Grade 12": 0.9,
+      "CBSE": 0.9,
+      "CISCE": 0.9,
+      "State Board": 0.9,
+      "International Baccalaureate": 0.9,
+      "A Levels": 0.9,
+      "English language requirement": 0.9,
+      "IELTS": 0.9
+    },
+    "entities": [
+      "Computer Science BSc (Hons)",
+      "Central Board of Secondary Education (CBSE)",
+      "Council for the Indian School Certificate Examinations (CISCE)",
+      "International Baccalaureate",
+      "A Levels",
+      "IELTS Test",
+      "Admissions Office",
+      "University of Southampton International Baccalaureate Career-Related Programme (IBCP)"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Computer Science BSc (Hons) Fees, Scholarships, and Application",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 5,
+    "text": "Our fees\n\nThe fees for the year starting in August 2026 for Indian students are: 13,86,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,38,600 INR for India students The balance of the yearly tuition fee is paid in 3 instalments. 3,32,640 INR by Monday 07 September 2026 4,57,380 INR by Monday 25 January 2027 4,57,380 INR by Monday 19 April 2027\n\nFees for international students\n\nThe fees for the year starting in August 2026 for international students are: 16,17,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,61,700 INR for international students If you are an international student, you’ll have to make 3 separate payments of: 3,88,080 INR by Monday 07 September 2026 5,33,610 INR by Monday 25 January 2027 5,33,610 INR by Monday 19 April 2027 We may adjust the fees in the future to account for inflation and changes in other costs. Exact payment dates for future years will vary according to the academic calendar.\n\nScholarships\n\nWe offer competitive scholarships to talented students.\n\nOur application process\n\nWe are now accepting registrations for a place at our campus in the Delhi NCR for the academic year starting August 2026. Potential students can understand more about our application process by looking at helpful guidance and advice on university admissions pages.\n\nHow to apply\n\nOur programmes are taught in English, and content is equivalent to that delivered to other University of Southampton students. To match the programme lengths of internationally respected UK awarded degrees, undergraduates study for three years, and postgraduates study for one year.",
+    "tokens": 405,
+    "language": "en",
+    "summary": "Details the tuition fees for Indian and international students for the Computer Science BSc (Hons) program, outlines payment schedules, mentions scholarship opportunities, and guides through the application process.",
+    "keywords": [
+      "tuition fees",
+      "Indian students",
+      "international students",
+      "payment schedule",
+      "deposit",
+      "scholarships",
+      "application process",
+      "August 2026 intake"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "tuition fees": 0.9,
+      "Indian students": 0.9,
+      "international students": 0.9,
+      "payment schedule": 0.9,
+      "deposit": 0.9,
+      "scholarships": 0.9,
+      "application process": 0.9,
+      "August 2026 intake": 0.9
+    },
+    "entities": [
+      "Computer Science BSc (Hons)",
+      "University of Southampton Delhi",
+      "Delhi NCR",
+      "University of Southampton"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/computer-science-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Common Questions about Computer Science BSc (Hons) Degree",
+    "path": "/programmes/computer-science-bsc-hons/",
+    "chunk_index": 6,
+    "text": "You might also want to know\n\nCan I apply for a scholarship or bursary?\n\nWe welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary.\n\nCan I get an offer with predicted scores?\n\nWe encourage students to apply as soon as possible so that they can receive a Conditional Offer based on predicted scores for their chosen programme. We can accept an application from a student using their predicted grades if we receive their final grades once they are available.\n\nWhy is an Honours degree good for me?\n\nAn Honours degree, shown with (Hons) in the programme title, mean that students will understand the fundamentals of their discipline and then build specialisation and perspective through optional modules. These fast-paced, intense programmes deliver essential learning in the first academic year and offer optional course modules, or electives, in the second year. Honours degrees are offered at University of Southampton campuses across the world, reflecting teaching and learning to a higher academic standard, meaning that an Honours degree would hold more value post graduation for future study and career development.\n\nHow can I earn an Honours degree in just 3 years?\n\nThe University Grants Commission (UGC) has mandated University of Southampton Delhi to make sure that programmes delivered in India are the same as those delivered at University of Southampton in the UK. Three years is the standard length of an undergraduate Honours degree in England where University of Southampton sets academic standards. This 3 year length reflects a trend towards accelerated learning where students see a return on their tuition fees as quickly as possible, whilst still maintaining high academic standards and the quality of the degree awarded. University of Southampton 3 year undergraduate degrees, and 1 year postgraduate degrees, are accepted widely internationally.\n\nWhy is my degree award BSc (Hons) or BEng (Hons)?\n\nDegrees with a BA and BSc award do not represent a stream, but a broad categorisation that reflects student choice and leaning. Our BSc (Hons) and BEng (Hons) undergraduate degrees are oriented towards specialist, technical roles in industry with an analytical approach, not science subjects.\n\nWhat is an option?\n\nOur programmes are designed to make sure that students quickly understand the fundamentals of their discipline, and then build specialisation and perspective through electives, or optional, modules. These optional modules are typically offered in academic years 2 and 3, adding depth and breadth to core learning from previous years. As these options are often built around real-world trends, the specific choice of module available to students from year to year may vary.",
+    "tokens": 605,
+    "language": "en",
+    "summary": "Addresses common questions about the Computer Science BSc (Hons) degree, including inquiries about scholarships, predicted scores, the benefits and 3-year duration of an Honours degree, and the meaning of degree awards.",
+    "keywords": [
+      "Honours degree",
+      "scholarships",
+      "bursary",
+      "predicted scores",
+      "3-year degree",
+      "BSc Honours",
+      "BEng Honours",
+      "optional modules"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Honours degree": 0.9,
+      "scholarships": 0.9,
+      "bursary": 0.9,
+      "predicted scores": 0.9,
+      "3-year degree": 0.9,
+      "BSc Honours": 0.9,
+      "BEng Honours": 0.9,
+      "optional modules": 0.9
+    },
+    "entities": [
+      "University Grants Commission (UGC)",
+      "University of Southampton",
+      "University of Southampton Delhi",
+      "BSc (Hons)",
+      "BEng (Hons)"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

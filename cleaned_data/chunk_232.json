@@ -1,0 +1,323 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Team Overview and Profiles",
+    "path": "/team/",
+    "chunk_index": 0,
+    "text": "Meet our team Our academic and professional team members combine local knowledge of Higher Education in India with a wider perspective built on years of international experience. University staff profiles Read more about our senior leadership, academic faculty members and professional staff. Choose to search or filter by their department or research interests (for academic faculty members) to find the correct person. Department All Departments Accounting and Finance academics Business academics Computing academics Economics academics Professional staff Senior leadership Research Interest All Research Interests Advanced Threat Detection & Response Agricultural Economics AI for social good Behavioural Finance Biomedical signal acquisition, processing, and analysis (EEG and related modalities) Board gender diversity Board of directors Brain–computer interfaces (BCIs) for assistive technologies Career Management & Sustainable Careers Convergence and growth dynamics in emerging economies Corporate finance Corporate governance Cyber Threat intelligence Deep learning, neural networks, and quantum-inspired computational models Detection for speech disfluency and communication disorders Digital health Diversity, Equality & Inclusion Environment Economics ESG finance and sustainable investing Ethical data science Ethical Decision Making Financial inclusion Financial market complexity and behavioural dynamics Financial Reporting Financial wellbeing & Financial capability Flexible Work Gender and identity Green computing Human–robot interaction and adaptive intelligent systems Inclusive, user-centred design for emerging and accessible technologies Information Security & Privacy Labor Economics Leaders and Leadership Development Malware Analysis Nature-inspired computing Organisational Behaviour Promoter ownership Responsible AI Threat Hunting Volatility modelling, regime-switching, and higher-order moment connectedness Search",
+    "tokens": 300,
+    "language": "en",
+    "summary": "The University of Southampton Delhi introduces its academic and professional team, blending local Indian Higher Education knowledge with international experience. Staff profiles can be filtered by department or research interests.",
+    "keywords": [
+      "academic staff",
+      "professional staff",
+      "senior leadership",
+      "research interests",
+      "department filters",
+      "Higher Education India",
+      "international experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "academic staff": 0.95,
+      "professional staff": 0.88,
+      "senior leadership": 0.82,
+      "research interests": 0.77,
+      "department filters": 0.70,
+      "Higher Education India": 0.65,
+      "international experience": 0.60
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "India",
+      "Accounting and Finance",
+      "Business academics",
+      "Computing academics",
+      "Economics academics"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy: Interdisciplinary Researcher and Educator",
+    "path": "/team/",
+    "chunk_index": 1,
+    "text": "Dr Aparna Pasumarthy Dr Aparna Pasumarthy is an interdisciplinary researcher and educator, specializing in careers, leadership, and organizational behaviour. She previously taught at Queen Mary, University of London, and is an Associate Fellow of the Higher Education Academy. Her research focuses on the careers of professional men and women in India, especially within multinational corporations. Dr Pasumarthy holds PhD Business and Management from Queen Mary, University of London. She has presented her research at major international conferences and is committed to promoting social justice, inclusion, and sustainability in academia and organisational environments. Research Interests: Career Management & Sustainable Careers Diversity, Equality & Inclusion Ethical Decision Making Flexible Work Leaders and Leadership Development Organisational Behaviour View profile",
+    "tokens": 112,
+    "language": "en",
+    "summary": "Dr. Aparna Pasumarthy, an Associate Fellow of the Higher Education Academy, specializes in careers, leadership, and organizational behaviour, with research on professionals in Indian multinational corporations.",
+    "keywords": [
+      "Dr Aparna Pasumarthy",
+      "interdisciplinary researcher",
+      "organizational behaviour",
+      "career management",
+      "leadership development",
+      "Higher Education Academy",
+      "Queen Mary University of London"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Aparna Pasumarthy": 0.95,
+      "interdisciplinary researcher": 0.88,
+      "organizational behaviour": 0.82,
+      "career management": 0.77,
+      "leadership development": 0.70,
+      "Higher Education Academy": 0.65,
+      "Queen Mary University of London": 0.60
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Queen Mary, University of London",
+      "Higher Education Academy",
+      "India"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Chitrakalpa Sen: Head of Economics, Sustainable Finance Expert",
+    "path": "/team/",
+    "chunk_index": 2,
+    "text": "Dr Chitrakalpa Sen Dr Chitrakalpa Sen is Head of Economics at the University of Southampton Delhi. He holds a PhD in Economics from the West Bengal University of Technology, following an MSc and BSc (H) in Economics from the University of Calcutta. His research lies at the intersection of sustainable finance, ESG investing, and financial market dynamics, with particular expertise in volatility modelling, regime switching, and convergence in emerging economies. Chitrakalpa has published widely in leading international journals such as Journal of Economic Surveys, Energy Economics, Resources Policy and the Journal of Cleaner Production, and his work continues to shape debates on the resilience of green investments and the role of financial markets in sustainable growth. Research Interests: Convergence and growth dynamics in emerging economies ESG finance and sustainable investing Financial market complexity and behavioural dynamics Volatility modelling, regime-switching, and higher-order moment connectedness View profile",
+    "tokens": 133,
+    "language": "en",
+    "summary": "Dr. Chitrakalpa Sen, Head of Economics at University of Southampton Delhi, researches sustainable finance, ESG investing, and financial market dynamics in emerging economies.",
+    "keywords": [
+      "Dr Chitrakalpa Sen",
+      "Head of Economics",
+      "sustainable finance",
+      "ESG investing",
+      "financial market dynamics",
+      "volatility modelling",
+      "West Bengal University of Technology"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Chitrakalpa Sen": 0.95,
+      "Head of Economics": 0.88,
+      "sustainable finance": 0.82,
+      "ESG investing": 0.77,
+      "financial market dynamics": 0.70,
+      "volatility modelling": 0.65,
+      "West Bengal University of Technology": 0.60
+    },
+    "entities": [
+      "Chitrakalpa Sen",
+      "University of Southampton Delhi",
+      "West Bengal University of Technology",
+      "University of Calcutta"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Mohammed Anam Akhtar: Head of Business Education",
+    "path": "/team/",
+    "chunk_index": 3,
+    "text": "Dr Mohammed Anam Akhtar Dr Mohammed Anam Akhtar, currently working as Head of Business Education at University of Southampton Delhi, brings over a decade of distinguished academic, leadership, and industry experience to the role. He has previously served as Assistant Professor of Accounting and Finance and BBA program chair at IMT Dubai, contributed to ACCA program accreditation, and held teaching and consultancy positions at Curtin University (Dubai). Dr Akhtar holds a PhD in Management from NIT India, is a Certified Management and Business Educator (CMBE, UK), and is UGC-NET qualified. His wide-ranging expertise ensures academic rigour and innovation in business programs at the University, enriching the student experience with world-class learning and strong industry engagement. Research Interests: Behavioural Finance Financial inclusion Financial Reporting Financial wellbeing & Financial capability View profile",
+    "tokens": 133,
+    "language": "en",
+    "summary": "Dr. Mohammed Anam Akhtar, Head of Business Education at University of Southampton Delhi, has a decade of academic and industry experience, specializing in accounting and finance.",
+    "keywords": [
+      "Dr Mohammed Anam Akhtar",
+      "Head of Business Education",
+      "academic leadership",
+      "accounting and finance",
+      "behavioural finance",
+      "financial inclusion",
+      "NIT India",
+      "IMT Dubai"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Mohammed Anam Akhtar": 0.95,
+      "Head of Business Education": 0.88,
+      "academic leadership": 0.82,
+      "accounting and finance": 0.77,
+      "behavioural finance": 0.70,
+      "financial inclusion": 0.65,
+      "NIT India": 0.60,
+      "IMT Dubai": 0.55
+    },
+    "entities": [
+      "Mohammed Anam Akhtar",
+      "University of Southampton Delhi",
+      "BBA program",
+      "IMT Dubai",
+      "ACCA",
+      "Curtin University",
+      "NIT India"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Nalini Sharan: Student Experience Portfolio Lead",
+    "path": "/team/",
+    "chunk_index": 4,
+    "text": "Dr Nalini Sharan Dr Nalini Sharan leads the Student Experience portfolio at University of Southampton Delhi, bringing nearly two decades of leadership in higher education, student affairs, and strategic engagement. She is responsible for shaping a student-first culture that fosters wellbeing, inclusion, global awareness, and a vibrant campus life. View profile",
+    "tokens": 60,
+    "language": "en",
+    "summary": "Dr. Nalini Sharan leads the Student Experience portfolio at University of Southampton Delhi, with nearly two decades of leadership in higher education and student affairs.",
+    "keywords": [
+      "Dr Nalini Sharan",
+      "Student Experience",
+      "higher education leadership",
+      "student affairs",
+      "student wellbeing",
+      "campus life",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Nalini Sharan": 0.95,
+      "Student Experience": 0.88,
+      "higher education leadership": 0.82,
+      "student affairs": 0.77,
+      "student wellbeing": 0.70,
+      "campus life": 0.65,
+      "University of Southampton Delhi": 0.60
+    },
+    "entities": [
+      "Nalini Sharan",
+      "University of Southampton Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Nitish Gupta: Head of Business, Knowledge Exchange & Enterprise",
+    "path": "/team/",
+    "chunk_index": 5,
+    "text": "Dr Nitish Gupta Dr Nitish Gupta joined University of Southampton Delhi in August 2025 as Head of Business (Knowledge Exchange & Enterprise) and as a Lecturer in Business. He brings a proven track record in research, teaching, product innovation leadership and digital transformation to the campus. View profile",
+    "tokens": 60,
+    "language": "en",
+    "summary": "Dr. Nitish Gupta joined University of Southampton Delhi in August 2025 as Head of Business (Knowledge Exchange & Enterprise) and Lecturer, bringing expertise in research, teaching, and digital transformation.",
+    "keywords": [
+      "Dr Nitish Gupta",
+      "Head of Business",
+      "Knowledge Exchange",
+      "Enterprise",
+      "Lecturer in Business",
+      "digital transformation",
+      "product innovation"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Nitish Gupta": 0.95,
+      "Head of Business": 0.88,
+      "Knowledge Exchange": 0.82,
+      "Enterprise": 0.77,
+      "Lecturer in Business": 0.70,
+      "digital transformation": 0.65,
+      "product innovation": 0.60
+    },
+    "entities": [
+      "Nitish Gupta",
+      "University of Southampton Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Rajesh Yadav: Cybersecurity Expert, Lecturer, and Senior Tutor",
+    "path": "/team/",
+    "chunk_index": 6,
+    "text": "Dr Rajesh Yadav Dr Rajesh Yadav is a seasoned educator with over 20 years of experience in creating innovative and engaging learning environments. Specializing in Cybersecurity, Cyber Threat Intelligence, Digital Forensics, Malware Analysis, Threat Detection, and Ethical Hacking, he combines hands-on experiential teaching with curriculum design to enhance critical thinking and problem-solving skills. He holds a BE, MTech, and PhD in Computer Science and Engineering and has contributed to both national and international academic institutions. He serves as a Lecturer and Senior Tutor at the University of Southampton Delhi, having previously held diverse academic roles across multiple institutions. Dr Yadav’s teaching excellence and contributions to the cybersecurity domain have been recognized with the Excellence in Teaching Award from the University of Southampton Malaysia and the International Educational Achievements Award for his outstanding contributions to the Cybersecurity domain. Research Interests: Advanced Threat Detection & Response Cyber Threat intelligence Information Security & Privacy Malware Analysis Threat Hunting View profile",
+    "tokens": 147,
+    "language": "en",
+    "summary": "Dr. Rajesh Yadav, a Lecturer and Senior Tutor at University of Southampton Delhi, is a cybersecurity expert with over 20 years of experience in areas like Digital Forensics and Malware Analysis.",
+    "keywords": [
+      "Dr Rajesh Yadav",
+      "Cybersecurity",
+      "Digital Forensics",
+      "Malware Analysis",
+      "Threat Detection",
+      "Ethical Hacking",
+      "Computer Science",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Rajesh Yadav": 0.95,
+      "Cybersecurity": 0.88,
+      "Digital Forensics": 0.82,
+      "Malware Analysis": 0.77,
+      "Threat Detection": 0.70,
+      "Ethical Hacking": 0.65,
+      "Computer Science": 0.60,
+      "University of Southampton Delhi": 0.55
+    },
+    "entities": [
+      "Rajesh Yadav",
+      "University of Southampton Delhi",
+      "University of Southampton Malaysia"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/#chunk-7",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "How to Meet University of Southampton Delhi Team",
+    "path": "/team/",
+    "chunk_index": 7,
+    "text": "You might also want to know How can I meet your team? You can meet us online, and in a selection of major cities in India. You can see when and where, by visiting the Events area of our website. When event tickets are available, you will be able to book a physical event, or to register for an on online session, from the event page. The best way to see campus is to book a pre-planned tour from our events page. No results found.",
+    "tokens": 75,
+    "language": "en",
+    "summary": "Learn how to meet the University of Southampton Delhi team online or at events in major Indian cities, and book campus tours via the events page.",
+    "keywords": [
+      "meet the team",
+      "online sessions",
+      "physical events",
+      "campus tour",
+      "Events area",
+      "India cities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "meet the team": 0.95,
+      "online sessions": 0.88,
+      "physical events": 0.82,
+      "campus tour": 0.77,
+      "Events area": 0.70,
+      "India cities": 0.65
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "India",
+      "campus tour"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  }
+]

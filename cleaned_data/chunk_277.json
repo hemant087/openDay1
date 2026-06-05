@@ -1,0 +1,121 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/fees-and-funding#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/fees-and-funding",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Competitive Scholarships for Gifted Students",
+    "path": "/fees-and-funding",
+    "chunk_index": 0,
+    "text": "Funding Explore different ways to fund your tuition fees and other expenses with us. Competitive scholarships We offer competitive scholarships to academically gifted students keen to study at University of Southampton Delhi. To benefit you must apply for, and then be awarded, a competitive scholarship. Cambridge Scholarship Award A scholarship for up to 4 gifted undergraduate students who have completed successfully Cambridge board A levels. Award duration: 1 academic year Study period covered: 2025 - 2026 Funding type: Competitive scholarship Undergraduate Delhi Presidential Scholarship A full scholarship covering tuition fees for 3 academic years of undergraduate study. Award duration: 3 academic years Study period covered: 2025 - 2028 Funding type: Competitive scholarship Postgraduate Delhi Presidential Scholarship A full scholarship covering tuition fees for 1 academic year of postgraduate study. Award duration: 1 academic year Study period covered: 2025 - 2026 Funding type: Competitive scholarship Future Talent Scholarship A scholarship for up to 12 gifted undergraduate or postgraduate students. Award duration: 1 academic year Study period covered: 2025 - 2026 Funding type: Competitive scholarship",
+    "tokens": 247,
+    "language": "en",
+    "summary": "University of Southampton Delhi provides competitive scholarships like Cambridge, Delhi Presidential, and Future Talent for gifted students, covering tuition fees for specific study periods.",
+    "keywords": [
+      "competitive scholarships",
+      "Cambridge Scholarship Award",
+      "Delhi Presidential Scholarship",
+      "Future Talent Scholarship",
+      "undergraduate funding",
+      "postgraduate funding",
+      "tuition fees",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "competitive scholarships": 0.92,
+      "Cambridge Scholarship Award": 0.88,
+      "Delhi Presidential Scholarship": 0.85,
+      "Future Talent Scholarship": 0.8,
+      "tuition fees": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Cambridge Scholarship Award",
+      "Undergraduate Delhi Presidential Scholarship",
+      "Postgraduate Delhi Presidential Scholarship",
+      "Future Talent Scholarship"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-05-15T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/fees-and-funding#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/fees-and-funding",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Merit-Based Awards and Bursaries",
+    "path": "/fees-and-funding",
+    "chunk_index": 1,
+    "text": "Merit based scholarships We offer merit based scholarships to academically outstanding and suitably qualified applicants. L.E.K. Scholar Award A scholarship for up to 12 undergraduate students on BSc (Hons) Economics or BSc (Hons) Accounting & Finance programmes. Award duration: 3 academic years Study period covered: 2025 - 2028 Funding type: Merit based scholarship Merit bursaries We support talented students who would benefit from study at University of Southampton Delhi financially through the bursary. We will select students using an assessment of need and eligibility, treating applicants with dignity and respect throughout. To benefit you must apply for, and then be awarded, a merit bursary. Future Talent Bursary A merit bursary for up to 8 undergraduate students supporting 3 academic years of study. Award duration: 3 academic years Study period covered: 2025 - 2028 Funding type: Merit bursary",
+    "tokens": 201,
+    "language": "en",
+    "summary": "The University of Southampton Delhi offers merit-based scholarships, including the L.E.K. Scholar Award for specific programs, and Future Talent Bursaries based on academic merit and financial need.",
+    "keywords": [
+      "merit-based scholarships",
+      "L.E.K. Scholar Award",
+      "merit bursaries",
+      "financial support",
+      "Future Talent Bursary",
+      "undergraduate students",
+      "BSc Economics",
+      "BSc Accounting & Finance",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "merit-based scholarships": 0.9,
+      "L.E.K. Scholar Award": 0.87,
+      "Future Talent Bursary": 0.82,
+      "financial support": 0.78,
+      "BSc Economics": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "L.E.K. Scholar Award",
+      "BSc (Hons) Economics",
+      "BSc (Hons) Accounting & Finance",
+      "Future Talent Bursary"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-05-15T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/fees-and-funding#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/fees-and-funding",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Financial Support and Scholarship FAQs",
+    "path": "/fees-and-funding",
+    "chunk_index": 2,
+    "text": "Funding support Funding support Ask about partnerships with trusted and reputable financial institutions keen to support University of Southampton Delhi students with a range of education loans. Study period covered: 2025 - 2028 Funding type: Funding support Frequently Asked Questions Can I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary. What are the terms and conditions for scholarships? You can see our current terms and conditions for scholarships and bursaries here. How can I contribute to the community as a scholarship student? We would encourage - and expect - that the recipient of a scholarship or bursary will act as a Student Ambassador to promote University of Southampton Delhi while they study with us. How would I receive my scholarship or bursary? There is no cash alternative to the waiver of Tuition Fees made under a scholarship or bursary. We will reduce the amount of Tuition Fees that you will pay by the value of the award.",
+    "tokens": 263,
+    "language": "en",
+    "summary": "University of Southampton Delhi offers financial support through education loans and addresses FAQs regarding scholarship applications, terms, student ambassador roles, and award disbursement policies.",
+    "keywords": [
+      "education loans",
+      "financial institutions",
+      "funding support",
+      "scholarship application",
+      "bursary terms",
+      "student ambassador",
+      "tuition fee waiver",
+      "University of Southampton Delhi",
+      "FAQs"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "education loans": 0.91,
+      "scholarship application": 0.86,
+      "student ambassador": 0.83,
+      "tuition fee waiver": 0.79,
+      "FAQs": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Ambassador"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-05-15T10:00:00Z"
+  }
+]

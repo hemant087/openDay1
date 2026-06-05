@@ -1,0 +1,58 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-nitish-gupta/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-nitish-gupta/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr. Nitish Gupta: Head of Business, Academic Profile and Vision",
+    "path": "/team/dr-nitish-gupta/",
+    "chunk_index": 0,
+    "text": "Dr Nitish Gupta PhD, MBA Dr Nitish Gupta joined University of Southampton Delhi in August 2025 as Head of Business (Knowledge Exchange & Enterprise) and as a Lecturer in Business. He brings a proven track record in research, teaching, product innovation leadership and digital transformation to the campus. Role: Head of Business (Knowledge Exchange & Enterprise), Department: Business academics Academic profile Prior to this role, Dr Gupta served as Global Product Leader (Network) as a Service at IPC Systems in New York and London, where he led the launch of new services for capital markets and managed strategic cloud partnerships. He previously held positions as Global Product Manager at Bühler Group and London Medical Laboratory in London, where he spearheaded the development of innovative products, including high-tech optical sorters, solutions for food and plastic recycling, and advanced health check services. Over the course of his corporate career, he has worked with renowned organizations such as Tata and Merck and has collaborated with large corporations across various industries on research and innovation initiatives. Dr Gupta holds a PhD in Engineering from the University of Cambridge, specializing in Strategic Technology and Innovation Management. He also holds an MBA from BITS Pilani and a Bachelor’s degree in Computer Science Engineering. He has served as a Visiting Researcher at the Tokyo Institute of Technology and has taught undergraduate, postgraduate, and executive-level courses at the University of Cambridge. He has also delivered guest lectures at institutions including the University of Liverpool and OP Jindal Global University. Dr Gupta has been invited to speak at several industry events and has served as a keynote speaker at the NYU Stern Innovation Conference. His primary areas of interest and research include strategy, innovation, and sustainability. Dr Gupta said: “I am excited to be part of the team at the University of Southampton Delhi, a Russell Group university that places research and teaching at its core while driving student experience through an innovative curriculum. I look forward to contributing to the university’s triple helix strategy—education, research, and knowledge exchange—particularly by fostering industrial engagement, advancing knowledge transfer, and supporting student success. My goal is to help prepare students to tackle complex global challenges by equipping them with world-class knowledge and the skills they need to thrive.”",
+    "tokens": 369,
+    "language": "en",
+    "summary": "Dr. Nitish Gupta, UoSD's Head of Business and Lecturer, brings vast experience from global companies and academia. Holding a PhD from Cambridge, he focuses on strategy, innovation, and sustainability, aiming to advance student success and industrial engagement.",
+    "keywords": [
+      "Nitish Gupta",
+      "University of Southampton Delhi",
+      "Knowledge Exchange",
+      "Digital Transformation",
+      "Strategic Technology Management",
+      "Sustainability Research",
+      "Triple Helix Strategy"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Nitish Gupta": 0.95,
+      "University of Southampton Delhi": 0.92,
+      "Knowledge Exchange": 0.88,
+      "Digital Transformation": 0.85,
+      "Strategic Technology Management": 0.83,
+      "Sustainability Research": 0.81,
+      "Triple Helix Strategy": 0.79
+    },
+    "entities": [
+      "Dr Nitish Gupta",
+      "University of Southampton Delhi",
+      "IPC Systems",
+      "Bühler Group",
+      "London Medical Laboratory",
+      "Tata",
+      "Merck",
+      "University of Cambridge",
+      "BITS Pilani",
+      "Tokyo Institute of Technology",
+      "University of Liverpool",
+      "OP Jindal Global University",
+      "NYU Stern",
+      "NYU Stern Innovation Conference",
+      "New York",
+      "London",
+      "Cambridge",
+      "Tokyo",
+      "Liverpool",
+      "Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

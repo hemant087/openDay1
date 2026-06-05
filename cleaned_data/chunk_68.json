@@ -1,0 +1,40 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/online-event-08072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/online-event-08072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Alumni Transformational Journey: Experience Sharing Webinar",
+    "path": "/events/online-event-08072025/",
+    "chunk_index": 0,
+    "text": "\"Alumni Transformational Journey: A Conversation Led by Experience\" online event Event Status: Completed Date & Time: August 07, 2025 7:00 PM IST Recommended for: Offer holders and potential applicants Book now Join us for an inspiring webinar as two University of Southampton alumni share how their time at Southampton transformed their lives — from shaping global careers to building lasting perspectives. Don’t miss this chance to gain real-world insights from those who’ve been there and done that! The webinar is scheduled for Thursday, 07 August 2025 from 7:00 PM to 8:00 PM (IST).",
+    "tokens": 140,
+    "language": "en",
+    "summary": "This completed online webinar featured two University of Southampton alumni sharing how their experiences transformed their lives and careers. It offered real-world insights to offer holders and applicants.",
+    "keywords": [
+      "alumni insights",
+      "career transformation",
+      "online webinar",
+      "University of Southampton",
+      "offer holders",
+      "applicant advice",
+      "student experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "alumni insights": 0.9,
+      "career transformation": 0.85,
+      "online webinar": 0.8,
+      "University of Southampton": 0.95,
+      "offer holders": 0.75,
+      "applicant advice": 0.7,
+      "student experience": 0.82
+    },
+    "entities": [
+      "University of Southampton",
+      "Alumni Transformational Journey: A Conversation Led by Experience"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-05-15T12:00:00Z"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/forms/get-in-touch/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/forms/get-in-touch/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Contact University of Southampton Delhi for Enquiries",
+    "path": "/forms/get-in-touch/",
+    "chunk_index": 0,
+    "text": "Use this page to get in touch with us, ask a question about studying at University of Southampton Delhi, or register to join our mailing list. We are ready to help.",
+    "tokens": 36,
+    "language": "en",
+    "summary": "Contact the University of Southampton Delhi for study-related questions or to join their mailing list for updates and support.",
+    "keywords": [
+      "contact information",
+      "study enquiries",
+      "mailing list",
+      "student support",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "contact information": 0.9,
+      "study enquiries": 0.88,
+      "mailing list": 0.85,
+      "student support": 0.82,
+      "University of Southampton Delhi": 0.95
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

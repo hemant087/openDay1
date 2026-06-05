@@ -1,0 +1,60 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/southampton-varsity-gurgaon-campus-opens/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/southampton-varsity-gurgaon-campus-opens/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Southampton University Delhi Gurgaon Campus Inaugurated with Initial Programme Offerings",
+    "path": "/news/southampton-varsity-gurgaon-campus-opens/",
+    "chunk_index": 0,
+    "text": "The India campus of the University of Southampton, which was inaugurated in Gurgaon on Wednesday, is set to begin hosting its first cohort of 140 students for the 2025-26 academic session. In its maiden academic session from September, the UK university’s campus will offer 4 UG and 2 PG courses. The UG courses are in business management, accounting and finance, computer science and economics, while the PG courses are in finance, and international management. At the campus inauguration event, Union Education Minister Dharmendra Pradhan said that besides the three foreign universities that are now functioning, 12 more foreign universities are being given approval under the UGC regulations, along with two more in GIFT city. These include campuses in the NCR region, Navi Mumbai, Bengaluru, and Chennai, Pradhan said.\n\nProfessor Eloise Phillips is the Academic Provost for the India campus. As per a statement released during the appointment of the academic provost, Professor Eloise Phillips has played an important role in establishing the University of Birmingham’s flagship campus in Dubai where she was holding Head of Health, Wellbeing, and Human Science programmes in February this year. Earlier, Eloise was an Associate Dean at Aston University. Prof Phillips is a registered nurse and experienced advanced clinical practitioner. She has worked in clinical practice, healthcare leadership and management, research, and academia.",
+    "tokens": 230,
+    "language": "en",
+    "summary": "The University of Southampton's India campus in Gurgaon has been inaugurated, welcoming 140 students for the 2025-26 academic session. It will offer four undergraduate and two postgraduate courses, with Professor Eloise Phillips appointed as Academic Provost.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "academic session 2025-26",
+      "undergraduate programmes",
+      "postgraduate programmes",
+      "Dharmendra Pradhan",
+      "Eloise Phillips",
+      "foreign universities India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Gurgaon campus": 0.90,
+      "academic session 2025-26": 0.88,
+      "undergraduate programmes": 0.85,
+      "postgraduate programmes": 0.84,
+      "Dharmendra Pradhan": 0.80,
+      "Eloise Phillips": 0.82,
+      "foreign universities India": 0.78
+    },
+    "entities": [
+      "University of Southampton",
+      "Gurgaon",
+      "Dharmendra Pradhan",
+      "UGC",
+      "GIFT City",
+      "NCR region",
+      "Navi Mumbai",
+      "Bengaluru",
+      "Chennai",
+      "Eloise Phillips",
+      "University of Birmingham",
+      "Dubai",
+      "Aston University",
+      "Business Management",
+      "Accounting and Finance",
+      "Computer Science",
+      "Economics",
+      "Finance",
+      "International Management",
+      "Health, Wellbeing, and Human Science programmes"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

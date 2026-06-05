@@ -1,0 +1,107 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-05-august-august-2025-intake/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-05-august-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Campus and Accommodation Tour Event Logistics",
+    "path": "/events/campus-tour-05-august-august-2025-intake/",
+    "chunk_index": 0,
+    "text": "Campus & accommodation tour 05 August Event Status: Completed Date & Time: August 05, 2025 4:00 PM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India",
+    "tokens": 59,
+    "language": "en",
+    "summary": "The Campus & Accommodation Tour on August 5, 2025, at 4:00 PM IST was held at International Tech Park Gurgaon, India, and is now completed.",
+    "keywords": [
+      "campus tour",
+      "accommodation tour",
+      "event date",
+      "Gurgaon",
+      "International Tech Park"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.85,
+      "accommodation tour": 0.85,
+      "event date": 0.85,
+      "Gurgaon": 0.85,
+      "International Tech Park": 0.85
+    },
+    "entities": [
+      "Campus & accommodation tour 05 August",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-05-august-august-2025-intake/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-05-august-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Experience University of Southampton Delhi Campus Life",
+    "path": "/events/campus-tour-05-august-august-2025-intake/",
+    "chunk_index": 1,
+    "text": "Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer.",
+    "tokens": 84,
+    "language": "en",
+    "summary": "Explore the University of Southampton Delhi's state-of-the-art facilities and vibrant community during an in-person campus tour, experiencing campus life firsthand.",
+    "keywords": [
+      "campus facilities",
+      "campus life",
+      "university community",
+      "in-person event",
+      "Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus facilities": 0.85,
+      "campus life": 0.85,
+      "university community": 0.85,
+      "in-person event": 0.85,
+      "Southampton Delhi": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-05-august-august-2025-intake/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-05-august-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Hostel and Residential Accommodation Tour",
+    "path": "/events/campus-tour-05-august-august-2025-intake/",
+    "chunk_index": 2,
+    "text": "Accommodation tour Our student hostel is a home away from home during study at University of Southampton Delhi. Tour the peaceful residential Suncity location only 6km away from campus. Take the shuttlebus from campus, and then return back to campus when the accommodation tour has finished.",
+    "tokens": 68,
+    "language": "en",
+    "summary": "Discover the University of Southampton Delhi's student hostel in Suncity, located 6km from campus, accessible via a convenient shuttle bus service.",
+    "keywords": [
+      "student accommodation",
+      "student hostel",
+      "Suncity residential",
+      "campus shuttle",
+      "residential facilities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student accommodation": 0.85,
+      "student hostel": 0.85,
+      "Suncity residential": 0.85,
+      "campus shuttle": 0.85,
+      "residential facilities": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Suncity"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

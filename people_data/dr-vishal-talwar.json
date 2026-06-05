@@ -1,0 +1,219 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Vishal Talwar: Chief Operating Officer, University of Southampton Delhi",
+    "path": "/team/dr-vishal-talwar",
+    "chunk_index": 0,
+    "text": "Dr Vishal Talwar is Chief Operating Officer for the university’s Delhi campus with responsibility for growth strategy and delivery, as well as operations from marketing, recruitment and admissions, to campus life and student experience. Role: Chief Operating Officer Department: Senior leadership",
+    "tokens": 60,
+    "language": "en",
+    "summary": "Dr Vishal Talwar serves as Chief Operating Officer for the University of Southampton Delhi, overseeing growth strategy, operations, marketing, admissions, campus life, and student experience.",
+    "keywords": [
+      "Chief Operating Officer",
+      "Delhi campus",
+      "growth strategy",
+      "university operations",
+      "student experience",
+      "senior leadership"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Chief Operating Officer": 0.95,
+      "Delhi campus": 0.9,
+      "growth strategy": 0.88,
+      "university operations": 0.85,
+      "student experience": 0.82,
+      "senior leadership": 0.79
+    },
+    "entities": [
+      "Dr Vishal Talwar",
+      "University of Southampton Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z",
+    "aliases": [
+      "Dr Vishal Talwar",
+      "Dr. Vishal Talwar",
+      "Vishal Talwar",
+      "V. Talwar",
+      "Vishal Talver",
+      "Vishal Talawar",
+      "Dr Vishal Talver",
+      "Dr. Vishal Talawar"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Vishal Talwar's Extensive Academic and Leadership Background",
+    "path": "/team/dr-vishal-talwar",
+    "chunk_index": 1,
+    "text": "Dr Vishal Talwar brings a wealth of experience in higher education leadership, innovation, and academic excellence. Prior to this role, he served as Director & Head of Campus and Professor of Marketing at the Institute of Management Technology, Ghaziabad. He has also held senior leadership positions at BML Munjal University (BMU), including Dean of the School of Management and Director of Innovation & Entrepreneurship. His academic journey spans globally recognised institutions such as SP Jain School of Global Management and the London School of Economics. A prolific academic, Dr Talwar has made substantial contributions to global research, publishing in various journals including the prestigious FT 50 list. His scholarly contributions extend to books, book chapters, and presentations at top-tier international conferences such as the Academy of Management Conference, American Marketing Association Summer Conference, British Academy of Management, and INFORMS Marketing Sciences. Dr Talwar is a PhD from Manchester Business School, UK.",
+    "tokens": 174,
+    "language": "en",
+    "summary": "Dr Vishal Talwar's career highlights extensive experience in higher education leadership, marketing professorship, and innovation roles, with significant global research publications and a PhD from Manchester Business School.",
+    "keywords": [
+      "higher education leadership",
+      "academic excellence",
+      "marketing professor",
+      "global research",
+      "PhD",
+      "Manchester Business School",
+      "Institute of Management Technology Ghaziabad",
+      "BML Munjal University"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "higher education leadership": 0.92,
+      "academic excellence": 0.89,
+      "marketing professor": 0.87,
+      "global research": 0.85,
+      "PhD": 0.83,
+      "Manchester Business School": 0.81,
+      "Institute of Management Technology Ghaziabad": 0.78,
+      "BML Munjal University": 0.75
+    },
+    "entities": [
+      "Dr Vishal Talwar",
+      "Institute of Management Technology, Ghaziabad",
+      "BML Munjal University",
+      "SP Jain School of Global Management",
+      "London School of Economics",
+      "Manchester Business School",
+      "Academy of Management Conference",
+      "American Marketing Association Summer Conference",
+      "British Academy of Management",
+      "INFORMS Marketing Sciences",
+      "PhD"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z",
+    "aliases": [
+      "Dr Vishal Talwar",
+      "Dr. Vishal Talwar",
+      "Vishal Talwar",
+      "V. Talwar",
+      "Vishal Talver",
+      "Vishal Talawar",
+      "Dr Vishal Talver",
+      "Dr. Vishal Talawar"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Vishal Talwar's Vision for University of Southampton Delhi",
+    "path": "/team/dr-vishal-talwar",
+    "chunk_index": 2,
+    "text": "Dr Talwar said: “I am delighted to join the University of Southampton Delhi at this exciting juncture. University of Southampton Delhi promises to be an enriched global learning experience for students. Set within a purpose-built, safe and technologically advanced campus in Gurgaon, it will have a strong focus on academic rigour, as well as holistic development. The Delhi NCR region provides a great platform for networking, industry engagement and career transformation. A carefully curated approach will provide our students with hands-on experience and real-world insights, thus enabling more robust career readiness.”",
+    "tokens": 104,
+    "language": "en",
+    "summary": "Dr Talwar expresses enthusiasm for the University of Southampton Delhi, highlighting its promise of global learning, academic rigor, holistic development, and strong career readiness within the Gurgaon campus.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "global learning experience",
+      "academic rigour",
+      "holistic development",
+      "Gurgaon campus",
+      "Delhi NCR",
+      "career readiness",
+      "industry engagement"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.94,
+      "global learning experience": 0.91,
+      "academic rigour": 0.88,
+      "holistic development": 0.86,
+      "Gurgaon campus": 0.84,
+      "Delhi NCR": 0.81,
+      "career readiness": 0.79,
+      "industry engagement": 0.77
+    },
+    "entities": [
+      "Dr Talwar",
+      "University of Southampton Delhi",
+      "Gurgaon",
+      "Delhi NCR"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z",
+    "aliases": [
+      "Dr Vishal Talwar",
+      "Dr. Vishal Talwar",
+      "Vishal Talwar",
+      "V. Talwar",
+      "Vishal Talver",
+      "Vishal Talawar",
+      "Dr Vishal Talver",
+      "Dr. Vishal Talawar"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-vishal-talwar",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Vishal Talwar: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-vishal-talwar",
+    "chunk_index": 3,
+    "text": "Dr Vishal Talwar is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Dr Vishal Talwar, Dr. Vishal Talwar, Vishal Talwar, V. Talwar, Vishal Talver, Vishal Talawar, Dr Vishal Talver, Dr. Vishal Talawar. All of these names refer to the same individual.",
+    "tokens": 54,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Vishal Talwar. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "vishal talawar",
+      "university of southampton delhi",
+      "vishal talver",
+      "dr vishal talwar",
+      "faculty",
+      "staff",
+      "v. talwar",
+      "dr. vishal talwar",
+      "vishal talwar"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "vishal talawar": 0.95,
+      "university of southampton delhi": 0.9,
+      "vishal talver": 0.85,
+      "dr vishal talwar": 0.8,
+      "faculty": 0.75,
+      "staff": 0.7,
+      "v. talwar": 0.65,
+      "dr. vishal talwar": 0.6,
+      "vishal talwar": 0.55
+    },
+    "entities": [
+      "Dr Vishal Talwar",
+      "Dr Vishal Talwar",
+      "Dr. Vishal Talwar",
+      "Vishal Talwar",
+      "V. Talwar",
+      "Vishal Talver",
+      "Vishal Talawar",
+      "Dr Vishal Talver",
+      "Dr. Vishal Talawar",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Vishal Talwar",
+      "Dr. Vishal Talwar",
+      "Vishal Talwar",
+      "V. Talwar",
+      "Vishal Talver",
+      "Vishal Talawar",
+      "Dr Vishal Talver",
+      "Dr. Vishal Talawar"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:00:00Z"
+  }
+]

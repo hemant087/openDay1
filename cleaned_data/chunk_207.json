@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-names-director-of-learning-and-teaching-for-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-names-director-of-learning-and-teaching-for-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Appoints Director of Learning and Teaching",
+    "path": "/news/university-of-southampton-names-director-of-learning-and-teaching-for-delhi-campus/",
+    "chunk_index": 0,
+    "text": "The University of Southampton has named a Director of Learning and Teaching for its Delhi Campus. This announcement was made on 24 February 2025. The full article can be found at Business News This Week.",
+    "tokens": 38,
+    "language": "en",
+    "summary": "The University of Southampton Delhi has appointed a Director of Learning and Teaching, announced on February 24, 2025, with the full story available via Business News This Week.",
+    "keywords": [
+      "Director of Learning and Teaching",
+      "University of Southampton Delhi",
+      "appointment",
+      "education leadership",
+      "Business News This Week"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Director of Learning and Teaching": 0.95,
+      "University of Southampton Delhi": 0.9,
+      "Business News This Week": 0.88,
+      "appointment": 0.82,
+      "education leadership": 0.75
+    },
+    "entities": [
+      "University of Southampton",
+      "University of Southampton Delhi",
+      "Business News This Week",
+      "Delhi Campus"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

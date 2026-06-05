@@ -1,0 +1,43 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/online-event-11072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/online-event-11072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Online Event: Careers in International Management",
+    "path": "events/online-event-11072025/",
+    "chunk_index": 0,
+    "text": "\"Careers in International Management\" online event Event Status: Completed Date & Time: July 11, 2025 7:00 PM IST Recommended for: Offer holders and potential applicants Book now Many students will look for an international career when they complete their programme. University of Southampton graduates are ready to compete globally for the best jobs with the skills, experience and a confidence that comes from studying at an internationally recognised institution. Dr Aparna Pasumarthy, Lecturer in Business, will explain how learning and teaching on both MSc International Management and BSc (Hons) Business Management programmes uniquely equips graduates for international work. And you will have chance to hear directly from Veenu Jain, a University of Southampton graduate from MSc Management. Veenu can show how the right programme, hard work and the right approach to securing a great career pays dividends. This online event is scheduled for Friday 11 July, from 7.00 PM to 8.00 PM IST.",
+    "tokens": 164,
+    "language": "en",
+    "summary": "This online event, held on July 11, 2025, focused on international career preparation for graduates. Dr. Aparna Pasumarthy and alumna Veenu Jain discussed how University of Southampton programmes equip students for global roles.",
+    "keywords": [
+      "International Management careers",
+      "online event",
+      "University of Southampton graduates",
+      "MSc International Management",
+      "BSc Business Management",
+      "global careers"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International Management careers": 0.95,
+      "online event": 0.90,
+      "University of Southampton graduates": 0.88,
+      "MSc International Management": 0.87,
+      "BSc Business Management": 0.85,
+      "global careers": 0.82
+    },
+    "entities": [
+      "Dr Aparna Pasumarthy",
+      "Veenu Jain",
+      "University of Southampton",
+      "MSc International Management",
+      "BSc (Hons) Business Management",
+      "MSc Management",
+      "\"Careers in International Management\" online event"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

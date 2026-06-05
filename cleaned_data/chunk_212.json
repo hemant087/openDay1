@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/1233/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/1233/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Selects Gurgaon Campus Location",
+    "path": "/news/1233/",
+    "chunk_index": 0,
+    "text": "University Of Southampton Delhi Chooses Gurgaon’s International Tech Park For Campus\n12 December 2024\nRead article at Shiksha",
+    "tokens": 21,
+    "language": "en",
+    "summary": "The University of Southampton Delhi announced on December 12, 2024, its decision to establish its campus within Gurgaon's International Tech Park.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "International Tech Park",
+      "campus location",
+      "university news"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Gurgaon campus": 0.88,
+      "International Tech Park": 0.90,
+      "campus location": 0.82,
+      "university news": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Gurgaon",
+      "International Tech Park",
+      "Shiksha"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

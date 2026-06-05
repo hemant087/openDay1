@@ -1,0 +1,51 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-india-campus-to-offer-uk-quality-degrees-at-half-the-cost-vc-professor-mark-e-smith/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-india-campus-to-offer-uk-quality-degrees-at-half-the-cost-vc-professor-mark-e-smith/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Southampton India Campus Offers UK Degrees at Half Cost",
+    "path": "/news/university-of-southampton-india-campus-to-offer-uk-quality-degrees-at-half-the-cost-vc-professor-mark-e-smith",
+    "chunk_index": 0,
+    "text": "In this exclusive interview with HT Digital, Professor Mark E. Smith, CBE, President and Vice-Chancellor of the University of Southampton, shares the university’s vision. While I cannot quote exact numbers for India yet, in the UK, we would be disappointed if placement rates weren’t in the high 80s percentagewise.With the launch of its India campus in Gurugram, the University of Southampton promises to offer Indian students globally recognised UK degrees at nearly half the cost of studying abroad. In this exclusive interview with HT Digital, Professor Mark E. Smith, CBE, President and Vice-Chancellor of the University of Southampton, shares the university’s vision for its India campus — from placements and faculty to infrastructure expansion and research ambitions.When a student joins the University of Southampton in India, what kind of outcome should they expect?We expect our students to be highly attractive in the employment market. Alongside academic excellence, they will develop broader life skills—many of which are innate but often need to be nurtured. Students will graduate with an internationally recognised, high-quality degree enriched with internships and placements, enhancing their employability. Those with an entrepreneurial spirit will be encouraged to innovate, ultimately contributing to India’s growth story, especially as the country moves towards its 2047 goals. Tech skills or obsolete degree? MDI Director Arvind Sahay on the new MBA realityDo you have a benchmark for student placement outcomes in India?While I cannot quote exact numbers for India yet, in the UK, we would be disappointed if placement rates weren’t in the high 80s percentage-wise. Graduate outcomes also include entrepreneurship, which doesn’t always get reflected in job statistics but is a significant success indicator. We aim for strong traditional placement figures while also fostering entrepreneurial ambition.",
+    "tokens": 351,
+    "language": "en",
+    "summary": "University of Southampton's Gurugram campus offers UK-quality degrees at half the cost, with Vice-Chancellor Professor Mark E. Smith highlighting strong placement rates and entrepreneurial opportunities for Indian students.",
+    "keywords": [
+      "India campus",
+      "UK degrees",
+      "tuition cost",
+      "Professor Mark E. Smith",
+      "student placement",
+      "entrepreneurship",
+      "Gurugram",
+      "employability",
+      "academic excellence"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "India campus": 1.0,
+      "UK degrees": 1.0,
+      "tuition cost": 1.0,
+      "Professor Mark E. Smith": 1.0,
+      "student placement": 1.0,
+      "entrepreneurship": 1.0,
+      "Gurugram": 1.0,
+      "employability": 1.0,
+      "academic excellence": 1.0
+    },
+    "entities": [
+      "Professor Mark E. Smith",
+      "University of Southampton",
+      "HT Digital",
+      "India",
+      "UK",
+      "Gurugram",
+      "MDI",
+      "Arvind Sahay",
+      "MBA"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

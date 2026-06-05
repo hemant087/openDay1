@@ -1,0 +1,48 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-and-l-e-k-consulting-introduce-merit-scholarships-for-2025-applicants/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-and-l-e-k-consulting-introduce-merit-scholarships-for-2025-applicants/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi and L.E.K. Consulting Launch Merit Scholarships",
+    "path": "/news/press-release-university-of-southampton-delhi-and-l-e-k-consulting-introduce-merit-scholarships-for-2025-applicants/",
+    "chunk_index": 0,
+    "text": "12 L.E.K. Scholar Awards worth ₹1.5 lakh each per academic year to award academically meritorious students joining in August 2025. The University of Southampton Delhi, in association with global strategy consulting firm L.E.K. Consulting, introduces the L.E.K Scholar Awards, a new merit-based scholarship programme aimed at recognising and supporting academically outstanding students applying for the August 2025 intake. Through this collaboration, 12 scholarships of ₹1.5 lakh per academic year will be awarded to selected students pursuing the BSc (Hons) Economics or BSc (Hons) Accounting and Finance programmes. These awards will contribute towards covering tuition fees and will be offered to students who meet and exceed the academic admission criteria of their chosen course. Recipients of the L.E.K. Scholar Award will also receive priority consideration for L.E.K. Consulting’s Summer Internship Programme (2026), offering a valuable opportunity for practical exposure and professional development, subject to performance and eligibility. To be eligible, students must hold an unconditional offer to study BSc (Hons) Economics, or BSc (Hons) Accounting & Finance at the University of Southampton Delhi, starting August 2025. Professor Eloise Phillips, Academic Provost and Associate Vice-President (International) University of Southampton Delhi, said: “This collaboration is more than a scholarship initiative; it’s an effort to shape future-ready professionals. We believe that today’s students need more than classroom education—they need opportunities to build confidence, interact with industry, and explore practical applications of their knowledge. Through this association, our students gain both financial encouragement and valuable professional insight.” Speaking about the collaboration, Ashwin Assomull, Partner and Head of the Global Education Practice at L.E.K. Consulting said: “The University of Southampton is globally recognised for academic excellence, and we are proud to support this next chapter in Delhi through the L.E.K. Scholar Awards. By supporting talented students early, we hope to foster a strong foundation for their careers. We see this as more than financial aid—it’s an investment in India’s brightest minds. We hope this collaboration sparks ambition, curiosity, and readiness in students as they take their first steps into the world of business and finance.” The merit scholarships are further evidence of a strong developing partnership between University of Southampton Delhi and L.E.K. Consulting. The partnership includes commitment by L.E.K. Consulting to a series of structured engagements throughout the academic year, from employer talks to skill development workshops for students and more.",
+    "tokens": 386,
+    "language": "en",
+    "summary": "The University of Southampton Delhi, in collaboration with L.E.K. Consulting, launched the L.E.K Scholar Awards, offering 12 merit-based scholarships for the August 2025 intake to support academically outstanding students in Economics or Accounting and Finance.",
+    "keywords": [
+      "L.E.K. Scholar Awards",
+      "merit scholarships",
+      "August 2025 intake",
+      "BSc Economics",
+      "BSc Accounting and Finance",
+      "internship opportunities",
+      "strategy consulting firm"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "L.E.K. Scholar Awards": 0.95,
+      "merit scholarships": 0.9,
+      "August 2025 intake": 0.88,
+      "BSc Economics": 0.85,
+      "BSc Accounting and Finance": 0.82,
+      "internship opportunities": 0.79,
+      "strategy consulting firm": 0.74
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "L.E.K. Consulting",
+      "L.E.K. Scholar Awards",
+      "August 2025",
+      "BSc (Hons) Economics",
+      "BSc (Hons) Accounting and Finance",
+      "Summer Internship Programme (2026)",
+      "Professor Eloise Phillips",
+      "Ashwin Assomull",
+      "India"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Nalini Sharan: Head of Student Experience at UoSD",
+    "path": "/team/dr-nalini-sharan/",
+    "chunk_index": 0,
+    "text": "Dr Nalini Sharan leads the Student Experience portfolio at University of Southampton Delhi, bringing nearly two decades of leadership in higher education, student affairs, and strategic engagement. She is responsible for shaping a student-first culture that fosters wellbeing, inclusion, global awareness, and a vibrant campus life. Role: Head of Student Experience Department: Professional staff",
+    "tokens": 71,
+    "language": "en",
+    "summary": "Dr Nalini Sharan leads Student Experience at University of Southampton Delhi, focusing on fostering wellbeing, inclusion, and a vibrant campus culture. She has two decades of leadership experience.",
+    "keywords": [
+      "Dr Nalini Sharan",
+      "Student Experience",
+      "University of Southampton Delhi",
+      "higher education leadership",
+      "student affairs",
+      "campus life"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Nalini Sharan": 0.9,
+      "Student Experience": 0.9,
+      "University of Southampton Delhi": 0.9,
+      "higher education leadership": 0.9,
+      "student affairs": 0.9,
+      "campus life": 0.9
+    },
+    "entities": [
+      "Dr Nalini Sharan",
+      "University of Southampton Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z",
+    "aliases": [
+      "Dr Nalini Sharan",
+      "Nalini",
+      "Nalini Sadan",
+      "Dr. Nalini Sharan",
+      "Nalini Sharan",
+      "N. Sharan",
+      "Nalini Shran",
+      "Nalinee Sharan",
+      "Dr Nalini Shran",
+      "Dr. Nalinee Sharan"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Nalini Sharan's Professional History and Student Vision",
+    "path": "/team/dr-nalini-sharan/",
+    "chunk_index": 1,
+    "text": "Prior to joining University of Southampton Delhi, Dr Sharan served as Director – Student Experience & Engagement (Pan India) at Pearl Academy, where she spearheaded transformation initiatives across five campuses. Her work focused on holistic student development, co-curricular innovation, mental health, and internationalisation. She has also held senior roles at Global University Systems and has experience leading large-scale operations across India, Canada, and the UAE. With a PhD in Indian History from Lucknow University, Dr Sharan combines academic depth with operational expertise. She has been instrumental in driving cross-functional strategies that integrate admissions, student support, wellbeing services, and community development. Dr Sharan said: “My vision is to create a nurturing, inclusive, and globally connected student ecosystem at the Delhi campus — one that equips students with the confidence, resilience, and skills they need to thrive”. “Student life is at the heart of the university experience. Through meaningful engagement, empathetic leadership, and a culture of care, I’m committed to ensuring every student at University of Southampton Delhi feels valued, supported, and inspired.”",
+    "tokens": 184,
+    "language": "en",
+    "summary": "Dr Nalini Sharan's background includes leadership at Pearl Academy and Global University Systems, with a PhD from Lucknow University. She envisions a nurturing, inclusive, and globally connected student ecosystem at UoSD Delhi.",
+    "keywords": [
+      "Dr Nalini Sharan",
+      "Pearl Academy",
+      "Global University Systems",
+      "student development",
+      "mental health",
+      "internationalisation",
+      "Lucknow University"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Dr Nalini Sharan": 0.9,
+      "Pearl Academy": 0.9,
+      "Global University Systems": 0.9,
+      "student development": 0.9,
+      "mental health": 0.9,
+      "internationalisation": 0.9,
+      "Lucknow University": 0.9
+    },
+    "entities": [
+      "Dr Nalini Sharan",
+      "University of Southampton Delhi",
+      "Pearl Academy",
+      "Global University Systems",
+      "Lucknow University",
+      "India",
+      "Canada",
+      "UAE"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z",
+    "aliases": [
+      "Dr Nalini Sharan",
+      "Dr. Nalini Sharan",
+      "Nalini Sharan",
+      "N. Sharan",
+      "Nalini Shran",
+      "Nalinee Sharan",
+      "Dr Nalini Shran",
+      "Dr. Nalinee Sharan"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Nalini Sharan: Head of Student Experience, University of Southampton Delhi",
+    "path": "/team/dr-nalini-sharan",
+    "chunk_index": 0,
+    "text": "Dr Nalini Sharan leads the Student Experience portfolio at University of Southampton Delhi, bringing nearly two decades of leadership in higher education, student affairs, and strategic engagement. She is responsible for shaping a student-first culture that fosters wellbeing, inclusion, global awareness, and a vibrant campus life. Role: Head of Student Experience Department: Professional staff. Prior to joining University of Southampton Delhi, Dr Sharan served as Director – Student Experience & Engagement (Pan India) at Pearl Academy, where she spearheaded transformation initiatives across five campuses. Her work focused on holistic student development, co-curricular innovation, mental health, and internationalisation. She has also held senior roles at Global University Systems and has experience leading large-scale operations across India, Canada, and the UAE. With a PhD in Indian History from Lucknow University, Dr Sharan combines academic depth with operational expertise. She has been instrumental in driving cross-functional strategies that integrate admissions, student support, wellbeing services, and community development. Dr Sharan said: “My vision is to create a nurturing, inclusive, and globally connected student ecosystem at the Delhi campus — one that equips students with the confidence, resilience, and skills they need to thrive”. “Student life is at the heart of the university experience. Through meaningful engagement, empathetic leadership, and a culture of care, I’m committed to ensuring every student at University of Southampton Delhi feels valued, supported, and inspired.”",
+    "tokens": 247,
+    "language": "en",
+    "summary": "Dr. Nalini Sharan, Head of Student Experience at University of Southampton Delhi, leads student wellbeing, inclusion, and campus life, leveraging two decades of experience in higher education and strategic engagement.",
+    "keywords": [
+      "Student Experience",
+      "Higher Education Leadership",
+      "Student Affairs",
+      "Strategic Engagement",
+      "Campus Life",
+      "Student Development",
+      "Mental Health Support",
+      "Internationalisation",
+      "Professional Staff"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Student Experience": 0.95,
+      "Higher Education Leadership": 0.88,
+      "Student Affairs": 0.85,
+      "Strategic Engagement": 0.82,
+      "Campus Life": 0.8,
+      "Student Development": 0.78,
+      "Mental Health Support": 0.75,
+      "Internationalisation": 0.7,
+      "Professional Staff": 0.65
+    },
+    "entities": [
+      "Dr Nalini Sharan",
+      "University of Southampton Delhi",
+      "Pearl Academy",
+      "Global University Systems",
+      "Lucknow University",
+      "India",
+      "Canada",
+      "UAE"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T20:03:06.395Z",
+    "aliases": [
+      "Dr Nalini Sharan",
+      "Dr. Nalini Sharan",
+      "Nalini Sharan",
+      "N. Sharan",
+      "Nalini Shran",
+      "Nalinee Sharan",
+      "Dr Nalini Shran",
+      "Dr. Nalinee Sharan"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Nalini Sharan: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-nalini-sharan",
+    "chunk_index": 3,
+    "text": "Dr Nalini Sharan is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Dr Nalini Sharan, Dr. Nalini Sharan, Nalini Sharan, N. Sharan, Nalini Shran, Nalinee Sharan, Dr Nalini Shran, Dr. Nalinee Sharan. All of these names refer to the same individual.",
+    "tokens": 54,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Nalini Sharan. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "university of southampton delhi",
+      "dr. nalini sharan",
+      "dr nalini sharan",
+      "nalini sharan",
+      "faculty",
+      "nalini shran",
+      "n. sharan",
+      "staff",
+      "nalinee sharan"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "university of southampton delhi": 0.95,
+      "dr. nalini sharan": 0.9,
+      "dr nalini sharan": 0.85,
+      "nalini sharan": 0.8,
+      "faculty": 0.75,
+      "nalini shran": 0.7,
+      "n. sharan": 0.65,
+      "staff": 0.6,
+      "nalinee sharan": 0.55
+    },
+    "entities": [
+      "Dr Nalini Sharan",
+      "Dr Nalini Sharan",
+      "Dr. Nalini Sharan",
+      "Nalini Sharan",
+      "N. Sharan",
+      "Nalini Shran",
+      "Nalinee Sharan",
+      "Dr Nalini Shran",
+      "Dr. Nalinee Sharan",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Nalini Sharan",
+      "Dr. Nalini Sharan",
+      "Nalini Sharan",
+      "N. Sharan",
+      "Nalini Shran",
+      "Nalinee Sharan",
+      "Dr Nalini Shran",
+      "Dr. Nalinee Sharan"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:00:00Z"
+  }
+]

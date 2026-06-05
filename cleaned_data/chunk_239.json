@@ -1,0 +1,86 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Upcoming Events, Campus Tours, and Open Day",
+    "path": "/events",
+    "chunk_index": 0,
+    "text": "Our events Discover more about the campus, our programmes and student life when you join an online or face-to-face event. Open Day on 06 December See more and book today Find an event You can quickly find events by using the filter below. You can register a place at an event marked as 'Book now', subject to there being spaces available. You cannot register yet for an event marked as 'Save the date', but you can plan ahead to check space in your diary and book later. Filter by status All Save the date Book now Completed Filter by event type Career fair Info Session Masterclass On campus event Online event Regional forum Search name or location Campus tour 20 November An in-person campus event at our Delhi campus where you can explore our state-of-the-art facilities and get a feel for campus life. Status: Book Now Date: 20 November 2025 Campus tour 25 November An in-person campus event at our Delhi campus where you can explore our state-of-the-art facilities and get a feel for campus life. Status: Book Now Date: 25 November 2025 Campus tour 27 November An in-person campus event at our Delhi campus where you can explore our state-of-the-art facilities and get a feel for campus life. Status: Book Now Date: 27 November 2025 Campus Open Day 6 December 2025 An in-person campus event at our Delhi campus where those without offers can explore our state-of-the-art facilities and get a feel for campus life. Status: Book Now Date: 6 December 2025",
+    "tokens": 286,
+    "language": "en",
+    "summary": "Explore upcoming online and in-person events at University of Southampton Delhi, including campus tours in November and an Open Day on December 6, 2025, with booking details.",
+    "keywords": [
+      "campus events",
+      "online events",
+      "event registration",
+      "open day",
+      "campus tour",
+      "Delhi campus facilities",
+      "November 2025",
+      "December 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus events": 0.9,
+      "online events": 0.85,
+      "event registration": 0.88,
+      "open day": 0.92,
+      "campus tour": 0.93,
+      "Delhi campus facilities": 0.87,
+      "November 2025": 0.89,
+      "December 2025": 0.91
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Open Day",
+      "Campus tour 20 November",
+      "Campus tour 25 November",
+      "Campus tour 27 November",
+      "Campus Open Day 6 December 2025",
+      "Delhi campus"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:50.165Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/events",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "FAQs: Visiting Delhi Campus, Application Process, and Meeting University Staff",
+    "path": "/events",
+    "chunk_index": 1,
+    "text": "You might also want to know Can I visit the campus in person or book a tour? Our campus is located at International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101. The best way to see campus is to book a pre-planned tour from our events page. Should I wait to make my application to study? We encourage students to make their application to study at University of Southampton Delhi as soon as they can. This means we can issue an early Conditional Offer and that students will have the best the chance to meet their offer conditions. If demand is high, we may choose to close applications earlier than mentioned, but students with Offers to study would receive preferential treatment. How can I meet your team? You can meet us online, and in a selection of major cities in India. You can see when and where, by visiting the Events area of our website. When event tickets are available, you will be able to book a physical event, or to register for an on online session, from the event page. The best way to see campus is to book a pre-planned tour from our events page.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "Get answers to frequently asked questions regarding visiting the Delhi campus, applying to University of Southampton Delhi, and scheduling meetings with university representatives.",
+    "keywords": [
+      "campus visit",
+      "Delhi campus location",
+      "application advice",
+      "conditional offer",
+      "meet the team",
+      "University of Southampton Delhi admissions",
+      "Gurugram"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus visit": 0.91,
+      "Delhi campus location": 0.89,
+      "application advice": 0.87,
+      "conditional offer": 0.9,
+      "meet the team": 0.88,
+      "University of Southampton Delhi admissions": 0.92,
+      "Gurugram": 0.86
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:50.165Z"
+  }
+]

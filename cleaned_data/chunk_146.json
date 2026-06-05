@@ -1,0 +1,36 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-opens-indias-first-foreign-varsity-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-opens-indias-first-foreign-varsity-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Opens India's First Foreign Campus",
+    "path": "/news/university-of-southampton-opens-indias-first-foreign-varsity-campus/",
+    "chunk_index": 0,
+    "text": "The University of Southampton has opened India’s first foreign varsity campus in Gurugram, marking it as the first operational foreign university in India under the National Education Policy (NEP) 2020 reforms. This new campus offers UK-aligned undergraduate (UG) and postgraduate (PG) courses, aiming to enhance student mobility. Union Education Minister Dharmendra Pradhan officially inaugurated the Gurugram campus of the UK-based University of Southampton on Wednesday. The university had previously received its official letter of intent from the Union education ministry in August last year, followed by a public announcement and formal launch on September 13, 2024. This significant development aligns with the University Grants Commission’s (UGC) 2023 notification of rules, which facilitate the entry of foreign higher education institutions into India. Under these regulations, foreign institutions seeking to establish campuses in India are required to rank within the top 500 globally, either overall or in specific subject areas, and must demonstrate outstanding expertise in their respective fields, all subject to UGC approval.",
+    "tokens": 222,
+    "language": "en",
+    "summary": "The University of Southampton inaugurated India's first foreign university campus in Gurugram, offering UK-aligned UG/PG courses under NEP 2020 reforms and UGC guidelines.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "India campus",
+      "foreign university",
+      "NEP 2020 reforms",
+      "Gurugram campus",
+      "Dharmendra Pradhan",
+      "UGC approval"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "Dharmendra Pradhan",
+      "University of Southampton",
+      "Union education ministry",
+      "University Grants Commission",
+      "India",
+      "Gurugram"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-05-23T10:00:00Z"
+  }
+]

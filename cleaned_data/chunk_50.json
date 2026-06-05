@@ -1,0 +1,86 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-open-day-06122025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-open-day-06122025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Open Day 2025",
+    "path": "/events/campus-open-day-06122025/",
+    "chunk_index": 0,
+    "text": "Campus Open Day 6 December 2025\nEvent Status: Book Now\nDate & Time: December 06, 2025 10:00 AM IST\nLocation: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India\nRecommended for: Students (and their families) who do not yet have an offer to study with us\nSee more and book Discover University of Southampton Delhi for the August 2026 intake! If you do not yet have an offer to study with us, join us for an open day. Experience a glimpse of life at University of Southampton Delhi, explore our facilities, meet members of our community, and get a sense of what it means to be part of a vibrant, globally connected learning environment. Don’t miss the chance to see where your learning journey could begin. We look forward to welcoming you!\n\nJoin a guided tour\nJoin a guided tour, seeing campus facilities such as classrooms, library, labs, sports facilities and social spaces. Visitors will be able to board our complementary shuttle bus to visit the nearby student accommodation.\n\nLearn about graduate employment and enterprise\nLearn about graduate employment and enterprise opportunities. Our Career Advancement Team will be on hand to show the wide range of employability, and further study opportunities, available after graduation.\n\nJoin an academic session\nExperience learning and teaching the Southampton way and join an academic session.\n\nAttend inspiring talks\nAttend inspiring talks from senior staff and leaders explaining why the campus is a unique place to study.\n\nSpeak with student ambassadors\nSpeak with student ambassadors to get a truly personal view of the Southampton experience. Visitors will hear first-hand about life on campus and why our students choose to study with us.\n\nGet advice from a Service Desk\nDrop-in to get advice from a Service Desk, answering individual questions about academic content, getting an admissions offer, the student experience and employability after graduation.\n\nMeet future classmates\nMeet future classmates before enrolling in August, forming friendships now that will last for a lifetime.\n\nMake an application\nProspective students will be able to make an application on the spot, receiving personalised support from the friendly Admissions team, ready to take them through every step of the process.",
+    "tokens": 464,
+    "language": "en",
+    "summary": "University of Southampton Delhi invites prospective students and families to its Campus Open Day on December 6, 2025, at International Tech Park Gurgaon to explore facilities, meet staff and students, and learn about academic life and career opportunities for the August 2026 intake.",
+    "keywords": [
+      "Campus Open Day",
+      "University of Southampton Delhi",
+      "August 2026 intake",
+      "campus facilities",
+      "graduate employment",
+      "academic sessions",
+      "student ambassadors",
+      "admissions process",
+      "International Tech Park Gurgaon"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Campus Open Day": 0.95,
+      "University of Southampton Delhi": 0.93,
+      "August 2026 intake": 0.88,
+      "campus facilities": 0.87,
+      "graduate employment": 0.85,
+      "academic sessions": 0.84,
+      "student ambassadors": 0.82,
+      "admissions process": 0.80,
+      "International Tech Park Gurgaon": 0.90
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Campus Open Day",
+      "Career Advancement Team",
+      "Admissions team",
+      "December 06, 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-open-day-06122025/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-open-day-06122025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Content Disclaimer Policy",
+    "path": "/events/campus-open-day-06122025/",
+    "chunk_index": 1,
+    "text": "This content is for information purposes only and is prepared well in advance of publication. University of Southampton reserves the right to make revisions or modifications to such statements, information or data contained in this document at any time and without notice. Under no circumstances shall the University be liable for any reliance by the reader on any information in this document.",
+    "tokens": 90,
+    "language": "en",
+    "summary": "This document's content is for informational purposes only, and the University of Southampton Delhi reserves the right to modify it without notice, disclaiming liability for any reliance on its information.",
+    "keywords": [
+      "information purposes",
+      "content disclaimer",
+      "revisions",
+      "modifications",
+      "University liability",
+      "policy"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "information purposes": 0.91,
+      "content disclaimer": 0.93,
+      "revisions": 0.88,
+      "modifications": 0.87,
+      "University liability": 0.89,
+      "policy": 0.85
+    },
+    "entities": [
+      "University of Southampton"
+    ],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  }
+]

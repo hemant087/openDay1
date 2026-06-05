@@ -1,0 +1,40 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-prof-eloise-phillips-as-academic-provost-for-new-delhi-campus-2/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-prof-eloise-phillips-as-academic-provost-for-new-delhi-campus-2/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Appoints Eloise Phillips as Delhi Campus Provost",
+    "path": "/news/university-of-southampton-appoints-prof-eloise-phillips-as-academic-provost-for-new-delhi-campus-2/",
+    "chunk_index": 0,
+    "text": "University of Southampton Appoints Prof. Eloise Phillips as Academic Provost for New Delhi Campus 19 February 2025 Read article at Jagran Josh 19 February 2025",
+    "tokens": 27,
+    "language": "en",
+    "summary": "University of Southampton appointed Professor Eloise Phillips as Academic Provost for its New Delhi Campus on February 19, 2025, with the full article available on Jagran Josh.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Academic Provost",
+      "Eloise Phillips",
+      "New Delhi Campus",
+      "Staff Appointment",
+      "Jagran Josh"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Academic Provost": 0.9,
+      "Eloise Phillips": 0.93,
+      "New Delhi Campus": 0.88,
+      "Staff Appointment": 0.85,
+      "Jagran Josh": 0.8
+    },
+    "entities": [
+      "Eloise Phillips",
+      "University of Southampton",
+      "New Delhi Campus",
+      "Jagran Josh"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

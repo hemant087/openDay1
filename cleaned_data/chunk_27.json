@@ -1,0 +1,447 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Programme Overview",
+    "path": "programmes/",
+    "chunk_index": 0,
+    "text": "Discover our programmes Our programmes are taught in English, and content is equivalent to that delivered to other University of Southampton students. To match the programme lengths of internationally respected UK awarded degrees, undergraduates study for three years, and postgraduates study for one year.",
+    "tokens": 53,
+    "language": "en",
+    "summary": "An overview of the University of Southampton Delhi programmes, detailing their English-taught curriculum, equivalence to UK degrees, and typical durations for undergraduate and postgraduate studies.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "programmes",
+      "UK awarded degrees",
+      "undergraduate study",
+      "postgraduate study",
+      "English-taught curriculum"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "programmes": 0.9,
+      "UK awarded degrees": 0.88
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: BEng (Hons) Software Engineering",
+    "path": "programmes/",
+    "chunk_index": 1,
+    "text": "BEng (Hons) Software Engineering Learn to develop reliable, complex and secure software systems. From mobile banking apps to aircraft autopilot controls, you’ll learn how to analyse software requirements, and then design, build and test a system that meets them. Duration: 3 years Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 74,
+    "language": "en",
+    "summary": "The BEng (Hons) Software Engineering programme teaches students to develop reliable and secure software systems, covering analysis, design, building, and testing of complex applications.",
+    "keywords": [
+      "software systems",
+      "mobile banking apps",
+      "aircraft autopilot controls",
+      "software requirements",
+      "system design",
+      "software testing",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "software systems": 0.9,
+      "mobile banking apps": 0.9,
+      "aircraft autopilot controls": 0.9,
+      "software requirements": 0.9,
+      "system design": 0.9,
+      "software testing": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BEng (Hons) Software Engineering"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: BSc (Hons) Accounting and Finance",
+    "path": "programmes/",
+    "chunk_index": 2,
+    "text": "BSc (Hons) Accounting and Finance A prestigious degree for those aiming to enter the fields of commerce, accountancy and finance. Learn how to prepare and interpret financial and managerial information and gain a sound understanding of investment and finance, while shaping the degree towards your objectives. Duration: 3 years Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 76,
+    "language": "en",
+    "summary": "The BSc (Hons) Accounting and Finance degree prepares students for careers in commerce, accountancy, and finance, focusing on interpreting financial information and understanding investment principles.",
+    "keywords": [
+      "commerce",
+      "accountancy",
+      "finance",
+      "financial information",
+      "managerial information",
+      "investment",
+      "degree objectives",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "commerce": 0.9,
+      "accountancy": 0.9,
+      "finance": 0.9,
+      "financial information": 0.9,
+      "managerial information": 0.9,
+      "investment": 0.9,
+      "degree objectives": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Accounting and Finance"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: BSc (Hons) Business Management",
+    "path": "programmes/",
+    "chunk_index": 3,
+    "text": "BSc (Hons) Business Management Learn to think differently about business and inspire change within organisations and society with an interdisciplinary approach Develop skills and knowledge to navigate complex business environments, covering foundational management through specialised modules in disciplines of accounting and finance, analytics, marketing, and business management. Duration: 3 years Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 87,
+    "language": "en",
+    "summary": "The BSc (Hons) Business Management programme develops skills for navigating complex business environments using an interdisciplinary approach, covering foundational management and specialised modules.",
+    "keywords": [
+      "business management",
+      "interdisciplinary approach",
+      "complex business environments",
+      "foundational management",
+      "accounting",
+      "finance",
+      "analytics",
+      "marketing",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "business management": 0.9,
+      "interdisciplinary approach": 0.9,
+      "complex business environments": 0.9,
+      "foundational management": 0.9,
+      "accounting": 0.9,
+      "finance": 0.9,
+      "analytics": 0.9,
+      "marketing": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Business Management"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: BSc (Hons) Computer Science",
+    "path": "programmes/",
+    "chunk_index": 4,
+    "text": "BSc (Hons) Computer Science Learn how to design and build software programs and systems, and find out about the latest advances in areas like machine learning, cyber security and computer vision in this fast-moving industry. You will gain the knowledge to develop technologies that can make a difference to people’s lives. Duration: 3 years Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 83,
+    "language": "en",
+    "summary": "The BSc (Hons) Computer Science programme teaches software design and systems building, exploring advances in machine learning, cybersecurity, and computer vision for impactful technology development.",
+    "keywords": [
+      "software programs",
+      "systems design",
+      "machine learning",
+      "cyber security",
+      "computer vision",
+      "technology development",
+      "fast-moving industry",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "software programs": 0.9,
+      "systems design": 0.9,
+      "machine learning": 0.9,
+      "cyber security": 0.9,
+      "computer vision": 0.9,
+      "technology development": 0.9,
+      "fast-moving industry": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Computer Science"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: BSc (Hons) Creative Computing",
+    "path": "programmes/",
+    "chunk_index": 5,
+    "text": "BSc (Hons) Creative Computing Build immersive and engaging digital experiences that bring art, and technology together in our creative computing degree. The programme develops creative, technical and intellectual strengths drawing on industry-standard technology and philosophical and ethical approaches. Duration: 3 years Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 80,
+    "language": "en",
+    "summary": "The BSc (Hons) Creative Computing programme merges art and technology to build immersive digital experiences, developing creative, technical, and intellectual strengths with industry-standard tools.",
+    "keywords": [
+      "digital experiences",
+      "art and technology",
+      "creative computing degree",
+      "technical strengths",
+      "intellectual strengths",
+      "industry-standard technology",
+      "philosophical approaches",
+      "ethical approaches",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "digital experiences": 0.9,
+      "art and technology": 0.9,
+      "creative computing degree": 0.9,
+      "technical strengths": 0.9,
+      "intellectual strengths": 0.9,
+      "industry-standard technology": 0.9,
+      "philosophical approaches": 0.9,
+      "ethical approaches": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Creative Computing"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: BSc (Hons) Economics",
+    "path": "programmes/",
+    "chunk_index": 6,
+    "text": "BSc (Hons) Economics Learn how our economic decisions affect others, and how business and financial institutions' choices can affect our society. This programme gives you an in-depth understanding of economic theory, and the skills you need to work in sectors like finance, management and industry. Duration: 3 years Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 82,
+    "language": "en",
+    "summary": "The BSc (Hons) Economics programme provides an in-depth understanding of economic theory, preparing students for careers in finance, management, and industry by exploring societal economic impacts.",
+    "keywords": [
+      "economic decisions",
+      "business institutions",
+      "financial institutions",
+      "economic theory",
+      "finance careers",
+      "management careers",
+      "industry careers",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "economic decisions": 0.9,
+      "business institutions": 0.9,
+      "financial institutions": 0.9,
+      "economic theory": 0.9,
+      "finance careers": 0.9,
+      "management careers": 0.9,
+      "industry careers": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Economics"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-7",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: MSc Economics",
+    "path": "programmes/",
+    "chunk_index": 7,
+    "text": "MSc Economics Gain in-depth knowledge of the concepts, methods and applications of modern microeconomics, macroeconomics and econometrics, and prepare for a career as an economist working in finance, consulting and policy, or continue research studies. Duration: 1 year Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 71,
+    "language": "en",
+    "summary": "The MSc Economics programme offers in-depth knowledge of modern microeconomics, macroeconomics, and econometrics, preparing graduates for careers as economists in finance, consulting, policy, or research.",
+    "keywords": [
+      "microeconomics",
+      "macroeconomics",
+      "econometrics",
+      "economist career",
+      "finance sector",
+      "consulting sector",
+      "policy sector",
+      "research studies",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "microeconomics": 0.9,
+      "macroeconomics": 0.9,
+      "econometrics": 0.9,
+      "economist career": 0.9,
+      "finance sector": 0.9,
+      "consulting sector": 0.9,
+      "policy sector": 0.9,
+      "research studies": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "MSc Economics"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-8",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: MSc Finance",
+    "path": "programmes/",
+    "chunk_index": 8,
+    "text": "MSc Finance Develop skills sought by employers in rapidly changing and complex financial environments, and advance your career in industry, government or research. You will study advanced stock market analysis, corporate finance, portfolio management and behavioural finance, and explore behavioural biases that can affect financial decision making in uncertain environments. Duration: 1 year Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 98,
+    "language": "en",
+    "summary": "The MSc Finance programme develops skills for complex financial environments, covering advanced stock market analysis, corporate finance, portfolio management, and behavioural finance for industry and research careers.",
+    "keywords": [
+      "financial environments",
+      "stock market analysis",
+      "corporate finance",
+      "portfolio management",
+      "behavioural finance",
+      "financial decision making",
+      "industry careers",
+      "government careers",
+      "research careers",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "financial environments": 0.9,
+      "stock market analysis": 0.9,
+      "corporate finance": 0.9,
+      "portfolio management": 0.9,
+      "behavioural finance": 0.9,
+      "financial decision making": 0.9,
+      "industry careers": 0.9,
+      "government careers": 0.9,
+      "research careers": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "MSc Finance"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-9",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Programme: MSc International Management",
+    "path": "programmes/",
+    "chunk_index": 9,
+    "text": "MSc International Management Learn how a business operates and study key management concepts. The programme will give you insights into becoming an effective business manager in core management functions in our globalised workplace Duration: 1 year Course Type: Full Time Start Date: Aug, 2026",
+    "tokens": 63,
+    "language": "en",
+    "summary": "The MSc International Management programme provides insights into business operations and core management concepts, preparing students to become effective managers in a globalised workplace.",
+    "keywords": [
+      "business operations",
+      "management concepts",
+      "effective business manager",
+      "core management functions",
+      "globalised workplace",
+      "full time",
+      "August 2026 start"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "business operations": 0.9,
+      "management concepts": 0.9,
+      "effective business manager": 0.9,
+      "core management functions": 0.9,
+      "globalised workplace": 0.9,
+      "full time": 0.9,
+      "August 2026 start": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "MSc International Management"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/#chunk-10",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Application Information for University of Southampton Delhi",
+    "path": "programmes/",
+    "chunk_index": 10,
+    "text": "Apply for this academic year Applications are open now for the first students to walk through the doors in August 2025. Follow this link to start your application today! Apply now",
+    "tokens": 38,
+    "language": "en",
+    "summary": "Application details for the University of Southampton Delhi, inviting prospective students to apply for the August 2025 intake.",
+    "keywords": [
+      "application",
+      "academic year",
+      "August 2025 intake",
+      "start your application",
+      "admission process",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "application": 0.95,
+      "August 2025 intake": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  }
+]

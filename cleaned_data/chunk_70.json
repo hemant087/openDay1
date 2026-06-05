@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/info-session-at-campus-10082025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/info-session-at-campus-10082025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Info Session Details",
+    "path": "/events/info-session-at-campus-10082025/",
+    "chunk_index": 0,
+    "text": "Info Session in Delhi 10 August Event Status: Completed Date: August 10, 2025 Location: University of Southampton Delhi International Tech Park Gurgaon, Near Sec 59 Off Golf Course Ext Road Gurugram, HR 122101 India Book now University of Southampton Delhi International Tech Park Gurgaon, Near Sec 59 Off Golf Course Ext Road Gurugram, HR 122101 India Open address in Google Maps",
+    "tokens": 55,
+    "language": "en",
+    "summary": "An info session at the University of Southampton Delhi campus was held on August 10, 2025, in Gurugram, India, and is now completed.",
+    "keywords": [
+      "Info Session Delhi",
+      "University of Southampton Delhi",
+      "Campus Event",
+      "Gurugram",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "info session delhi": 0.95,
+      "university of southampton delhi": 0.90,
+      "campus event": 0.88,
+      "gurugram": 0.85,
+      "india": 0.80
+    },
+    "entities": [
+      "Info Session",
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:01.294Z"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/info-session-09082025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/info-session-09082025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Info Session in Hyderabad",
+    "path": "/events/info-session-09082025/",
+    "chunk_index": 0,
+    "text": "Info Session in Hyderabad 09 August. Event Status: Completed. Date: August 09, 2025. Location: Le Meridien Hyderabad, 132 Gachibowli - Miyapur Road, Hyderabad, TS 500032 India. Book now. Le Meridien Hyderabad, 132 Gachibowli - Miyapur Road, Hyderabad, TS 500032 India. Open address in Google Maps.",
+    "tokens": 65,
+    "language": "en",
+    "summary": "The University of Southampton Delhi hosted an information session in Hyderabad on August 9, 2025, at Le Meridien Hyderabad. This event, now completed, provided details about the university.",
+    "keywords": [
+      "Info Session",
+      "Hyderabad event",
+      "University of Southampton Delhi",
+      "Le Meridien Hyderabad",
+      "August 2025 event"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Info Session": 0.95,
+      "Hyderabad event": 0.90,
+      "University of Southampton Delhi": 0.88,
+      "Le Meridien Hyderabad": 0.85,
+      "August 2025 event": 0.82
+    },
+    "entities": [
+      "Gachibowli - Miyapur Road",
+      "Hyderabad",
+      "India",
+      "Info Session in Hyderabad",
+      "Le Meridien Hyderabad",
+      "University of Southampton Delhi"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:02.511Z"
+  }
+]

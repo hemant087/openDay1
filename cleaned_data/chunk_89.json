@@ -1,0 +1,138 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Open Day Introduction",
+    "path": "/events/open-day-campus-tour-19072025/",
+    "chunk_index": 0,
+    "text": "Campus Open Day 19 July 10.30am-2.30pm Event Status: Completed Date & Time: July 19, 2025 10:30 AM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Recommended for: Students (and their families) who do not have an offer to study with us Book now Discover University of Southampton Delhi for the August 2025 intake! If you do not yet have an offer to study with us, join us for an open day from 10.30am to 2.30pm. Experience a glimpse of life at University of Southampton Delhi, explore our facilities, meet members of our community, and get a sense of what it means to be part of a vibrant, globally connected learning environment. Don’t miss the chance to see where your learning journey could begin. We look forward to welcoming you!",
+    "tokens": 133,
+    "language": "en",
+    "summary": "The University of Southampton Delhi hosted a Campus Open Day on July 19, 2025, for prospective students interested in the August 2025 intake. Visitors could explore facilities and meet the university community.",
+    "keywords": [
+      "Campus Open Day",
+      "University of Southampton Delhi",
+      "August 2025 intake",
+      "prospective students",
+      "campus facilities",
+      "learning environment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "Campus Open Day",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:11.092Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Early Morning Sessions and University Leadership Welcome",
+    "path": "/events/open-day-campus-tour-19072025/",
+    "chunk_index": 1,
+    "text": "Visitor arrival and registration - 10:30 am Enjoy some refreshments as you sign in at Reception and decide what sessions you would like to attend on campus. Academic faculty meet and greet - 10:30 am - 11:15 am Talk to the world-leading academics who will deliver programmes from August. These short informal and individual sessions are your chance to ask questions about the programme content, the quality of academic teaching, and a way to get to know your faculty before term starts. There is no need to book, but we would ask you to wait a few minutes if an academic is talking to another visitor when you arrive. Student support and 'spot offer' helpdesks - 10:30 am - 11:15 am A chance to talk our dedicated support staff about and get answers to any detailed questions you may have. You will find expert guidance here on anything related to admissions, placement and careers, the library, and the amazing experience that awaits students. And when you are ready to make your application, you could receive a provisional ‘spot offer’ on the day letting you know you have a place in August when you meet academic and eligibility conditions. University leadership formal welcome - 11:15 am - 12:00 pm We invite you to a 40-minute session to hear university leaders from the India and the UK explain why University of Southampton Delhi is a true landmark for Higher Education in India. You will also discover the distinctive style of teaching and learning, world-class research and support for enterprise and start up business. To complete the session, we will showcase the amazing careers that alumni have embarked upon when they have graduated from a University of Southampton programme.",
+    "tokens": 305,
+    "language": "en",
+    "summary": "The open day began with visitor registration, followed by sessions to meet academic faculty and student support staff for admissions guidance and 'spot offers.' University leaders then delivered a formal welcome, highlighting UoSD's impact and alumni career success.",
+    "keywords": [
+      "visitor registration",
+      "academic faculty",
+      "student support",
+      "spot offers",
+      "university leadership",
+      "higher education",
+      "alumni careers"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "India",
+      "UK"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:11.092Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Open Day Academic Taster Sessions and Campus Facility Tours",
+    "path": "/events/open-day-campus-tour-19072025/",
+    "chunk_index": 2,
+    "text": "Academic faculty meet and greet - 12:00 pm - 2:30 pm Talk to the world-leading academics who will deliver programmes from August. These short informal and individual sessions are your chance to ask questions about the programme content, the quality of academic teaching, and a way to get to know your faculty before term starts. There is no need to book, but we would ask you to wait a few minutes if an academic is talking to another visitor when you arrive. Student support and 'spot offer' helpdesks - 12:00 pm - 2:30 pm A chance to talk our dedicated support staff about and get answers to any detailed questions you may have. You will find expert guidance here on anything related to admissions, placement and careers, the library, and the amazing experience that awaits students. And when you are ready to make your application, you could receive a provisional ‘spot offer’ on the day letting you know you have a place in August when you meet academic and eligibility conditions. Academic taster sessions - 12:00 pm - 12:30 pm Take a 25-minute academic taster and experience the unique teaching style that makes University of Southampton a world-leader. Sessions are delivered by the same academic faculty members who will teach programmes when term starts in August 2025. Visitors can choose between ‘Behavioural Economics’ lead by Dr Chitrakalpa Sen (Head of Economics) and ‘Money Talks – Why Finance and Accounting Matter in every career’ lead by Dr Mohammed Anam Akhtar (Head of Business Education). Guided campus tour - 12:00 pm - 12:30 pm Join a 25 minute guided tour of the campus. We will show you our purpose built learning and teaching rooms, the first floor library, break-out and collaborative spaces, computing, financial and technical laboratories and our Student Hub. And you will see the impressive, shared facilities outside the main campus building such as food courts, the health suite, shuttle bus station and sports facilities. Academic taster sessions - 12:30 pm - 1:00 pm Take a 25 minute academic taster and experience the unique teaching style that makes University of Southampton a world-leader. Sessions are delivered by the same academic faculty members who will teach programmes when term starts in August 2025. Visitors can choose between ‘Design Thinking’ lead by Dr Aparna Pasumarthy (Lecturer in Business) and ‘Human Machine Interaction’ lead by Dr Vaibhav Gandhi (Head of Computer Science). Guided campus tour - 12:30 pm - 1:00 pm Join a 25 minute guided tour of the campus. We will show you our purpose built learning and teaching rooms, the first floor library, break-out and collaborative spaces, computing, financial and technical laboratories and our Student Hub. And you will see the impressive shared facilities outside the main campus building such as food courts, the health suite, shuttle bus station and sports facilities. Guided campus tour - 1:00 pm - 1:30 pm Join a 25 minute guided tour of the campus. We will show you our purpose built learning and teaching rooms, the first floor library, break-out and collaborative spaces, computing, financial and technical laboratories and our Student Hub. And you will see the impressive shared facilities outside the main campus building such as food courts, the health suite, shuttle bus station and sports facilities.",
+    "tokens": 526,
+    "language": "en",
+    "summary": "The afternoon included further opportunities to meet academic faculty and student support, alongside academic taster sessions in Behavioural Economics, Finance, Design Thinking, and Human Machine Interaction. Guided tours showcased campus learning rooms, laboratories, library, and shared facilities.",
+    "keywords": [
+      "academic taster sessions",
+      "campus tour",
+      "faculty meet and greet",
+      "student support",
+      "Behavioural Economics",
+      "Finance and Accounting",
+      "Design Thinking",
+      "Human Machine Interaction"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton",
+      "Dr Chitrakalpa Sen",
+      "Head of Economics",
+      "Behavioural Economics",
+      "Dr Mohammed Anam Akhtar",
+      "Head of Business Education",
+      "Finance and Accounting",
+      "Dr Aparna Pasumarthy",
+      "Lecturer in Business",
+      "Design Thinking",
+      "Dr Vaibhav Gandhi",
+      "Head of Computer Science",
+      "Human Machine Interaction"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:11.092Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/open-day-campus-tour-19072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Accommodation Tour and Open Day Conclusion",
+    "path": "/events/open-day-campus-tour-19072025/",
+    "chunk_index": 3,
+    "text": "Student hostel accommodation guided visit - 1:30 pm - 2:30 pm A 55 minute tour of our exclusive student accommodation hostel only 6km from campus. Hop on a free shuttlebus from campus and see what your daily journey will be like to your new ‘home from home’ in the peaceful Suncity residential community. You will see amazing room options, shared community spaces and dining facilities. We will bring you back to campus on the shuttlebus after the guided visit ends. Event closes - 2:30 pm Have a safe trip home!",
+    "tokens": 90,
+    "language": "en",
+    "summary": "The Campus Open Day concluded with a guided tour of the student accommodation hostel in the Suncity residential community, accessible via a free shuttlebus, followed by the event's official close.",
+    "keywords": [
+      "student accommodation",
+      "hostel tour",
+      "Suncity community",
+      "shuttlebus",
+      "campus facilities",
+      "event closing"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "Campus Open Day",
+      "Suncity residential community"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:11.092Z"
+  }
+]

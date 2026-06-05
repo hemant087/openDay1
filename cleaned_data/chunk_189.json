@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-new-academic-provost-for-new-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-new-academic-provost-for-new-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Appoints New Academic Provost",
+    "path": "/news/university-of-southampton-appoints-new-academic-provost-for-new-delhi-campus/",
+    "chunk_index": 0,
+    "text": "University of Southampton Appoints New Academic Provost for New Delhi Campus. Published on 19 February 2025. Read article at Time Now.",
+    "tokens": 24,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus announced the appointment of a new Academic Provost on February 19, 2025, with details available via Time Now.",
+    "keywords": [
+      "Academic Provost",
+      "New Delhi Campus",
+      "University of Southampton",
+      "campus leadership",
+      "faculty appointment",
+      "Time Now news"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Provost": 1.0,
+      "New Delhi Campus": 0.95,
+      "University of Southampton": 0.9,
+      "campus leadership": 0.85,
+      "faculty appointment": 0.8,
+      "Time Now news": 0.75
+    },
+    "entities": [
+      "University of Southampton",
+      "New Delhi Campus",
+      "Time Now"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

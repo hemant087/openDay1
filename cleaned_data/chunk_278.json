@@ -1,0 +1,77 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-sagaya-amalathas#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-sagaya-amalathas",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Sagaya Amalathas: Director of Learning and Teaching",
+    "path": "/team/dr-sagaya-amalathas",
+    "chunk_index": 0,
+    "text": "Dr Sagaya Amalathas joined University of Southampton Delhi as Director of Learning and Teaching from University of Southampton Malaysia. She is responsible for delivering outstanding education and a distinctively Southampton student experience at the University’s Delhi campus. Her role is Director of Learning and Teaching within Senior leadership.",
+    "tokens": 63,
+    "language": "en",
+    "summary": "Dr Sagaya Amalathas is the Director of Learning and Teaching at University of Southampton Delhi, responsible for the student experience and education quality, having moved from the Malaysia campus.",
+    "keywords": [
+      "Director of Learning and Teaching",
+      "University of Southampton Delhi",
+      "Southampton student experience",
+      "Senior leadership",
+      "education delivery"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Director of Learning and Teaching": 0.95,
+      "University of Southampton Delhi": 0.9,
+      "Southampton student experience": 0.88,
+      "Senior leadership": 0.82,
+      "education delivery": 0.8
+    },
+    "entities": [
+      "Sagaya Amalathas",
+      "University of Southampton Delhi",
+      "University of Southampton Malaysia"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T20:00:28.001Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-sagaya-amalathas#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-sagaya-amalathas",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Amalathas's Professional Profile and Educational Vision",
+    "path": "/team/dr-sagaya-amalathas",
+    "chunk_index": 1,
+    "text": "Dr Amalathas was previously Head of Computer Science and an Associate Professor at the University of Southampton’s Malaysia campus, where she successfully led the graduation of its first Computer Science cohort. She has a strong background in higher education initiatives, research, and contributions to the computing industry. Her expertise spans designing, developing, and implementing applications for Malaysian agriculture, medicine, and telecommunications.\n\nDr Amalathas expressed her passion for curriculum innovation, aiming to foster a creative and inclusive learning environment at the Delhi campus. Leveraging her experience in launching academic programmes in Malaysia, she is committed to the success of the Delhi campus through her dedication to education, equality, diversity, and inclusion. She believes education is transformative and seeks to inspire both students and staff to achieve excellence in her role as Director of Learning and Teaching.",
+    "tokens": 194,
+    "language": "en",
+    "summary": "Dr Amalathas, former Head of Computer Science in Malaysia, brings expertise in curriculum innovation and industry applications. She aims to create an inclusive learning environment and inspire excellence at the Delhi campus.",
+    "keywords": [
+      "Computer Science Head",
+      "curriculum innovation",
+      "inclusive learning environment",
+      "Malaysian agriculture applications",
+      "higher education initiatives",
+      "equality diversity inclusion",
+      "educational leadership"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Computer Science Head": 0.9,
+      "curriculum innovation": 0.92,
+      "inclusive learning environment": 0.88,
+      "Malaysian agriculture applications": 0.85,
+      "higher education initiatives": 0.83,
+      "equality diversity inclusion": 0.8,
+      "educational leadership": 0.79
+    },
+    "entities": [
+      "Amalathas",
+      "Computer Science",
+      "University of Southampton Malaysia",
+      "Delhi campus"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T20:00:28.001Z"
+  }
+]

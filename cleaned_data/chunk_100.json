@@ -1,0 +1,44 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/online-masterclass-07072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/online-masterclass-07072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Online Masterclass: The Power of an Economics and Finance Degree",
+    "path": "/events/online-masterclass-07072025/",
+    "chunk_index": 0,
+    "text": "Online Masterclass \"From Classrooms to Boardrooms: The Power of an Economics and Finance Degree\" Event Status: Completed Date & Time: July 07, 2025 6:00 PM IST Recommended for: Offer holders and potential applicants Join us for a Masterclass on “From Classrooms to Boardrooms: The Power of an Economics and Finance Degree,” where you will discover how an Economics and Finance degree can equip you with the analytical mindset, strategic insights, and global perspective needed to succeed in today’s ever-evolving world of business and finance. The session will feature Mr Nilabh Kumar, Vice President, Research & Advisory Strategy & Operations, Gartner, and Dr Chitrakalpa Sen, Head of Economics, University of Southampton Delhi. The Masterclass is scheduled for Monday, 7 July, from 6 PM to 7 PM.",
+    "tokens": 117,
+    "language": "en",
+    "summary": "This completed online masterclass explored how an Economics and Finance degree provides essential analytical and strategic skills for success in business. It featured speakers Mr. Nilabh Kumar from Gartner and Dr. Chitrakalpa Sen from University of Southampton Delhi.",
+    "keywords": [
+      "online masterclass",
+      "economics degree",
+      "finance degree",
+      "business careers",
+      "analytical mindset",
+      "strategic insights",
+      "global perspective",
+      "Gartner",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "online masterclass": 0.95,
+      "economics degree": 0.9,
+      "finance degree": 0.88,
+      "business careers": 0.85
+    },
+    "entities": [
+      "Nilabh Kumar",
+      "Chitrakalpa Sen",
+      "Gartner",
+      "University of Southampton Delhi",
+      "Economics and Finance Degree",
+      "Online Masterclass",
+      "Masterclass"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

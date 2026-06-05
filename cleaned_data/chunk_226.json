@@ -1,0 +1,36 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/policies/under-18-policy/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/policies/under-18-policy/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Under-18 Admissions Policy",
+    "path": "/policies/under-18-policy/",
+    "chunk_index": 0,
+    "text": "Policy on admission of students under the age of 18 This policy outlines the University’s approach to admitting such students, highlighting the additional responsibilities, safeguards, and parental/guardian involvement required under Indian law. Resources PDF Policy for under 18s 105 KB",
+    "tokens": 59,
+    "language": "en",
+    "summary": "The University of Southampton Delhi's policy for admitting students under 18 outlines responsibilities, safeguards, and parental involvement as mandated by Indian law, with a downloadable PDF resource.",
+    "keywords": [
+      "under-18 admissions policy",
+      "student safeguarding",
+      "parental guardian involvement",
+      "Indian law requirements",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "under-18 admissions policy": 0.95,
+      "student safeguarding": 0.88,
+      "parental guardian involvement": 0.82,
+      "Indian law requirements": 0.79,
+      "University of Southampton Delhi": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Policy on admission of students under the age of 18"
+    ],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00.000000"
+  }
+]

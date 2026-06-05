@@ -1,0 +1,187 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Induction Week Introduction and Monday Activities",
+    "path": "/welcome/student-induction-and-support-week/",
+    "chunk_index": 0,
+    "text": "Student induction and support week Prepare to 'hit the ground running' with support and advice from professional and academic teams. Sessions take place on campus from 25-29 August 2025. Monday 25 August 2025 Feel Grounded, Feel Inspired, Feel You Belong“Start strong, meet your leaders, and discover your new home.”Welcome & leadership introductionsFun icebreakers & problem-solving workshopMeet your support teams & student handbook launchCampus treasure hunt & high tea with music",
+    "tokens": 93,
+    "language": "en",
+    "summary": "University of Southampton Delhi's Student Induction Week, August 25-29, 2025, begins Monday with leadership introductions, icebreakers, support team meetings, and campus exploration for new students.",
+    "keywords": [
+      "student induction week",
+      "university support",
+      "new students",
+      "campus orientation",
+      "leadership introductions",
+      "icebreakers",
+      "student handbook",
+      "campus treasure hunt",
+      "August 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Induction and Support Week",
+      "August 25 2025",
+      "August 29 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Induction Week: Tuesday's Academic Focus",
+    "path": "/welcome/student-induction-and-support-week/",
+    "chunk_index": 1,
+    "text": "Tuesday 26 August 2025 Belong to a legacy“Step into your academic journey and shape your student life.”Academic orientation with programme leadsKnowing your university quizCyber-security & Market simulation workshopsShape your student life: Founding student clubs",
+    "tokens": 54,
+    "language": "en",
+    "summary": "Tuesday focuses on academic integration, offering orientation, a university quiz, cybersecurity and market simulation workshops, and opportunities to establish student clubs.",
+    "keywords": [
+      "academic orientation",
+      "programme leads",
+      "university quiz",
+      "cyber-security workshop",
+      "market simulation",
+      "student clubs",
+      "August 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "August 26 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Induction Week: Wednesday's Digital Readiness",
+    "path": "/welcome/student-induction-and-support-week/",
+    "chunk_index": 2,
+    "text": "Wednesday 27 August 2025 Unlock the learner within“Get digitally ready, explore resources, and embrace new skills.”Getting digitally ready: Academic platformsLibrary & learning resourcesResponsible use of AI in university lifeClubs & communities: Co-creation session",
+    "tokens": 56,
+    "language": "en",
+    "summary": "Wednesday's induction covers digital readiness, library resources, responsible AI use, and a co-creation session for clubs and communities to embrace new skills.",
+    "keywords": [
+      "digital readiness",
+      "academic platforms",
+      "library resources",
+      "AI in university life",
+      "clubs & communities",
+      "co-creation session",
+      "August 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "August 27 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Induction Week: Thursday's Wellbeing & Global Identity",
+    "path": "/welcome/student-induction-and-support-week/",
+    "chunk_index": 3,
+    "text": "Thursday 28 August 2025 Think global, act local“Prioritise wellbeing, build your global identity, and connect through culture.”Wellbeing & support at University of Southampton DelhiBuilding your global identityMeet your Personal Academic Tutor (PAT)Global beats & bites: Open mic evening",
+    "tokens": 63,
+    "language": "en",
+    "summary": "Thursday highlights student wellbeing and global identity through support services, meeting Personal Academic Tutors, and a 'Global beats & bites' open mic evening for cultural connection.",
+    "keywords": [
+      "wellbeing support",
+      "global identity",
+      "Personal Academic Tutor",
+      "PAT",
+      "cultural connection",
+      "open mic evening",
+      "August 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "Personal Academic Tutor",
+      "PAT",
+      "August 28 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Induction Week: Friday's Confidence Building & Closing",
+    "path": "/welcome/student-induction-and-support-week/",
+    "chunk_index": 4,
+    "text": "Friday 29 August 2025 Shape your space“Find your voice, grow your confidence, and close the week with energy.”Keynote: Belief – An unseen force (Dr Vishal Talwar)Time capsule activity: Letters & videos to future selfTheatre workshop: The five senses experience",
+    "tokens": 61,
+    "language": "en",
+    "summary": "Friday concludes induction week, focusing on confidence with a Dr Vishal Talwar keynote, a time capsule activity, and a 'five senses' theatre workshop for self-expression.",
+    "keywords": [
+      "confidence building",
+      "self-expression",
+      "Dr Vishal Talwar",
+      "keynote",
+      "time capsule activity",
+      "theatre workshop",
+      "August 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "Dr Vishal Talwar",
+      "August 29 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/student-induction-and-support-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Careers and Employer Week",
+    "path": "/welcome/student-induction-and-support-week/",
+    "chunk_index": 5,
+    "text": "What is your next step? Careers and employer week Get advice from employers and our careers team on being career-ready while you study. Sessions take place on campus from 01-05 September 2025. See careers week information",
+    "tokens": 49,
+    "language": "en",
+    "summary": "University of Southampton Delhi's Careers and Employer Week, September 1-5, 2025, provides students with expert advice from employers and the careers team on career readiness.",
+    "keywords": [
+      "careers week",
+      "employer advice",
+      "career readiness",
+      "careers team",
+      "campus event",
+      "September 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "Careers and Employer Week",
+      "September 01 2025",
+      "September 05 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

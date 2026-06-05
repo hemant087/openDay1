@@ -1,0 +1,41 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-hosts-a-panel-discussion-with-industry-leaders-on-the-future-of-work-and-global-talent/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-hosts-a-panel-discussion-with-industry-leaders-on-the-future-of-work-and-global-talent/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Panel Discussion Announcement",
+    "path": "/news/university-of-southampton-delhi-hosts-a-panel-discussion-with-industry-leaders-on-the-future-of-work-and-global-talent/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi hosts a panel discussion with Industry leaders on the future of work and global talent. 20 March 2025. Read article at Passionate In Marketing.",
+    "tokens": 32,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced a panel discussion on March 20, 2025, focusing on the future of work and global talent with industry leaders. The full article is hosted by Passionate In Marketing.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "panel discussion",
+      "industry leaders",
+      "future of work",
+      "global talent",
+      "news announcement",
+      "Passionate In Marketing"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "panel discussion": 0.9,
+      "industry leaders": 0.85,
+      "future of work": 0.88,
+      "global talent": 0.87,
+      "news announcement": 0.8,
+      "Passionate In Marketing": 0.92
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Passionate In Marketing",
+      "Panel Discussion on the Future of Work and Global Talent"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

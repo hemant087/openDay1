@@ -1,0 +1,302 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Welcome and Essential Onboarding Steps",
+    "path": "/welcome/",
+    "chunk_index": 0,
+    "text": "Welcome to the university We are excited to welcome our first students to the university. Complete these steps to join our community and start your studies. We hope that you are as excited as we are for you to become part of the only Global Top 100 university here in India.As part of our first cohort, you have shown true spirit, incredible tenacity and a genuine confidence in your future. You are one of the first students in the country with the courage to transform your future with a new style of education. You can be proud to be remembered in history as an educational trailblazer.We want to make your journey to University of Southampton Delhi as smooth as possible. Over the next few weeks, we will ask you to complete a number of important steps to join our community:-Set up IT account between 20-22 August 2025.Verify your documents between 22-24 August 2025.Check in to student hostel from 23 August 2025 onwards.Enrol at the university between 27-29 August 2025.Collect your student ID card on Friday 29 August 2025.Student induction and support week from 25-29 August 2025.Careers and employer week from 01-05 September 2025.Pay tuition fees by 08 September 2025.We will provide more detail on these steps over the next few days, and our expert staff will be on hand to guide you through them. It is important that you complete these tasks before teaching starts on campus on 08 September 2025.",
+    "tokens": 247,
+    "language": "en",
+    "summary": "University of Southampton Delhi welcomes its first cohort of students, outlining key onboarding steps for joining the community and starting studies smoothly. These crucial tasks must be completed before teaching begins on September 8, 2025.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "new student onboarding",
+      "essential steps",
+      "IT account setup",
+      "document verification",
+      "hostel check-in",
+      "university enrolment",
+      "student ID card",
+      "induction week",
+      "careers week",
+      "tuition fees payment",
+      "academic term starts"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.92,
+      "new student onboarding": 0.85,
+      "essential steps": 0.8,
+      "IT account setup": 0.75,
+      "document verification": 0.72,
+      "hostel check-in": 0.7,
+      "university enrolment": 0.7,
+      "student ID card": 0.7,
+      "induction week": 0.7,
+      "careers week": 0.7,
+      "tuition fees payment": 0.7,
+      "academic term starts": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "India"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Guide to Setting Up University IT Account for Students",
+    "path": "/welcome/",
+    "chunk_index": 1,
+    "text": "Set up IT account You must set up your IT account to access the university's IT systems. See more about set up",
+    "tokens": 29,
+    "language": "en",
+    "summary": "New students must set up their IT account to gain access to University of Southampton Delhi's essential IT systems and resources.",
+    "keywords": [
+      "IT account setup",
+      "university IT systems",
+      "student access"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "IT account setup": 0.92,
+      "university IT systems": 0.85,
+      "student access": 0.8
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Verifying Your Original University Documents",
+    "path": "/welcome/",
+    "chunk_index": 2,
+    "text": "Verify your documents You should have original documents verified so that we can check you meet the requirements of your offer letter. See more about verification",
+    "tokens": 37,
+    "language": "en",
+    "summary": "Original documents must be verified to ensure students meet the requirements outlined in their offer letter, an essential step for admission.",
+    "keywords": [
+      "document verification",
+      "original documents",
+      "offer letter requirements",
+      "admission process"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "document verification": 0.92,
+      "original documents": 0.85,
+      "offer letter requirements": 0.8,
+      "admission process": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Hostel Check-in Procedure at University of Southampton Delhi",
+    "path": "/welcome/",
+    "chunk_index": 3,
+    "text": "Check in to student hostel If you have booked accommodation, you must check in before you travel to the accommodation or move into your room. See more about check in",
+    "tokens": 41,
+    "language": "en",
+    "summary": "Students who have booked accommodation must complete the hostel check-in process prior to travelling or moving into their assigned room.",
+    "keywords": [
+      "student hostel",
+      "accommodation check-in",
+      "student accommodation"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student hostel": 0.92,
+      "accommodation check-in": 0.85,
+      "student accommodation": 0.8
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Official Enrolment Process for University of Southampton Delhi Students",
+    "path": "/welcome/",
+    "chunk_index": 4,
+    "text": "Enrol at the university You must officially enrol to join the university as a student. See more about enrolment",
+    "tokens": 29,
+    "language": "en",
+    "summary": "To officially become a student and join the University of Southampton Delhi, new entrants must complete the formal enrolment process.",
+    "keywords": [
+      "university enrolment",
+      "official enrolment",
+      "joining the university"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university enrolment": 0.92,
+      "official enrolment": 0.85,
+      "joining the university": 0.8
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student ID Card Collection for Campus Access and Identification",
+    "path": "/welcome/",
+    "chunk_index": 5,
+    "text": "Collect your student ID card You must have a student ID card to access campus and identify you as a member of the student community. See more about collection",
+    "tokens": 41,
+    "language": "en",
+    "summary": "Students need a valid ID card to access the campus and serve as official identification within the University of Southampton Delhi community.",
+    "keywords": [
+      "student ID card",
+      "campus access",
+      "student identification"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student ID card": 0.92,
+      "campus access": 0.85,
+      "student identification": 0.8
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Student Induction and Support Week",
+    "path": "/welcome/",
+    "chunk_index": 6,
+    "text": "Student induction and support week Prepare to 'hit the ground running' with support and advice from professional and academic teams. Sessions take place on campus from 25-29 August 2025. See more about induction week",
+    "tokens": 53,
+    "language": "en",
+    "summary": "A dedicated student induction and support week, held on campus from August 25-29, 2025, offers advice and support from academic and professional teams.",
+    "keywords": [
+      "student induction",
+      "support week",
+      "academic teams",
+      "professional teams",
+      "on-campus sessions",
+      "August 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student induction": 0.92,
+      "support week": 0.85,
+      "academic teams": 0.8,
+      "professional teams": 0.75,
+      "on-campus sessions": 0.72,
+      "August 2025": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-7",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Careers and Employer Week",
+    "path": "/welcome/",
+    "chunk_index": 7,
+    "text": "Careers and employer week Get advice from employers and our careers team on being career-ready while you study. Sessions take place on campus from 01-05 September 2025. See more about careers week",
+    "tokens": 53,
+    "language": "en",
+    "summary": "The Careers and Employer Week, from September 1-5, 2025, provides advice from employers and the careers team to help students become career-ready.",
+    "keywords": [
+      "careers week",
+      "employer advice",
+      "careers team",
+      "career-ready students",
+      "on-campus sessions",
+      "September 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "careers week": 0.92,
+      "employer advice": 0.85,
+      "careers team": 0.8,
+      "career-ready students": 0.75,
+      "on-campus sessions": 0.72,
+      "September 2025": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments#chunk-8",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#verifydocuments",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Tuition Fee Payment and Academic Term Commencement Details",
+    "path": "/welcome/",
+    "chunk_index": 8,
+    "text": "Pay tuition fees You must pay the next instalment of your tuition fees before the academic term starts. Make a payment Academic term starts Seminars and lectures start from Monday 08 September 2025. Check your timetable so you know where and when.",
+    "tokens": 60,
+    "language": "en",
+    "summary": "Students must pay their tuition fees installment before the academic term commences on Monday, September 8, 2025, when seminars and lectures begin.",
+    "keywords": [
+      "tuition fees payment",
+      "academic term starts",
+      "seminars",
+      "lectures",
+      "timetable",
+      "September 2025"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "tuition fees payment": 0.92,
+      "academic term starts": 0.85,
+      "seminars": 0.8,
+      "lectures": 0.75,
+      "timetable": 0.72,
+      "September 2025": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:17.267Z"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/60-acre-gurugram-campus-of-university-of-southampton-will-take-students-from-august-2025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/60-acre-gurugram-campus-of-university-of-southampton-will-take-students-from-august-2025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Gurugram Campus Opening in August 2025",
+    "path": "/news/60-acre-gurugram-campus-of-university-of-southampton-will-take-students-from-august-2025/",
+    "chunk_index": 0,
+    "text": "The 60-acre Gurugram campus of the University of Southampton Delhi is set to begin taking students from August 2025. This news was published on 31 January 2025, and the full article can be read at The Hindu.",
+    "tokens": 42,
+    "language": "en",
+    "summary": "The University of Southampton Delhi's 60-acre Gurugram campus will open to students in August 2025, as reported by The Hindu on January 31, 2025.",
+    "keywords": [
+      "Gurugram campus",
+      "University of Southampton Delhi",
+      "August 2025 intake",
+      "campus opening",
+      "The Hindu news"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Gurugram campus": 0.95,
+      "University of Southampton Delhi": 0.93,
+      "August 2025 intake": 0.88,
+      "campus opening": 0.85,
+      "The Hindu news": 0.82
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "The Hindu",
+      "Gurugram"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:26.576Z"
+  }
+]

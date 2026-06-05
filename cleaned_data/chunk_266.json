@@ -1,0 +1,134 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Contact Details and Methods",
+    "path": "/contact-us/",
+    "chunk_index": 0,
+    "text": "Contact us Use this page to get in touch with us, ask a question about studying at University of Southampton Delhi, or visit one of our locations. We are ready to help. Get in touch By online formTap or click to use formBy emailcustomerservice@delhi.southampton.ac.ukBy phoneCall us on +91 12442-88000",
+    "tokens": 63,
+    "language": "en",
+    "summary": "Students and visitors can contact the University of Southampton Delhi via online form, email, or phone for study-related questions or general inquiries.",
+    "keywords": [
+      "contact details",
+      "online form",
+      "email",
+      "phone number",
+      "customer service",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "contact details": 0.95,
+      "email contact": 0.90,
+      "phone support": 0.88
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:25.624Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Gurgaon Campus Location",
+    "path": "/contact-us/",
+    "chunk_index": 1,
+    "text": "Our campusThe campus is located on the International Tech Park Gurgaon at the heart of a thriving business and technogy area. Gurgaon campus International Tech Park Gurgaon Near Sec 59, Off Golf Course Ext Road Gurugram (Gurgaon), Haryana 122101 India",
+    "tokens": 49,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus is situated in International Tech Park Gurgaon, a vibrant business and technology hub in Gurugram, Haryana, India.",
+    "keywords": [
+      "campus location",
+      "Gurgaon campus",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus location": 0.95,
+      "Gurgaon": 0.90,
+      "International Tech Park": 0.88
+    },
+    "entities": [
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:25.624Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "How to Visit Campus and Meet University Team",
+    "path": "/contact-us/",
+    "chunk_index": 2,
+    "text": "You might also want to know Can I visit the campus in person or book a tour? Our campus is located at International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101. The best way to see campus is to book a pre-planned tour from our events page. How can I meet your team? You can meet us online, and in a selection of major cities in India. You can see when and where, by visiting the Events area of our website. When event tickets are available, you will be able to book a physical event, or to register for an on online session, from the event page.",
+    "tokens": 114,
+    "language": "en",
+    "summary": "Prospective students can visit the campus by booking a pre-planned tour via the events page and meet the university team online or at physical events in major Indian cities.",
+    "keywords": [
+      "campus tour",
+      "visit campus",
+      "meet team",
+      "online session",
+      "physical event",
+      "events page"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.93,
+      "meet university team": 0.90,
+      "events page": 0.87
+    },
+    "entities": [
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:25.624Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/contact-us/#getintouch",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Hostel Travel and Accommodation Booking",
+    "path": "/contact-us/",
+    "chunk_index": 3,
+    "text": "How can I travel between the student hostel and campus? Perhaps the best way to get to campus in the morning from our student hostel, or back there again at night, is the private shuttle bus. This free service will run at regular intervals every weekday. When can I book a room at the student hostel? You can apply for a room at the student hostel when you have completed your application to study. We expect demand for rooms to be high, but you can express interest in accommodation for free, which which does not commit you to any contract. We will be in touch with those who have shown interest in accommodation to advise on availability and how to book a room.",
+    "tokens": 105,
+    "language": "en",
+    "summary": "A free private shuttle bus provides regular weekday transport between the student hostel and campus, and students can express interest in accommodation upon application.",
+    "keywords": [
+      "student hostel",
+      "campus travel",
+      "shuttle bus",
+      "student accommodation",
+      "room booking",
+      "application process"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student hostel": 0.94,
+      "shuttle bus": 0.91,
+      "accommodation booking": 0.89
+    },
+    "entities": [],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:25.624Z"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/blogs/dancing-towards-tradition-dandiya-countdown-begins/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/blogs/dancing-towards-tradition-dandiya-countdown-begins/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi's Festive Navratri, Dandiya, and Diwali Celebrations",
+    "path": "/blogs/dancing-towards-tradition-dandiya-countdown-begins/",
+    "chunk_index": 0,
+    "text": "The spirit of festival took over the university in full swing as students, faculty and staff came together to celebrate Navratri. Each day, students and staff embraced a different colour to represent different colours of the Navratri palette. The entire university was covered in a bright canvas of hues, from passionate reds to bright yellows and soothing blues, showcasing the accord and enthusiasm of our university. This week was not just about the colours but a showcase that the university is all set for the coming festive season. From Colours to Celebration: Dandiya Night Was a Hit! The festive season is here, on October 1 , the campus came to life with its first ever celebration of the dandiya night. It was an event filled with passion, celebration with a twist of tradition. Students and faculty came together to celebrate this vibrant tradition. Organized by the Student Council in collaboration with the Cultural Club, the event was the perfect finale to a week of festivities and celebration. Dressed in dazzling traditional attire, students twirled and danced to the energeticbeat of dhol and dandiya creating an unforgettable night with a perfect blend ofculture, community and rhythm. We would like to express our gratitude to all those whoparticipated and made this event so special. Lights, Lehengas, and Beats: Diwali Celebration On October 17 , the campus buzzed with excitement with the celebration of Diwali. Thefestival of lights! The campus was transformed into a radiant spectacle of lightand colour. Strings of diyas, fairy lights, and rangolis adorned every corner, creating anenchanting atmosphere that reflected the essence of Diwali – the triumph of light overdarkness and good over evil. The evening featured different stalls, showcasing the creativity of our talentedstudents. From handmade accessories to gift cards to charming bracelets to gaming stalls;we had it all. And no celebration is complete without food! From spicy chaat and samosasto some refreshing iced teas. The combination of flavours, music, and joy madethe evening truly unforgettable. The night concluded with the rhythmic beatsof the dhols, energy and laughter, and with this the festive season came to an end. Wethank you all for making it a Diwali we all will remember.",
+    "tokens": 489,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus celebrated Navratri with themed colours, hosted a vibrant Dandiya Night by the Student Council and Cultural Club, and concluded with a dazzling Diwali event featuring stalls and food.",
+    "keywords": [
+      "Navratri celebrations",
+      "Dandiya Night",
+      "Diwali festival",
+      "campus events",
+      "Student Council",
+      "Cultural Club",
+      "traditional attire"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Navratri celebrations": 0.95,
+      "Dandiya Night": 0.93,
+      "Diwali festival": 0.90,
+      "campus events": 0.88,
+      "Student Council": 0.85,
+      "Cultural Club": 0.82,
+      "traditional attire": 0.79
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Council",
+      "Cultural Club",
+      "Navratri",
+      "Dandiya Night",
+      "Diwali"
+    ],
+    "topic": "blog",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

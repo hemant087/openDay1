@@ -1,0 +1,87 @@
+Created At: 2026-06-02T09:52:50Z
+Completed At: 2026-06-02T09:52:52Z
+The following changes were made by the multi_replace_file_content tool to: c:\Users\hr2u25\OneDrive - University of Southampton\Desktop\openDay1\app.js. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -904,11 +904,12 @@
+ let isRecording      = false;  // true while MediaRecorder is running
+ let micManuallyStopped = false;
+ 
+-const SILENCE_THRESHOLD = 0.013;  // RMS below this = silence
+-const SILENCE_DURATION  = 1200;   // ms of continuous silence before stop
+-const MIN_RECORD_MS     = 600;    // min recording before VAD can fire
+-const MAX_RECORD_MS     = 10000;  // safety cap per recording
+-const MIN_BLOB_BYTES    = 4000;   // ignore blobs that are just noise
++const SILENCE_THRESHOLD = 0.018;  // RMS below this = silence (raised to reduce false triggers)
++const SILENCE_DURATION  = 900;    // ms of continuous silence before stop (snappier cut-off)
++const MIN_RECORD_MS     = 500;    // min recording before VAD can fire
++const MAX_RECORD_MS     = 12000;  // safety cap per recording
++const MIN_BLOB_BYTES    = 3000;   // ignore blobs that are just noise
++let   _restartAttempts  = 0;      // guard against infinite restart loops
+ 
+ // ── Init mic stream + VAD AudioContext (once per session) ─────────────────────
+ async function initWhisperMic() {
+@@ -961,6 +961,7 @@
+   const start = Date.now();
+   let lastVoice = Date.now();
+   let voiceSeen = false;
++  let statusThrottle = 0;  // throttle status updates to ~4fps
+ 
+   function vad() {
+     if (!isRecording) return;
+@@ -971,7 +971,20 @@
+     if (rms > SILENCE_THRESHOLD) {
+       lastVoice = now;
+       voiceSeen = true;
+-      $('voice-status-text').textContent = '🎤 Speaking...';
++      if (now - statusThrottle > 250) {
++        $('voice-status-text').textContent = '🎙️ Speaking...';
++        statusThrottle = now;
++      }
++    } else {
++      // Show listening feedback
+<truncated 1937 bytes>
+ so the user can read what was transcribed before it clears
++      setTimeout(() => {
++        sendMessage(text.trim());
++        // Keep the text in the box briefly during processing, cleared by sendMessage
++      }, 300);
++    } else {
++      $('voice-status-text').textContent = '🔇 No speech detected — try again';
++      setTimeout(() => restartListening(), 600);
+     }
+   } catch (err) {
+     console.warn('Whisper error:', err);
+-    showToast('Whisper error: ' + err.message, 'warning', 3000);
++    showToast('🎤 Mic issue: ' + err.message, 'warning', 3000);
+     restartListening();
+   }
+ }
+@@ -1050,10 +1050,22 @@
+ function restartListening() {
+-  $('voice-status-text').textContent = '🎤 Listening...';
+   if (!state.isListening || micManuallyStopped) return;
+-  setTimeout(() => {
++  _restartAttempts++;
++  if (_restartAttempts > 20) {
++    // Safety: stop trying after 20 consecutive restarts with no transcription
++    console.warn('[Whisper] Too many restarts — stopping mic to prevent loop');
++    stopListening(true);
++    showToast('🎤 Mic stopped after too many retries. Click mic to restart.', 'warning', 4000);
++    _restartAttempts = 0;
++    return;
++  }
++  $('voice-status-text').textContent = '🎤 Listening...';
++  // Wait for speaking/cooldown to finish before restarting
++  const delay = (state.isSpeaking || state.isCoolingDown) ? 600 : 300;
++  setTimeout(() => {
++    if (!state.isListening || micManuallyStopped) return;
+     if (!state.isSpeaking && !state.isCoolingDown) startWhisperListening();
+     else restartListening();
+-  }, 400);
++  }, delay);
+ }
+ 
+ // ── Public start/stop ─────────────────────────────────────────────────────────
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

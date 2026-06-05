@@ -1,0 +1,73 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news-and-events/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news-and-events/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi News Updates",
+    "path": "/news-and-events/",
+    "chunk_index": 0,
+    "text": "Read the latest news from University of Southampton Delhi including research, enterprise and teaching activities, alongside media stories and important press releases.",
+    "tokens": 32,
+    "language": "en",
+    "summary": "Stay informed with the latest news from University of Southampton Delhi, covering research, enterprise, teaching activities, and important press releases.",
+    "keywords": [
+      "University of Southampton Delhi news",
+      "research activities",
+      "enterprise activities",
+      "teaching activities",
+      "press releases",
+      "media stories"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi news": 0.92,
+      "research activities": 0.88,
+      "enterprise activities": 0.85,
+      "teaching activities": 0.8,
+      "press releases": 0.78,
+      "media stories": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Southampton Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-05-15T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news-and-events/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news-and-events/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Explore University of Southampton Delhi Events",
+    "path": "/news-and-events/",
+    "chunk_index": 1,
+    "text": "Discover more about the campus, our programmes and student life when you join an online or face-to-face event.",
+    "tokens": 24,
+    "language": "en",
+    "summary": "Explore the University of Southampton Delhi campus, programmes, and student life by attending various online or face-to-face events.",
+    "keywords": [
+      "university events",
+      "campus discovery",
+      "programme information",
+      "student life",
+      "online events",
+      "face-to-face events"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university events": 0.91,
+      "campus discovery": 0.87,
+      "programme information": 0.84,
+      "student life": 0.8,
+      "online events": 0.77,
+      "face-to-face events": 0.74
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-05-15T10:00:00Z"
+  }
+]

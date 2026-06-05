@@ -1,0 +1,32 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/career-fair-billabong-kanpur-03042025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/career-fair-billabong-kanpur-03042025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Kanpur Career Fair at Billabong High International School",
+    "path": "/events/career-fair-billabong-kanpur-03042025/",
+    "chunk_index": 0,
+    "text": "Career fair in Kanpur. Event Status: Completed. Date: April 03, 2025. Location: Billabong High International School, 124, Old Cemetery Lane, Shanti Nagar, Kanpur Cantonment, Kanpur, Uttar Pradesh 208004, India. Recommended for: Potential applicants. Billabong High International School, 124, Old Cemetery Lane, Shanti Nagar, Kanpur Cantonment, Kanpur, Uttar Pradesh 208004, India. Open address in Google Maps.",
+    "tokens": 76,
+    "language": "en",
+    "summary": "A career fair was held on April 3, 2025, at Billabong High International School in Kanpur, India, targeting potential university applicants.",
+    "keywords": [
+      "career fair",
+      "Billabong High International School",
+      "Kanpur",
+      "potential applicants",
+      "university event"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "Billabong High International School",
+      "Kanpur",
+      "India",
+      "Google Maps"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:26.410Z"
+  }
+]

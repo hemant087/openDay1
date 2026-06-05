@@ -1,0 +1,126 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/university-of-southampton-delhi-application-form#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/university-of-southampton-delhi-application-form",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi 2026 Application Process Overview",
+    "path": "/university-of-southampton-delhi-application-form",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi Campus Academic Session Commencing 2026. Thank you for your interest in studying at University of Southampton’s Delhi campus. Use the form below to apply for undergraduate and postgraduate programmes starting from August 2026. Important: You will not be able to save a partially completed application form, so ensure a strong internet connection and a quiet space. The application form is best experienced on a desktop computer and requires 30-45 minutes to complete. We encourage uploading documents to strengthen your application before an admission decision. There is a 2,000 INR application assessment fee for processing applications for August 2026. For help or status inquiries, email admissions@delhi.southampton.ac.uk. Our dedicated admissions team will reply promptly. We look forward to welcoming you to the campus in August 2026.",
+    "tokens": 169,
+    "language": "en",
+    "summary": "Apply for 2026 undergraduate and postgraduate programmes at University of Southampton Delhi. The application requires 30-45 minutes, a strong internet connection, and an INR 2,000 assessment fee.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "academic session 2026",
+      "undergraduate programmes",
+      "postgraduate programmes",
+      "application assessment fee",
+      "admissions team"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "academic session 2026": 0.88,
+      "undergraduate programmes": 0.82,
+      "postgraduate programmes": 0.80,
+      "application assessment fee": 0.90,
+      "admissions team": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "August 2026"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/university-of-southampton-delhi-application-form#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/university-of-southampton-delhi-application-form",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Undergraduate Bachelor's Programme Application Document Requirements",
+    "path": "/university-of-southampton-delhi-application-form",
+    "chunk_index": 1,
+    "text": "What documents do I need to apply for an Undergraduate Bachelor's programme? Academic Certificates (certificates from Grade XII and Grade X) Students who are yet to complete their final year in school are required to provide Predicted Achievement i.e. the predicted score from your school. Please ensure that your predicted subject scores are specified in the document. Academic Transcripts (transcripts from Grade XII and Grade X) Proof of English Language proficiency You can see more guidance about English Language on our website. If you have been taught and assessed in English, including at a CBSE or CISCE school, for your final four years of high school, you may choose to use your English scores to meet the English Language requirement. Personal Statement (250-500 words) You can see more guidance about Personal Statements on our website. We suggest you keep a draft version ready, explaining your motivation to study your subject of interest at Southampton, and how you intend to pursue a career in the area. Letter of Reference Photo-Identity Card (such as Aadhaar card/passport)",
+    "tokens": 204,
+    "language": "en",
+    "summary": "Prospective undergraduate students need to submit academic certificates, transcripts, English language proof, a personal statement, a letter of reference, and photo ID. Predicted scores are required for those not yet finished school.",
+    "keywords": [
+      "undergraduate application documents",
+      "academic certificates",
+      "academic transcripts",
+      "English language proficiency",
+      "personal statement",
+      "letter of reference",
+      "photo identity card",
+      "predicted achievement"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "undergraduate application documents": 0.93,
+      "academic certificates": 0.87,
+      "academic transcripts": 0.85,
+      "English language proficiency": 0.89,
+      "personal statement": 0.84,
+      "letter of reference": 0.78,
+      "photo identity card": 0.76,
+      "predicted achievement": 0.80
+    },
+    "entities": [
+      "Undergraduate Bachelor's programme",
+      "CBSE",
+      "CISCE",
+      "Southampton",
+      "Aadhaar card"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/university-of-southampton-delhi-application-form#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/university-of-southampton-delhi-application-form",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Postgraduate Master's Programme Application Document Requirements",
+    "path": "/university-of-southampton-delhi-application-form",
+    "chunk_index": 2,
+    "text": "What documents do I need to apply for a Postgraduate Master's programme? Academic Certificates (Certificates from previous study) Students who are still to complete their final year in college, are required to provide Predicted Achievement i.e. the predicted score from your college. You will be required to provide the Final Certificates as soon as available. Academic Transcripts (transcripts from previous study) Proof of English Language proficiency You can see more guidance about English Language on our website. If you have successfully completed a degree taught and assessed in English up to two years preceding the date of first enrolment at the University of Southampton, we may be able to accept this as evidence of your English language ability. Personal Statement (250-500 words) You can see more guidance about Personal Statements on our website. We suggest you keep a draft version ready, explaining your motivation to study your subject of interest at Southampton, and how you intend to pursue a career in the area. Letter of Reference Photo-Identity Card (such as Adhaar card/passport) Resume or Curriculum Vitae (often known as a CV)",
+    "tokens": 204,
+    "language": "en",
+    "summary": "Master's applicants must provide previous academic certificates, transcripts, English language proficiency proof, a personal statement, a letter of reference, photo ID, and a CV. Predicted achievement is required if still studying.",
+    "keywords": [
+      "postgraduate application documents",
+      "academic certificates",
+      "academic transcripts",
+      "English language proficiency",
+      "personal statement",
+      "letter of reference",
+      "photo identity card",
+      "resume",
+      "curriculum vitae",
+      "predicted achievement"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "postgraduate application documents": 0.94,
+      "academic certificates": 0.86,
+      "academic transcripts": 0.84,
+      "English language proficiency": 0.90,
+      "personal statement": 0.83,
+      "letter of reference": 0.77,
+      "photo identity card": 0.75,
+      "resume": 0.79,
+      "curriculum vitae": 0.79,
+      "predicted achievement": 0.81
+    },
+    "entities": [
+      "Postgraduate Master's programme",
+      "University of Southampton",
+      "Adhaar card"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00Z"
+  }
+]

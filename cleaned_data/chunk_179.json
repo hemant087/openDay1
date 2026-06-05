@@ -1,0 +1,41 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/gurgaons-international-tech-park-chosen-for-university-of-southampton-delhis-new-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/gurgaons-international-tech-park-chosen-for-university-of-southampton-delhis-new-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Gurgaon Tech Park Selected for Southampton Delhi Campus",
+    "path": "/news/gurgaons-international-tech-park-chosen-for-university-of-southampton-delhis-new-campus/",
+    "chunk_index": 0,
+    "text": "Gurgaon’s International Tech Park Chosen for University of Southampton Delhi’s New Campus. 12 December 2024. Read article on SportsZ News.",
+    "tokens": 23,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced that its new campus will be located in Gurgaon's International Tech Park, as reported on December 12, 2024.",
+    "keywords": [
+      "Gurgaon International Tech Park",
+      "University of Southampton Delhi",
+      "new campus location",
+      "campus selection",
+      "Delhi campus",
+      "SportsZ News"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Gurgaon International Tech Park": 0.95,
+      "University of Southampton Delhi": 0.92,
+      "new campus location": 0.88,
+      "campus selection": 0.85,
+      "Delhi campus": 0.83,
+      "SportsZ News": 0.80
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Gurgaon",
+      "International Tech Park",
+      "SportsZ News",
+      "Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

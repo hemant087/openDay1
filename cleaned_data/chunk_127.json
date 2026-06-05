@@ -1,0 +1,63 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-joins-landmark-uk-trade-delegation-in-india/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-joins-landmark-uk-trade-delegation-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Joins UK Trade Delegation in India",
+    "path": "/news/university-of-southampton-joins-landmark-uk-trade-delegation-in-india/",
+    "chunk_index": 0,
+    "text": "The University of Southampton’s role as a global leader in higher education has been recognised as part of the UK government’s landmark visit to India. Professor Andrew Atherton, Vice-President International and Engagement at the University of Southampton, joined Prime Minister Keir Starmer as he made his first official visit to India. The trade delegation brought British and Indian business and industry leaders together with the aim of strengthening ties between the two countries following the signing of the free trade agreement. In July, the University of Southampton became the first international university to establish a campus in India under the country’s pioneering National Education Policy which aims to create world-class, work-ready, graduates. The University of Southampton Delhi provides students with an exciting opportunity to earn a prestigious degree from a world Top 100 university without leaving the country, marking a pivotal step in advancing transnational education in India. At a joint press conference with India’s Prime Minister Narendra Modi, Keir Starmer highlighted the global reputation of UK universities such as Southampton. Prime Minister Keir Starmer said: “Our great British universities are admired all over the world for their teaching excellence, high-quality research and commitment to innovation. “I’m delighted that more Indian students will be able to benefit from a world-class British education in the near future – strengthening the ties between our two countries while pumping millions back into our economy and supporting jobs at home.” Professor Atherton said : “The University of Southampton was proud to become the very first international university approved by the University Grants Commission to establish a campus in India thanks to our reputation for excellence in education, research and enterprise. “Our first students are already benefiting from this flagship initiative and this week’s UK delegation offers further opportunities for our university to further strengthen our links with India. “This visit is a powerful commitment to India-UK relations and demonstrates the importance of our higher education sector as we continue to deepen our engagement with the fastest growing country in the world.” Education Secretary Bridget Phillipson said : “British higher education is world-leading – and this expansion shows its global appeal. “Opening new campuses in India will give more young people the chance to benefit from a UK education, while delivering real returns for our universities at home. “As we prepare to set out our International Education Strategy, these new campuses are a marker of our ambition: building long-term partnerships that deliver growth, innovation and opportunity for both countries.” Alison Barrett MBE, Country Director India, British Council said : “The University of Southampton have successfully launched their campus in Delhi NCR and even welcomed their first batch of students. It’s been wonderful to see the first UK university campus being set up in India and congratulations to the university team for this achievement. This milestone underscores the impact of India–UK Vision 2035, showcasing how world-class academic excellence and globally connected opportunities are nurturing talent that will shape the future of both our nations.” The University of Southampton Delhi is located in the thriving business hub of Gurugram, with students enrolled on undergraduate and postgraduate programmes in business, management, computing, economics and finance. Plans to expand with courses in data science, AI and engineering are underway.",
+    "tokens": 560,
+    "language": "en",
+    "summary": "The University of Southampton participated in a UK trade delegation to India, led by Prime Minister Keir Starmer, to strengthen ties and highlight its pioneering Delhi campus established under India's National Education Policy.",
+    "keywords": [
+      "UK trade delegation",
+      "India-UK relations",
+      "University of Southampton Delhi",
+      "National Education Policy",
+      "transnational education",
+      "British higher education",
+      "Gurugram campus"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "uk trade delegation": 0.95,
+      "india-uk relations": 0.90,
+      "university of southampton delhi": 0.88,
+      "national education policy": 0.85,
+      "transnational education": 0.82,
+      "british higher education": 0.80,
+      "gurugram campus": 0.78
+    },
+    "entities": [
+      "Professor Andrew Atherton",
+      "Keir Starmer",
+      "Narendra Modi",
+      "Bridget Phillipson",
+      "Alison Barrett MBE",
+      "University of Southampton",
+      "UK government",
+      "University of Southampton Delhi",
+      "University Grants Commission",
+      "British Council",
+      "National Education Policy",
+      "International Education Strategy",
+      "India",
+      "UK",
+      "Gurugram",
+      "Delhi NCR",
+      "UK trade delegation to India",
+      "business",
+      "management",
+      "computing",
+      "economics",
+      "finance",
+      "data science",
+      "AI",
+      "engineering"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

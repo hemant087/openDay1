@@ -1,0 +1,84 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-24-june-august-2025-intake/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-24-june-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Campus & Accommodation Tour Event Details for July 2025",
+    "path": "/events/campus-tour-24-june-august-2025-intake/",
+    "chunk_index": 0,
+    "text": "Campus & accommodation tour 22 July SELLING FAST Event Status: Completed Date & Time: July 22, 2025 4:00 PM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer.",
+    "tokens": 104,
+    "language": "en",
+    "summary": "This completed event on July 22, 2025, provided an in-person opportunity to explore University of Southampton Delhi's campus facilities and experience university life in Gurgaon.",
+    "keywords": [
+      "Campus tour",
+      "accommodation tour",
+      "in-person event",
+      "University of Southampton Delhi",
+      "campus facilities",
+      "campus life",
+      "Gurgaon"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Campus tour": 0.14285714285714285,
+      "accommodation tour": 0.14285714285714285,
+      "in-person event": 0.14285714285714285,
+      "University of Southampton Delhi": 0.14285714285714285,
+      "campus facilities": 0.14285714285714285,
+      "campus life": 0.14285714285714285,
+      "Gurgaon": 0.14285714285714285
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurgaon",
+      "Haryana",
+      "India",
+      "Campus & accommodation tour 22 July"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-24-june-august-2025-intake/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-24-june-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Student Accommodation Tour",
+    "path": "/events/campus-tour-24-june-august-2025-intake/",
+    "chunk_index": 1,
+    "text": "Our student hostel is a home away from home during study at University of Southampton Delhi. Tour the peaceful residential Suncity location only 6km away from campus. Take the shuttlebus from campus, and then return back to campus when the accommodation tour has finished. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India",
+    "tokens": 68,
+    "language": "en",
+    "summary": "The accommodation tour showcased student hostels in Suncity, 6km from campus, with shuttlebus service, offering a glimpse into residential life at University of Southampton Delhi.",
+    "keywords": [
+      "student accommodation",
+      "student hostel",
+      "Suncity residential",
+      "shuttlebus service",
+      "campus living",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student accommodation": 0.16666666666666666,
+      "student hostel": 0.16666666666666666,
+      "Suncity residential": 0.16666666666666666,
+      "shuttlebus service": 0.16666666666666666,
+      "campus living": 0.16666666666666666,
+      "University of Southampton Delhi": 0.16666666666666666
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Suncity",
+      "International Tech Park Gurgaon",
+      "Gurgaon",
+      "Haryana",
+      "India"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

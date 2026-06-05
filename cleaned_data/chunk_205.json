@@ -1,0 +1,36 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-director-to-enhance-learning-teaching-3/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-director-to-enhance-learning-teaching-3/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University Appoints Director to Enhance Learning & Teaching",
+    "path": "/news/university-of-southampton-appoints-director-to-enhance-learning-teaching-3/",
+    "chunk_index": 0,
+    "text": "University of Southampton Appoints Director to Enhance Learning & Teaching. Published on 24 February 2025. For further details, please refer to the article at Biz Development News.",
+    "tokens": 35,
+    "language": "en",
+    "summary": "The University of Southampton appointed a new Director on February 24, 2025, to enhance learning and teaching, with further details available on Biz Development News.",
+    "keywords": [
+      "University of Southampton",
+      "Director appointment",
+      "learning and teaching",
+      "educational enhancement",
+      "Biz Development News"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton": 0.95,
+      "Director appointment": 0.88,
+      "learning and teaching": 0.85,
+      "educational enhancement": 0.80,
+      "Biz Development News": 0.75
+    },
+    "entities": [
+      "University of Southampton",
+      "Biz Development News"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

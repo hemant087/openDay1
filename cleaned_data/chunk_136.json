@@ -1,0 +1,137 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Opens, Boosting UK-India Ties",
+    "path": "/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/",
+    "chunk_index": 0,
+    "text": "The University of Southampton has celebrated becoming the first international institution to open a campus in India. University of Southampton Delhi will provide Indian students with an exciting opportunity to earn a prestigious degree from a world Top 100 university without leaving the country. The state-of-the-art branch campus is the first of its kind in India and a proud part of the University of Southampton – a founding member of the UK’s prestigious Russell Group, celebrated for its research and academic excellence. The University of Southampton became the first international institution to be granted a licence by India’s Universities Grants Commission to set up a campus as part of the country’s National Education Policy (NEP) 2020, which aims to create world-class, work-ready, graduates. India’s top Education Minister, Dharmendra Pradhan, celebrated the opportunities that the new University of Southampton Delhi will bring to Indian students at a ceremony held to open the new campus. The campus launch marks a pivotal step in advancing transnational education in India and recognises the exceptional academic potential of Indian students and the country’s emergence as a global leader in research, innovation, and enterprise.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "The University of Southampton has launched its Delhi campus, becoming India's first international university campus. This initiative offers Indian students a world-class UK degree locally, aligning with India's National Education Policy 2020.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "International Campus India",
+      "UK-India Ties",
+      "National Education Policy 2020",
+      "Russell Group",
+      "Transnational Education"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "International Campus India": 0.88,
+      "UK-India Ties": 0.82,
+      "National Education Policy 2020": 0.9,
+      "Russell Group": 0.75,
+      "Transnational Education": 0.8
+    },
+    "entities": [
+      "University of Southampton",
+      "University of Southampton Delhi",
+      "India",
+      "UK",
+      "Universities Grants Commission",
+      "National Education Policy (NEP) 2020",
+      "Dharmendra Pradhan",
+      "Russell Group"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Leadership Perspectives on Southampton Delhi Campus Launch",
+    "path": "/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/",
+    "chunk_index": 1,
+    "text": "Department for Business and Trade Minister Douglas Alexander said: “It’s testament to the prestige of the UK’s first-class higher education institutions that we have become the first country to open an international campus in India.“The University of Southampton’s Delhi campus will help set the standard for universities worldwide and this comes as we prepare to sign our landmark trade deal with India which will drive exports, increase wages, and deliver economic growth for the UK under our Plan for Change.” University of Southampton Vice-Chancellor, Mark E. Smith, said: “The University of Southampton Delhi offers students the chance to earn a world-class degree at a university that is renowned for its excellence in teaching, global research, and connections to business and industry partners. “Our Delhi campus builds on our long-standing relationship with India and fulfils our ambition to become a truly global institution, connecting students from around the world through Southampton’s ability to deliver outstanding education and world-leading research which has the power to transform lives.” Lindy Cameron, British High Commissioner to India, said: “Congratulations to the University of Southampton on their launch, the first international university to open a comprehensive campus in India under UGC regulations. “The UK and India share a unique living bridge, and this significant announcement demonstrates our commitment to deepen our education partnerships – offering Indian and British students access to new world-class opportunities and opening the door to new opportunities to increase research collaboration, drive innovation and growth, and inspire the next generation of global leaders.”Professor Andrew Atherton, the University of Southampton’s Vice-President International and Engagement, said: “The University of Southampton Delhi will support the development of a work-ready, globally competitive workforce as India continues to emerge as a global leader in research, innovation and enterprise. “Graduates will receive the same University of Southampton qualification as they do in the UK and that holds strong international recognition and is valued by employers and academic institutions alike.”",
+    "tokens": 409,
+    "language": "en",
+    "summary": "Key officials including Douglas Alexander, Mark E. Smith, Lindy Cameron, and Andrew Atherton share their perspectives on the new Delhi campus, highlighting its role in boosting UK-India ties, providing world-class education, and fostering global talent.",
+    "keywords": [
+      "Douglas Alexander",
+      "Mark E. Smith",
+      "Lindy Cameron",
+      "Andrew Atherton",
+      "UK Higher Education",
+      "Global Institution",
+      "Research Collaboration"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Douglas Alexander": 0.92,
+      "Mark E. Smith": 0.9,
+      "Lindy Cameron": 0.89,
+      "Andrew Atherton": 0.88,
+      "UK Higher Education": 0.85,
+      "Global Institution": 0.8,
+      "Research Collaboration": 0.78
+    },
+    "entities": [
+      "Douglas Alexander",
+      "Department for Business and Trade",
+      "University of Southampton",
+      "University of Southampton Delhi",
+      "Mark E. Smith",
+      "Lindy Cameron",
+      "British High Commissioner to India",
+      "Professor Andrew Atherton",
+      "India",
+      "UK"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Southampton Delhi Campus Programmes, Facilities, and Industry Links",
+    "path": "/news/southampton-uni-opens-delhi-campus-boosts-uk-india-ties/",
+    "chunk_index": 2,
+    "text": "Initial undergraduate and postgraduate degree programmes will be in Business Management, Accounting and Finance, Computer Science, Economics, Finance, and International Management, with the first cohort of around 150 students taking up their places in August. By 2035, the University plans to welcome up to 5,000 students every year. This will further reinforce India’s emergence as a hub for high-quality higher education while deepening the UK-India strategic partnership in knowledge and innovation. The University has delivered its state-of-the-art campus in Gurugram, Haryana, alongside partners including Oxford International Education Group (OIEG). The location is close to influential businesses and features excellent facilities, including a student hub, library and IT laboratories. Students at the University of Southampton Delhi will also benefit from links to some of the country’s most influential and leading firms, including Deloitte India, Comviva and Investec, with internships and graduate placement schemes in place.",
+    "tokens": 194,
+    "language": "en",
+    "summary": "The Delhi campus will offer initial programmes in Business, Computer Science, Economics, and Finance, expecting to enroll 150 students in August and growing to 5,000 annually by 2035. Located in Gurugram, it boasts modern facilities and strong industry partnerships for student placements.",
+    "keywords": [
+      "Undergraduate Programmes Delhi",
+      "Postgraduate Programmes Delhi",
+      "Gurugram Campus Facilities",
+      "Industry Partnerships India",
+      "Student Internships",
+      "UK-India Strategic Partnership"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Undergraduate Programmes Delhi": 0.9,
+      "Postgraduate Programmes Delhi": 0.88,
+      "Gurugram Campus Facilities": 0.85,
+      "Industry Partnerships India": 0.87,
+      "Student Internships": 0.79,
+      "UK-India Strategic Partnership": 0.83
+    },
+    "entities": [
+      "Business Management",
+      "Accounting and Finance",
+      "Computer Science",
+      "Economics",
+      "Finance",
+      "International Management",
+      "Gurugram",
+      "Haryana",
+      "Oxford International Education Group (OIEG)",
+      "University of Southampton Delhi",
+      "Deloitte India",
+      "Comviva",
+      "Investec"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

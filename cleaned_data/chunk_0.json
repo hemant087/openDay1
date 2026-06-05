@@ -1,0 +1,216 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi: Overview and Rankings",
+    "path": "/",
+    "chunk_index": 0,
+    "text": "The first campus of its kind in India University of Southampton Delhi is the first campus of its kind in India - and a proud part of University of Southampton, a global Top 100 university, and part of the Russell Group, the UK's top-tier of elite universities. We are regulated in India by University Grants Commission (UGC) to operate our campus and deliver programmes. Ranked top 100 in the world Source: QS World University Rankings 2026 Top 15 UK institution for employability Source: QS Graduate Employability Rankings, 2022 Founding member of the Russell Group A group of prestigious UK research-intensive universities, and equivalent to the US ‘Ivy League’",
+    "tokens": 130,
+    "language": "en",
+    "summary": "University of Southampton Delhi, part of a global Top 100 and Russell Group university, is India's first campus of its kind, regulated by UGC and highly ranked for employability.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Russell Group",
+      "QS World University Rankings",
+      "UGC India",
+      "employability",
+      "global university"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Russell Group": 0.9,
+      "QS World University Rankings": 0.88,
+      "UGC India": 0.82,
+      "employability": 0.8,
+      "global university": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "Russell Group",
+      "UGC",
+      "QS World University Rankings 2026",
+      "QS Graduate Employability Rankings, 2022",
+      "India",
+      "UK",
+      "US"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Undergraduate and Postgraduate Degree Programmes",
+    "path": "/",
+    "chunk_index": 1,
+    "text": "Discover our programmes Our programmes are taught in English, and content is equivalent to that delivered to other University of Southampton students. To match the programme lengths of internationally respected UK awarded degrees, undergraduates study for three years, and postgraduates study for one year. All programmes All programmes Postgraduate Undergraduate Start date All dates August, 2026 Search programmes BEng (Hons) Software Engineering BEng (Hons) Learn to develop reliable, complex and secure software systems. From mobile banking apps to aircraft autopilot controls, you’ll learn how… Duration : 3 years Course Type : Full Time Start Date : Aug, 2026 BSc (Hons) Accounting and Finance BSc (Hons) A prestigious degree for those aiming to enter the fields of commerce, accountancy and finance. Learn how to prepare and… Duration : 3 years Course Type : Full Time Start Date : Aug, 2026 BSc (Hons) Business Management BSc (Hons) Learn to think differently about business and inspire change within organisations and society with an interdisciplinary approach Develop skills and… Duration : 3 years Course Type : Full Time Start Date : Aug, 2026 BSc (Hons) Computer Science BSc (Hons) Learn how to design and build software programs and systems, and find out about the latest advances in areas like… Duration : 3 years Course Type : Full Time Start Date : Aug, 2026 BSc (Hons) Creative Computing BSc (Hons) Build immersive and engaging digital experiences that bring art, and technology together in our creative computing degree. The programme develops… Duration : 3 years Course Type : Full Time Start Date : Aug, 2026 BSc (Hons) Economics BSc (Hons) Learn how our economic decisions affect others, and how business and financial institutions' choices can affect our society. This programme… Duration : 3 years Course Type : Full Time Start Date : Aug, 2026",
+    "tokens": 371,
+    "language": "en",
+    "summary": "UoSD offers three-year undergraduate and one-year postgraduate programs, equivalent to UK degrees, including Software Engineering, Accounting, Business, Computer Science, Creative Computing, and Economics.",
+    "keywords": [
+      "undergraduate programmes",
+      "postgraduate programmes",
+      "Software Engineering",
+      "Accounting and Finance",
+      "Business Management",
+      "Computer Science",
+      "Creative Computing",
+      "Economics degrees"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "undergraduate programmes": 0.9,
+      "postgraduate programmes": 0.85,
+      "Software Engineering": 0.92,
+      "Accounting and Finance": 0.88,
+      "Business Management": 0.87,
+      "Computer Science": 0.89,
+      "Creative Computing": 0.91,
+      "Economics degrees": 0.86
+    },
+    "entities": [
+      "University of Southampton",
+      "BEng (Hons) Software Engineering",
+      "BSc (Hons) Accounting and Finance",
+      "BSc (Hons) Business Management",
+      "BSc (Hons) Computer Science",
+      "BSc (Hons) Creative Computing",
+      "BSc (Hons) Economics"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Explore University Campus and Open Day Experience",
+    "path": "/",
+    "chunk_index": 2,
+    "text": "See the campus for yourself Block III, International Tech Park Gurgaon,Sector 59, Off Golf Course Ext Rd,Gurugram, Haryana 122101, India Open address in Google Maps Experience an Open Day Throughout the day, visitors can talk to our university leadership team, to members of faculty, attend taster sessions, and explore our undergraduate and postgraduate programmes. It is a great opportunity to ask about scholarships, bursaries and other financial aid packages, and get clarity on our admissions process, eligibility requirements and key deadlines.",
+    "tokens": 102,
+    "language": "en",
+    "summary": "Visit the University of Southampton Delhi campus in Gurugram, India, and attend an Open Day to learn about programmes, scholarships, admissions, and interact with faculty.",
+    "keywords": [
+      "campus visit",
+      "Gurugram campus",
+      "International Tech Park",
+      "Open Day experience",
+      "scholarships",
+      "admissions process"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus visit": 0.9,
+      "Gurugram campus": 0.92,
+      "International Tech Park": 0.88,
+      "Open Day experience": 0.95,
+      "scholarships": 0.87,
+      "admissions process": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Google Maps",
+      "Open Day"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Scheduled Campus Tour Events for Prospective Students",
+    "path": "/",
+    "chunk_index": 3,
+    "text": "Upcoming events November 20, 2025 Campus tour An in-person campus event at our Delhi campus where you can explore our state-of-the-art facilities and get a feel for campus life. November 25, 2025 Campus tour An in-person campus event at our Delhi campus where you can explore our state-of-the-art facilities and get a feel for campus life. November 27, 2025 Campus tour An in-person campus event at our Delhi campus where you can explore our state-of-the-art facilities and get a feel for campus life.",
+    "tokens": 133,
+    "language": "en",
+    "summary": "University of Southampton Delhi offers in-person campus tours on November 20, 25, and 27, 2025, for prospective students to explore facilities and campus life.",
+    "keywords": [
+      "campus tours",
+      "upcoming events",
+      "Delhi campus",
+      "state-of-the-art facilities",
+      "student experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tours": 0.95,
+      "upcoming events": 0.9,
+      "Delhi campus": 0.88,
+      "state-of-the-art facilities": 0.85,
+      "student experience": 0.82
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Delhi campus",
+      "Campus tour",
+      "November 20, 2025",
+      "November 25, 2025",
+      "November 27, 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Recent Press Releases and University News",
+    "path": "/",
+    "chunk_index": 4,
+    "text": "News & Press Releases November 12, 2025 Press Release: University of Southampton Delhi Opens Applications for Postgraduate Programmes Commencing August 2026 ~Expands Postgraduate Portfolio with the Launch of MSc Economics 4 min. November 7, 2025 University of Southampton Delhi and McGraw Hill India unveil second edition of International Relations for Civil Service Aspirants University of Southampton Delhi and McGraw Hill India unveil 2nd edition of International Relations for Civil Service Aspirants by Shri Ashok Kumar and Dr Rajesh Mohan. 3 min. October 28, 2025 Press Release: University of Southampton Delhi opens applications for undergraduate admissions 2026 ~ Strengthens STEM Offerings with two new programs - BSc (Hons) Creative Computing and B.Eng. (Hons) Software Engineering 5 min.",
+    "tokens": 196,
+    "language": "en",
+    "summary": "Recent news from UoSD highlights opening postgraduate and undergraduate applications for 2026, including new STEM programs, and a book launch with McGraw Hill India.",
+    "keywords": [
+      "Press Release",
+      "postgraduate applications",
+      "undergraduate admissions",
+      "MSc Economics",
+      "International Relations",
+      "McGraw Hill India",
+      "Creative Computing",
+      "Software Engineering",
+      "STEM offerings"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Press Release": 0.95,
+      "postgraduate applications": 0.9,
+      "undergraduate admissions": 0.88,
+      "MSc Economics": 0.92,
+      "International Relations": 0.87,
+      "McGraw Hill India": 0.85,
+      "Creative Computing": 0.89,
+      "Software Engineering": 0.89,
+      "STEM offerings": 0.86
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "McGraw Hill India",
+      "Shri Ashok Kumar",
+      "Dr Rajesh Mohan",
+      "MSc Economics",
+      "BSc (Hons) Creative Computing",
+      "BEng (Hons) Software Engineering"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  }
+]

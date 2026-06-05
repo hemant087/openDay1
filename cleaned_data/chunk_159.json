@@ -1,0 +1,33 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-2/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-2/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Establishes New Campus in Gurgaon, India",
+    "path": "/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-2/",
+    "chunk_index": 0,
+    "text": "University of Southampton Sets Up Modern Campus in Gurgaon’s International Tech Park. 12 December 2024. Read article at Local Business News.",
+    "tokens": 27,
+    "language": "en",
+    "summary": "The University of Southampton has established a modern campus in Gurgaon's International Tech Park, a development announced on December 12, 2024.",
+    "keywords": [
+      "University of Southampton",
+      "modern campus",
+      "Gurgaon",
+      "International Tech Park",
+      "Local Business News",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton",
+      "Gurgaon",
+      "International Tech Park",
+      "Local Business News"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-and-deloitte-india-partner-to-nurture-future-talent-through-practical-learning-and-industry-collaboration/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-and-deloitte-india-partner-to-nurture-future-talent-through-practical-learning-and-industry-collaboration/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "UoSD and Deloitte India Partner for Future Talent",
+    "path": "/news/press-release-university-of-southampton-delhi-and-deloitte-india-partner-to-nurture-future-talent-through-practical-learning-and-industry-collaboration/",
+    "chunk_index": 0,
+    "text": "Students at the University of Southampton’s flagship Delhi campus will get opportunities for internships, placements and graduate employment, thanks to an agreement with Deloitte Touche Tohmatsu. A Memorandum of Understanding (MoU) has been signed to strengthen industry-academia collaboration and foster work-ready skills among students, enhancing access to internships and industry placement opportunities. Through this collaboration, students will benefit from Deloitte India’s deep expertise across technology and transformation, strategy, finance, and other critical services. The partnership will facilitate guest lectures, practical learning sessions, and career-shaping work opportunities at the University’s state-of-the-art campus located at the International Tech Park in Gurgaon. The agreement aims to nurture future-ready graduates by connecting academic learning with real-world insights. In addition to student engagement, the partnership lays the foundation for long-term collaboration across innovation, civic and community initiatives, and joint research or knowledge-sharing platforms between Deloitte and the University. Professor Andrew Atherton, Vice-President International and Engagement at the University of Southampton, said: “Our University prides itself on our excellence in education, our world-leading research and our strong global connections with business and industry. This triple helix of education, research and engagement sits at the heart of our strategy and is a defining feature of our Delhi campus. “Our collaboration with Deloitte India will provide students at the University of Southampton Delhi with an exciting opportunity to connect with leaders in their fields to gain valuable real-life insights and experience, as well as work experience and employment opportunities.” Kamlesh Vyas, Partner, Deloitte India added: “Quality higher education is the cornerstone of unlocking India’s demographic dividend. Internationalisation at home with entry of leading foreign universities marks an inflexion point for higher education in India. “We are committed to supporting leading foreign universities entering India and Indian universities as they continue to strive for helping our students meet their aspirations. We believe that it will provide world class higher education and research opportunities to our students within the country. “Our collaboration with the University of Southampton Delhi reflects Deloitte’s continued commitment to our higher education and to nation-building.” Scheduled to open in August, the University of Southampton Delhi is the first international campus approved by the University Grants Commission (UGC) under India’s National Education Policy. The campus will initially offer undergraduate and postgraduate programmes in economics, finance, computing, and business—curricula specifically designed to prepare students for global careers. In addition to receiving support within the campus, students will have access to the wider University’s market-leading employability development offering, consisting of online resources, regular workshops, one-to-one guidance and support with qualified careers professionals. This partnership with Deloitte India adds to a growing list of strategic collaborations at the Delhi campus, including those with Investec and Comviva—further cementing the University’s commitment to integrating industry engagement into academic delivery.",
+    "tokens": 470,
+    "language": "en",
+    "summary": "University of Southampton Delhi and Deloitte India have signed an MoU to provide students with internships and employment opportunities, fostering industry-academia collaboration for future-ready graduates.",
+    "keywords": [
+      "industry-academia collaboration",
+      "internships",
+      "graduate employment",
+      "Deloitte India",
+      "University of Southampton Delhi",
+      "Memorandum of Understanding",
+      "National Education Policy"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "industry-academia collaboration": 0.95,
+      "internships": 0.88,
+      "graduate employment": 0.87,
+      "deloitte india": 0.92,
+      "university of southampton delhi": 0.93,
+      "memorandum of understanding": 0.85,
+      "national education policy": 0.89
+    },
+    "entities": [
+      "Andrew Atherton",
+      "Kamlesh Vyas",
+      "University of Southampton Delhi",
+      "Deloitte India",
+      "Deloitte Touche Tohmatsu",
+      "University of Southampton",
+      "University Grants Commission",
+      "Investec",
+      "Comviva",
+      "Delhi",
+      "Gurgaon",
+      "India",
+      "International Tech Park",
+      "undergraduate programmes",
+      "postgraduate programmes"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:00.388Z"
+  }
+]

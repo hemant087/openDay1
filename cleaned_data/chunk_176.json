@@ -1,0 +1,101 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Announces New Gurgaon Campus Location and Programmes",
+    "path": "/news/press-release-university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi has announced International Tech Park, Gurgaon, as the location of its state-of-the-art campus. New Delhi, November 2024: University of Southampton Delhi has announced International Tech Park, Gurgaon, as the location of its state-of-the-art campus. Set to be completed by April 2025 with the first intake of students starting in August 2025, the new campus will bring world-class education, research and enterprise opportunities to India through the excellent facilities offered at International Tech Park. The campus will offer several key benefits for students including a dedicated student hub, social and collaboration areas, large library, private study spaces, IT labs and training suites. One other striking feature will be the dedicated research space that is aimed at promoting academic and student collaboration. Professor Andrew Atherton, Vice-President of International and Engagement at the University of Southampton, said: “We chose Gurgaon and the International Tech Park for our new campus because of the city’s position as a thriving hub for business, technology, and innovation in India. “The International Tech Park offers an ideal location, surrounded by cutting-edge industries and dynamic career opportunities, ensuring our students are immersed in a forward-thinking environment. “The campus’s futuristic design will foster creativity and collaboration, with facilities that promote both academic excellence and student wellbeing. “This environment will empower students to not only receive world-class education but also gain the practical skills and industry connections needed to excel in their careers.” The new campus will implement the University of Southampton’s prestigious triple helix model, which combines education, research, and industry collaboration. This exciting opportunity represents the first chance to study in India with a world top 100 UK Russell Group university. Students will graduate with the same degree at University of Southampton Delhi as they will do when studying the same degree in the UK. University of Southampton Delhi will start by offering undergraduate programmes in Computer Science, Business Management, Economics, Accounts and Finance, as well as postgraduate programmes in International Management and Finance. The University will expand its portfolio every year by adding new and emerging programmes. More details on student accommodation will be unveiled soon. The International Tech Park provides students with access to fitness centres, food halls, table tennis zones, and sports facilities including basketball and tennis courts, with a cricket pitch under development. Nearby amenities include golf courses, football grounds, and equestrian centres, further enhancing the overall student experience. Oxford International will act as an operational partner, supplying the expertise needed to uphold the same exceptional standards of learning and employability that students experience in the UK. Set within the 60 acres of International Tech Park, the new campus will be IGBC LEED Platinum pre-certified. The campus is being designed by internationally acclaimed architect Morphogenesis and will be in an exclusive new building that will be accessible to all.",
+    "tokens": 504,
+    "language": "en",
+    "summary": "University of Southampton Delhi has selected International Tech Park, Gurgaon, for its state-of-the-art campus, launching August 2025. It will offer world-class education, research, and initial undergraduate and postgraduate programs, featuring modern facilities and a focus on industry collaboration.",
+    "keywords": [
+      "International Tech Park Gurgaon",
+      "University of Southampton Delhi campus",
+      "August 2025 intake",
+      "undergraduate programmes",
+      "postgraduate programmes",
+      "triple helix model",
+      "academic collaboration",
+      "Morphogenesis architect",
+      "Oxford International partner"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International Tech Park Gurgaon": 0.95,
+      "University of Southampton Delhi campus": 0.93,
+      "August 2025 intake": 0.88,
+      "undergraduate programmes": 0.87,
+      "postgraduate programmes": 0.86,
+      "triple helix model": 0.85,
+      "academic collaboration": 0.84,
+      "Morphogenesis architect": 0.83,
+      "Oxford International partner": 0.82
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park",
+      "Gurgaon",
+      "April 2025",
+      "August 2025",
+      "India",
+      "Andrew Atherton",
+      "University of Southampton",
+      "UK Russell Group university",
+      "Computer Science",
+      "Business Management",
+      "Economics",
+      "Accounts and Finance",
+      "International Management",
+      "Finance",
+      "Oxford International",
+      "IGBC LEED Platinum",
+      "Morphogenesis"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Overview of the University of Southampton's Global Excellence",
+    "path": "/news/press-release-university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india/",
+    "chunk_index": 1,
+    "text": "About the University of Southampton The University of Southampton drives original thinking, turns knowledge into action and impact, and creates solutions to the world’s challenges. We are among the top 100 institutions globally (QS World University Rankings 2025). Our academics are leaders in their fields, forging links with high-profile international businesses and organisations, and inspiring a 25,000-strong community of exceptional students, from over 135 countries worldwide. Through our high-quality education, the University helps students on a journey of discovery to realise their potential and join our global network of over 200,000 alumni: www.southampton.ac.uk. Follow us on Instagram and Facebook for more University of Southampton Delhi updates.",
+    "tokens": 120,
+    "language": "en",
+    "summary": "The University of Southampton, a global top 100 institution, is renowned for its original thinking, research, and high-quality education, fostering a diverse community of 25,000 students and a network of 200,000 alumni.",
+    "keywords": [
+      "University of Southampton",
+      "global top 100",
+      "QS World University Rankings 2025",
+      "research impact",
+      "international students",
+      "alumni network",
+      "high-quality education"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton": 0.98,
+      "global top 100": 0.92,
+      "QS World University Rankings 2025": 0.90,
+      "research impact": 0.85,
+      "international students": 0.83,
+      "alumni network": 0.81,
+      "high-quality education": 0.80
+    },
+    "entities": [
+      "University of Southampton",
+      "QS World University Rankings 2025",
+      "Instagram",
+      "Facebook",
+      "University of Southampton Delhi"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

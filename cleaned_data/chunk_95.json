@@ -1,0 +1,41 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/career-fair-dps-jodhpur-18072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/career-fair-dps-jodhpur-18072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Completed Career Fair Event in Jodhpur: July 2025 Details",
+    "path": "/events/career-fair-dps-jodhpur-18072025/",
+    "chunk_index": 0,
+    "text": "Career fair in Jodhpur Event Status: Completed Date: July 18, 2025 Location: DPS Jodhpur, Bypass Road Pal, Pal Gaon, Jodhpur, Rajasthan 342014, India DPS Jodhpur, Bypass Road Pal, Pal Gaon, Jodhpur, Rajasthan 342014, India Open address in Google Maps",
+    "tokens": 48,
+    "language": "en",
+    "summary": "This chunk provides details for a completed career fair event held on July 18, 2025, at DPS Jodhpur, India, including its full location address.",
+    "keywords": [
+      "Career fair",
+      "Jodhpur event",
+      "DPS Jodhpur",
+      "event location",
+      "Rajasthan, India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Career fair": 0.95,
+      "Jodhpur event": 0.88,
+      "DPS Jodhpur": 0.92,
+      "event location": 0.85,
+      "Rajasthan, India": 0.87
+    },
+    "entities": [
+      "DPS Jodhpur",
+      "Career fair",
+      "Jodhpur",
+      "Rajasthan",
+      "India",
+      "Pal Gaon",
+      "Bypass Road Pal"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

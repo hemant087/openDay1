@@ -1,0 +1,91 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/hansa-sachdeva#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/hansa-sachdeva",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Ms Hansa Sachdeva: Overview, Role, and Research Interests",
+    "path": "/team/hansa-sachdeva",
+    "chunk_index": 0,
+    "text": "Ms Hansa Sachdeva MBA, Honours in Economics, Doctoral Research Scholar\nHansa contributes to growth and transformative strategies in higher education through a cross-functional view of administration and business. She has earlier worked in Indian universities in roles spanning admissions, recruitment, outreach, scholarships and communication with a sharp focus on customer experience, service management and market leadership.\nRole: Director, Admissions and Marketing Initiatives Planning\nDepartment: University leadership",
+    "tokens": 66,
+    "language": "en",
+    "summary": "Director of Admissions and Marketing Initiatives Planning at University of Southampton Delhi",
+    "keywords": [],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [],
+    "aliases": [
+      "Ms Hansa Sachdeva",
+      "Hansa Sachdeva",
+      "Ms. Hansa Sachdeva",
+      "Hansa S.",
+      "Hansaa Sachdeva",
+      "Hansaa Sachdevah",
+      "Hanssa Sachdeva",
+      "Hansha Sachdeva"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/hansa-sachdeva#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/hansa-sachdeva",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Ms Hansa Sachdeva: Name Aliases and Alternate Spellings",
+    "path": "/team/hansa-sachdeva",
+    "chunk_index": 1,
+    "text": "Ms Hansa Sachdeva is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Ms Hansa Sachdeva, Hansa Sachdeva, Ms. Hansa Sachdeva, Hansa S., Hansaa Sachdeva, Hansaa Sachdevah, Hanssa Sachdeva, Hansha Sachdeva. All of these names refer to the same individual.",
+    "tokens": 52,
+    "language": "en",
+    "summary": "Alias resolution chunk for Ms Hansa Sachdeva. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "hansaa sachdevah",
+      "ms. hansa sachdeva",
+      "hansaa sachdeva",
+      "faculty",
+      "staff",
+      "hansa s.",
+      "university of southampton delhi",
+      "hansa sachdeva",
+      "ms hansa sachdeva"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "hansaa sachdevah": 0.95,
+      "ms. hansa sachdeva": 0.9,
+      "hansaa sachdeva": 0.85,
+      "faculty": 0.8,
+      "staff": 0.75,
+      "hansa s.": 0.7,
+      "university of southampton delhi": 0.65,
+      "hansa sachdeva": 0.6,
+      "ms hansa sachdeva": 0.55
+    },
+    "entities": [
+      "Ms Hansa Sachdeva",
+      "Ms Hansa Sachdeva",
+      "Hansa Sachdeva",
+      "Ms. Hansa Sachdeva",
+      "Hansa S.",
+      "Hansaa Sachdeva",
+      "Hansaa Sachdevah",
+      "Hanssa Sachdeva",
+      "Hansha Sachdeva",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Ms Hansa Sachdeva",
+      "Hansa Sachdeva",
+      "Ms. Hansa Sachdeva",
+      "Hansa S.",
+      "Hansaa Sachdeva",
+      "Hansaa Sachdevah",
+      "Hanssa Sachdeva",
+      "Hansha Sachdeva"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

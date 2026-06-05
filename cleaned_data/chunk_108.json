@@ -1,0 +1,45 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/3795/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/3795/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Tour Event",
+    "path": "/events/3795/",
+    "chunk_index": 0,
+    "text": "Campus tour 24 June | August 2025 intake Event Status: Completed Date & Time: June 24, 2025 10:00 AM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Open address in Google Maps",
+    "tokens": 125,
+    "language": "en",
+    "summary": "This page details a completed in-person campus tour event at University of Southampton Delhi on June 24, 2025, allowing prospective students to explore facilities and campus life in Gurugram, India.",
+    "keywords": [
+      "Campus tour",
+      "University of Southampton Delhi",
+      "Gurugram",
+      "Campus life",
+      "Event",
+      "Facilities",
+      "International Tech Park"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Campus tour": 0.95,
+      "University of Southampton Delhi": 0.90,
+      "Gurugram": 0.88,
+      "Campus life": 0.85,
+      "Event": 0.82,
+      "Facilities": 0.78,
+      "International Tech Park": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Campus tour"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-05-15T12:00:00Z"
+  }
+]

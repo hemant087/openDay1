@@ -1,0 +1,470 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy: Overview, Research Interests, and Background",
+    "path": "/team/dr-aparna-pasumarthy",
+    "chunk_index": 0,
+    "text": "Dr Aparna Pasumarthy is an interdisciplinary researcher and educator, specializing in careers, leadership, and organizational behaviour. She previously taught at Queen Mary, University of London, and is an Associate Fellow of the Higher Education Academy. Her research focuses on the careers of professional men and women in India, especially within multinational corporations. Dr Pasumarthy holds PhD Business and Management from Queen Mary, University of London. She has presented her research at major international conferences and is committed to promoting social justice, inclusion, and sustainability in academia and organisational environments. Role: Lecturer Research Interests: Career Management & Sustainable Careers Diversity, Equality & Inclusion Ethical Decision Making Flexible Work Leaders and Leadership Development Organisational Behaviour Department: Business academics",
+    "tokens": 110,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy is a Lecturer and interdisciplinary researcher at the University of Southampton Delhi, specializing in careers, leadership, and organizational behaviour. Her research focuses on professional careers in India, and she holds a PhD from Queen Mary, University of London.",
+    "keywords": [
+      "career management",
+      "sustainable careers",
+      "organizational behaviour",
+      "diversity and inclusion",
+      "ethical decision making",
+      "leadership development",
+      "multinational corporations"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "career management": 0.92,
+      "sustainable careers": 0.88,
+      "organizational behaviour": 0.85
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Queen Mary, University of London",
+      "Higher Education Academy",
+      "University of Southampton Delhi",
+      "PhD Business and Management"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy's Academic Profile and Research Expertise",
+    "path": "/team/dr-aparna-pasumarthy",
+    "chunk_index": 1,
+    "text": "Dr Aparna Pasumarthy is an interdisciplinary qualitative researcher and passionate educator. She enjoys making complex management theory accessible to students and adopts a student-centric approach to learning and teaching. Dr Pasumarthy previously taught postgraduate and undergraduate management students at Queen Mary, University of London in the UK. Among other professional affiliations, Dr Pasumarthy is an Associate Fellow of the Higher Education Academy, United Kingdom. Dr Pasumarthy’s research expertise spans the fields of careers, leadership, and organizational behaviour. Her on-going research projects focus on the (un)sustainable careers of professional men and women in India; careers of professional women in MNCs in India. She has presented her research at renowned international conferences including the Academy of Management Conference, European Group for Organisation Studies Colloquium, and British Sociological Association Work Employment Society Conference. Combining her expertise with her commitment to inclusion and social justice, Dr Pasumarthy aspires to help construct equitable organisational environments where all individuals can thrive. Prior to joining University of Southampton Delhi, Dr Pasumarthy pursued an MSc in International Management from the University of Bath and earned a PhD Business and Management (no corrections) from Queen Mary, University of London. Thereafter, she was the Garware Post-Doctoral Fellow at the University of Pennsylvania Institute for Advanced Study of India (UPIASI) and a Non-Resident Scholar at the Centre for the Advanced Study of India, University of Pennsylvania. Apart from her academic interests and professional endeavours, Dr Pasumarthy is passionate about living sustainably and conserving the environment.",
+    "tokens": 219,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy is a qualitative researcher and educator, teaching management at postgraduate and undergraduate levels. Her expertise includes careers, leadership, and organizational behaviour, with ongoing research on Indian professionals and MNCs, alongside a strong commitment to social justice and sustainability.",
+    "keywords": [
+      "qualitative research",
+      "management education",
+      "student-centric learning",
+      "career expertise",
+      "organizational behaviour",
+      "multinational corporations India",
+      "social justice",
+      "sustainability",
+      "post-doctoral fellowship"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "qualitative research": 0.91,
+      "management education": 0.89,
+      "student-centric learning": 0.86
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Queen Mary, University of London",
+      "Higher Education Academy",
+      "Academy of Management Conference",
+      "European Group for Organisation Studies Colloquium",
+      "British Sociological Association Work Employment Society Conference",
+      "University of Southampton Delhi",
+      "University of Bath",
+      "University of Pennsylvania Institute for Advanced Study of India (UPIASI)",
+      "Centre for the Advanced Study of India, University of Pennsylvania",
+      "MSc in International Management",
+      "PhD Business and Management"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy's Publications and Research Contributions",
+    "path": "/team/dr-aparna-pasumarthy",
+    "chunk_index": 2,
+    "text": "Publications Structure, Agency, and Career Management Strategies of Indian Professional Women Pasumarthy, A., Athanasopoulou, A. and Kirton, G. (2025) – The 85th Annual Meeting of Academy of Management, Careers Division. (Copenhagen, Denmark) Striving to thrive? Pasumarthy, A., Kirton, G. and Athanasopoulou. A., (2023) Striving to thrive? A qualitative study exploring success, sustainable careers and navigation strategies of Indian professional/managerial women in pursuit of the good life. 39th European Group for Organization Studies Colloquium (sub-theme 21). Moral-dilemmas-as-practice; Delineating the linkages between context, emotions, and cognitive processes A., Bao, L., Pasumarthy, A. and Stitilyte, G. (2023) Moral-dilemmas-as-practice: Delineating the linkages between context, emotions, and cognitive processes. 39th European Group for Organization Studies Colloquium (sub-theme 68). An exploratory qualitative study of the lived experiences, career trajectories and adaptive strategies of Indian professional women Pasumarthy, A. (2021). An exploratory qualitative study of the lived experiences, career trajectories and adaptive strategies of Indian professional women. British Sociological Association Work, Employment and Society Conference 2021.",
+    "tokens": 147,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy's publications include studies on career management strategies of Indian professional women, sustainable careers, and moral dilemmas in organizational contexts, presented at major conferences like the Academy of Management and European Group for Organization Studies Colloquium.",
+    "keywords": [
+      "career management strategies",
+      "Indian professional women",
+      "sustainable careers",
+      "moral dilemmas",
+      "qualitative study",
+      "organizational studies",
+      "work employment society"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "career management strategies": 0.93,
+      "Indian professional women": 0.9,
+      "sustainable careers": 0.87
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Athanasopoulou",
+      "Kirton",
+      "Bao",
+      "Stitilyte",
+      "Academy of Management",
+      "European Group for Organization Studies Colloquium",
+      "British Sociological Association Work, Employment and Society Conference",
+      "Copenhagen"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy's Affiliation with Work Futures Research Centre",
+    "path": "/team/dr-aparna-pasumarthy",
+    "chunk_index": 3,
+    "text": "Research Groups Work Futures Research Centre Read more Our research covers everything from digital labour to social care, work organisations across the private, public and third sectors, and employees whether on salaries, contracts, or unemployed.",
+    "tokens": 40,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy is associated with the Work Futures Research Centre, which conducts broad research on various aspects of work, from digital labour to social care and different employment sectors.",
+    "keywords": [
+      "work futures",
+      "research centre",
+      "digital labour",
+      "social care",
+      "work organisations",
+      "employment sectors"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "work futures": 0.95,
+      "research centre": 0.9,
+      "digital labour": 0.88
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Work Futures Research Centre"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy's Ongoing Research Projects",
+    "path": "/team/dr-aparna-pasumarthy",
+    "chunk_index": 4,
+    "text": "Research Projects Paternity leave perceptions and policy implications in India Structure, agency, and career management strategies of Indian women In pursuit of sustainable careers: Navigating careers and life Mentorship for professional success",
+    "tokens": 38,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy's research projects include studies on paternity leave in India, career management strategies for Indian women, sustainable careers, and mentorship for professional success.",
+    "keywords": [
+      "paternity leave India",
+      "career management",
+      "Indian women",
+      "sustainable careers",
+      "mentorship",
+      "professional success"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "paternity leave India": 0.94,
+      "career management": 0.91,
+      "sustainable careers": 0.89
+    },
+    "entities": [
+      "Aparna Pasumarthy"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy: Academic Profile, Research, and Teaching",
+    "path": "/team/dr-aparna-pasumarthy/",
+    "chunk_index": 0,
+    "text": "Dr Aparna Pasumarthy is a Lecturer and an interdisciplinary researcher and educator, specializing in careers, leadership, and organizational behaviour. She previously taught postgraduate and undergraduate management students at Queen Mary, University of London, and is an Associate Fellow of the Higher Education Academy. Her research expertise spans careers, leadership, and organizational behaviour, focusing on the (un)sustainable careers of professional men and women in India, especially within multinational corporations. Dr Pasumarthy holds a PhD in Business and Management (no corrections) from Queen Mary, University of London, and an MSc in International Management from the University of Bath. She was also a Garware Post-Doctoral Fellow at the University of Pennsylvania Institute for Advanced Study of India (UPIASI) and a Non-Resident Scholar at the Centre for the Advanced Study of India, University of Pennsylvania. She is committed to promoting social justice, inclusion, and sustainability in academia and organisational environments. Her research interests include Career Management & Sustainable Careers, Diversity, Equality & Inclusion, Ethical Decision Making, Flexible Work, Leaders and Leadership Development, and Organisational Behaviour. Apart from her academic interests and professional endeavours, Dr Pasumarthy is passionate about living sustainably and conserving the environment.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy is a Lecturer specializing in careers, leadership, and organizational behaviour, with teaching experience at Queen Mary, University of London. Her research focuses on professional careers in India, holding a PhD from Queen Mary and an MSc from Bath.",
+    "keywords": [
+      "Aparna Pasumarthy",
+      "Organizational Behaviour",
+      "Career Management",
+      "Sustainable Careers",
+      "Diversity, Equality & Inclusion",
+      "Leadership Development",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Aparna Pasumarthy": 0.98,
+      "Organizational Behaviour": 0.85,
+      "Career Management": 0.82,
+      "Sustainable Careers": 0.79,
+      "Diversity, Equality & Inclusion": 0.75,
+      "Leadership Development": 0.7,
+      "University of Southampton Delhi": 0.65
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Queen Mary, University of London",
+      "Higher Education Academy",
+      "University of Bath",
+      "University of Pennsylvania Institute for Advanced Study of India",
+      "Centre for the Advanced Study of India",
+      "University of Pennsylvania",
+      "University of Southampton Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:26.677Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy's Academic Publications and Presentations",
+    "path": "/team/dr-aparna-pasumarthy/",
+    "chunk_index": 1,
+    "text": "Dr Aparna Pasumarthy's publications and conference presentations include:\n\n*   **Structure, Agency, and Career Management Strategies of Indian Professional Women** by Pasumarthy, A., Athanasopoulou, A. and Kirton, G. (2025) presented at The 85th Annual Meeting of Academy of Management, Careers Division (Copenhagen, Denmark).\n*   **Striving to thrive?** by Pasumarthy, A., Kirton, G. and Athanasopoulou. A. (2023), a qualitative study exploring success, sustainable careers and navigation strategies of Indian professional/managerial women, presented at the 39th European Group for Organization Studies Colloquium (sub-theme 21).\n*   **Moral-dilemmas-as-practice; Delineating the linkages between context, emotions, and cognitive processes** by A., Bao, L., Pasumarthy, A. and Stitilyte, G. (2023) presented at the 39th European Group for Organization Studies Colloquium (sub-theme 68).\n*   **An exploratory qualitative study of the lived experiences, career trajectories and adaptive strategies of Indian professional women** by Pasumarthy, A. (2021) presented at the British Sociological Association Work, Employment and Society Conference 2021.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy's publications include studies on career management strategies of Indian professional women, presented at prestigious conferences like the Academy of Management and European Group for Organization Studies Colloquium.",
+    "keywords": [
+      "Academic Publications",
+      "Conference Presentations",
+      "Indian Professional Women",
+      "Career Management Strategies",
+      "Sustainable Careers",
+      "Organizational Studies Colloquium",
+      "Moral Dilemmas"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Publications": 0.95,
+      "Conference Presentations": 0.88,
+      "Indian Professional Women": 0.85,
+      "Career Management Strategies": 0.82,
+      "Sustainable Careers": 0.78,
+      "Organizational Studies Colloquium": 0.74,
+      "Moral Dilemmas": 0.69
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Athanasopoulou, A.",
+      "Kirton, G.",
+      "Academy of Management",
+      "European Group for Organization Studies Colloquium",
+      "Bao, L.",
+      "Stitilyte, G.",
+      "British Sociological Association Work, Employment and Society Conference",
+      "Copenhagen, Denmark"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:26.677Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Aparna Pasumarthy's Research Groups and Projects",
+    "path": "/team/dr-aparna-pasumarthy/",
+    "chunk_index": 2,
+    "text": "Dr Aparna Pasumarthy is involved with the Work Futures Research Centre, which conducts research on a broad range of topics. This includes digital labour, social care, work organisations across private, public, and third sectors, and the various statuses of employees, whether salaried, contract-based, or unemployed.\n\nHer current research projects include:\n\n*   Paternity leave perceptions and policy implications in India.\n*   Structure, agency, and career management strategies of Indian women.\n*   In pursuit of sustainable careers: Navigating careers and life.\n*   Mentorship for professional success.",
+    "tokens": 105,
+    "language": "en",
+    "summary": "Dr Aparna Pasumarthy is associated with the Work Futures Research Centre, focusing on diverse work-related topics. Her projects include studies on paternity leave in India, career strategies of Indian women, sustainable careers, and mentorship.",
+    "keywords": [
+      "Work Futures Research Centre",
+      "Digital Labour",
+      "Social Care",
+      "Work Organisations",
+      "Paternity Leave India",
+      "Indian Women Career Strategies",
+      "Sustainable Careers",
+      "Mentorship"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Work Futures Research Centre": 0.93,
+      "Paternity Leave India": 0.85,
+      "Indian Women Career Strategies": 0.81,
+      "Sustainable Careers": 0.77,
+      "Mentorship": 0.72,
+      "Digital Labour": 0.7,
+      "Social Care": 0.68,
+      "Work Organisations": 0.65
+    },
+    "entities": [
+      "Aparna Pasumarthy",
+      "Work Futures Research Centre",
+      "India"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:26.677Z",
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-aparna-pasumarthy",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Aparna Pasumarthy: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-aparna-pasumarthy",
+    "chunk_index": 8,
+    "text": "Dr Aparna Pasumarthy is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Dr Aparna Pasumarthy, Dr. Aparna Pasumarthy, Aparna Pasumarthy, A. Pasumarthy, Aparna Pashumarthy, Aparna Pasumarty, Aparna Pasumarathi, Dr Aparna Pasumarty, Dr. Aparna Pashumarthy. All of these names refer to the same individual.",
+    "tokens": 56,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Aparna Pasumarthy. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "aparna pashumarthy",
+      "dr aparna pasumarthy",
+      "aparna pasumarthy",
+      "dr. aparna pasumarthy",
+      "aparna pasumarty",
+      "university of southampton delhi",
+      "faculty",
+      "staff",
+      "a. pasumarthy"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "aparna pashumarthy": 0.95,
+      "dr aparna pasumarthy": 0.9,
+      "aparna pasumarthy": 0.85,
+      "dr. aparna pasumarthy": 0.8,
+      "aparna pasumarty": 0.75,
+      "university of southampton delhi": 0.7,
+      "faculty": 0.65,
+      "staff": 0.6,
+      "a. pasumarthy": 0.55
+    },
+    "entities": [
+      "Dr Aparna Pasumarthy",
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Aparna Pasumarthy",
+      "Dr. Aparna Pasumarthy",
+      "Aparna Pasumarthy",
+      "A. Pasumarthy",
+      "Aparna Pashumarthy",
+      "Aparna Pasumarty",
+      "Aparna Pasumarathi",
+      "Dr Aparna Pasumarty",
+      "Dr. Aparna Pashumarthy"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:00:00Z"
+  }
+]

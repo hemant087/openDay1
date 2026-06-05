@@ -1,0 +1,142 @@
+=== STEP 126 ===
+"// ââ MICROPHONE â faster-whisper VAD Mode âââââââââââââââââââââââââââââââââââââ
+let micStream        = null;   // raw getUserMedia stream
+let mediaRecorder    = null;   // MediaRecorder for capturing audio chunks
+let audioChunks      = [];     // accumulated Blob chunks
+let audioCtxForVAD   = null;   // AudioContext for silence detection
+let vadAnalyser      = null;   // AnalyserNode
+let vadRafId         = null;   // requestAnimationFrame id for VAD loop
+let isRecording      = false;  // true while MediaRecorder is running
+let micManuallyStopped = false;
+
+const SILENCE_THRESHOLD = 0.013;  // RMS below this = silence
+const SILENCE_DURATION  = 1200;   // ms of continuous silence before stop
+const MIN_RECORD_MS     = 600;    // min recording before VAD can fire
+const MAX_RECORD_MS     = 10000;  // safety cap per recording
+const MIN_BLOB_BYTES    = 4000;   // ignore blobs that are just noise
+
+// ââ Init mic stream + VAD AudioContext (once per session) âââââââââââââââââââââ
+async function initWhisperMic() {
+  if (micStream) return true;
+  try {
+    micStream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: true, noiseSuppression: true, sampleRate: 16000 }
+    });
+    audioCtxForVAD = new (window.AudioContext || window.webkitAudioContext)();
+    const src = audioCtxForVAD.createMediaStreamSource(micStream);
+    vadAnalyser = audioCtxForVAD.createAnalyser();
+    vadAnalyser.fftSize = 512;
+    src.connect(vadAnalyser);
+    return true;
+  } catch (err) {
+    showToast('Microphone access denied: ' + err.message, 'warning');
+    return false;
+  }
+}
+
+// ââ Start one recording + VAD cycle ââââââââââââââââââââââââââââââââââââââââââ
+function startWhisperListening() {
+  if (!micStream || isRecording || micManuallyStopped) return;
+  if (state.isSpeaki
+<truncated 6228 bytes>
+================================================================================
+=== STEP 127 ===
+=== STEP 128 ===
+=== STEP 249 ===
+=== STEP 263 ===
+=== STEP 366 ===
+=== STEP 421 ===
+=== STEP 484 ===
+"// ââ MICROPHONE â Web Speech API (Always-Alive Indian English Mode) âââââââââââ
+let recognition = null;
+let micManuallyStopped = false;
+let accumulatedFinal = '';
+let speechDebounceTimer = null;
+
+async function initSpeech() {
+  if (recognition) return true;
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) {
+    showToast('Speech recognition not supported in this browser. Use Google Chrome.', 'warning');
+    return false;
+  }
+  recognition = new SR();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+  recognition.lang = 'en-IN'; // Highly tuned for Indian English accents and names
+
+  recognition.onstart = () => {
+    state.isListening = true;
+    micBtn.classList.add('listening');
+    $('voice-wave').classList.add('listening');
+    $('footer-stt').textContent = 'ð¤ Mic Active';
+    $('footer-stt').className = 'status-val status-green';
+    $('voice-status-text').textContent = 'Mic ON â speak anytime!';
+    setRobotState('LISTENING â Speak anytime! ð¤', 50, 'ð LISTENING', 'HEAR');
+  };
+
+  recognition.onresult = (e) => {
+    // Discard speech if robot is actively speaking or cooling down
+    if (state.isSpeaking || state.isCoolingDown) return;
+
+    let interim = '';
+    let final = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      if (e.results[i].isFinal) {
+        final += e.results[i][0].transcript;
+      } else {
+        interim += e.results[i][0].transcript;
+      }
+    }
+
+    // Live-write the interim text immediately in the chat input area
+    if (interim) {
+      chatInput.value = accumulatedFinal + interim;
+      $('voice-status-text').textContent = `ðï¸ Live: ${interim.slice(0, 35)}...`;
+    }
+
+    if (final) {
+      accumulatedFinal += (accumulatedFinal ? ' ' : '') + final.trim();
+      chatInput.value = accumulatedFinal;
+      $('voice-status-text').textContent = 'â¸ï¸ Processing speech...';
+    }
+
+    // Debounce sending the tex
+<truncated 2551 bytes>
+================================================================================
+=== STEP 485 ===
+=== STEP 1138 ===
+=== STEP 1144 ===
+"with open(transcript_path, 'r', encoding='utf-8') as f, open(output_path, 'w', encoding='utf-8') as out:
+    for line_num, line in enumerate(f):
+        if "initwhispermic" in line.lower():
+            out.write(f"=== MATCH Line {line_num} ===\n")
+            out.write(line[:25000])  # write first 25000 chars of matching line
+            out.write("\n" + "="*80 + "\n")"
+================================================================================
+=== STEP 1145 ===
+=== STEP 1149 ===
+=== STEP 1156 ===
+"with open(transcript_path, 'r', encoding='utf-8') as f, open(output_path, 'w', encoding='utf-8') as out:
+    for line_num, line in enumerate(f):
+        if "initwhispermic" in line.lower():
+            try:
+                step = json.loads(line)
+                out.write(f"=== STEP {step.get('step_index')} ===\n")
+                
+                # Check tool_calls
+                tool_calls = step.get('tool_calls', [])
+                for tc in tool_calls:
+                    args = tc.get('arguments', {})
+                    rep = args.get('ReplacementContent', '')
+                    if rep:
+                        # Write the raw ReplacementContent
+                        out.write(rep)
+                        out.write("\n" + "="*80 + "\n")
+            except Exception as e:
+                out.write(f"Error parsing line {line_num}: {e}\n")"
+================================================================================
+=== STEP 1157 ===
+=== STEP 1158 ===
+=== STEP 1162 ===
+=== STEP 1171 ===

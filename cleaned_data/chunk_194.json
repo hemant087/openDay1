@@ -1,0 +1,35 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/commending-leadership-new-academic-provost-to-drive-success-at-southampton-delhi/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/commending-leadership-new-academic-provost-to-drive-success-at-southampton-delhi/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "New Academic Provost Appointed for Southampton Delhi",
+    "path": "/news/commending-leadership-new-academic-provost-to-drive-success-at-southampton-delhi/",
+    "chunk_index": 0,
+    "text": "Commending Leadership: New Academic Provost to Drive Success at Southampton Delhi 19 February 2025",
+    "tokens": 17,
+    "language": "en",
+    "summary": "University of Southampton Delhi announces the appointment of a new Academic Provost, effective February 19, 2025, to drive future success.",
+    "keywords": [
+      "Academic Provost",
+      "Southampton Delhi leadership",
+      "university appointment",
+      "leadership news"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Provost": 0.95,
+      "Southampton Delhi leadership": 0.9,
+      "university appointment": 0.88,
+      "leadership news": 0.85
+    },
+    "entities": [
+      "Academic Provost",
+      "University of Southampton Delhi",
+      "Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

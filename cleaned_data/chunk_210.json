@@ -1,0 +1,37 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-director-of-learning-and-teaching-for-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-appoints-director-of-learning-and-teaching-for-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Appoints Director of Learning and Teaching",
+    "path": "/news/university-of-southampton-appoints-director-of-learning-and-teaching-for-delhi-campus/",
+    "chunk_index": 0,
+    "text": "The University of Southampton has announced the appointment of a Director of Learning and Teaching for its Delhi Campus. This appointment was made on 24 February 2025. Further details are available by reading the article at Content Media Solution.",
+    "tokens": 46,
+    "language": "en",
+    "summary": "The University of Southampton Delhi announced the appointment of a Director of Learning and Teaching on February 24, 2025, with more details available via an external article.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Director of Learning and Teaching",
+      "academic appointment",
+      "higher education",
+      "news"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Director of Learning and Teaching": 0.9,
+      "academic appointment": 0.85,
+      "higher education": 0.8,
+      "news": 0.75
+    },
+    "entities": [
+      "University of Southampton",
+      "Delhi Campus",
+      "Content Media Solution"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-05-15T12:00:00Z"
+  }
+]

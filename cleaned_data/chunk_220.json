@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/dr-vishal-talwar-appointed-coo-of-university-of-southampton-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/dr-vishal-talwar-appointed-coo-of-university-of-southampton-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr. Vishal Talwar Appointed COO of University of Southampton Delhi Campus",
+    "path": "/news/dr-vishal-talwar-appointed-coo-of-university-of-southampton-delhi-campus/",
+    "chunk_index": 0,
+    "text": "Dr. Vishal Talwar Appointed COO Of University Of Southampton Delhi Campus 23 January 2025 Read article at BW Education 23 January 2025",
+    "tokens": 22,
+    "language": "en",
+    "summary": "Dr. Vishal Talwar was appointed COO of the University of Southampton Delhi Campus on January 23, 2025. Further details are available via BW Education.",
+    "keywords": [
+      "Vishal Talwar",
+      "COO appointment",
+      "University of Southampton Delhi Campus",
+      "BW Education",
+      "campus leadership"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Vishal Talwar": 0.9,
+      "COO appointment": 0.9,
+      "University of Southampton Delhi Campus": 0.9,
+      "BW Education": 0.9,
+      "campus leadership": 0.9
+    },
+    "entities": [
+      "Dr. Vishal Talwar",
+      "University of Southampton Delhi Campus",
+      "BW Education",
+      "Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-29T12:00:00Z"
+  }
+]

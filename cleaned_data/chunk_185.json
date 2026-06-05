@@ -1,0 +1,36 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/academic-provost-appointed-to-lead-university-of-southampton-delhi-6/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/academic-provost-appointed-to-lead-university-of-southampton-delhi-6/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Academic Provost Appointed for University of Southampton Delhi",
+    "path": "/news/academic-provost-appointed-to-lead-university-of-southampton-delhi-6/",
+    "chunk_index": 0,
+    "text": "Academic Provost appointed to lead University of Southampton Delhi. The announcement was made on 19 February 2025. Further details can be found by reading the article on APN News.",
+    "tokens": 36,
+    "language": "en",
+    "summary": "The University of Southampton Delhi announced the appointment of its Academic Provost on February 19, 2025, with full details available via an APN News article.",
+    "keywords": [
+      "Academic Provost",
+      "University leadership",
+      "University of Southampton Delhi",
+      "APN News",
+      "appointment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Provost": 0.95,
+      "University leadership": 0.88,
+      "University of Southampton Delhi": 0.92,
+      "APN News": 0.8,
+      "appointment": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "APN News"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

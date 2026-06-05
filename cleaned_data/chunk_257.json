@@ -1,0 +1,45 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/enrol-at-the-university/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/enrol-at-the-university/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Enrolment and Student ID Card Guide",
+    "path": "/welcome/enrol-at-the-university/",
+    "chunk_index": 0,
+    "text": "Enrol at the university. This page shows you how to enrol at the university. You must officially enrol to join the university as a student. You must enrol to officially join the university between 27-29 August. You may need to wait up to 12 hours after setting up your University IT account for the system to allow you to enrol. Enrolling is how you officially join the University. If you don't enrol, you can be withdrawn from your course. To enrol, you’ll need: your University IT account login details, your University ID number (also known as your student ID number, found on your offer letter or welcome email), your current permanent address, and emergency contact details. You'll also be asked for a term-time address and your mobile number, which can be added later. Questions for UK government statistical purposes and university support are also included. What is your next step? Collect your student ID card. You must have a student ID card to access campus and identify you as a member of the student community. See more about collection.",
+    "tokens": 298,
+    "language": "en",
+    "summary": "This guide outlines the University of Southampton Delhi's official enrolment process, required documents, key August dates, and the subsequent collection of student ID cards for campus access and identification.",
+    "keywords": [
+      "university enrolment",
+      "official registration",
+      "enrolment requirements",
+      "student ID card",
+      "campus access",
+      "University IT account",
+      "student ID number",
+      "offer letter",
+      "emergency contacts",
+      "term-time address"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university enrolment": 0.92,
+      "official registration": 0.88,
+      "enrolment requirements": 0.85,
+      "student ID card": 0.80,
+      "campus access": 0.75,
+      "University IT account": 0.70,
+      "student ID number": 0.68,
+      "offer letter": 0.65,
+      "emergency contacts": 0.62,
+      "term-time address": 0.60
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:21.165Z"
+  }
+]

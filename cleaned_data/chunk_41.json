@@ -1,0 +1,122 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/future-talent-bursary/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/future-talent-bursary/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Future Talent Bursary: Overview and Eligible Programmes",
+    "path": "/funding/future-talent-bursary/",
+    "chunk_index": 0,
+    "text": "The Future Talent Bursary is offered for a duration of 3 academic years, covering the study period from August 2025 to June 2028. This merit bursary is for undergraduate students, with applications for the August 2025 intake now closed. Up to 8 undergraduate students will receive support for their academic studies starting August 2025. This bursary aims to financially assist talented students at the University of Southampton Delhi, contributing towards tuition fees for the three-year undergraduate programme. Student selection is based on an assessment of need and eligibility, ensuring a respectful process.\n\nSuccessful applicants will receive up to 8 individual awards, each providing a flat contribution of no more than 660,000 INR towards tuition fees due to the University of Southampton Delhi over academic years 25/26, 26/27, and 27/28. Programmes qualifying for this award include: Accounting and Finance BSc (Hons), Business Management BSc (Hons), Computer Science BSc (Hons), and Economics BSc (Hons).",
+    "tokens": 194,
+    "language": "en",
+    "summary": "The Future Talent Bursary supports up to eight undergraduate students at the University of Southampton Delhi with tuition fees over three academic years, starting August 2025. It's a merit-based award for specific BSc (Hons) programmes, contributing up to 660,000 INR.",
+    "keywords": [
+      "Future Talent Bursary",
+      "undergraduate students",
+      "tuition fees",
+      "academic years",
+      "merit bursary",
+      "qualifying programmes",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Future Talent Bursary": 0.95,
+      "undergraduate students": 0.88,
+      "tuition fees": 0.82,
+      "academic years": 0.75,
+      "merit bursary": 0.78,
+      "qualifying programmes": 0.70,
+      "University of Southampton Delhi": 0.90
+    },
+    "entities": [
+      "Future Talent Bursary",
+      "University of Southampton Delhi",
+      "Accounting and Finance BSc (Hons)",
+      "Business Management BSc (Hons)",
+      "Computer Science BSc (Hons)",
+      "Economics BSc (Hons)"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/future-talent-bursary/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/future-talent-bursary/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Future Talent Bursary: Decision Process and Application Details",
+    "path": "/funding/future-talent-bursary/",
+    "chunk_index": 1,
+    "text": "The University of Southampton Delhi manages scholarships and bursaries fairly, supporting academically gifted students and those facing financial challenges. Award decisions consider academic achievements from the study application and individual scholarship applications. A scholarships panel makes the final decision after shortlisting candidates. Applications for the August 2025 intake are closed. This merit bursary targets domestic undergraduate students whose financial circumstances would otherwise hinder their study at the University of Southampton Delhi, aligning with the university's Corporate Social Responsibility to improve life chances, promote social mobility, and increase student diversity.\n\nApplicants considered for this award must submit a financial statement as part of their bursary application, which will be handled with sensitivity and confidentiality. The names of recipients of the Future Talent Bursary will not be publicly disclosed, with individual communication for successful applicants. To continue receiving the bursary in subsequent years, students must meet agreed performance and academic standards.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "The University of Southampton Delhi's scholarship panel makes fair decisions based on academic merit and financial need, prioritizing domestic undergraduate students. Applicants must submit confidential financial statements and maintain academic standards for continued bursary benefits.",
+    "keywords": [
+      "award decisions",
+      "scholarships panel",
+      "application process",
+      "domestic undergraduate students",
+      "financial circumstances",
+      "Corporate Social Responsibility",
+      "financial statement",
+      "academic standards"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "award decisions": 0.89,
+      "scholarships panel": 0.80,
+      "application process": 0.77,
+      "domestic undergraduate students": 0.91,
+      "financial circumstances": 0.85,
+      "Corporate Social Responsibility": 0.88,
+      "financial statement": 0.79,
+      "academic standards": 0.76
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Future Talent Bursary"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/future-talent-bursary/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/future-talent-bursary/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Future Talent Bursary: Frequently Asked Questions",
+    "path": "/funding/future-talent-bursary/",
+    "chunk_index": 2,
+    "text": "As a scholarship or bursary recipient, students are encouraged and expected to act as a Student Ambassador to promote the University of Southampton Delhi. The scholarship or bursary award provides no cash alternative; instead, it reduces the amount of Tuition Fees payable by the student. Self-funding students paying domestic Tuition Fees are welcome to apply for a scholarship or bursary, provided they meet additional criteria such as programme eligibility. It is mandatory to first apply to study a specific programme before applying for a scholarship or bursary. A merit bursary is defined as financial aid for students who would otherwise be unable to fund their education, based on both financial ability and academic performance. The current terms and conditions for scholarships and bursaries are available on the university's website.",
+    "tokens": 154,
+    "language": "en",
+    "summary": "Scholarship recipients serve as Student Ambassadors, with awards reducing tuition fees, not providing cash. Self-funding students paying domestic fees can apply after programme admission, based on financial need and academic merit, adhering to published terms and conditions.",
+    "keywords": [
+      "Student Ambassador",
+      "tuition fees waiver",
+      "self-funding students",
+      "merit bursary definition",
+      "programme eligibility",
+      "scholarship application",
+      "terms and conditions"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Student Ambassador": 0.88,
+      "tuition fees waiver": 0.85,
+      "self-funding students": 0.82,
+      "merit bursary definition": 0.79,
+      "programme eligibility": 0.75,
+      "scholarship application": 0.70,
+      "terms and conditions": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Ambassador"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india-9/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india-9/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Location in Gurgaon Announced",
+    "path": "/news/university-of-southampton-delhi-selects-gurgaons-international-tech-park-for-the-home-of-its-modern-campus-in-india-9/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi selects Gurgaon’s International Tech Park for the home of its modern campus in India! This announcement was made on 12 December 2024. For the full article, readers are directed to Chennai Prime News.",
+    "tokens": 40,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced on December 12, 2024, that its new modern campus in India will be located in Gurgaon's International Tech Park.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "International Tech Park",
+      "India campus",
+      "campus location",
+      "Chennai Prime News"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Gurgaon campus": 0.90,
+      "International Tech Park": 0.88,
+      "India campus": 0.85,
+      "campus location": 0.82,
+      "Chennai Prime News": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Gurgaon",
+      "International Tech Park",
+      "India",
+      "Chennai Prime News"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

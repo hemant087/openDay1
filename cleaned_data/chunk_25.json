@@ -1,0 +1,62 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/forms/merit-bursaries/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/forms/merit-bursaries/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Future Talent Bursary Details and Application Process",
+    "path": "/forms/merit-bursaries/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi has set aside a merit bursary pool (financial aid), called the Future Talent Bursary, for academically strong, but financially disadvantaged, undergraduate students. Bursary awards are for undergraduate students only, up to a maximum of INR 660,000 per student, for the 3 academic year duration of a University of Southampton Delhi undergraduate programme. We strongly recommend that you keep a copy of answers to longer questions in a separate document. If your internet connection fails while you are part way through completing the form, or your web browser crashes, you can easily paste them from the copy you have kept elsewhere into a new form. To be considered for a bursary you need to have already made a programme application for August 2025 entry, and then completed and submitted the bursary application form below. You will need your student identification (ID) number, which you received when you submitted your programme application.",
+    "tokens": 196,
+    "language": "en",
+    "summary": "The University of Southampton Delhi offers the Future Talent Bursary, a merit-based financial aid for financially disadvantaged undergraduate students, up to INR 660,000 over three years. Applicants must first apply for a program for August 2025 entry and then submit the bursary form using their student ID.",
+    "keywords": [
+      "Future Talent Bursary",
+      "merit bursary",
+      "financial aid",
+      "undergraduate students",
+      "bursary application",
+      "student ID number",
+      "August 2025 entry"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "Future Talent Bursary",
+      "August 2025"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/forms/merit-bursaries/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/forms/merit-bursaries/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Scholarship Eligibility, Award Receipt, and Student Ambassador Role",
+    "path": "/forms/merit-bursaries/",
+    "chunk_index": 1,
+    "text": "Can I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary. How would I receive my scholarship or bursary? There is no cash alternative to the waiver of Tuition Fees made under a scholarship or bursary. We will reduce the amount of Tuition Fees that you will pay by the value of the award. How can I contribute to the community as a scholarship student? We would encourage - and expect - that the recipient of a scholarship or bursary will act as a Student Ambassador to promote University of Southampton Delhi while they study with us.",
+    "tokens": 168,
+    "language": "en",
+    "summary": "Scholarships are open to self-funding students paying domestic tuition fees, requiring a program application first. Awards are tuition fee waivers, not cash, and recipients are encouraged to serve as Student Ambassadors for the University of Southampton Delhi.",
+    "keywords": [
+      "scholarship eligibility",
+      "bursary application",
+      "domestic tuition fees",
+      "tuition fee waiver",
+      "Student Ambassador",
+      "programme application"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Ambassador"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Latest News and Press Releases Overview",
+    "path": "/news",
+    "chunk_index": 0,
+    "text": "News and press releases Read the latest news from University of Southampton Delhi including research, enterprise and teaching activities, alongside media stories and important press releases.",
+    "tokens": 35,
+    "language": "en",
+    "summary": "Read the latest news from University of Southampton Delhi, covering research, enterprise, teaching activities, media stories, and important press releases.",
+    "keywords": [
+      "University news",
+      "press releases",
+      "research activities",
+      "teaching activities",
+      "media stories"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University news": 0.9,
+      "press releases": 0.88,
+      "research activities": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Recent Press Releases and Admissions Updates",
+    "path": "/news",
+    "chunk_index": 1,
+    "text": "Press releases The most recently published press releases are at the top of the list. Search for press releases only with the dedicated search bar in this section. Navigate to additional press releases using buttons at the bottom of the section. Open a summary to read more on our website, and also to find links to relevant external websites. Search November 12, 2025 Press Release: University of Southampton Delhi Opens Applications for Postgraduate Programmes Commencing August 2026 ~Expands Postgraduate Portfolio with the Launch of MSc Economics October 28, 2025 Press Release: University of Southampton Delhi opens applications for undergraduate admissions 2026 ~ Strengthens STEM Offerings with two new programs - BSc (Hons) Creative Computing and B.Eng. (Hons) Software Engineering September 23, 2025 Press Release: University of Southampton Delhi welcomes its first students with a dynamic Induction and Employability Programme New students at the University of Southampton Delhi enjoyed face-to-face sessions with industry leaders and entrepreneurs as part of their welcome to campus. 1 2 3 Next",
+    "tokens": 172,
+    "language": "en",
+    "summary": "Discover recent press releases from University of Southampton Delhi, including applications opening for postgraduate and undergraduate programmes for 2026.",
+    "keywords": [
+      "postgraduate applications",
+      "undergraduate admissions",
+      "MSc Economics",
+      "Creative Computing",
+      "Software Engineering",
+      "Induction Programme"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "postgraduate applications": 0.92,
+      "undergraduate admissions": 0.89,
+      "MSc Economics": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "MSc Economics",
+      "BSc (Hons) Creative Computing",
+      "B.Eng. (Hons) Software Engineering"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/news",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Global Education and Campus News",
+    "path": "/news",
+    "chunk_index": 2,
+    "text": "News articles The most recently published news articles are at the top of the list. Search for news articles only with the dedicated search bar in this section. Navigate to additional news articles using buttons at the bottom of the section. Open a summary to read more on our website, and also to find links to relevant external websites. Search University of Southampton Delhi and McGraw Hill India unveil second edition of International Relations for Civil Service Aspirants University of Southampton Delhi and McGraw Hill India unveil 2nd edition of International Relations for Civil Service Aspirants by Shri Ashok Kumar and Dr Rajesh Mohan. Read time: 3 min. Published on: November 7, 2025 University of Southampton joins landmark UK trade delegation in India University of Southampton’s role as a global leader in higher education has been recognised as part of the UK government’s landmark visit to India. Read time: 3 min. Published on: October 9, 2025 Creating a New World Order in Global Education With a strong track record of producing changemakers & leaders who make a global impact, the University of Southampton's launch is set to change the dynamics of higher education. Read time: 6 min. Published on: September 11, 2025 University of Southampton India campus to offer UK-quality degrees at half the cost: VC Professor Mark E Smith In this exclusive interview with HT Digital, Professor Mark E. Smith, CBE, President and Vice-Chancellor of the University of Southampton, shares the university’s vision. Read time: 2 min. Published on: July 22, 2025 Who’s applying to Southampton’s new India campus? The university received financial and professional support from OIEG, along with strategic guidance from the India Business Group, in establishing its India campus under the UGC. Read time: 7 min. Published on: July 22, 2025 Dharmendra Pradhan flags off University of Southampton’s first Indian campus in Gurugram Union Education Minister Dharmendra Pradhan on July 16, Wednesday, inaugurated the India campus of the University of Southampton in Gurugram. Read time: 3 min. Published on: July 18, 2025 1 2 3 ... 16 Next",
+    "tokens": 371,
+    "language": "en",
+    "summary": "Explore news articles featuring University of Southampton's global education initiatives, campus launch, and strategic partnerships in India.",
+    "keywords": [
+      "International Relations",
+      "UK trade delegation",
+      "global education",
+      "India campus",
+      "Gurugram launch",
+      "UK-quality degrees"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "India campus": 0.95,
+      "global education": 0.91,
+      "UK trade delegation": 0.88
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "McGraw Hill India",
+      "Ashok Kumar",
+      "Dr Rajesh Mohan",
+      "India",
+      "UK government",
+      "Professor Mark E Smith",
+      "HT Digital",
+      "OIEG",
+      "India Business Group",
+      "UGC",
+      "Dharmendra Pradhan",
+      "Gurugram"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

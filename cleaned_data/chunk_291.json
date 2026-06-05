@@ -1,0 +1,47 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/professor-eloise-phillips#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/professor-eloise-phillips",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Professor Eloise Phillips: Academic Provost and International Vice-President",
+    "path": "/team/professor-eloise-phillips",
+    "chunk_index": 0,
+    "text": "Professor Eloise Phillips is the Academic Provost at the University of Southampton Delhi, responsible for academic quality and delivery. Previously, she was instrumental in establishing the University of Birmingham’s Dubai campus as Head of Health, Wellbeing and Human Science programmes, and served as an Associate Dean at Aston University. A registered nurse and highly experienced advanced clinical practitioner, Professor Phillips has worked globally in clinical practice, healthcare leadership and management, research, and academia. She was drawn to the University of Southampton for its mission to impact and transform students’ lives and the region. As Academic Provost and Associate Vice-President (International) at the University of Southampton Delhi, she is committed to leading the international campus towards excellence in education, research, and knowledge exchange, fostering an inclusive and innovative environment within India’s dynamic education landscape.",
+    "tokens": 147,
+    "language": "en",
+    "summary": "Professor Eloise Phillips serves as Academic Provost and Associate Vice-President (International) at the University of Southampton Delhi, leading academic quality and fostering an inclusive educational environment.",
+    "keywords": [
+      "Academic Provost",
+      "University of Southampton Delhi",
+      "healthcare leadership",
+      "international campus",
+      "education research",
+      "clinical practitioner",
+      "knowledge exchange"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Academic Provost": 0.95,
+      "University of Southampton Delhi": 0.92,
+      "healthcare leadership": 0.88,
+      "international campus": 0.85,
+      "education research": 0.83,
+      "clinical practitioner": 0.80,
+      "knowledge exchange": 0.78
+    },
+    "entities": [
+      "Eloise Phillips",
+      "Professor Phillips",
+      "University of Southampton Delhi",
+      "University of Birmingham",
+      "Aston University",
+      "University of Southampton",
+      "Health, Wellbeing and Human Science programmes",
+      "Dubai",
+      "India"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

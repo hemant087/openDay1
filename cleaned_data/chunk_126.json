@@ -1,0 +1,177 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Opens 2026 Undergraduate Admissions",
+    "path": "/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "chunk_index": 0,
+    "text": "Press Release: University of Southampton Delhi opens applications for undergraduate admissions 2026 ~ Strengthens STEM Offerings with two new programs - BSc (Hons) Creative Computing and B.Eng. (Hons) Software Engineering ~ Strengthens STEM Offerings with two new programs – BSc (Hons) Creative Computing and B.Eng. (Hons) Software EngineeringNational, ** October 2025: The University of Southampton Delhi, India’s first UGC-approved international university and the only global top 100 university with a campus in the country, has opened applications for its August 2026 undergraduate intake. The campus offers students an opportunity to pursue a prestigious UK degree while studying in India, a milestone moment in advancing transnational education under India’s National Education Policy (NEP). The University of Southampton’s leadership in global higher education was recently recognised as part of the UK government’s landmark visit to India. Professor Andrew Atherton, Vice-President International and Engagement, joined UK Prime Minister Keir Starmer on his first official visit to India as part of a trade delegation bringing together British and Indian business and education leaders to strengthen bilateral ties following the signing of the Free Trade Agreement. Professor Atherton said, “The University of Southampton was proud to become the very first international university approved by the University Grants Commission to establish a campus in India, thanks to our reputation for excellence in education, research and enterprise. Our first students are already benefiting from this flagship initiative, and last week’s UK delegation offered further opportunities for our university to further strengthen our links with India.”",
+    "tokens": 223,
+    "language": "en",
+    "summary": "University of Southampton Delhi has opened applications for its August 2026 undergraduate intake, expanding STEM offerings with new programs. This marks a significant step in transnational education, highlighted by a UK government visit.",
+    "keywords": [
+      "undergraduate admissions 2026",
+      "STEM offerings",
+      "transnational education",
+      "National Education Policy",
+      "UGC-approved international university",
+      "UK government visit"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "undergraduate admissions 2026": 0.95,
+      "STEM offerings": 0.88,
+      "transnational education": 0.82,
+      "National Education Policy": 0.78,
+      "UGC-approved international university": 0.90,
+      "UK government visit": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "UGC",
+      "UK",
+      "India",
+      "National Education Policy",
+      "Professor Andrew Atherton",
+      "Keir Starmer",
+      "University Grants Commission"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "New Undergraduate Programmes and Eligibility for 2026 Intake",
+    "path": "/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "chunk_index": 1,
+    "text": "Students at the University of Southampton Delhi can choose from undergraduate programmes such as BSc (Hons) in Accounting & Finance, B.Sc. (Hons) Computer Science, B.Sc. (Hons) Business Management, and B.Sc. (Hons) Economics. For the August 2026 entry, the portfolio will be expanded to include BSc (Hons) in Creative Computing and B.Eng. (Hons) Software Engineering programmes, designed to meet the needs of today’s global workforce. Applications are officially open. To learn more and apply, visit – www.delhi.southampton.ac.uk/ Students completing Class XII (or equivalent) are eligible to apply. Applicants should have achieved at least 75% in their Standard XII examinations from boards such as CBSE, CISCE, or leading State Boards. Equivalent international qualifications are also accepted, including UK A-Levels and the International Baccalaureate (IB) Diploma with scores typically ranging between 28 and 38 points.Commenting on the launch of admissions for the August 2026 intake, Professor Eloise Phillips, Academic Provost at the University of Southampton Delhi, “After the overwhelming response to our first admissions cycle in 2025 and a warm welcome to our first student cohort, we are delighted to open applications for our second student intake. The success of our inaugural intake shows the strong demand for globally recognised UK education in India. With an expanded portfolio of undergraduate programmes for 2026, we are confident of offering students even more opportunities to build their future with a leading Russell Group university, here in India.”",
+    "tokens": 257,
+    "language": "en",
+    "summary": "UoSD expands its undergraduate programs for 2026, adding Creative Computing and Software Engineering. Applicants need 75% in Class XII or equivalent international qualifications, with Professor Phillips noting strong demand for UK education in India.",
+    "keywords": [
+      "undergraduate programmes",
+      "August 2026 entry",
+      "Creative Computing",
+      "Software Engineering",
+      "application eligibility",
+      "Class XII",
+      "international qualifications"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "undergraduate programmes": 0.93,
+      "August 2026 entry": 0.87,
+      "Creative Computing": 0.91,
+      "Software Engineering": 0.89,
+      "application eligibility": 0.85,
+      "Class XII": 0.79,
+      "international qualifications": 0.81
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "BSc (Hons) Accounting & Finance",
+      "B.Sc. (Hons) Computer Science",
+      "B.Sc. (Hons) Business Management",
+      "B.Sc. (Hons) Economics",
+      "BSc (Hons) Creative Computing",
+      "B.Eng. (Hons) Software Engineering",
+      "CBSE",
+      "CISCE",
+      "UK A-Levels",
+      "International Baccalaureate (IB) Diploma",
+      "Professor Eloise Phillips"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "UoSD Program Quality, Campus Facilities, and Employability Excellence",
+    "path": "/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "chunk_index": 2,
+    "text": "Reflecting global standards, the programmes at the University of Southampton Delhi combine academic excellence with a strong career focus, equipping students with industry-relevant skills and practical exposure across finance, technology, consulting, and entrepreneurship. These three-year undergraduate courses give students the flexibility to study in India while experiencing the same academic rigour as in the UK, including the opportunity for a semester abroad. Following the University’s prestigious Triple Helix model, the campus seamlessly integrates education, research, and industry collaboration to prepare graduates for real-world impact.The new Gurugram campus fosters holistic growth with a student hub, social spaces, library, study zones, IT labs, and training suites. With over 150 years of academic excellence, the University of Southampton is globally renowned for producing outstanding graduates across a range of disciplines, including business, engineering, computer science, and social sciences. Reflecting the same standard of quality, the programmes at the University of Southampton Delhi are designed with a strong career focus, equipping students with industry-relevant skills and fostering meaningful connections that enhance employability in a global job market. The University consistently ranks among the world’s leading institutions, placed in the Global Top 100 and among the Top 15 UK universities for graduate employability. The University is also ranked among the Top 10 most targeted UK universities by leading employers, highlighting its strong reputation for both academic excellence and graduate employability.",
+    "tokens": 283,
+    "language": "en",
+    "summary": "University of Southampton Delhi programs maintain global standards, focusing on career-relevant skills and offering a semester abroad. The Gurugram campus supports holistic growth, contributing to the university's top rankings in academic excellence and graduate employability.",
+    "keywords": [
+      "academic excellence",
+      "career focus",
+      "industry-relevant skills",
+      "Triple Helix model",
+      "Gurugram campus",
+      "graduate employability",
+      "Global Top 100"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "academic excellence": 0.94,
+      "career focus": 0.88,
+      "industry-relevant skills": 0.85,
+      "Triple Helix model": 0.89,
+      "Gurugram campus": 0.82,
+      "graduate employability": 0.91,
+      "Global Top 100": 0.79
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "UK",
+      "University of Southampton",
+      "Gurugram"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi: Global Rankings, Mission, and Career Support",
+    "path": "/news/press-release-university-of-southampton-delhi-opens-applications-for-undergraduate-admissions-2026/",
+    "chunk_index": 3,
+    "text": "About the University of Southampton DelhiThe University of Southampton Delhi, the first UGC-approved international campus in India, drives original thinking, turns knowledge into action and impact, and creates solutions to the world’s challenges. We are ranked among the top 100 institutions globally (QS World University Rankings 2025); the only top 100 university with a campus in India. Our academics are leaders in their fields, forging links with high-profile international businesses and organisations, and inspiring a 25,000-strong community of exceptional students from over 135 countries worldwide. Through our high-quality education, the University helps students on a journey of discovery to realise their potential and join our global network of over 200,000 alumni. The University of Southampton’s Successful Futures Pathway is an award-winning programme designed to help students evaluate their skills, align them with employer expectations, and prepare for successful career pathways. The programmes also offer tailored support and access to a wide range of work experience opportunities both on and off campus. The University is globally recognised for its strong career outcomes, backed by a proven track record in graduate employability and industry engagement. According to the QS Graduate Employability Rankings 2022, it ranks among the top 125 institutions worldwide for employability. The University is also listed among the top 15 universities in the UK by The Times and Sunday Times Good University Guide 2025, and features among the top 10 UK universities most targeted by leading employers, as reported in The Graduate Market 2024.",
+    "tokens": 298,
+    "language": "en",
+    "summary": "The University of Southampton Delhi, a UGC-approved top 100 global institution in India, offers high-quality education with strong career outcomes. Its Successful Futures Pathway program supports students' career development and employability.",
+    "keywords": [
+      "UGC-approved international campus",
+      "QS World University Rankings 2025",
+      "Successful Futures Pathway",
+      "graduate employability",
+      "career outcomes",
+      "global network of alumni",
+      "industry engagement"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "UGC-approved international campus": 0.96,
+      "QS World University Rankings 2025": 0.93,
+      "Successful Futures Pathway": 0.90,
+      "graduate employability": 0.92,
+      "career outcomes": 0.87,
+      "global network of alumni": 0.81,
+      "industry engagement": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "UGC",
+      "India",
+      "QS World University Rankings 2025",
+      "University of Southampton",
+      "QS Graduate Employability Rankings 2022",
+      "UK",
+      "The Times and Sunday Times Good University Guide 2025",
+      "The Graduate Market 2024"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

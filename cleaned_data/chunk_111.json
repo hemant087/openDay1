@@ -1,0 +1,41 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/career-fair-suncity-gurugram-24032025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/career-fair-suncity-gurugram-24032025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Career Fair in Gurugram at Suncity School",
+    "path": "/events/career-fair-suncity-gurugram-24032025/",
+    "chunk_index": 0,
+    "text": "A career fair was held in Gurugram on March 25, 2025. This event, now completed, took place at Suncity School, located in Sector 54, Suncity, Township, Gurugram, Haryana 122002, India.",
+    "tokens": 46,
+    "language": "en",
+    "summary": "Details for a completed career fair held on March 25, 2025, at Suncity School in Gurugram, India.",
+    "keywords": [
+      "career fair",
+      "Gurugram",
+      "Suncity School",
+      "event details",
+      "Haryana",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "career fair": 0.95,
+      "Gurugram": 0.90,
+      "Suncity School": 0.88,
+      "event details": 0.80,
+      "Haryana": 0.75,
+      "India": 0.70
+    },
+    "entities": [
+      "Career fair",
+      "Suncity School",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:23.731Z"
+  }
+]

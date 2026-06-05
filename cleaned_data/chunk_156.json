@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-5/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-5/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Establishes Modern Campus in Gurgaon",
+    "path": "/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-5/",
+    "chunk_index": 0,
+    "text": "The University of Southampton has established a modern campus in Gurgaon’s International Tech Park. This significant development was announced on 12 December 2024. For comprehensive details, the official article is available at Biz Development News.",
+    "tokens": 40,
+    "language": "en",
+    "summary": "The University of Southampton has opened a modern campus in Gurgaon's International Tech Park, with an announcement made on December 12, 2024.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "International Tech Park",
+      "new campus",
+      "Biz Development News"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Gurgaon campus": 0.9,
+      "International Tech Park": 0.88,
+      "new campus": 0.85,
+      "Biz Development News": 0.8
+    },
+    "entities": [
+      "University of Southampton",
+      "Gurgaon",
+      "International Tech Park",
+      "Biz Development News"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:51.259Z"
+  }
+]

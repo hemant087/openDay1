@@ -1,0 +1,44 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/lek-scholar-award/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/lek-scholar-award/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "L.E.K. Scholar Award for Economics and Accounting & Finance Students",
+    "path": "/funding/lek-scholar-award/",
+    "chunk_index": 0,
+    "text": "L.E.K. Scholar Award Award duration: 3 academic years Study period covered: Aug 2025 - Jun 2028 Funding type: Merit based scholarship Study Level: Undergraduate About the award The L.E.K. Scholar Award will be awarded to academically outstanding and suitably qualified applicants of the BSc (Hons) Economics and BSc (Hons) Accounting & Finance programmes. University of Southampton Delhi will offer scholarships to up to 12 undergraduate students enrolling on these programmes in August 2025. This awards will contribute towards tuition fees and will be offered to students who exceed the academic admission criteria of their chosen programme. Recipients of the L.E.K. Scholar Award will receive priority consideration for L.E.K. Consulting’s Summer Internship Programme (2026), offering a valuable opportunity for practical exposure and professional development, subject to performance and eligibility. The L.E.K. Scholar Awards will be conferred on an ongoing basis. What we will award Up to 12 scholarships for undergraduate students of ₹1.5 lakh each, per academic year, towards University of Southampton Delhi tuition fees in academic years 25/26, 26/27 and 27/28. How we make award decisions The L.E.K. Scholar Award is to be awarded to academically outstanding and suitably qualified applicants of the BSc Economics and BSc Accounting & Finance programmes. To be eligible, students must hold an unconditional offer to study BSc (Hons) Economics or BSc (Hons) Accounting at University of Southampton Delhi, starting August 2025. Making an application for this award No separate scholarship application is needed. The L.E.K. Scholar Award is awarded to academically outstanding and suitably qualified applicants of the BSc (Hons) Economics and BSc (Hons) Accounting & Finance programmes. You might also want to know What additional benefits are available to L.E.K. Scholars? In addition to the scholarship, recipients of the L.E.K. Scholar Award will receive priority consideration for L.E.K. Consulting’s Summer Internship Programme. This provides an excellent opportunity for hands-on experience and professional growth, subject to performance and eligibility. Who is eligible to apply for an L.E.K. Scholar Award? Students with an unconditional offer to study for BSc (Hons) Economics or BSc (Hons) Accounting and Finance can be considered for an L.E.K. Scholar award. Why should I apply for an L.E.K. Scholar Award? This scholarship will represent a highly prestigious accolade for our top students, aligned with one of the world’s most respected strategy consulting firms and offering an outstanding pathway into top-tier global career opportunities.",
+    "tokens": 408,
+    "language": "en",
+    "summary": "The L.E.K. Scholar Award provides merit-based scholarships for undergraduate students in Economics and Accounting & Finance at University of Southampton Delhi, including priority for L.E.K. Consulting internships.",
+    "keywords": [
+      "L.E.K. Scholar Award",
+      "merit-based scholarship",
+      "undergraduate funding",
+      "BSc Economics",
+      "BSc Accounting & Finance",
+      "L.E.K. Consulting internship",
+      "tuition fees"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "L.E.K. Scholar Award": 0.95,
+      "merit-based scholarship": 0.88,
+      "BSc Economics": 0.80,
+      "BSc Accounting & Finance": 0.82,
+      "undergraduate funding": 0.75,
+      "tuition fees": 0.70,
+      "L.E.K. Consulting internship": 0.90
+    },
+    "entities": [
+      "L.E.K. Scholar Award",
+      "University of Southampton Delhi",
+      "BSc (Hons) Economics",
+      "BSc (Hons) Accounting & Finance",
+      "L.E.K. Consulting",
+      "Summer Internship Programme"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-08-01T12:00:00Z"
+  }
+]

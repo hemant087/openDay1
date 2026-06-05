@@ -1,0 +1,171 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Undergraduate and Postgraduate Programmes at UoSD",
+    "path": "/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "chunk_index": 1,
+    "text": "The University of Southampton Delhi offers a range of study programmes, including Undergraduate programmes and Postgraduate programmes. Prospective students can download the prospectus for detailed information. The university also highlights its academic Team, Alumni, and Careers support.",
+    "tokens": 54,
+    "language": "en",
+    "summary": "The University of Southampton Delhi provides both undergraduate and postgraduate study options, with a downloadable prospectus, and support for alumni and careers.",
+    "keywords": [
+      "Undergraduate programmes",
+      "Postgraduate programmes",
+      "Download prospectus",
+      "Academic team",
+      "Alumni",
+      "Careers support"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Undergraduate programmes": 0.91,
+      "Postgraduate programmes": 0.9,
+      "Download prospectus": 0.87
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Undergraduate programmes",
+      "Postgraduate programmes"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Admissions Process and Funding Options at UoSD",
+    "path": "/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "chunk_index": 2,
+    "text": "The University of Southampton Delhi provides comprehensive information for Undergraduate admissions, Postgraduate admissions, and International admissions. Details regarding various Funding options are also available for prospective students.",
+    "tokens": 38,
+    "language": "en",
+    "summary": "UoSD offers detailed admissions information for undergraduate, postgraduate, and international applicants, alongside various funding opportunities.",
+    "keywords": [
+      "Undergraduate admissions",
+      "Postgraduate admissions",
+      "International admissions",
+      "University funding",
+      "Applicant information"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Undergraduate admissions": 0.93,
+      "Postgraduate admissions": 0.91,
+      "International admissions": 0.89
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Available Scholarships and Financial Aid at UoSD",
+    "path": "/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "chunk_index": 3,
+    "text": "The University of Southampton Delhi offers several scholarships and awards to support students. These include the Undergraduate Delhi Presidential Scholarship, Postgraduate Delhi Presidential Scholarship, Future Talent Scholarship, Cambridge Scholarship Award, L.E.K. Scholar Award, and the Future Talent Bursary.",
+    "tokens": 56,
+    "language": "en",
+    "summary": "UoSD provides a variety of scholarships and awards, such as the Delhi Presidential, Future Talent, Cambridge Scholarship, L.E.K. Scholar Award, and Future Talent Bursary.",
+    "keywords": [
+      "Undergraduate Delhi Presidential Scholarship",
+      "Postgraduate Delhi Presidential Scholarship",
+      "Future Talent Scholarship",
+      "Cambridge Scholarship Award",
+      "L.E.K. Scholar Award",
+      "Future Talent Bursary",
+      "Student funding",
+      "Awards"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Undergraduate Delhi Presidential Scholarship": 0.95,
+      "Postgraduate Delhi Presidential Scholarship": 0.94,
+      "Future Talent Scholarship": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Undergraduate Delhi Presidential Scholarship",
+      "Postgraduate Delhi Presidential Scholarship",
+      "Future Talent Scholarship",
+      "Cambridge Scholarship Award",
+      "L.E.K. Scholar Award",
+      "Future Talent Bursary"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "UoSD Campus Life and Student Support Services",
+    "path": "/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "chunk_index": 4,
+    "text": "Student life at the University of Southampton Delhi encompasses a vibrant campus experience with various facilities. This includes a well-equipped Library, Sports facilities, and Student accommodation. Comprehensive Student services are available, focusing on aspects like Health and wellbeing to support students.",
+    "tokens": 65,
+    "language": "en",
+    "summary": "UoSD offers a comprehensive student life experience, including campus facilities like a library, sports, accommodation, and dedicated student services for health and wellbeing.",
+    "keywords": [
+      "Campus facilities",
+      "University library",
+      "Sports facilities",
+      "Student accommodation",
+      "Student services",
+      "Health and wellbeing",
+      "Campus experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Campus facilities": 0.9,
+      "Student accommodation": 0.88,
+      "Health and wellbeing": 0.86
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Latest News, Events, and Blogs at UoSD",
+    "path": "/wp-content/uploads/2025/01/Sept-25-Prospectus-Web.pdf",
+    "chunk_index": 5,
+    "text": "Stay updated with the latest information from the University of Southampton Delhi through its News section, upcoming Events, and informative Blogs.",
+    "tokens": 28,
+    "language": "en",
+    "summary": "The University of Southampton Delhi keeps its community informed through dedicated sections for news, events, and blogs.",
+    "keywords": [
+      "University news",
+      "Upcoming events",
+      "Blogs",
+      "University updates",
+      "Latest information"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University news": 0.92,
+      "Upcoming events": 0.89,
+      "Informative blogs": 0.86
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-4/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-4/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Establishes Campus in Gurgaon Tech Park",
+    "path": "/news/university-of-southampton-sets-up-modern-campus-in-gurgaons-international-tech-park-4/",
+    "chunk_index": 0,
+    "text": "University of Southampton Sets Up Modern Campus in Gurgaon’s International Tech Park 12 December 2024 Read article at Biz Tech Consulting 12 December 2024",
+    "tokens": 28,
+    "language": "en",
+    "summary": "University of Southampton established a modern campus in Gurgaon's International Tech Park, announced December 12, 2024, with coverage from Biz Tech Consulting.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "International Tech Park",
+      "new university campus",
+      "Biz Tech Consulting"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Gurgaon campus": 0.88,
+      "International Tech Park": 0.82,
+      "new university campus": 0.79,
+      "Biz Tech Consulting": 0.75
+    },
+    "entities": [
+      "University of Southampton",
+      "Gurgaon",
+      "International Tech Park",
+      "Biz Tech Consulting"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:51.303Z"
+  }
+]

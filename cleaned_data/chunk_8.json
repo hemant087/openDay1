@@ -1,0 +1,49 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi: Institutional News Articles",
+    "path": "/news/",
+    "chunk_index": 1,
+    "text": "University of Southampton Delhi and McGraw Hill India unveil second edition of International Relations for Civil Service Aspirants University of Southampton Delhi and McGraw Hill India unveil 2nd edition of International Relations for Civil Service Aspirants by Shri Ashok Kumar and Dr Rajesh Mohan. University of Southampton joins landmark UK trade delegation in India University of Southampton’s role as a global leader in higher education has been recognised as part of the UK government’s landmark visit to India. Creating a New World Order in Global Education With a strong track record of producing changemakers & leaders who make a global impact, the University of Southampton's launch is set to change the dynamics of higher education. University of Southampton India campus to offer UK-quality degrees at half the cost: VC Professor Mark E Smith In this exclusive interview with HT Digital, Professor Mark E. Smith, CBE, President and Vice-Chancellor of the University of Southampton, shares the university’s vision. Who’s applying to Southampton’s new India campus? The university received financial and professional support from OIEG, along with strategic guidance from the India Business Group, in establishing its India campus under the UGC. Dharmendra Pradhan flags off University of Southampton’s first Indian campus in Gurugram Union Education Minister Dharmendra Pradhan on July 16, Wednesday, inaugurated the India campus of the University of Southampton in Gurugram.",
+    "tokens": 377,
+    "language": "en",
+    "summary": "This section features news articles detailing the university's partnerships, global education initiatives, the India campus establishment, and statements from key university leaders.",
+    "keywords": [
+      "International Relations",
+      "Civil Service Aspirants",
+      "UK trade delegation",
+      "Global education",
+      "India campus",
+      "Gurugram",
+      "Higher education costs",
+      "University of Southampton"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International Relations": 0.93,
+      "India campus": 0.88,
+      "Dharmendra Pradhan": 0.82
+    },
+    "entities": [
+      "University of Southampton Delhi (ORG)",
+      "McGraw Hill India (ORG)",
+      "International Relations for Civil Service Aspirants (PROGRAMME)",
+      "UK (LOCATION)",
+      "India (LOCATION)",
+      "Shri Ashok Kumar (PERSON)",
+      "Dr Rajesh Mohan (PERSON)",
+      "Professor Mark E Smith (PERSON)",
+      "HT Digital (ORG)",
+      "OIEG (ORG)",
+      "India Business Group (ORG)",
+      "UGC (ORG)",
+      "Dharmendra Pradhan (PERSON)",
+      "Gurugram (LOCATION)"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-05-15T12:00:00Z"
+  }
+]

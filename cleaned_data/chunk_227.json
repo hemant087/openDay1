@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/policies/tuition-fee-refund-policy/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/policies/tuition-fee-refund-policy/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Tuition Fee Refund Policy",
+    "path": "/policies/tuition-fee-refund-policy/",
+    "chunk_index": 0,
+    "text": "Tuition Fee refund policy Resources PDF Refund-policy-June-2025 174 KB",
+    "tokens": 10,
+    "language": "en",
+    "summary": "This page provides access to the University of Southampton Delhi's official Tuition Fee Refund Policy document, available as a downloadable PDF.",
+    "keywords": [
+      "tuition fee refund policy",
+      "refund policy",
+      "student fees",
+      "financial policy",
+      "University of Southampton Delhi policy",
+      "PDF document"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "tuition fee refund policy": 0.95,
+      "refund policy": 0.90,
+      "student fees": 0.88,
+      "financial policy": 0.85,
+      "University of Southampton Delhi policy": 0.82,
+      "PDF document": 0.79
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Refund-policy-June-2025"
+    ],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-announces-prestigious-scholarships-for-undergraduate-and-graduate-students-in-india/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-announces-prestigious-scholarships-for-undergraduate-and-graduate-students-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi announces prestigious scholarships",
+    "path": "/news/university-of-southampton-delhi-announces-prestigious-scholarships-for-undergraduate-and-graduate-students-in-india/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi announces prestigious scholarships for undergraduate and graduate students in India. Released on 31 January 2025. Read the full article at Passionate In Marketing.",
+    "tokens": 34,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced prestigious scholarships for undergraduate and graduate students in India on January 31, 2025, with details available in an external article.",
+    "keywords": [
+      "prestigious scholarships",
+      "undergraduate students",
+      "graduate students",
+      "University of Southampton Delhi",
+      "scholarship announcement",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "prestigious scholarships": 0.95,
+      "undergraduate students": 0.88,
+      "graduate students": 0.87,
+      "University of Southampton Delhi": 0.90,
+      "scholarship announcement": 0.82,
+      "India": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Passionate In Marketing"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

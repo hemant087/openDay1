@@ -1,0 +1,49 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/union-minister-pradhan-cm-saini-inaugurate-univ-of-southampton-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/union-minister-pradhan-cm-saini-inaugurate-univ-of-southampton-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Inaugurated by Union Ministers",
+    "path": "/news/union-minister-pradhan-cm-saini-inaugurate-univ-of-southampton-campus/",
+    "chunk_index": 0,
+    "text": "Union minister Pradhan, CM Saini inaugurate Univ of Southampton campus. Haryana Chief Minister Nayab Singh Saini and Union Education minister Dharmendra Pradhan inaugurated the Southampton University Campus in Gurugram on Wednesday. After the inauguration, both leaders also visited the campus. On this occasion, Haryana Chief Minister Nayab Singh Saini said the establishment of the Southampton University campus in Gurugram, under the National Education Policy and the principle of “One Earth, One Family, One Future,” will help take India’s higher education standards to new heights. He expressed pride that Haryana is becoming the first choice for foreign investors due to excellent infrastructure. He said the University of Southampton—one of the top 100 universities in the world—has now set foot in Gurugram. This symbolises growing cooperation between India and the UK in the education sector. He added that today marks a golden chapter in India’s education landscape, as this is not just the inauguration of a new campus, but a major step toward realising the dreams of India’s youth and the vision of a “Viksit Bharat by 2047.” The Chief Minister said under India’s new education policy, for the first time, the UGC has approved a full-fledged international university campus in India.",
+    "tokens": 210,
+    "language": "en",
+    "summary": "Haryana Chief Minister Nayab Singh Saini and Union Education minister Dharmendra Pradhan inaugurated the University of Southampton campus in Gurugram, marking a significant step for India's higher education under the National Education Policy.",
+    "keywords": [
+      "Campus inauguration",
+      "Dharmendra Pradhan",
+      "Nayab Singh Saini",
+      "University of Southampton",
+      "Gurugram",
+      "National Education Policy",
+      "India-UK education cooperation"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Campus inauguration": 0.95,
+      "Dharmendra Pradhan": 0.92,
+      "Nayab Singh Saini": 0.91,
+      "University of Southampton": 0.88,
+      "Gurugram": 0.87,
+      "National Education Policy": 0.85,
+      "India-UK education cooperation": 0.8
+    },
+    "entities": [
+      "Dharmendra Pradhan",
+      "Nayab Singh Saini",
+      "Southampton University Campus",
+      "University of Southampton",
+      "UGC",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "UK",
+      "National Education Policy",
+      "Viksit Bharat by 2047"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

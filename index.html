@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboGreet AI — Interactive Robot Greeter System</title>
+  <meta name="description"
+    content="An interactive AI-powered robotic kiosk that detects people, waves, and engages in fun conversation using local LLM technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Particle Background -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Main App Container -->
+  <div id="app">
+
+    <!-- ========== HEADER BAR ========== -->
+    <header id="header">
+      <div class="header-left">
+        <div class="logo-icon">
+          <img src="logo.png" alt="University of Southampton Logo" />
+        </div>
+        <div class="header-divider"></div>
+        <div>
+          <h1 class="logo-title">RoboGreet</h1>
+          <p class="logo-sub">University of Southampton Delhi · Open Day</p>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="status-badge" id="system-status">
+          <span class="pulse-dot" id="status-dot"></span>
+          <span id="status-text">SYSTEM ONLINE</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="stat-pill" id="visitor-count-pill">
+          <span class="stat-icon"></span>
+          <span id="visitor-count">0</span> Visitors Today
+        </div>
+        <div class="stat-pill">
+          <span class="stat-icon"></span>
+          <span id="uptime-display">00:00:00</span>
+        </div>
+
+        <!-- Arduino Toggle UI -->
+        <div class="stat-pill" style="display: flex; align-items: center; gap: 8px; border-color: var(--border);">
+          <span class="stat-icon" title="Arduino Connection">🔌</span>
+          <select id="ui-arduino-port"
+            style="background: transparent; color: var(--cyan); border: none; outline: none; font-family: 'Space Mono', monospace; font-size: 0.75rem; cursor: pointer;">
+            <!-- Populated dynamically by loadComPorts() -->
+            <option value="COM4" selected>COM4</option>
+            <option value="COM6">COM6</option>
+            <option value="COM7">COM7</option>
+            <option value="COM8">COM8</option>
+          </select>
+          <label class="toggle-switch">
+            <input type="checkbox" id="ui-arduino-toggle" checked>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+
+
+        <!-- Chunk Viewer Link -->
+        <a href="chunk_viewer.html" target="_blank" class="stat-pill"
+          style="border-color: var(--cyan); color: var(--cyan); background: rgba(0, 245, 255, 0.05);">
+          <span class="stat-icon"></span> Chunk Viewer
+        </a>
+
+        <div class="stat-pill" id="master-switch-pill" style="cursor: pointer; border-color: var(--yellow);">
+          <span class="stat-icon"></span>
+          <span id="master-switch-label">System Offline</span>
+        </div>
+        <div class="time-display" id="time-display">12:00:00</div>
+      </div>
+    </header>
+
+    <!-- ========== MAIN LAYOUT ========== -->
+    <main id="main-layout">
+
+      <!-- LEFT PANEL: Camera + Detection -->
+      <section id="camera-panel">
+        <div class="panel-header">
+          <h2 class="panel-title">
+            <span class="panel-icon"></span> Live Detection Feed
+          </h2>
+          <div class="camera-controls">
+            <button class="ctrl-btn start-cam-btn" id="start-cam-btn" title="Start Camera">📷 Start</button>
+            <button class="ctrl-btn" id="toggle-overlay-btn" title="Toggle Overlays">🎭</button>
+            <button class="ctrl-btn active" id="toggle-tracking-btn" title="Face Tracking">🎯</button>
+          </div>
+        </div>
+
+        <!-- Camera Feed Area -->
+        <div class="camera-container" id="camera-container">
+          <canvas id="camera-canvas"></canvas>
+          <video id="webcam-feed" autoplay playsinline muted style="display:none;"></video>
+
+          <!-- Scanning overlay -->
+          <div class="scan-line"></div>
+
+          <!-- Corner decorations -->
+          <div class="corner corner-tl"></div>
+          <div class="corner corner-tr"></div>
+          <div class="corner corner-bl"></div>
+          <div class="corner corner-br"></div>
+
+          <!-- Detection overlays rendered by JS -->
+          <div id="detection-overlay-container"></div>
+
+          <!-- Status label -->
+          <div class="camera-status-label" id="camera-status-label">
+            <span class="blink-dot"></span> SCANNING...
+          </div>
+
+          <!-- Person count badge -->
+          <div class="person-count-badge" id="person-count-badge">
+            <span>👤</span>
+            <span id="person-count">0</span>
+          </div>
+        </div>
+
+        <!-- Detection Stats -->
+        <div class="detection-stats">
+          <div class="dstat-card">
+            <div class="dstat-label">Detected</div>
+            <div class="dstat-value" id="stat-detected">0</div>
+          </div>
+          <div class="dstat-card">
+            <div class="dstat-label">Confidence</div>
+            <div class="dstat-value" id="stat-confidence">—</div>
+          </div>
+          <div class="dstat-card">
+            <div class="dstat-label">Emotion</div>
+            <div class="dstat-value" id="stat-emotion">—</div>
+          </div>
+          <div class="dstat-card">
+            <div class="dstat-label">Latency</div>
+            <div class="dstat-value" id="stat-latency">—</div>
+          </div>
+        </div>
+
+        <!-- Quick Action Buttons -->
+        <div class="quick-actions">
+          <button class="action-btn wave-btn" id="wave-btn">
+            <span>👋</span> Wave Hand
+          </button>
+          <button class="action-btn joke-btn" id="joke-btn">
+            <span>😂</span> Tell Joke
+          </button>
+          <button class="action-btn compliment-btn" id="compliment-btn">
+            <span>⭐</span> Compliment
+          </button>
+          <button class="action-btn dance-btn" id="dance-btn">
+            <span>💃</span> Dance Mode
+          </button>
+        </div>
+      </section>
+
+
+      <!-- RIGHT PANEL: AI Conversation -->
+      <section id="chat-panel">
+        <div class="panel-header">
+          <h2 class="panel-title">
+            <span class="panel-icon">🧠</span> AI Conversation
+          </h2>
+          <div class="llm-badge">
+            <span class="llm-dot" id="llm-dot"></span>
+            <select id="llm-model-select" title="Select LLM Model">
+              <option value="" disabled selected>Loading models...</option>
+            </select>
+            <button class="ctrl-btn" id="start-llm-btn" title="Connect to selected model">⚡ Connect</button>
+          </div>
+        </div>
+
+        <!-- Chat messages -->
+        <div class="chat-messages" id="chat-messages">
+          <div class="chat-message bot-message">
+            <div class="msg-avatar">🤖</div>
+            <div class="msg-content">
+              <div class="msg-name">RoboGreet</div>
+              <div class="msg-text">Hey there, human! 👋 I'm RoboGreet, your AI companion for today's event. Ask me
+                anything — I'm basically the smartest robot in the room... and also the only one.</div>
+              <div class="msg-time">Just now</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Typing indicator -->
+        <div class="typing-indicator" id="typing-indicator" style="display:none;">
+          <div class="msg-avatar">🤖</div>
+          <div class="typing-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="typing-label">RoboGreet is thinking...</span>
+        </div>
+
+        <!-- Voice + Text Input -->
+        <div class="chat-input-area">
+          <div class="voice-status" id="voice-status">
+            <div class="voice-wave" id="voice-wave">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <span id="voice-status-text">Click mic to speak</span>
+          </div>
+          <div class="input-row">
+            <button class="mic-btn" id="mic-btn" title="Start Voice Input">🎤</button>
+            <input type="text" id="chat-input" class="chat-text-input" placeholder="Type or speak to RoboGreet..." />
+            <button class="send-btn" id="send-btn" title="Send Message">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+            <button class="stop-btn" id="stop-btn" title="Stop Speaking" style="display:none;">🔇</button>
+          </div>
+        </div>
+
+        <!-- Quick Replies -->
+        <div class="quick-replies" id="quick-replies">
+          <span class="qr-label">Quick:</span>
+          <button class="qr-btn" data-msg="Hello! What can you do?">👋 Hello!</button>
+          <button class="qr-btn" data-msg="Tell me a joke!">😂 Joke</button>
+          <button class="qr-btn" data-msg="What is AI?">🤖 About AI</button>
+          <button class="qr-btn" data-msg="Give me a compliment!">⭐ Compliment</button>
+          <button class="qr-btn" data-msg="What's your name?">❓ Who are you?</button>
+          <button class="qr-btn" data-msg="Do a dance!">💃 Dance!</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== BOTTOM STATUS BAR ========== -->
+    <footer id="status-bar">
+      <div class="status-item">
+        <span class="status-icon">📡</span>
+        <span>Camera: </span>
+        <span class="status-val status-yellow" id="footer-detection">Click Start</span>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🎙️</span>
+        <span>Mic: </span>
+        <span class="status-val status-yellow" id="footer-stt">Click Mic</span>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🔊</span>
+        <span>TTS: </span>
+        <span class="status-val status-green" id="footer-tts">Piper TTS Online</span>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🧠</span>
+        <span>LLM: </span>
+        <span class="status-val status-green" id="footer-llm">TinyLlama Loaded</span>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🦾</span>
+        <span>Servo: </span>
+        <span class="status-val status-yellow" id="footer-servo">Arduino Connected</span>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🌡️</span>
+        <span>CPU: </span>
+        <span class="status-val" id="footer-cpu">—</span>
+      </div>
+      <div class="status-sep"></div>
+      <div class="status-item status-branding">
+        <span>🎓 University of Southampton Open Day</span>
+      </div>
+    </footer>
+
+    <!-- ========== NOTIFICATION TOAST ========== -->
+    <div id="toast-container"></div>
+
+    <!-- ========== FULLSCREEN GREETING OVERLAY ========== -->
+    <div id="greeting-overlay" class="greeting-overlay hidden">
+      <div class="greeting-content">
+        <div class="greeting-emoji" id="greeting-emoji">👋</div>
+        <h2 class="greeting-title" id="greeting-title">HELLO <span>THERE!</span></h2>
+        <p class="greeting-subtitle" id="greeting-subtitle">I detected you! Come say hi!</p>
+        <div class="greeting-scanner">
+          <div class="scanner-line"></div>
+          <div class="scanner-text">IDENTIFYING VISITOR...</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end #app -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.17.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface@0.0.7/dist/blazeface.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

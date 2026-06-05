@@ -1,0 +1,43 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/career-fair-beyond-bengalaru-19072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/career-fair-beyond-bengalaru-19072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Career Fair Beyond Bengaluru Event Details",
+    "path": "/events/career-fair-beyond-bengalaru-19072025/",
+    "chunk_index": 0,
+    "text": "Career fair in Bengaluru Event Status: Completed Date: July 19, 2025 Location: Beyond 8 Learning Centre, 9, H Block, Hosahalli Main Road, off Kanakapura Main Road, Banashankari 6th Stage, Bengaluru, Karnataka 560109, India Beyond 8 Learning Centre, 9, H Block, Hosahalli Main Road, off Kanakapura Main Road, Banashankari 6th Stage, Bengaluru, Karnataka 560109, India Open address in Google Maps",
+    "tokens": 70,
+    "language": "en",
+    "summary": "This chunk details the 'Career fair in Bengaluru' event, indicating its completed status on July 19, 2025. It specifies the location as Beyond 8 Learning Centre in Bengaluru, India.",
+    "keywords": [
+      "Career fair",
+      "Bengaluru event",
+      "Beyond 8 Learning Centre",
+      "July 2025",
+      "Kanakapura Main Road",
+      "Banashankari",
+      "Event details"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Career fair": 0.95,
+      "Bengaluru event": 0.88,
+      "Beyond 8 Learning Centre": 0.93,
+      "July 2025": 0.82,
+      "Kanakapura Main Road": 0.79,
+      "Banashankari": 0.77,
+      "Event details": 0.85
+    },
+    "entities": [
+      "Career fair in Bengaluru",
+      "Beyond 8 Learning Centre",
+      "Bengaluru",
+      "Karnataka",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  }
+]

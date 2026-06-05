@@ -1,0 +1,81 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-announces-collaboration-with-cambridge-international/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-announces-collaboration-with-cambridge-international/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "UoSD Announces Collaboration with Cambridge International & Scholarship Awards",
+    "path": "/news/university-of-southampton-delhi-announces-collaboration-with-cambridge-international/",
+    "chunk_index": 0,
+    "text": "Press Release: University of Southampton Delhi announces collaboration with Cambridge International. The University introduces the Cambridge Scholarship Awards – up to four scholarships exclusive to this year’s A-level students in India - as well as application fee waiver and other benefits for Cambridge students. National, 7 May 2025: The University of Southampton Delhi today announced a collaboration with the International Education group at Cambridge University Press & Assessment (Cambridge), the world’s largest provider of international education affiliated with the University of Cambridge and responsible for qualifications such as the Cambridge IGCSE, AS and A Level. Cambridge currently operates across 810 schools in India. As part of this collaboration, the University of Southampton Delhi announces the introduction of the Cambridge Scholarship Awards, up to four exclusive competitive scholarships for Cambridge A-Level graduates in India applying for the August 2025 intake. The University also announces that it will waive application fees for all Cambridge students applying between 1st May and 31st May 2025. Cambridge applicants will additionally benefit from a priority application review through a dedicated evaluation team, ensuring an efficient and streamlined admissions process. The Cambridge Scholarship Awards offer a flat contribution of INR 220,000 towards tuition fees for the academic year 2025–2026 at the University of Southampton Delhi. The University’s Scholarship Committee will select recipients based on outstanding academic performance and excellence in A-Level results. Commenting on this collaboration, Dr Vishal Talwar, Chief Operating Officer, University of Southampton Delhi said: “We’re excited about this collaboration because it brings together the best of both worlds – the world class education offered at University of Southampton Delhi and the academic excellence and global perspective of Cambridge. Cambridge A-Level graduates bring a solid academic foundation and international outlook, making them a perfect fit for the opportunities and career pathways at our university. Through this association, we aim to empower the next generation of leaders, equipping them with the skills and resources needed to thrive on the global stage.” Vinay Sharma, Sr. VP International Education, South Asia, Cambridge, said- “Cambridge qualifications are recognised by universities worldwide for their academic rigour and outstanding preparation for higher education, enabling students from diverse backgrounds to thrive in a range of educational settings. Our collaboration with University of Southampton Delhi reflects our global reach by providing Cambridge students in India with direct access to a world-class academic experience without leaving the country. Cambridge is opening new pathways to international education and ensuring that our students are ready for the world.”",
+    "tokens": 401,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced a collaboration with Cambridge International, introducing Cambridge Scholarship Awards for A-level students in India, offering tuition fee contributions and application fee waivers.",
+    "keywords": [
+      "Cambridge Scholarship Awards",
+      "Cambridge International",
+      "University of Cambridge",
+      "A-Level graduates",
+      "application fee waiver",
+      "India",
+      "academic excellence"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Cambridge Scholarship Awards": 0.95,
+      "Cambridge International": 0.92,
+      "University of Cambridge": 0.88
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Cambridge International",
+      "Cambridge University Press & Assessment",
+      "University of Cambridge",
+      "Cambridge IGCSE",
+      "AS and A Level",
+      "Cambridge Scholarship Awards",
+      "Dr Vishal Talwar",
+      "Vinay Sharma"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-announces-collaboration-with-cambridge-international/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-announces-collaboration-with-cambridge-international/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton: Global Rankings, Employability, and Pathways",
+    "path": "/news/university-of-southampton-delhi-announces-collaboration-with-cambridge-international/",
+    "chunk_index": 1,
+    "text": "With over 150 years of academic excellence, the University of Southampton is globally renowned for producing outstanding graduates across a range of disciplines, including business, engineering, computer science, and social sciences. The University consistently ranks among the world’s leading institutions, placing in the Global Top 100 and among the Top 15 UK universities for graduate employability. The University is also ranked among the Top 10 most targeted UK universities by leading employers, highlighting its strong reputation for both academic excellence and graduate employability. About the University of Southampton The University of Southampton drives original thinking, turns knowledge into action and impact, and creates solutions to the world’s challenges. We are among the top 100 institutions globally (QS World University Rankings 2025). Our academics are leaders in their fields, forging links with high-profile international businesses and organisations, and inspiring a 25,000-strong community of exceptional students from over 135 countries worldwide. Through our high- quality education, the University helps students on a journey of discovery to realise their potential and join our global network of over 200,000 alumni: www.southampton.ac.uk The University of Southampton’s Successful Futures Pathway is an award-winning programme designed to help students evaluate their skills, align them with employer expectations, and prepare for successful career pathways. The programmes also offer tailored support and access to a wide range of work experience opportunities both on and off campus. The University is globally recognised for its strong career outcomes, backed by a proven track record in graduate employability and industry engagement. According to the QS Graduate Employability Rankings 2022, it ranks among the Top 125 institutions worldwide for employability. The University is also listed among the Top 15 universities in the UK by the Times and Sunday Times Good University Guide 2025, and features among the Top 10 UK universities most targeted by leading employers, as reported in The Graduate Market 2024.",
+    "tokens": 308,
+    "language": "en",
+    "summary": "The University of Southampton, with over 150 years of excellence, ranks globally for academics and graduate employability, inspiring a diverse student community through quality education and career preparation programs.",
+    "keywords": [
+      "academic excellence",
+      "graduate employability",
+      "global rankings",
+      "Successful Futures Pathway",
+      "student community",
+      "career outcomes",
+      "QS World University Rankings"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "academic excellence": 0.94,
+      "graduate employability": 0.91,
+      "global rankings": 0.87
+    },
+    "entities": [
+      "University of Southampton",
+      "QS World University Rankings 2025",
+      "Successful Futures Pathway",
+      "QS Graduate Employability Rankings 2022",
+      "Times and Sunday Times Good University Guide 2025",
+      "The Graduate Market 2024"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-16092025-2/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-16092025-2/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Completed Campus and Accommodation Tour at UoSD Delhi",
+    "path": "/events/campus-tour-16092025-2/",
+    "chunk_index": 0,
+    "text": "This completed Campus & accommodation tour, held on September 18, 2025, at 3:00 PM IST, took place at International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India. The in-person event at University of Southampton Delhi allowed participants to explore state-of-the-art facilities and experience campus life. Attendees had the chance to discover the vibrant community and everything the University of Southampton has to offer. The location details, including an option to open the address in Google Maps, were provided.",
+    "tokens": 98,
+    "language": "en",
+    "summary": "This page details a completed Campus & accommodation tour held on September 18, 2025, at University of Southampton Delhi, inviting attendees to explore facilities and campus life in Gurugram, India.",
+    "keywords": [
+      "campus tour event",
+      "University of Southampton Delhi",
+      "Gurugram campus",
+      "accommodation tour",
+      "student experience",
+      "International Tech Park",
+      "event details"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour event": 0.95,
+      "University of Southampton Delhi": 0.90,
+      "Gurugram campus": 0.88,
+      "accommodation tour": 0.85,
+      "student experience": 0.82,
+      "International Tech Park": 0.79,
+      "event details": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Campus & accommodation tour"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

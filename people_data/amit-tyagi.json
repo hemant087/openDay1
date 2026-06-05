@@ -1,0 +1,91 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/amit-tyagi#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/amit-tyagi",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Mr. Amit Tyagi: Overview, Role, and Research Interests",
+    "path": "/team/amit-tyagi",
+    "chunk_index": 0,
+    "text": "Mr. Amit Tyagi\nAmit has over 20 years of experience in sales and marketing predominantly in education sector across K12 and higher education.\nRole: Recruitment and Marketing Director\nDepartment: University leadership",
+    "tokens": 31,
+    "language": "en",
+    "summary": "Recruitment and Marketing Director at University leadership with over 20 years of experience in sales and marketing",
+    "keywords": [],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [],
+    "aliases": [
+      "Mr. Amit Tyagi",
+      "Amit Tyagi",
+      "Dr. Amit Tyagi",
+      "Amit T",
+      "Amityagi",
+      "Ami tyagi",
+      "Amitteej",
+      "Amittyaji"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/amit-tyagi#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/amit-tyagi",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Mr. Amit Tyagi: Name Aliases and Alternate Spellings",
+    "path": "/team/amit-tyagi",
+    "chunk_index": 1,
+    "text": "Mr. Amit Tyagi is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Mr. Amit Tyagi, Amit Tyagi, Dr. Amit Tyagi, Amit T, Amityagi, Ami tyagi, Amitteej, Amittyaji. All of these names refer to the same individual.",
+    "tokens": 49,
+    "language": "en",
+    "summary": "Alias resolution chunk for Mr. Amit Tyagi. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "faculty",
+      "staff",
+      "amit tyagi",
+      "mr. amit tyagi",
+      "ami tyagi",
+      "university of southampton delhi",
+      "dr. amit tyagi",
+      "amityagi",
+      "amit t"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "faculty": 0.95,
+      "staff": 0.9,
+      "amit tyagi": 0.85,
+      "mr. amit tyagi": 0.8,
+      "ami tyagi": 0.75,
+      "university of southampton delhi": 0.7,
+      "dr. amit tyagi": 0.65,
+      "amityagi": 0.6,
+      "amit t": 0.55
+    },
+    "entities": [
+      "Mr. Amit Tyagi",
+      "Mr. Amit Tyagi",
+      "Amit Tyagi",
+      "Dr. Amit Tyagi",
+      "Amit T",
+      "Amityagi",
+      "Ami tyagi",
+      "Amitteej",
+      "Amittyaji",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Mr. Amit Tyagi",
+      "Amit Tyagi",
+      "Dr. Amit Tyagi",
+      "Amit T",
+      "Amityagi",
+      "Ami tyagi",
+      "Amitteej",
+      "Amittyaji"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

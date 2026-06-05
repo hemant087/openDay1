@@ -1,0 +1,135 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "UoSD Welcomes First Students with Induction and Employability Programme",
+    "path": "/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/",
+    "chunk_index": 0,
+    "text": "National, September 2025 – New students at the University of Southampton Delhi enjoyed face-to-face sessions with industry leaders and entrepreneurs as part of their welcome to campus. The two-week induction and employability programme marked the beginning of an exciting academic journey at the world top 100 university. With a strong emphasis on employability, students were given early exposure to career advancement services, alumni success stories, and interactive sessions designed to help them define their vision of success and explore global career pathways. Sessions featured Dr. Ajay Kohli (Director & Cluster Head, Narayana Health), Sahil Gupta (Partner, Deloitte), Neelendra Singh (Former Managing Director/General Manager, Adidas India), Siddhartha Tandon (Consultant, L.E.K. Consulting), and Dr. Saurabh Agarwal (Chief Manager & Faculty, ULA – Strategy & Finance). Alumni such as Veenu Jain, Chief Operations Officer, Consulting Engineers Group (MSc Management, University of Southampton), and Ritesh Kaushik, Advocate & Partner, Kaushik and Associates (LLM Maritime Law, University of Southampton) also shared their professional journeys and insights. Students further explored the Careers & Employability ecosystem across Delhi and UK campuses, participated in resume clinics and internship pathway briefings, engaged in vision boarding with industry partners, and joined workshops on emotional intelligence, entrepreneurship, and leadership, equipping them with the skills and perspectives to thrive in their university journey and future careers. The first week of induction focused on fostering a sense of community and academic belonging through activities such as a grand welcome ceremony, interactive faculty introductions, campus tours, ice-breaking sessions, and student club showcases. Workshops on student support, wellbeing, and cultural activities provided insights into the inclusive and vibrant campus life. Professor Eloise Phillips, Academic Provost at the University of Southampton Delhi, said: “At University of Southampton Delhi, we are not just preparing students for degrees but for life. This induction programme set the foundation for academic excellence, employability, and personal growth – empowering our students to become future-ready leaders. We look forward to nurturing this cohort as they, while continuing to provide an enriching environment that blends high-quality education with a vibrant campus experience.” This dynamic induction programme not only introduced students to the academic rigour of the University of Southampton but also emphasised personal development, wellbeing, and networking among peers and faculty. The induction concluded with enthusiastic participation from students, academics, and industry guests, reinforcing the University’s commitment to offering a world-class educational experience in India.",
+    "tokens": 444,
+    "language": "en",
+    "summary": "The University of Southampton Delhi welcomed its first student cohort with a two-week induction and employability program. It featured industry leaders, alumni, career workshops, and campus activities, emphasizing academic excellence and personal growth for future-ready leaders.",
+    "keywords": [
+      "student induction",
+      "employability program",
+      "career advancement",
+      "industry leaders",
+      "alumni success",
+      "academic excellence",
+      "student support",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student induction": 0.9,
+      "employability program": 0.88,
+      "career advancement": 0.85,
+      "industry leaders": 0.8,
+      "alumni success": 0.78,
+      "academic excellence": 0.75,
+      "student support": 0.7,
+      "University of Southampton Delhi": 0.95
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Narayana Health",
+      "Deloitte",
+      "Adidas India",
+      "L.E.K. Consulting",
+      "ULA",
+      "Consulting Engineers Group",
+      "University of Southampton",
+      "Kaushik and Associates",
+      "Dr. Ajay Kohli",
+      "Sahil Gupta",
+      "Neelendra Singh",
+      "Siddhartha Tandon",
+      "Dr. Saurabh Agarwal",
+      "Veenu Jain",
+      "Ritesh Kaushik",
+      "Professor Eloise Phillips"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:35.261Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Overview of University of Southampton Delhi and Global Rankings",
+    "path": "/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/",
+    "chunk_index": 1,
+    "text": "About the University of Southampton Delhi The University of Southampton Delhi, the first UGC-approved international campus in India, drives original thinking, turns knowledge into action and impact, and creates solutions to the world’s challenges. We are ranked among the top 100 institutions globally (QS World University Rankings 2025); the only top 100 university with a campus in India. Our academics are leaders in their fields, forging links with high-profile international businesses and organisations, and inspiring a 25,000-strong community of exceptional students from over 135 countries worldwide. Through our high-quality education, the University helps students on a journey of discovery to realise their potential and join our global network of over 200,000 alumni. The University of Southampton’s Successful Futures Pathway is an award-winning programme designed to help students evaluate their skills, align them with employer expectations, and prepare for successful career pathways. The programmes also offer tailored support and access to a wide range of work experience opportunities both on and off campus. The University is globally recognised for its strong career outcomes, backed by a proven track record in graduate employability and industry engagement. According to the QS Graduate Employability Rankings 2022, it ranks among the top 125 institutions worldwide for employability. The University is also listed among the top 15 universities in the UK by The Times and Sunday Times Good University Guide 2025, and features among the top 10 UK universities most targeted by leading employers, as reported in The Graduate Market 2024.",
+    "tokens": 286,
+    "language": "en",
+    "summary": "The University of Southampton Delhi, India's first UGC-approved international campus, is a top 100 global institution. It is renowned for academic excellence, strong career outcomes, and a global alumni network, offering programs like the Successful Futures Pathway to enhance employability.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "UGC-approved campus",
+      "international campus India",
+      "QS World University Rankings",
+      "graduate employability",
+      "Successful Futures Pathway",
+      "UK universities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "UGC-approved campus": 0.88,
+      "international campus India": 0.85,
+      "QS World University Rankings": 0.92,
+      "graduate employability": 0.89,
+      "Successful Futures Pathway": 0.83,
+      "UK universities": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "UGC",
+      "QS World University Rankings 2025",
+      "University of Southampton",
+      "Successful Futures Pathway",
+      "QS Graduate Employability Rankings 2022",
+      "The Times and Sunday Times Good University Guide 2025",
+      "The Graduate Market 2024"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:35.261Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Press and Media Contacts",
+    "path": "/news/university-of-southampton-delhi-welcomes-its-first-students-with-a-dynamic-induction-and-employability-programme/",
+    "chunk_index": 2,
+    "text": "Notes to Editors: To learn more about the University of Southampton Delhi, please visit: https://delhicampus.southampton.ac.uk/ For further information, please contact: University of Southampton Delhi: press@soton.ac.uk Brand-com: hannah@brand-comm.com +91 9619783156",
+    "tokens": 63,
+    "language": "en",
+    "summary": "For more information about the University of Southampton Delhi, visit their website or contact their press office directly. Brand-com is also available for media inquiries.",
+    "keywords": [
+      "press contact",
+      "media inquiries",
+      "University of Southampton Delhi",
+      "contact information",
+      "public relations"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "press contact": 0.9,
+      "media inquiries": 0.85,
+      "University of Southampton Delhi": 0.93,
+      "contact information": 0.88,
+      "public relations": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Brand-com"
+    ],
+    "topic": "other",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:35.261Z"
+  }
+]

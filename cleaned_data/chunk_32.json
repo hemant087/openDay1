@@ -1,0 +1,321 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Creative Computing BSc (Hons) Programme Overview and Benefits",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 0,
+    "text": "Creative Computing BSc (Hons) Award BSc (Hons) Duration 3 years Course Type Full Time Start Date 24 August 2026 Download Prospectus Contact Us Build immersive and engaging digital experiences that bring art and technology together in our creative computing degree. The programme develops creative, technical and intellectual strengths drawing on industry-standard technology and philosophical and ethical approaches. You will take the construction of digital projects to the screen and beyond using sculpture and fabrication. The programme will enhance strengths and skills in design and systems thinking, to bring focus on programming skills, user experience design, and building digital projects. You will research the aesthetic, sustainable, and political aspects of computer media formats including networks, social media, digital games and open source and activist initiatives. As a creative computing student, you will benefit from: virtual reality, augmented reality, robot design and programming systems access to fabrication and construction equipment exposure to social and collaborative computing guest speakers and industry events chances to showcase your work optional study trips to museums, galleries, and industry events",
+    "tokens": 208,
+    "language": "en",
+    "summary": "The Creative Computing BSc (Hons) degree develops creative, technical, and intellectual strengths in digital experience design, integrating art and technology. Students benefit from access to advanced tech, industry events, and study trips.",
+    "keywords": [
+      "Creative Computing BSc",
+      "digital experiences",
+      "art and technology",
+      "programming skills",
+      "user experience design",
+      "virtual reality",
+      "augmented reality"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Creative Computing BSc": 0.9,
+      "digital experiences": 0.9,
+      "art and technology": 0.9,
+      "programming skills": 0.9,
+      "user experience design": 0.9,
+      "virtual reality": 0.9,
+      "augmented reality": 0.9
+    },
+    "entities": [
+      "Creative Computing BSc (Hons)"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Creative Computing BSc (Hons) Curriculum and Semester Abroad",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 1,
+    "text": "The programme structure includes the study of creative computing through coding, user experience design, making and research. Year 1 overview You will learn principles of programming for creative technological applications such as visual coding, AI, augmented reality, robotics and pervasive computing. You will study relevant theories and test out your skills. Year 2 overview Workshops and lectures will help you build on your technical expertise and follow your interests through a project. You will engage with user experience research and interactive systems, extending your knowledge and critical understanding of the creative industries, contexts for creative production, you gain employability skills. Year 3 overview A major project helps you to discover your creative insights and technical skills in depth – in an area that correlates with your own interests and career ambitions. Programme structure Students take a number of core and compulsory modules before selecting optional modules based on their interest. The programmes are designed to ensure that students gain the fundamentals of their discipline and then add specialisation and perspective through available optional modules. The 2025 Programme Description Document contains an overview of the programme, its aims, information on programme modules and shows how we assess student progress as they learn with us. As a research-led University, we undertake a continuous review of our programmes to ensure quality enhancement and to manage our resources. As a result, this programme may be revised during a student’s period of registration; however, any revision will be balanced against the requirement that the student should receive the educational service expected. Please read our Disclaimer to see why, when, and how changes may be made to a student’s programme. Semester abroad You will have the possibility to spend a semester at University of Southampton UK in Year 2, learning in a vibrant academic and cultural context. The selection of students for a semester abroad will depend on academic performance and a decision by programme lead.",
+    "tokens": 339,
+    "language": "en",
+    "summary": "The Creative Computing programme structure includes coding, UX design, making, and research, with a major project in Year 3. Students can also spend a semester abroad at the University of Southampton UK.",
+    "keywords": [
+      "programme structure",
+      "coding",
+      "user experience design",
+      "AI",
+      "robotics",
+      "semester abroad",
+      "University of Southampton UK",
+      "programme modules"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "programme structure": 0.9,
+      "coding": 0.9,
+      "user experience design": 0.9,
+      "AI": 0.9,
+      "robotics": 0.9,
+      "semester abroad": 0.9,
+      "University of Southampton UK": 0.9,
+      "programme modules": 0.9
+    },
+    "entities": [
+      "University of Southampton UK",
+      "Programme Description Document"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Key Information for Creative Computing BSc (Hons)",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 2,
+    "text": "We are mandated by the University Grants Commission (UGC) to deliver the equivalent programme and quality as we offer in the UK. To match the programme lengths of internationally respected UK awarded degrees, the BSc (Hons) Creative Computing degree has a duration of three years. View University of Southampton Delhi term dates. Dates mentioned are subject to change. Our programmes are taught in English, and content is equivalent to the BSc (Hons) Creative Computing degree delivered at University of Southampton in the UK.",
+    "tokens": 97,
+    "language": "en",
+    "summary": "The Creative Computing BSc (Hons) is a three-year degree delivered by the University Grants Commission (UGC) mandate, ensuring UK-equivalent quality and content taught in English.",
+    "keywords": [
+      "UGC mandate",
+      "UK awarded degrees",
+      "three-year duration",
+      "English taught programmes",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "UGC mandate": 0.9,
+      "UK awarded degrees": 0.9,
+      "three-year duration": 0.9,
+      "English taught programmes": 0.9,
+      "University of Southampton Delhi": 0.9
+    },
+    "entities": [
+      "University Grants Commission (UGC)",
+      "BSc (Hons) Creative Computing",
+      "University of Southampton Delhi",
+      "University of Southampton UK"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Career Prospects for Creative Computing Graduates",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 3,
+    "text": "We are a top 20 UK university for employability (QS Graduate Employability Rankings 2022) and offer extensive support for today’s competitive and rapidly changing financial landscape. BSc (Hons) Creative Computing students will graduate with industry-ready programming skills, and will have focussed on user experience design, physical fabrication or project management. All will have extensive experience in team production and hence of working within and towards computational-based projects. Career opportunities The Creative Computing degree offers career-focused study for employment in a wide range of industries. Graduates commonly work in a range of organisations or sectors including: Games studios Production companies Advertising and broadcasting companies Creative agencies PR and communications firms Education providers Software developers Careers services at University of Southampton Delhi Our proprietary Southampton skills model is integrated into our curriculum. When you join us, you’ll be able to use our skills model to track, plan, and benefit your career development and progress. As well as support from the Careers and Employability team in Delhi, you’ll have access to our market-leading employability development offering. This includes: online resources regular workshops personalised career guidance and support through our MyCareer platform and e-mentoring With links to multinational and industrial organisations, we enable you to engage with employers and explore potential career paths. We also host regular alumni events in-person across major cities in India, allowing you to grow your own networks. Our support is ongoing, and once you graduate, you’ll be part of a global community of over 220,000 alumni that spans over 180 countries.",
+    "tokens": 286,
+    "language": "en",
+    "summary": "Graduates of Creative Computing BSc (Hons) will possess industry-ready skills in programming and UX design, with career opportunities in games studios, production companies, advertising, and software development.",
+    "keywords": [
+      "employability",
+      "career opportunities",
+      "programming skills",
+      "user experience design",
+      "Games studios",
+      "Creative agencies",
+      "Southampton skills model",
+      "alumni network"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "employability": 0.9,
+      "career opportunities": 0.9,
+      "programming skills": 0.9,
+      "user experience design": 0.9,
+      "Games studios": 0.9,
+      "Creative agencies": 0.9,
+      "Southampton skills model": 0.9,
+      "alumni network": 0.9
+    },
+    "entities": [
+      "QS Graduate Employability Rankings 2022",
+      "BSc (Hons) Creative Computing",
+      "University of Southampton Delhi"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Creative Computing BSc (Hons) Admission Eligibility",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 4,
+    "text": "Students with overall academic scores for Grade 12 and including a creative, humanities, and/or computing subject can apply. Central Board of Secondary Education (CBSE): Minimum 75% (overall) in your All-India Senior School Certificate Examination (Standard XII) Council for the Indian School Certificate Examinations (CISCE): Minimum 75% (overall) in your Indian School Certificate examination (Standard XII) State Board: Minimum 75% (overall) in your Higher Secondary Certificate (Standard XII) examination. International Baccalaureate: 30 points and above, with 15 points at Higher Level including a creative, humanities, and/or computing subject. A Levels: BBB including a creative, humanities and/or computing subject at A-level or equivalent Those who have studied in India from the Humanities or Commerce or Science streams can apply. Non-academic entry requirements All applicants will need to provide a portfolio of art work. The suitability of the portfolio submission for the intended course will form part of the assessment. English language requirement We accept several ways of meeting our English Language requirement. These include: IELTS Test, with scores of 6.5 overall (6.0 in reading, writing, speaking, and listening) other tests listed on our website an approved academic qualification having the required grade If you’ve been taught and assessed in English, including at a CBSE or CISCE school, for your final 4 years of high school, and have achieved at least 70% in English Language, we may be able to accept this as evidence of your English language ability. Refer to our English Language proficiency guide for more information about English language requirements. Our academic admissions criteria Typical academic admissions criteria represent the usual level of academic attainment an applicant is expected to achieve prior to being admitted to that programme. These criteria are not intended to provide a guarantee that all applicants who satisfy the criteria may be offered a place, nor that all applicants to be made an offer will receive an identical offer to one another.",
+    "tokens": 361,
+    "language": "en",
+    "summary": "Eligibility for Creative Computing BSc (Hons) requires specific academic scores in Grade 12 (CBSE, CISCE, State Board, IB, A Levels) including a creative/humanities/computing subject, a portfolio, and English language proficiency.",
+    "keywords": [
+      "academic scores",
+      "Grade 12",
+      "portfolio submission",
+      "English language requirement",
+      "IELTS",
+      "CBSE",
+      "CISCE",
+      "International Baccalaureate",
+      "A Levels"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "academic scores": 0.9,
+      "Grade 12": 0.9,
+      "portfolio submission": 0.9,
+      "English language requirement": 0.9,
+      "IELTS": 0.9,
+      "CBSE": 0.9,
+      "CISCE": 0.9,
+      "International Baccalaureate": 0.9,
+      "A Levels": 0.9
+    },
+    "entities": [
+      "Creative Computing BSc (Hons)",
+      "Central Board of Secondary Education (CBSE)",
+      "Council for the Indian School Certificate Examinations (CISCE)",
+      "International Baccalaureate",
+      "IELTS Test",
+      "English Language proficiency guide"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Creative Computing BSc (Hons) Tuition Fees and Payment Schedule",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 5,
+    "text": "The fees for the year starting in August 2026 for Indian students are: 13,86,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,38,600 INR for India students The balance of the yearly tuition fee is paid in 3 instalments. 3,32,640 INR by Monday 07 September 2026 4,57,380 INR by Monday 25 January 2027 4,57,380 INR by Monday 19 April 2027 Fees for international students The fees for the year starting in August 2026 for international students are: 16,17,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,61,700 INR for international students If you are an international student, you’ll have to make 3 separate payments of: 3,88,080 INR by Monday 07 September 2026 5,33,610 INR by Monday 25 January 2027 5,33,610 INR by Monday 19 April 2027 We may adjust the fees in the future to account for inflation and changes in other costs. Exact payment dates for future years will vary according to the academic calendar.",
+    "tokens": 256,
+    "language": "en",
+    "summary": "Tuition fees for Creative Computing BSc (Hons) for August 2026 are 13,86,000 INR for Indian students and 16,17,000 INR for international students, payable in four installments including a 10% deposit.",
+    "keywords": [
+      "tuition fees",
+      "Indian students",
+      "international students",
+      "payment schedule",
+      "deposit",
+      "programme fee",
+      "INR",
+      "August 2026"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "tuition fees": 0.9,
+      "Indian students": 0.9,
+      "international students": 0.9,
+      "payment schedule": 0.9,
+      "deposit": 0.9,
+      "programme fee": 0.9,
+      "INR": 0.9,
+      "August 2026": 0.9
+    },
+    "entities": [
+      "Creative Computing BSc (Hons)"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-6",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Scholarships and Application Process for Delhi Campus",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 6,
+    "text": "We offer competitive scholarships to talented students. We are now accepting registrations for a place at our campus in the Delhi NCR for the academic year starting August 2026. Potential students can understand more about our application process by looking at helpful guidance and advice on university admissions pages. To start the application process, register yourself. How to apply Our programmes are taught in English, and content is equivalent to that delivered to other University of Southampton students. To match the programme lengths of internationally respected UK awarded degrees, undergraduates study for three years, and postgraduates study for one year.",
+    "tokens": 128,
+    "language": "en",
+    "summary": "The University of Southampton Delhi offers competitive scholarships and accepts registrations for the August 2026 academic year. Students should register and refer to admissions pages for guidance on the application process.",
+    "keywords": [
+      "competitive scholarships",
+      "application process",
+      "registrations",
+      "academic year 2026",
+      "admissions pages",
+      "Delhi NCR campus"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "competitive scholarships": 0.9,
+      "application process": 0.9,
+      "registrations": 0.9,
+      "academic year 2026": 0.9,
+      "admissions pages": 0.9,
+      "Delhi NCR campus": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/#chunk-7",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/creative-computing-bsc-hons/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Creative Computing Programme Frequently Asked Questions",
+    "path": "/programmes/creative-computing-bsc-hons/",
+    "chunk_index": 7,
+    "text": "Can I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary. Can I get an offer with predicted scores? We encourage students to apply as soon as possible so that they can receive a Conditional Offer based on predicted scores for their chosen programme. We can accept an application from a student using their predicted grades if we receive their final grades once they are available. Why is an Honours degree good for me? An Honours degree, shown with (Hons) in the programme title, mean that students will understand the fundamentals of their discipline and then build specialisation and perspective through optional modules. These fast-paced, intense programmes deliver essential learning in the first academic year and offer optional course modules, or electives, in the second year. Honours degrees are offered at University of Southampton campuses across the world, reflecting teaching and learning to a higher academic standard, meaning that an Honours degree would hold more value post graduation for future study and career development. How can I earn an Honours degree in just 3 years? The University Grants Commission (UGC) has mandated University of Southampton Delhi to make sure that programmes delivered in India are the same as those delivered at University of Southampton in the UK. Three years is the standard length of an undergraduate Honours degree in England where University of Southampton sets academic standards. This 3 year length reflects a trend towards accelerated learning where students see a return on their tuition fees as quickly as possible, whilst still maintaining high academic standards and the quality of the degree awarded. University of Southampton 3 year undergraduate degrees, and 1 year postgraduate degrees, are accepted widely internationally. Why is my degree award BSc (Hons) or BEng (Hons)? Degrees with a BA and BSc award do not represent a stream, but a broad categorisation that reflects student choice and leaning. Our BSc (Hons) and BEng (Hons) undergraduate degrees are oriented towards specialist, technical roles in industry with an analytical approach, not science subjects. What is an option? Our programmes are designed to make sure that students quickly understand the fundamentals of their discipline, and then build specialisation and perspective through electives, or optional, modules. These optional modules are typically offered in academic years 2 and 3, adding depth and breadth to core learning from previous years. As these options are often built around real-world trends, the specific choice of module available to students from year to year may vary.",
+    "tokens": 634,
+    "language": "en",
+    "summary": "Answers to common questions cover scholarship applications, conditional offers with predicted scores, the benefits of an Honours degree, the three-year duration, degree awards, and optional modules.",
+    "keywords": [
+      "scholarship applications",
+      "predicted scores",
+      "Conditional Offer",
+      "Honours degree",
+      "UGC",
+      "3-year undergraduate degrees",
+      "BSc (Hons)",
+      "BEng (Hons)",
+      "optional modules"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "scholarship applications": 0.9,
+      "predicted scores": 0.9,
+      "Conditional Offer": 0.9,
+      "Honours degree": 0.9,
+      "UGC": 0.9,
+      "3-year undergraduate degrees": 0.9,
+      "BSc (Hons)": 0.9,
+      "BEng (Hons)": 0.9,
+      "optional modules": 0.9
+    },
+    "entities": [
+      "University Grants Commission (UGC)",
+      "University of Southampton Delhi",
+      "University of Southampton UK",
+      "BSc (Hons)",
+      "BEng (Hons)"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000000Z"
+  }
+]

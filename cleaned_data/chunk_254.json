@@ -1,0 +1,44 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/set-up-your-university-it-account/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/set-up-your-university-it-account/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "New Student IT Account Setup and Multi-Factor Authentication Guide",
+    "path": "/welcome/set-up-your-university-it-account/",
+    "chunk_index": 0,
+    "text": "Set up your university IT account. This page shows you how to set up your IT account and enable multi-factor authentication. You must set up your IT account to access the university's IT systems. You should set up your University IT account between 20-22 August 2025 after you have received your University of Southampton ID number. You should also set up multi-factor authentication as part of this process. You will not be able to upload your identity documents or enrol at the University until you've done this. It can take up to 24 hours for us to grant you access to our other systems and services, including: Blackboard, our online learning environment, your email, ID card service, enrolment services. If you still can’t access services after 24 hours, contact ServiceLine. You should check your email account regularly, as this is how we will contact you. What you will need: To set up your account, you’ll need your University of Southampton ID number, also known as your student ID number. You'll find this 8-digit number in your confirmation of place email from the University. If you can't find your ID number, email The Student Hub. Security questions: You’ll need to set up some security questions and answers. We’ll use these to check your identity if you ever forget your password. Back-up email address: You should add a personal email address when setting up your IT account. You can use this as a back-up email to access your account if you forget your password. You can also use your back-up email address to reset your multi-factor authentication settings if you change or lose your mobile phone. Multi-factor authentication: You'll be prompted to set up multi-factor authentication, also known as MFA, which adds an extra layer of security to your account. Please allow one hour for your IT account to synchronise before setting up MFA. You won't be able to access our IT services until you complete this step. We recommend using the Microsoft Authenticator app and setting SMS as a back-up. Once you’ve set up your account, you'll use the app to verify your identity when logging into your IT account. If you use WhatsApp with the same phone number you use to set up MFA, Microsoft will send you authentication codes using WhatsApp instead of SMS. How to set up your IT account and multi-factor authentication: Our slideshow on Thinglink will help you through each step of setting up your account. We recommend opening this page in a new tab. Getting ready for your studies: You may also want to read important information on getting ready for coursework, campus life, and your ongoing studies. You'll also find information on how to: access on-campus computers, borrow laptops, connect devices in halls, use our wi-fi service, get online security advice. What is your next step? Verify your documents: You should have original documents verified so that we can check you meet the requirements of your offer letter. See more about verification.",
+    "tokens": 539,
+    "language": "en",
+    "summary": "This guide outlines the process for new University of Southampton Delhi students to set up their IT account and enable multi-factor authentication between August 20-22, 2025, detailing required information, security measures, and access to university systems.",
+    "keywords": [
+      "university IT account",
+      "multi-factor authentication",
+      "student ID number",
+      "Microsoft Authenticator app",
+      "online learning environment",
+      "enrolment services",
+      "document verification"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university IT account": 0.95,
+      "multi-factor authentication": 0.92,
+      "student ID number": 0.88,
+      "microsoft authenticator app": 0.85,
+      "online learning environment": 0.80,
+      "enrolment services": 0.78,
+      "document verification": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "Blackboard",
+      "ServiceLine",
+      "The Student Hub",
+      "Microsoft"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:46:19.132Z"
+  }
+]

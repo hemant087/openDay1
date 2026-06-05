@@ -1,0 +1,114 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/undergraduate-delhi-presidential-scholarship/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/undergraduate-delhi-presidential-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Undergraduate Delhi Presidential Scholarship: Overview and Benefits",
+    "path": "/funding/undergraduate-delhi-presidential-scholarship/",
+    "chunk_index": 0,
+    "text": "Undergraduate Delhi Presidential Scholarship\nAward duration: 3 academic years\nStudy period covered: Aug 2025 - Jun 2028\nFunding type: Competitive scholarship\nStudy Level: Undergraduate\nAugust 2025 intake: Applications for this award are now closed for August 2025\nAbout the award\nTo recognise and encourage academic excellence at University of Southampton Delhi we will offer a Delhi Presidential Scholarship to 1 undergraduate student from August 2025. This scholarship will fully fund the tuition fees for the 3 academic year duration of a University of Southampton Delhi undergraduate programme. Our Scholarship Committee will make their award decision based on an exceptional scholarship application, past academic performance and outstanding potential as a student and a graduate of University of Southampton Delhi. We will announce the recipient of the Undergraduate Delhi Presidential Scholarship in July 2025.\nWhat we will award\nA 100% waiver of the Tuition Fees due to University of Southampton Delhi over academic years 25/26, 26/27 and 27/28 to 1 domestic undergraduate student.",
+    "tokens": 170,
+    "language": "en",
+    "summary": "The Undergraduate Delhi Presidential Scholarship offers a 100% tuition fee waiver for 3 academic years to one exceptional domestic undergraduate student starting August 2025. Applications for the August 2025 intake are now closed.",
+    "keywords": [
+      "Delhi Presidential Scholarship",
+      "Undergraduate scholarship",
+      "tuition fees waiver",
+      "academic excellence",
+      "August 2025 intake",
+      "competitive scholarship"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Delhi Presidential Scholarship": 0.95,
+      "Undergraduate scholarship": 0.90,
+      "tuition fees waiver": 0.88,
+      "academic excellence": 0.82,
+      "August 2025 intake": 0.78,
+      "competitive scholarship": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Undergraduate Delhi Presidential Scholarship",
+      "Delhi Presidential Scholarship",
+      "Scholarship Committee"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/undergraduate-delhi-presidential-scholarship/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/undergraduate-delhi-presidential-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Undergraduate Delhi Presidential Scholarship: Eligibility and Application",
+    "path": "/funding/undergraduate-delhi-presidential-scholarship/",
+    "chunk_index": 1,
+    "text": "Which programmes qualify for this award? Students who enrol on one of these programmes could qualify for this award:-\nAccounting and Finance BSc (Hons)\nBusiness Management BSc (Hons)\nComputer Science BSc (Hons)\nEconomics BSc (Hons)\nHow we make award decisions\nWe aim to manage our scholarships and bursaries fairly, providing support for academically gifted students, and helping those who might otherwise struggle to study with us. We consider a range of criteria, including the academic achievements shown on an application to study in addition to individual scholarship and bursary applications. This information helps us to produce a shortlist of candidates for an award. We will invite those on the shortlist to meet with us to discuss their application. A scholarships panel will make a final decision on scholarship and bursary applications.\nMaking an application for this award\nWe cannot accept any further applications for this award for students wishing to start their programme in August 2025. We welcome applications for this competitive scholarship from any domestic student making an application to study an undergraduate programme in the University of Southampton Delhi August 2025 intake. Students who wish to be considered for this award must complete a specific scholarship application demonstrating their appetite for the values, academic aspirations and community spirit of University of Southampton Delhi. To continue to benefit from the scholarship in subsequent years, students must meet agreed performance and academic standards as they progress from year to year.",
+    "tokens": 272,
+    "language": "en",
+    "summary": "This scholarship is open to students in specific undergraduate programmes. Award decisions are based on academic merit and potential, involving an application, shortlisting, and panel interview. Continued eligibility requires meeting academic standards.",
+    "keywords": [
+      "qualifying programmes",
+      "scholarship application",
+      "award decision criteria",
+      "academic standards",
+      "domestic student",
+      "scholarships panel"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "qualifying programmes": 0.92,
+      "scholarship application": 0.89,
+      "award decision criteria": 0.85,
+      "academic standards": 0.80,
+      "domestic student": 0.76,
+      "scholarships panel": 0.73
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Accounting and Finance BSc (Hons)",
+      "Business Management BSc (Hons)",
+      "Computer Science BSc (Hons)",
+      "Economics BSc (Hons)"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/funding/undergraduate-delhi-presidential-scholarship/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/funding/undergraduate-delhi-presidential-scholarship/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "FAQs and Terms for University of Southampton Delhi Scholarships",
+    "path": "/funding/undergraduate-delhi-presidential-scholarship/",
+    "chunk_index": 2,
+    "text": "You might also want to know Will I lose my deposit if I get a full scholarship? If you are awarded a full scholarship - which waives 100% of Tuition Fees - we will refund the value of any Deposit that you may already have paid. How would I receive my scholarship or bursary? There is no cash alternative to the waiver of Tuition Fees made under a scholarship or bursary. We will reduce the amount of Tuition Fees that you will pay by the value of the award. How can I contribute to the community as a scholarship student? We would encourage - and expect - that the recipient of a scholarship or bursary will act as a Student Ambassador to promote University of Southampton Delhi while they study with us. Can I apply for a scholarship or bursary? We welcome applications for a scholarship or bursary from any self-funding student who will be paying domestic Tuition Fees. Additional criteria, such as programme eligibility, are shown clearly on individual award pages. You must first make an application to study a specific programme before you make an application for a scholarship or bursary. What are the terms and conditions for scholarships? You can see our current terms and conditions for scholarships and bursaries here.",
+    "tokens": 222,
+    "language": "en",
+    "summary": "This section addresses frequently asked questions regarding scholarships, including deposit refunds for full scholarships and how awards are received. It also outlines the expectation for recipients to act as Student Ambassadors and directs users to the full terms and conditions.",
+    "keywords": [
+      "scholarship FAQs",
+      "deposit refund",
+      "tuition fees waiver",
+      "Student Ambassador",
+      "scholarship eligibility",
+      "terms and conditions"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "scholarship FAQs": 0.91,
+      "deposit refund": 0.87,
+      "tuition fees waiver": 0.85,
+      "Student Ambassador": 0.81,
+      "scholarship eligibility": 0.79,
+      "terms and conditions": 0.77
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  }
+]

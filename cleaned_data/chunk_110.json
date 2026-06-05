@@ -1,0 +1,37 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/online-event-global-careers-12032025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/online-event-global-careers-12032025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi: Global Careers Online Event",
+    "path": "/events/online-event-global-careers-12032025/",
+    "chunk_index": 0,
+    "text": "\"Building global careers with right specialisations\" online event. Event Status: Completed. Date & Time: March 18, 2025, 8:00 PM IST. Recommended for: Offer holders and potential applicants. Join our University of Southampton Delhi webinar on Tuesday 18 March 2025 at 20:00 IST on ‘Building Global Careers with Right Specialisations’. Led by a panel of experts from University of Southampton, we addressed specialisations for undergraduate and postgraduate programmes and the placement opportunities available to students after graduating. Learn more about the University of Southampton Delhi Advantage and the career opportunities available to students.",
+    "tokens": 105,
+    "language": "en",
+    "summary": "University of Southampton Delhi hosted a webinar on March 18, 2025, titled 'Building Global Careers with Right Specialisations,' for offer holders and applicants. Experts discussed specialisations for undergraduate and postgraduate programmes and available placement opportunities.",
+    "keywords": [
+      "global careers",
+      "online event",
+      "University of Southampton Delhi",
+      "specialisations",
+      "undergraduate programmes",
+      "postgraduate programmes",
+      "placement opportunities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "global careers": 0.92,
+      "online event": 0.88,
+      "University of Southampton Delhi": 0.95
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "Building Global Careers with Right Specialisations"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

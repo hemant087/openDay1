@@ -1,0 +1,46 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/info-session-at-bengaluru-10082025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/info-session-at-bengaluru-10082025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Info Session in Bengaluru",
+    "path": "/events/info-session-at-bengaluru-10082025/",
+    "chunk_index": 0,
+    "text": "Info Session in Bengaluru 10 August. Event Status: Completed. Date: August 10, 2025. Location: Jubilee Bus Station, Utkoor - Mogdumpur Rd, Gandhi Nagar, Nehru Nagar Colony, West Marredpally, Secunderabad, Telangana 500026, India. Book now. Open address in Google Maps.",
+    "tokens": 46,
+    "language": "en",
+    "summary": "This entry details a completed University of Southampton Delhi info session held in Bengaluru on August 10, 2025, providing its specific location and related calls to action.",
+    "keywords": [
+      "Info Session",
+      "Bengaluru",
+      "University of Southampton Delhi",
+      "August 10 2025",
+      "Jubilee Bus Station",
+      "Event Status Completed",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Info Session": 0.95,
+      "Bengaluru": 0.92,
+      "University of Southampton Delhi": 0.9,
+      "August 10 2025": 0.88,
+      "Jubilee Bus Station": 0.85,
+      "Event Status Completed": 0.8,
+      "India": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Info Session in Bengaluru",
+      "Bengaluru",
+      "Jubilee Bus Station",
+      "Secunderabad",
+      "Telangana",
+      "India",
+      "August 10, 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

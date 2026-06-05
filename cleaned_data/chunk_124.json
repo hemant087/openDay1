@@ -1,0 +1,51 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-and-mcgraw-hill-india-unveil-second-edition-of-international-relations-for-civil-service-aspirants/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-and-mcgraw-hill-india-unveil-second-edition-of-international-relations-for-civil-service-aspirants/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi and McGraw Hill India Unveil International Relations Book",
+    "path": "/news/university-of-southampton-delhi-and-mcgraw-hill-india-unveil-second-edition-of-international-relations-for-civil-service-aspirants/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi and McGraw Hill India unveil second edition of International Relations for Civil Service Aspirants University of Southampton Delhi and McGraw Hill India unveil 2nd edition of International Relations for Civil Service Aspirants by Shri Ashok Kumar and Dr Rajesh Mohan. Governor of Haryana unveils the book authored by Shri Ashok Kumar, IPS (Retd.), and Dr. Rajesh Mohan, IPS National, 4th November 2025: University of Southampton Delhi and McGraw Hill India, hosted the release of the second edition of the book International Relations – For Civil Services and State Services Examinations, a comprehensive guide crafted to help aspirants strengthen their understanding of global affairs and excel in the international relations component of competitive exams. The book was unveiled by Hon’ble Governor of Haryana, Prof. Ashim Kumar Ghosh, in the presence of the authors Shri Ashok Kumar, IPS (Retd.), Former Director General of Police, Uttarakhand and Vice Chancellor, Sports University of Haryana, and Dr Rajesh Mohan, IPS, Deputy Commissioner of Police, Gurugram. The ceremony also witnessed the gracious presence of Shri Dammu Ravi, IFS, Secretary (Economic Relations), Ministry of External Affairs (MEA), Government of India, as Guest of Honour. Professor Eloise Phillips, Academic Provost, University of Southampton Delhi said: “We are delighted to celebrate the book launch with McGraw Hill India and the distinguished authors. International Relations is a valuable resource for civil service aspirants, equipping them with the knowledge and analytical perspective needed to interpret complex global developments and make informed decisions as future leaders in public services. University of Southampton Delhi plays a key role in nurturing such future leaders by providing them with the skills, global exposure, and academic foundation required to build impactful careers on the world stage.” Addressing the gathering, Hon’ble Governor Prof. Asim Kumar Ghosh said, “I am delighted to be part of this meaningful occasion that celebrates knowledge, dedication, and public service. I wholeheartedly laud the authors for their academic contribution. This book will serve as a valuable resource for young learners and civil service aspirants, offering them clarity and perspective on global affairs. International relations is a dynamic field, more relevant today than ever before. It enables us to understand the interconnected world we live in and to approach global challenges with balance and cooperation. India’s foreign policy today reflects confidence, balance, and strategic maturity, promoting global partnerships while safeguarding national interests. Diplomacy, in its truest sense, is not just about politics but about values, vision, and global responsibility. A strong understanding of international relations encourages young minds to think critically, act wisely, and serve society with integrity and purpose. I also appreciate McGraw Hill for publishing such an insightful and timely edition that will guide aspirants and educators alike. University of Southampton deserves appreciation for fostering such academic excellence and nurturing globally aware citizens.” The authors shared their reflections on the motivation behind the book and its second edition. They highlighted the book’s role in connecting theoretical understanding with practical insights from diplomacy and strategy, positioning it as a meaningful contribution to public service education and civil services preparation. This session also provided an engaging opportunity for University of Southampton Delhi students to interact directly with the authors through a Q&A session, allowing them to gain valuable first-hand insights into the complexities of international relations and its relevance to contemporary global affairs. The event also featured insightful discussions on leadership, collaboration, and the relevance of international relations in global management education.",
+    "tokens": 535,
+    "language": "en",
+    "summary": "University of Southampton Delhi and McGraw Hill India launched the second edition of 'International Relations – For Civil Services and State Services Examinations,' by Shri Ashok Kumar and Dr. Rajesh Mohan. The book was unveiled by Hon’ble Governor of Haryana.",
+    "keywords": [
+      "International Relations book",
+      "Civil Services Examinations",
+      "State Services Examinations",
+      "McGraw Hill India",
+      "University of Southampton Delhi",
+      "Ashok Kumar IPS",
+      "Rajesh Mohan IPS",
+      "Governor of Haryana"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "international relations book": 0.95,
+      "civil services examinations": 0.90,
+      "state services examinations": 0.88,
+      "mcgraw hill india": 0.92,
+      "university of southampton delhi": 0.93,
+      "ashok kumar ips": 0.87,
+      "rajesh mohan ips": 0.86,
+      "governor of haryana": 0.89
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "McGraw Hill India",
+      "International Relations – For Civil Services and State Services Examinations",
+      "Shri Ashok Kumar",
+      "Dr. Rajesh Mohan",
+      "Prof. Ashim Kumar Ghosh",
+      "Sports University of Haryana",
+      "Shri Dammu Ravi",
+      "Ministry of External Affairs",
+      "Professor Eloise Phillips",
+      "Governor of Haryana"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

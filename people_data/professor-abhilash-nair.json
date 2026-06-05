@@ -1,0 +1,150 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/professor-abhilash-nair#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/professor-abhilash-nair",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Professor Abhilash Nair: Overview, Role, and Research Interests",
+    "path": "/team/professor-abhilash-nair",
+    "chunk_index": 0,
+    "text": "Professor Abhilash Nair\nProfessor Abhilash Nair is the Director of Research and Enterprise at University of Southampton Delhi. He provides strategic leadership for advancing globally impactful research, enterprise, innovation and engagement activities across the campus and beyond.\nRole: Director of Research and Enterprise\nResearch Interests: internet law online safety child online protection data protection privacy\nDepartment: University leadership",
+    "tokens": 58,
+    "language": "en",
+    "summary": "Professor Abhilash Nair is the Director of Research and Enterprise at University of Southampton Delhi, with expertise in internet law and online safety.",
+    "keywords": [
+      "internet law",
+      "online safety",
+      "child online protection",
+      "data protection",
+      "privacy"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "internet law": 0.95,
+      "online safety": 0.9,
+      "child online protection": 0.85,
+      "data protection": 0.8,
+      "privacy": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "British and Irish Law, Education and Technology Association (BILETA)",
+      "Law Society of Scotland",
+      "UK Council for Internet Safety (UKCIS)"
+    ],
+    "aliases": [
+      "Professor Abhilash Nair",
+      "Prof. Abhilash Nair",
+      "Abhilash Nair",
+      "A. Nair",
+      "Abhilesh Nair",
+      "Abhlesh Nair",
+      "Abhilash Nayr",
+      "Abhilash Neer"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/professor-abhilash-nair#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/professor-abhilash-nair",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Professor Abhilash Nair: Research Publications",
+    "path": "/team/professor-abhilash-nair",
+    "chunk_index": 1,
+    "text": "The Regulation of Internet Pornography: Issues and Challenges",
+    "tokens": 8,
+    "language": "en",
+    "summary": "Research publications by Professor Abhilash Nair at University of Southampton Delhi.",
+    "keywords": [
+      "research publications",
+      "journal articles",
+      "professor abhilash nair",
+      "university of southampton delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "research publications": 0.9,
+      "journal articles": 0.85,
+      "professor abhilash nair": 0.8,
+      "university of southampton delhi": 0.75
+    },
+    "entities": [
+      "Professor Abhilash Nair",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Professor Abhilash Nair",
+      "Prof. Abhilash Nair",
+      "Abhilash Nair",
+      "A. Nair",
+      "Abhilesh Nair",
+      "Abhlesh Nair",
+      "Abhilash Nayr",
+      "Abhilash Neer"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/professor-abhilash-nair#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/professor-abhilash-nair",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Professor Abhilash Nair: Name Aliases and Alternate Spellings",
+    "path": "/team/professor-abhilash-nair",
+    "chunk_index": 2,
+    "text": "Professor Abhilash Nair is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Professor Abhilash Nair, Prof. Abhilash Nair, Abhilash Nair, A. Nair, Abhilesh Nair, Abhlesh Nair, Abhilash Nayr, Abhilash Neer. All of these names refer to the same individual.",
+    "tokens": 52,
+    "language": "en",
+    "summary": "Alias resolution chunk for Professor Abhilash Nair. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "prof. abhilash nair",
+      "faculty",
+      "a. nair",
+      "professor abhilash nair",
+      "staff",
+      "abhilesh nair",
+      "university of southampton delhi",
+      "abhilash nair",
+      "abhlesh nair"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "prof. abhilash nair": 0.95,
+      "faculty": 0.9,
+      "a. nair": 0.85,
+      "professor abhilash nair": 0.8,
+      "staff": 0.75,
+      "abhilesh nair": 0.7,
+      "university of southampton delhi": 0.65,
+      "abhilash nair": 0.6,
+      "abhlesh nair": 0.55
+    },
+    "entities": [
+      "Professor Abhilash Nair",
+      "Professor Abhilash Nair",
+      "Prof. Abhilash Nair",
+      "Abhilash Nair",
+      "A. Nair",
+      "Abhilesh Nair",
+      "Abhlesh Nair",
+      "Abhilash Nayr",
+      "Abhilash Neer",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Professor Abhilash Nair",
+      "Prof. Abhilash Nair",
+      "Abhilash Nair",
+      "A. Nair",
+      "Abhilesh Nair",
+      "Abhlesh Nair",
+      "Abhilash Nayr",
+      "Abhilash Neer"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

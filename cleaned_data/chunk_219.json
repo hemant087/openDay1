@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/5000-students-and-30-courses-in-8-years-southampton-university-draws-up-plan-for-india-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/5000-students-and-30-courses-in-8-years-southampton-university-draws-up-plan-for-india-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Southampton University Plans India Campus",
+    "path": "/news/5000-students-and-30-courses-in-8-years-southampton-university-draws-up-plan-for-india-campus/",
+    "chunk_index": 0,
+    "text": "Southampton University has developed a plan for an India campus, aiming to enroll 5,000 students and offer 30 courses within an eight-year timeframe. This news was reported on 01 September 2024, with the full article available at The Hindu.",
+    "tokens": 48,
+    "language": "en",
+    "summary": "Southampton University plans to establish a campus in India, targeting 5,000 students and 30 courses within eight years. The announcement was made on September 1, 2024.",
+    "keywords": [
+      "India campus",
+      "Southampton University",
+      "student enrollment",
+      "course offerings",
+      "Higher Education India",
+      "The Hindu news"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "India campus": 0.92,
+      "Southampton University": 0.85,
+      "student enrollment": 0.80,
+      "course offerings": 0.75,
+      "Higher Education India": 0.70,
+      "The Hindu news": 0.65
+    },
+    "entities": [
+      "University of Southampton",
+      "The Hindu",
+      "India"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

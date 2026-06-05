@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/director-of-learning-and-teaching-appointed-to-deliver-outstanding-education-at-delhi-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/director-of-learning-and-teaching-appointed-to-deliver-outstanding-education-at-delhi-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "New Director of Learning and Teaching appointed at Delhi",
+    "path": "/news/director-of-learning-and-teaching-appointed-to-deliver-outstanding-education-at-delhi-campus/",
+    "chunk_index": 0,
+    "text": "A Director of Learning and Teaching has been appointed to deliver outstanding education at the University of Southampton Delhi campus. This announcement was made on 25 February 2025, with the full article available for reading at APN news.",
+    "tokens": 46,
+    "language": "en",
+    "summary": "The University of Southampton Delhi has appointed a Director of Learning and Teaching to enhance education, announced on February 25, 2025, with more details on APN news.",
+    "keywords": [
+      "Director of Learning and Teaching",
+      "University of Southampton Delhi",
+      "academic appointment",
+      "outstanding education",
+      "APN news",
+      "Delhi campus"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Director of Learning and Teaching": 0.95,
+      "University of Southampton Delhi": 0.92,
+      "academic appointment": 0.88,
+      "outstanding education": 0.85,
+      "APN news": 0.80,
+      "Delhi campus": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "APN news",
+      "Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus/sports-facilities/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus/sports-facilities/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi On-Campus Sports and Fitness Facilities",
+    "path": "/campus/sports-facilities/",
+    "chunk_index": 0,
+    "text": "Stay active at our on-site sports facilities. Enjoy basketball, badminton, table tennis, or maintain your fitness routine. Our facilities support your wellbeing and social life, making it easy to stay healthy and active right here on campus. At University of Southampton Delhi, we believe that student life goes beyond the classroom. To support a balanced lifestyle, our campus offers a variety of sports and fitness facilities that encourage students to stay active, connect with peers, and nurture their overall well-being. Students can easily book facilities with on-ground support provided by the Student Experience team. Sports and recreation are at the heart of a vibrant student experience. Whether you’re looking to stay fit, take a break from studies, or simply have fun with friends. Our facilities include: Cricket playground (near Stryker Lab): A well-maintained ground for practice sessions and friendly matches, giving students the perfect space to host cricket matches. Indoor sports courts (Basement Level 1): Dedicated courts for both badminton and table tennis, ideal for quick games between classes or more competitive matches. Multipurpose sports court (behind Tower II): A flexible space designed for a range of sporting activities, perfect for sports (basketball, paddleball, lawn tennis) and group recreation. Gym (Ground Floor, Tower II): In partnership with on-site fitness providers, the University offers students access to a fully equipped gym. Memberships are available at a subsidized rate of Rs. 2,000 per month, making it easier for students to maintain their fitness goals.",
+    "tokens": 296,
+    "language": "en",
+    "summary": "University of Southampton Delhi provides extensive on-campus sports facilities including a cricket playground, indoor courts for badminton and table tennis, a multipurpose court, and a subsidized gym to support student well-being and social life.",
+    "keywords": [
+      "Sports facilities",
+      "Campus fitness",
+      "Student well-being",
+      "Cricket playground",
+      "Badminton courts",
+      "Table tennis",
+      "Multipurpose court",
+      "Campus gym",
+      "Student Experience team"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Sports facilities": 0.95,
+      "Campus fitness": 0.88,
+      "Student well-being": 0.82,
+      "Cricket playground": 0.79,
+      "Badminton courts": 0.75,
+      "Table tennis": 0.73,
+      "Multipurpose court": 0.70,
+      "Campus gym": 0.68,
+      "Student Experience team": 0.65
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Experience team",
+      "Stryker Lab",
+      "Tower II"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-samridhi-suman#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-samridhi-suman",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Samridhi Suman: Accounting and Finance Lecturer Profile",
+    "path": "/team/dr-samridhi-suman",
+    "chunk_index": 0,
+    "text": "Dr Samridhi Suman, holding a PhD from IIT D, is a Lecturer in Accounting and Finance at the University of Southampton Delhi. She is dedicated to student learning through mentorship and delivering complex finance and accounting concepts engagingly. Her research interests primarily lie at the intersection of corporate governance and corporate finance, specifically focusing on the financial implications of board structures, board gender diversity, and promoter ownership. Her doctoral research investigated the impact of various corporate governance mechanisms on corporate finance decisions. Dr Suman's work has been published in peer-reviewed journals and presented at numerous conferences, including receiving the Best Paper Award at the Academy for Global Business Advancement 16th World Congress. She is also a recipient of the UGC JRF fellowship and IIT Delhi’s Research Scholars Travel Award. Prior to joining the University of Southampton Delhi, Dr Suman served as an Assistant Professor at OP Jindal Global University. She completed her PhD in 2024 from the Department of Management Studies, Indian Institute of Technology Delhi (IITD), and holds undergraduate and postgraduate degrees in Commerce from the University of Delhi.",
+    "tokens": 272,
+    "language": "en",
+    "summary": "Dr Samridhi Suman is a Lecturer in Accounting and Finance at the University of Southampton Delhi, specializing in corporate governance and finance. Her research, published in peer-reviewed journals, focuses on board structures and promoter ownership.",
+    "keywords": [
+      "corporate governance",
+      "corporate finance",
+      "accounting and finance",
+      "board gender diversity",
+      "doctoral research",
+      "academic profile",
+      "university lecturer"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "corporate governance": 0.95,
+      "corporate finance": 0.93,
+      "accounting and finance": 0.88,
+      "board gender diversity": 0.85,
+      "doctoral research": 0.82,
+      "academic profile": 0.79,
+      "university lecturer": 0.75
+    },
+    "entities": [
+      "Dr Samridhi Suman",
+      "University of Southampton Delhi",
+      "Indian Institute of Technology Delhi",
+      "IITD",
+      "Academy for Global Business Advancement 16th World Congress",
+      "UGC JRF fellowship",
+      "IIT Delhi’s Research Scholars Travel Award",
+      "OP Jindal Global University",
+      "University of Delhi"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:30:00.000Z",
+    "aliases": [
+      "Dr Samridhi Suman",
+      "Dr. Samridhi Suman",
+      "Samridhi Suman",
+      "S. Suman",
+      "Samridhi Sooman",
+      "Samriddhi Suman",
+      "Dr Samriddhi Suman",
+      "Dr. Samridhi Sooman",
+      "Samridhi Sumon"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-samridhi-suman#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-samridhi-suman",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Samridhi Suman's Academic Publications in Finance",
+    "path": "/team/dr-samridhi-suman",
+    "chunk_index": 1,
+    "text": "Publications by Dr Samridhi Suman include: \"Corporate Governance Monitoring Mechanisms and Corporate Performance and Valuation: Lessons from India\" by Singh, S. & Suman, S. (2025), published by Springer. \"The Role of Multiple Large Shareholders in Dividend Payouts: Evidence from India\" by Suman, S. & Singh, S. (2022), featured in American Business Review, 25(1), 120-151. Additionally, \"Corporate governance mechanisms and corporate investments: evidence from India\" by Suman, S., & Singh, S. (2021) appeared in International Journal of Productivity and Performance Management, 70(3), 635-656.",
+    "tokens": 125,
+    "language": "en",
+    "summary": "This section lists Dr Samridhi Suman's key academic publications, focusing on corporate governance, corporate performance, dividend payouts, and corporate investments in India.",
+    "keywords": [
+      "corporate governance",
+      "corporate performance",
+      "dividend payouts",
+      "corporate investments",
+      "academic publications",
+      "finance research",
+      "India studies"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "corporate governance": 0.95,
+      "corporate performance": 0.91,
+      "dividend payouts": 0.88,
+      "corporate investments": 0.86,
+      "academic publications": 0.82,
+      "finance research": 0.79,
+      "India studies": 0.75
+    },
+    "entities": [
+      "Dr Samridhi Suman",
+      "S. Singh",
+      "S. Suman",
+      "Springer",
+      "American Business Review",
+      "International Journal of Productivity and Performance Management",
+      "India"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:30:00.000Z",
+    "aliases": [
+      "Dr Samridhi Suman",
+      "Dr. Samridhi Suman",
+      "Samridhi Suman",
+      "S. Suman",
+      "Samridhi Sooman",
+      "Samriddhi Suman",
+      "Dr Samriddhi Suman",
+      "Dr. Samridhi Sooman",
+      "Samridhi Sumon"
+    ]
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-samridhi-suman#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-samridhi-suman",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Samridhi Suman: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-samridhi-suman",
+    "chunk_index": 2,
+    "text": "Dr Samridhi Suman is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Dr Samridhi Suman, Dr. Samridhi Suman, Samridhi Suman, S. Suman, Samridhi Sooman, Samriddhi Suman, Dr Samriddhi Suman, Dr. Samridhi Sooman, Samridhi Sumon. All of these names refer to the same individual.",
+    "tokens": 56,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Samridhi Suman. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "dr. samridhi suman",
+      "samridhi suman",
+      "university of southampton delhi",
+      "samriddhi suman",
+      "faculty",
+      "staff",
+      "dr samridhi suman",
+      "samridhi sooman",
+      "s. suman"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "dr. samridhi suman": 0.95,
+      "samridhi suman": 0.9,
+      "university of southampton delhi": 0.85,
+      "samriddhi suman": 0.8,
+      "faculty": 0.75,
+      "staff": 0.7,
+      "dr samridhi suman": 0.65,
+      "samridhi sooman": 0.6,
+      "s. suman": 0.55
+    },
+    "entities": [
+      "Dr Samridhi Suman",
+      "Dr Samridhi Suman",
+      "Dr. Samridhi Suman",
+      "Samridhi Suman",
+      "S. Suman",
+      "Samridhi Sooman",
+      "Samriddhi Suman",
+      "Dr Samriddhi Suman",
+      "Dr. Samridhi Sooman",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Samridhi Suman",
+      "Dr. Samridhi Suman",
+      "Samridhi Suman",
+      "S. Suman",
+      "Samridhi Sooman",
+      "Samriddhi Suman",
+      "Dr Samriddhi Suman",
+      "Dr. Samridhi Sooman",
+      "Samridhi Sumon"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:00:00Z"
+  }
+]

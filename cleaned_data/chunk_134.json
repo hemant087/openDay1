@@ -1,0 +1,51 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-announces-2025-campus-launch-at-gurugram/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-announces-2025-campus-launch-at-gurugram/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Launches Gurugram Campus in India 2025",
+    "path": "/news/university-of-southampton-announces-2025-campus-launch-at-gurugram/",
+    "chunk_index": 0,
+    "text": "The University of Southampton, a leading UK institution and a founding member of the esteemed Russell Group, has received approval to establish a branch campus in Gurugram, India. This significant milestone was approved by a committee of distinguished academicians from India and abroad, leading to the issuance of a Letter of Intent by regulatory requirements. The degrees conferred by the new campus in India will be identical to those awarded by the University of Southampton in the UK, maintaining the same high standards of academic excellence. The branch campus will offer programs across various fields, including business and management, computing, law, engineering, art and design, biosciences, and life sciences. The University of Southampton’s global prestige is reflected in its rankings, with the institution placed 81st in the QS World University Rankings 2024 and 97th in the Times Higher Education (THE) World University Rankings 2024. Known for its research focus, the university adheres to the Triple Helix model of integrating education, research, and impact. To ensure a diverse and international educational experience, the Indian campus will recruit faculty members from both the UK and India. This blend of expertise and perspectives will enrich the academic environment. The Indian campus is scheduled to start its academic programs in July 2025. UGC Chairman Professor M Jagadesh Kumar has expressed that the establishment of the Indian campus will be a significant boon for students. The University Grants Commission (UGC) formally announced the Regulations for Setting up and Operating Campuses of Foreign Higher Educational Institutions in India on November 7, 2023. The UGC Chairman formed a Standing Committee to oversee and review matters related to creating and functioning foreign university campuses in India. This initiative, which includes inviting proposals online, represents a significant advancement in the globalisation of higher education in India.",
+    "tokens": 258,
+    "language": "en",
+    "summary": "The University of Southampton received approval to establish a branch campus in Gurugram, India, commencing programs in July 2025. Degrees will match UK standards, offering diverse fields and recruiting faculty from both countries.",
+    "keywords": [
+      "University of Southampton",
+      "Gurugram campus",
+      "India",
+      "branch campus",
+      "academic programs",
+      "Russell Group",
+      "UGC",
+      "foreign universities",
+      "higher education"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton": 0.95,
+      "Gurugram campus": 0.90,
+      "India": 0.88,
+      "branch campus": 0.85,
+      "academic programs": 0.82,
+      "Russell Group": 0.78,
+      "UGC": 0.75,
+      "foreign universities": 0.73,
+      "higher education": 0.70
+    },
+    "entities": [
+      "University of Southampton",
+      "Russell Group",
+      "Gurugram",
+      "India",
+      "QS World University Rankings 2024",
+      "Times Higher Education (THE) World University Rankings 2024",
+      "UGC",
+      "Professor M Jagadesh Kumar",
+      "University Grants Commission"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-29T12:00:00.000Z"
+  }
+]

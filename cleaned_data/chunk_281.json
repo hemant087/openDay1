@@ -1,0 +1,50 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-nalini-sharan",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Nalini Sharan: Head of Student Experience, University of Southampton Delhi",
+    "path": "/team/dr-nalini-sharan",
+    "chunk_index": 0,
+    "text": "Dr Nalini Sharan leads the Student Experience portfolio at University of Southampton Delhi, bringing nearly two decades of leadership in higher education, student affairs, and strategic engagement. She is responsible for shaping a student-first culture that fosters wellbeing, inclusion, global awareness, and a vibrant campus life. Role: Head of Student Experience Department: Professional staff. Prior to joining University of Southampton Delhi, Dr Sharan served as Director – Student Experience & Engagement (Pan India) at Pearl Academy, where she spearheaded transformation initiatives across five campuses. Her work focused on holistic student development, co-curricular innovation, mental health, and internationalisation. She has also held senior roles at Global University Systems and has experience leading large-scale operations across India, Canada, and the UAE. With a PhD in Indian History from Lucknow University, Dr Sharan combines academic depth with operational expertise. She has been instrumental in driving cross-functional strategies that integrate admissions, student support, wellbeing services, and community development. Dr Sharan said: “My vision is to create a nurturing, inclusive, and globally connected student ecosystem at the Delhi campus — one that equips students with the confidence, resilience, and skills they need to thrive”. “Student life is at the heart of the university experience. Through meaningful engagement, empathetic leadership, and a culture of care, I’m committed to ensuring every student at University of Southampton Delhi feels valued, supported, and inspired.”",
+    "tokens": 247,
+    "language": "en",
+    "summary": "Dr. Nalini Sharan, Head of Student Experience at University of Southampton Delhi, leads student wellbeing, inclusion, and campus life, leveraging two decades of experience in higher education and strategic engagement.",
+    "keywords": [
+      "Student Experience",
+      "Higher Education Leadership",
+      "Student Affairs",
+      "Strategic Engagement",
+      "Campus Life",
+      "Student Development",
+      "Mental Health Support",
+      "Internationalisation",
+      "Professional Staff"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Student Experience": 0.95,
+      "Higher Education Leadership": 0.88,
+      "Student Affairs": 0.85,
+      "Strategic Engagement": 0.82,
+      "Campus Life": 0.80,
+      "Student Development": 0.78,
+      "Mental Health Support": 0.75,
+      "Internationalisation": 0.70,
+      "Professional Staff": 0.65
+    },
+    "entities": [
+      "Dr Nalini Sharan",
+      "University of Southampton Delhi",
+      "Pearl Academy",
+      "Global University Systems",
+      "Lucknow University",
+      "India",
+      "Canada",
+      "UAE"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2025-11-20T20:03:06.395Z"
+  }
+]

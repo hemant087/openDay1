@@ -1,0 +1,105 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/verify-your-documents/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/verify-your-documents/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Document Verification Process and Booking",
+    "path": "/welcome/verify-your-documents/",
+    "chunk_index": 0,
+    "text": "This page shows how we will verify original documents. You should have original documents verified so that we can check you meet the requirements of your offer letter. You should book an appointment to verify your original documents. Sessions take place on Friday 22 August, Saturday 23 August and Sunday 24 August, and start at either 10:00am or at 2:00pm. You will not be able to start your studies until you have your documents verified in person, and on campus, by one of our support staff. Check your emails to find a link to book your appointment. You should book only one document verification session as part of your Welcome activity. Document verification will take place individually, and should take around 30 minutes for each student. But we ask you to arrive on time at the start your chosen session to minimise the time that we ask all students to wait during the session. If you arrive after the published end time, we may ask you to come back on another day to verify your documents.",
+    "tokens": 169,
+    "language": "en",
+    "summary": "This section outlines the process for verifying original documents to meet offer letter requirements, including session dates in August, booking via email, and the importance of timely attendance.",
+    "keywords": [
+      "document verification",
+      "offer letter requirements",
+      "appointment booking",
+      "original documents",
+      "welcome activity",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "document verification": 0.95,
+      "offer letter requirements": 0.88,
+      "appointment booking": 0.82,
+      "original documents": 0.89,
+      "welcome activity": 0.75,
+      "University of Southampton Delhi": 0.70
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/verify-your-documents/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/verify-your-documents/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Essential and Recommended Items for Document Verification and Campus Life",
+    "path": "/welcome/verify-your-documents/",
+    "chunk_index": 1,
+    "text": "What you will need. You must bring the original versions of official certificates to your appointments. We are not able to accept digital scans, digital photos or photocopies of original documents. You must bring these items with you: Academic certificates and mark sheets. Photographic ID, such as a valid passport, Aadhaar, or a driver’s license. Your admissions Offer Letter, or the confirmation email of that Offer Letter. Four recent passport-style photographs. We recommend that you have: A notebook and pen, so that you can take notes. A water bottle. A laptop or tablet, if available, which will be useful for workshops. Chargers for any electronic devices. Proof you have paid your tuition fee Deposit, such as a payment receipt. Any prescription medications you need. A bank card or way to make payment for transactions such as at the food court. Some comfortable clothing and footwear, for interactive sessions and campus tours. An umbrella or raincoat. You may also find the following useful: Health insurance details, especially for international students. Details of your student hostel allocation, or room confirmation, if you have one. A small padlock or a locker key, if you are staying in a hostel. And remember to bring yourself just as you are. But don’t forget to pack an open mind, a curious spirit, and the courage to ask questions that matter to you.",
+    "tokens": 272,
+    "language": "en",
+    "summary": "This section lists mandatory original documents for verification, including academic certificates, ID, and offer letter, alongside recommended items like a laptop, payment proof, and personal essentials for campus adjustment.",
+    "keywords": [
+      "original documents",
+      "academic certificates",
+      "photographic ID",
+      "offer letter",
+      "tuition fee deposit",
+      "health insurance",
+      "student hostel"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "original documents": 0.93,
+      "academic certificates": 0.87,
+      "photographic ID": 0.85,
+      "offer letter": 0.89,
+      "tuition fee deposit": 0.80,
+      "health insurance": 0.77,
+      "student hostel": 0.72
+    },
+    "entities": [
+      "Aadhaar"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/verify-your-documents/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/verify-your-documents/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Next Steps: Student Hostel Check-in and Payments",
+    "path": "/welcome/verify-your-documents/",
+    "chunk_index": 2,
+    "text": "What is your next step? Check in to student hostel. If you have booked accommodation at the official student hostel you should check in and make sure payments are up to date. See more about check in.",
+    "tokens": 44,
+    "language": "en",
+    "summary": "After document verification, the next step for students with booked accommodation is to check into the official student hostel and ensure all payments are current.",
+    "keywords": [
+      "student hostel",
+      "check-in",
+      "accommodation",
+      "payments",
+      "official hostel"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student hostel": 0.98,
+      "check-in": 0.90,
+      "accommodation": 0.85,
+      "payments": 0.79,
+      "official hostel": 0.75
+    },
+    "entities": [],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

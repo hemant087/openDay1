@@ -1,0 +1,32 @@
+# RoboGreet AI — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Computer Vision
+opencv-python>=4.9.0
+ultralytics>=8.0.0        # YOLOv8
+
+# ── AI / LLM
+ollama>=0.1.0             # Ollama Python client (TinyLlama, Gemma, Phi-2)
+
+# ── Speech Recognition
+SpeechRecognition>=3.10.0
+openai-whisper>=20231117  # Optional: use Whisper instead of Google STT
+faster-whisper>=1.0.0     # Faster alternative
+
+# ── Text-to-Speech
+pyttsx3>=2.90             # Offline TTS (default)
+# piper-tts              # Optional: higher quality (install separately)
+
+# ── Servo / Hardware Control
+pyserial>=3.5             # Arduino serial communication
+RPi.GPIO>=0.7.1           # Raspberry Pi GPIO (Pi only, comment out on PC)
+
+# ── Utilities
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# ── Optional: MediaPipe (face tracking, hand detection)
+mediapipe>=0.10.0
+
+# ── Optional: Emotion detection
+deepface>=0.0.79          # Emotion + age detection from face

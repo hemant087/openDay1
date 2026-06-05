@@ -1,0 +1,171 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Open Day Details",
+    "path": "/events/campus-open-day-11102025/",
+    "chunk_index": 0,
+    "text": "Campus Open Day 11 October 2025 Event Status: Completed Date & Time: October 11, 2025 10:00 AM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Recommended for: Students (and their families) who do not yet have an offer to study with us See more and book Discover University of Southampton Delhi for the August 2026 intake! If you do not yet have an offer to study with us, join us for an open day. Experience a glimpse of life at University of Southampton Delhi, explore our facilities, meet members of our community, and get a sense of what it means to be part of a vibrant, globally connected learning environment. Don’t miss the chance to see where your learning journey could begin. We look forward to welcoming you! This content is for information purposes only and is prepared well in advance of publication. University of Southampton reserves the right to make revisions or modifications to such statements, information or data contained in this document at any time and without notice. Under no circumstances shall the University be liable for any reliance by the reader on any information in this document.",
+    "tokens": 196,
+    "language": "en",
+    "summary": "The University of Southampton Delhi hosted a Campus Open Day on October 11, 2025, in Gurgaon, India, for prospective students. Attendees could explore facilities, meet staff, and experience the learning environment.",
+    "keywords": [
+      "Campus Open Day",
+      "University of Southampton Delhi",
+      "August 2026 intake",
+      "Gurugram",
+      "India",
+      "prospective students",
+      "university facilities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus open day": 0.95,
+      "university of southampton delhi": 0.9,
+      "august 2026 intake": 0.88,
+      "gurugram": 0.82,
+      "india": 0.78,
+      "prospective students": 0.75,
+      "university facilities": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Campus Open Day",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Open Day Morning Activities",
+    "path": "/events/campus-open-day-11102025/",
+    "chunk_index": 1,
+    "text": "Visitor arrival and registration: 10:00am Enjoy some refreshments as you sign in at Reception and decide what sessions you would like to attend on campus. Drop-ins: 10:00am A chance to talk our dedicated staff about and get answers to any detailed questions you may have. You will find expert guidance here on anything related to admissions, placement and careers, the library, and the amazing experience that awaits students. Staff here can answer questions on Admissions, Student Experience, Careers and Employability and Academics. Academic faculty meetings: by appointment until 1:00pm Talk to the world-leading academics who will deliver programmes from August. These short informal and individual sessions are your chance to ask questions about the programme content, the quality of academic teaching, and a way to get to know your faculty before term starts. We ask you to make an appointment in advance. Guided campus tour: 10:15am Join a 25-minute guided tour of the campus. We will show you our purpose built learning and teaching rooms, the first floor library, break-out and collaborative spaces, computing, financial and technical laboratories and our Student Hub. And you will see the impressive shared facilities outside the main campus building such as food courts, the health suite, shuttle bus station and sports facilities. Please assemble at Reception 10 minutes before your tour is scheduled to leave. Leadership talk: 10:45am We invite you to a 40-minute session to hear university leaders from the India and the UK explain why University of Southampton Delhi is a true landmark for Higher Education in India. You will also discover the distinctive style of teaching and learning, world-class research and support for enterprise and start up business. To complete the session, we will showcase the amazing careers that alumni have embarked upon when they have graduated from a University of Southampton programme. Please be seated by 10:40 am. Programme talks 12:00 noon Academic staff will talk about their programmes and experience in these separate sessions:-",
+    "tokens": 361,
+    "language": "en",
+    "summary": "The morning schedule included visitor registration, staff drop-ins for admissions and careers, pre-booked academic faculty meetings, guided campus tours, and a leadership talk highlighting the university's impact.",
+    "keywords": [
+      "Open Day schedule",
+      "campus tours",
+      "academic faculty meetings",
+      "admissions guidance",
+      "careers and employability",
+      "leadership talk",
+      "student experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "open day schedule": 0.95,
+      "campus tours": 0.88,
+      "academic faculty meetings": 0.85,
+      "admissions guidance": 0.8,
+      "careers and employability": 0.78,
+      "leadership talk": 0.75,
+      "student experience": 0.7
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "India",
+      "UK",
+      "University of Southampton"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Academic Programme Talks at Open Day",
+    "path": "/events/campus-open-day-11102025/",
+    "chunk_index": 2,
+    "text": "Accounting and Finance: Money Talks Behavioural Economics Business Management Computer Science and Software Engineering Creative Computing",
+    "tokens": 20,
+    "language": "en",
+    "summary": "The Open Day featured programme talks on Accounting and Finance, Behavioural Economics, Business Management, Computer Science, and Creative Computing.",
+    "keywords": [
+      "Accounting and Finance",
+      "Behavioural Economics",
+      "Business Management",
+      "Computer Science and Software Engineering",
+      "Creative Computing",
+      "academic programmes",
+      "programme talks"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "accounting and finance": 0.95,
+      "behavioural economics": 0.9,
+      "business management": 0.88,
+      "computer science and software engineering": 0.85,
+      "creative computing": 0.82,
+      "academic programmes": 0.78,
+      "programme talks": 0.75
+    },
+    "entities": [
+      "Accounting and Finance",
+      "Behavioural Economics",
+      "Business Management",
+      "Computer Science and Software Engineering",
+      "Creative Computing"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-open-day-11102025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Open Day Afternoon Schedule and Facilities",
+    "path": "/events/campus-open-day-11102025/",
+    "chunk_index": 3,
+    "text": "Guided campus tour: 12:00 noon Join a 25-minute guided tour of the campus. We will show you our purpose built learning and teaching rooms, the first floor library, break-out and collaborative spaces, computing, financial and technical laboratories and our Student Hub. And you will see the impressive shared facilities outside the main campus building such as food courts, the health suite, shuttle bus station and sports facilities. Please assemble at Reception 10 minutes before your tour is scheduled to leave. Drop-ins: From 12:00 noon A chance to talk our dedicated staff about and get answers to any detailed questions you may have. You will find expert guidance here on anything related to admissions, placement and careers, the library, and the amazing experience that awaits students. Staff here can answer questions on Admissions, Student Experience, Careers and Employability and Academics. Academic faculty meetings: by appointment Talk to the world-leading academics who will deliver programmes from August. These short informal and individual sessions are your chance to ask questions about the programme content, the quality of academic teaching, and a way to get to know your faculty before term starts. We ask you to make an appointment in advance. Quiet spaces: 12:30pm Reflect or relax for a few minutes. Guided campus tour: 12.40pm Join a 25-minute guided tour of the campus. We will show you our purpose built learning and teaching rooms, the first floor library, break-out and collaborative spaces, computing, financial and technical laboratories and our Student Hub. And you will see the impressive shared facilities outside the main campus building such as food courts, the health suite, shuttle bus station and sports facilities. Please assemble at Reception 10 minutes before your tour is scheduled to leave. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Open address in Google Maps",
+    "tokens": 290,
+    "language": "en",
+    "summary": "The afternoon schedule included repeated guided campus tours, drop-in sessions for questions on admissions and careers, and academic faculty meetings. Quiet spaces were also available, along with the detailed campus address.",
+    "keywords": [
+      "campus facilities",
+      "student hub",
+      "learning rooms",
+      "library",
+      "sports facilities",
+      "admissions",
+      "careers",
+      "academic faculty",
+      "Gurgaon",
+      "India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus facilities": 0.95,
+      "student hub": 0.88,
+      "learning rooms": 0.85,
+      "library": 0.8,
+      "sports facilities": 0.78,
+      "admissions": 0.75,
+      "careers": 0.72,
+      "academic faculty": 0.7,
+      "gurgaon": 0.68,
+      "india": 0.65
+    },
+    "entities": [
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

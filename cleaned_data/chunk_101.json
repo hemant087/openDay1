@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/master-class-shaheed-delhi-18032025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/master-class-shaheed-delhi-18032025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Masterclass Event for Offer Holders and Applicants in Delhi",
+    "path": "/events/master-class-shaheed-delhi-18032025/",
+    "chunk_index": 0,
+    "text": "Masterclass in Delhi Event Status: Completed Date: March 18, 2025 Location: Shaheed Sukhdev College Of Business Studies, Sector 16, Rohini, Delhi, 110085, India Recommended for: Offer holders and potential applicants Book now Find out first-hand what the classroom experience is like by coming along to an introductory lecture. Shaheed Sukhdev College Of Business Studies, Sector 16, Rohini, Delhi, 110085, India Open address in Google Maps",
+    "tokens": 78,
+    "language": "en",
+    "summary": "This completed masterclass event in Delhi on March 18, 2025, provided offer holders and potential applicants an introductory lecture experience at Shaheed Sukhdev College Of Business Studies.",
+    "keywords": [
+      "Masterclass Delhi",
+      "Introductory Lecture",
+      "Shaheed Sukhdev College",
+      "Offer Holders",
+      "Potential Applicants"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "masterclass delhi": 0.95,
+      "introductory lecture": 0.90,
+      "shaheed sukhdev college": 0.88,
+      "offer holders": 0.85,
+      "potential applicants": 0.82
+    },
+    "entities": [
+      "Shaheed Sukhdev College Of Business Studies",
+      "Masterclass in Delhi",
+      "Delhi",
+      "Rohini",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:34:56Z"
+  }
+]

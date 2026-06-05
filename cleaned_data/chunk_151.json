@@ -1,0 +1,53 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/co-operation-between-indian-uk-in-education-boosted-with-launch-of-southampton-campus/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/co-operation-between-indian-uk-in-education-boosted-with-launch-of-southampton-campus/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Launch Boosts India-UK Education",
+    "path": "/news/co-operation-between-indian-uk-in-education-boosted-with-launch-of-southampton-campus/",
+    "chunk_index": 0,
+    "text": "The University of Southampton, a QS Top 100 institution and Russell Group member, is the first foreign university to open a campus in India under UGC’s foreign university regulations. The launch of its India campus strengthened cooperation between India and the UK in the education sector, as stated by Education Minister Dharmendra Pradhan on Wednesday. Pradhan inaugurated the campus at Gurugram in Haryana, according to a PIB release, describing it as a momentous milestone for internationalisation of education under the National Education Policy 2020 and for strengthening India-UK cooperation as envisioned in the India-UK Roadmap 2030. The University became the first foreign university to operationalise a campus in India under the University Grants Commission’s 'Setting up and Operation of Campuses of Foreign Higher Educational Institutions in India’ Regulations. Pradhan called upon other leading universities worldwide to establish presence in India to foster innovation, research, and education. The new campus will offer globally recognised undergraduate and postgraduate programmes aligned with UK academic standards, with students able to spend up to one year at the University’s campuses in the UK or Malaysia. Academic programmes for this year include undergraduate (BSc) courses in Computer Science, Economics, Accounting & Finance, Business Management, and postgraduate (MSc) courses in Finance and International Management. Secretary of Higher Education and Chairman of UGC, Vineet Joshi, highlighted that NEP 2020 positions India as a global hub for education, research, and innovation, with streamlined UGC processes facilitating such initiatives. The University plans to hire over 75 full-time faculty members meeting UK academic standards.",
+    "tokens": 302,
+    "language": "en",
+    "summary": "The University of Southampton launched its India campus in Gurugram, Haryana, becoming the first foreign university under new UGC regulations. This initiative strengthens India-UK education cooperation, aligns with NEP 2020, and introduces various UK-standard undergraduate and postgraduate programmes.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "India-UK education cooperation",
+      "Dharmendra Pradhan",
+      "Gurugram campus",
+      "National Education Policy 2020",
+      "UGC regulations",
+      "internationalisation of education",
+      "undergraduate programmes",
+      "postgraduate programmes",
+      "faculty recruitment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [
+      "University of Southampton",
+      "India",
+      "UK",
+      "Dharmendra Pradhan",
+      "Gurugram",
+      "Haryana",
+      "PIB",
+      "National Education Policy 2020",
+      "India-UK Roadmap 2030",
+      "Russell Group",
+      "University Grants Commission",
+      "Vineet Joshi",
+      "Computer Science",
+      "Economics",
+      "Accounting & Finance",
+      "Business Management",
+      "Finance",
+      "International Management",
+      "Malaysia",
+      "Campus Launch"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

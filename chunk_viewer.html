@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chunk Viewer — RAG Data Explorer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0f1e;
+      --surface: #111827;
+      --card: #1a2236;
+      --border: rgba(99,102,241,0.25);
+      --cyan: #00f5ff;
+      --purple: #7c3aed;
+      --green: #a0ff60;
+      --yellow: #f59e0b;
+      --red: #f43f5e;
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --tag-bg: rgba(124,58,237,0.2);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* HEADER */
+    header {
+      background: rgba(17,24,39,0.95);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .logo { font-family: 'Space Mono', monospace; font-size: 1.1rem; color: var(--cyan); white-space: nowrap; }
+    .logo span { color: var(--purple); }
+
+    .search-bar {
+      flex: 1;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      max-width: 600px;
+    }
+
+    .search-bar input {
+      flex: 1;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      padding: 8px 14px;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-bar input:focus { border-color: var(--cyan); }
+
+    .filter-select {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      padding: 8px 12px;
+      font-size: 0.85rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .stats-bar {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
+    .stat-badge {
+      background: rgba(0,245,255,0.1);
+      border: 1px solid rgba(0,245,255,0.3);
+      border-radius: 20px;
+      padding: 4px 12px;
+      color: var(--cyan);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+    }
+
+    /* LAYOUT */
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: calc(100vh - 65px);
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 16px;
+      overflow-y: auto;
+      max-height: calc(100vh - 65px);
+      position: sticky;
+      top: 65px;
+    }
+
+    .sidebar h3 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topic-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background: none;
+      border: none;
+      color: var(--text);
+      padding: 8px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      text-align: left;
+      transition: background 0.15s;
+      margin-bottom: 2px;
+    }
+    .topic-btn:hover { background: rgba(124,58,237,0.15); }
+    .topic-btn.active { background: rgba(124,58,237,0.3); color: var(--cyan); }
+
+    .topic-row {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-bottom: 2px;
+    }
+    .topic-row .topic-btn {
+      flex: 1;
+      margin-bottom: 0;
+    }
+    .topic-delete-btn {
+      background: none;
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 6px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .topic-delete-btn:hover {
+      background: rgba(244,63,94,0.2);
+      color: var(--red);
+    }
+    .topic-count {
+      background: rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* CHUNK GRID */
+    .main {
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 16px;
+    }
+
+    .chunk-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .chunk-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+      background: var(--topic-color, var(--purple));
+    }
+    .chunk-card:hover {
+      border-color: var(--cyan);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,245,255,0.1);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .chunk-id {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      padding: 2px 8px;
+    }
+
+    .topic-pill {
+      font-size: 0.7rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      line-height: 1.4;
+      color: #f1f5f9;
+    }
+
+    .card-text {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .card-keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .kw-tag {
+      background: var(--tag-bg);
+      border: 1px solid rgba(124,58,237,0.3);
+      color: #a78bfa;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      white-space: nowrap;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .token-badge {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* CHECKBOX STYLES */
+    .chunk-select-checkbox {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 4px;
+      background: rgba(255,255,255,0.05);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      outline: none;
+      position: relative;
+    }
+    .chunk-select-checkbox:hover {
+      border-color: var(--cyan);
+      background: rgba(0,245,255,0.05);
+    }
+    .chunk-select-checkbox:checked {
+      background: var(--cyan);
+      border-color: var(--cyan);
+    }
+    .chunk-select-checkbox:checked::after {
+      content: '✓';
+      color: var(--bg);
+      font-size: 0.7rem;
+      font-weight: 900;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* FLOATING ACTION BAR */
+    .bulk-action-bar {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(120px);
+      background: rgba(17, 24, 39, 0.95);
+      border: 1px solid var(--cyan);
+      box-shadow: 0 10px 30px rgba(0, 245, 255, 0.2);
+      border-radius: 30px;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      z-index: 1000;
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      backdrop-filter: blur(12px);
+    }
+    .bulk-action-bar.visible {
+      transform: translateX(-50%) translateY(0);
+    }
+    .bulk-count {
+      color: var(--cyan);
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .bulk-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .bulk-btn:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--text);
+    }
+    .bulk-btn-delete {
+      background: rgba(244, 63, 94, 0.15);
+      border: 1px solid rgba(244, 63, 94, 0.3);
+      color: var(--red);
+    }
+    .bulk-btn-delete:hover {
+      background: rgba(244, 63, 94, 0.3);
+      border-color: var(--red);
+      box-shadow: 0 0 12px rgba(244, 63, 94, 0.2);
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(4px);
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      width: 90%;
+      max-width: 780px;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 28px;
+      position: relative;
+      animation: slideIn 0.2s ease;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px; right: 16px;
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: var(--text);
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .modal-close:hover { background: rgba(244,63,94,0.3); }
+
+    .modal-id {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .modal-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 4px; }
+    .modal-url { font-size: 0.75rem; color: var(--cyan); margin-bottom: 16px; word-break: break-all; }
+    .modal-section { margin-bottom: 16px; }
+    .modal-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .modal-text {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+    .modal-summary {
+      background: rgba(0,245,255,0.05);
+      border: 1px solid rgba(0,245,255,0.2);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: #e2e8f0;
+      font-style: italic;
+    }
+    .entities-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .entity-tag {
+      background: rgba(0,245,255,0.08);
+      border: 1px solid rgba(0,245,255,0.25);
+      color: var(--cyan);
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    .kw-score-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      font-size: 0.82rem;
+    }
+    .score-bar-wrap { width: 120px; height: 6px; background: rgba(255,255,255,0.08); border-radius: 3px; }
+    .score-bar { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--purple), var(--cyan)); }
+
+    /* LOADING */
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 50vh;
+      gap: 16px;
+      color: var(--muted);
+    }
+    .spinner {
+      width: 40px; height: 40px;
+      border: 3px solid rgba(124,58,237,0.2);
+      border-top-color: var(--purple);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .no-results {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px;
+      color: var(--muted);
+    }
+
+    /* PAGINATION */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 24px;
+      padding-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .page-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      transition: all 0.15s;
+    }
+    .page-btn:hover { border-color: var(--cyan); color: var(--cyan); }
+    .page-btn.active { background: var(--purple); border-color: var(--purple); color: #fff; }
+    .page-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    .create-btn {
+      background: rgba(0,245,255,0.1);
+      border: 1px solid rgba(0,245,255,0.3);
+      color: var(--cyan);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.15s;
+      outline: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .create-btn:hover {
+      background: rgba(0,245,255,0.25);
+      border-color: var(--cyan);
+      box-shadow: 0 0 12px rgba(0,245,255,0.25);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">🗂️ Chunk<span>Viewer</span></div>
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search chunks by title, text, keywords..." />
+    <select class="filter-select" id="topic-filter">
+      <option value="">All Topics</option>
+    </select>
+    <button class="create-btn" onclick="openCreateModal()">➕ New Chunk</button>
+  </div>
+  <div class="stats-bar">
+    <span class="stat-badge" id="shown-count">0 chunks</span>
+    <span id="total-label">Loading...</span>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- SIDEBAR: topic counts -->
+  <aside class="sidebar" id="sidebar">
+    <h3>Topics</h3>
+    <div id="topic-list"></div>
+  </aside>
+
+  <!-- MAIN: chunk grid -->
+  <main class="main">
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <div>Loading chunks from cleaned_data/...</div>
+    </div>
+    <div class="grid" id="chunk-grid" style="display:none;"></div>
+    <div class="pagination" id="pagination"></div>
+  </main>
+</div>
+
+<!-- FLOATING BULK ACTION BAR -->
+<div class="bulk-action-bar" id="bulk-action-bar">
+  <span class="bulk-count" id="bulk-selected-count">0 selected</span>
+  <button class="bulk-btn" onclick="selectAllFiltered()">Select All Filtered</button>
+  <button class="bulk-btn" onclick="deselectAllChunks()">Deselect All</button>
+  <button class="bulk-btn bulk-btn-delete" onclick="deleteSelectedChunks()">🗑️ Delete Selected</button>
+</div>
+
+<!-- DETAIL MODAL -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal-body">
+    <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.remove('open')">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+// ── Topic colours ────────────────────────────────────────────────────────────
+const TOPIC_COLORS = {
+  overview:        '#00f5ff',
+  programme:       '#a0ff60',
+  'campus-life':   '#f59e0b',
+  event:           '#f43f5e',
+  news:            '#818cf8',
+  admissions:      '#34d399',
+  scholarships:    '#fbbf24',
+  research:        '#60a5fa',
+  careers:         '#fb7185',
+  finance:         '#4ade80',
+  staff:           '#c084fc',
+  policy:          '#94a3b8',
+  accommodation:   '#fdba74',
+  studentlife:     '#67e8f9',
+};
+
+function topicColor(t) {
+  if (!t) return '#7c3aed';
+  const key = (t || '').toLowerCase().replace(/[^a-z-]/g, '');
+  return TOPIC_COLORS[key] || '#7c3aed';
+}
+
+// ── State ────────────────────────────────────────────────────────────────────
+let allChunks   = [];
+let filtered    = [];
+let activeTopic = '';
+let searchQuery = '';
+let currentPage = 1;
+const PAGE_SIZE  = 24;
+let activeChunk = null; // Currently selected chunk for viewing/editing
+
+// ── Batch Delete State & Operations ──────────────────────────────────────────
+let selectedChunkIds = new Set();
+
+function toggleChunkSelection(id) {
+  if (selectedChunkIds.has(id)) {
+    selectedChunkIds.delete(id);
+  } else {
+    selectedChunkIds.add(id);
+  }
+  updateBulkActionBar();
+}
+
+function updateBulkActionBar() {
+  const bar = document.getElementById('bulk-action-bar');
+  const countSpan = document.getElementById('bulk-selected-count');
+  const count = selectedChunkIds.size;
+  
+  if (count > 0) {
+    countSpan.textContent = `${count} chunk${count > 1 ? 's' : ''} selected`;
+    bar.classList.add('visible');
+  } else {
+    bar.classList.remove('visible');
+  }
+}
+
+function selectAllFiltered() {
+  filtered.forEach(chunk => {
+    if (chunk.id) {
+      selectedChunkIds.add(chunk.id);
+    }
+  });
+  // Re-render only checkboxes on the current page to reflect the checks
+  document.querySelectorAll('.chunk-select-checkbox').forEach(cb => {
+    const id = cb.getAttribute('data-id');
+    if (selectedChunkIds.has(id)) {
+      cb.checked = true;
+    }
+  });
+  updateBulkActionBar();
+}
+
+function deselectAllChunks() {
+  selectedChunkIds.clear();
+  document.querySelectorAll('.chunk-select-checkbox').forEach(cb => {
+    cb.checked = false;
+  });
+  updateBulkActionBar();
+}
+
+async function deleteSelectedChunks() {
+  const count = selectedChunkIds.size;
+  if (count === 0) return;
+  if (!confirm(`⚠️ Are you sure you want to permanently delete these ${count} selected chunks? This action cannot be undone!`)) return;
+  
+  // Show page-wide loading indicator
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('loading').querySelector('div:last-child').textContent = `Deleting ${count} chunks and rebuilding index...`;
+  document.getElementById('chunk-grid').style.display = 'none';
+  
+  // Hide bulk action bar
+  document.getElementById('bulk-action-bar').classList.remove('visible');
+  
+  try {
+    const res = await fetch('/api/university/delete-chunks', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids: Array.from(selectedChunkIds) })
+    });
+    
+    if (res.ok) {
+      alert(`✅ Successfully deleted ${count} chunks!`);
+      selectedChunkIds.clear();
+      allChunks = [];
+      await loadChunks();
+    } else {
+      let errMsg = "Unknown error";
+      try {
+        const errJson = await res.json();
+        errMsg = errJson.error || errJson.message || JSON.stringify(errJson);
+      } catch (e) {
+        const txt = await res.text();
+        errMsg = txt || `Status ${res.status}`;
+      }
+      throw new Error(errMsg);
+    }
+  } catch (err) {
+    const errMsg = err.message || err || "Unknown error";
+    alert("❌ Failed to delete chunks: " + errMsg);
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('chunk-grid').style.display = 'grid';
+    updateBulkActionBar();
+  }
+}
+
+// ── Load all chunks from /cleaned_data/ ─────────────────────────────────────
+async function loadChunks() {
+  const chunkFiles = [];
+  // Build list chunk_0..chunk_291 (with gap at 288)
+  for (let i = 0; i <= 291; i++) {
+    if (i === 288) continue; // chunk_288 doesn't exist
+    chunkFiles.push(`cleaned_data/chunk_${i}.json`);
+  }
+  // Load user created chunks
+  chunkFiles.push('cleaned_data/chunk_user_created.json');
+
+  let loaded = 0;
+  const results = await Promise.allSettled(
+    chunkFiles.map(async f => {
+      const res = await fetch(f);
+      if (!res.ok) throw new Error('not found');
+      return res.json();
+    })
+  );
+
+  results.forEach(r => {
+    if (r.status === 'fulfilled') {
+      const data = r.value;
+      if (Array.isArray(data)) allChunks.push(...data);
+      else if (data && data.text) allChunks.push(data);
+      loaded++;
+    }
+  });
+
+  // Sort by chunk_index
+  allChunks.sort((a, b) => (a.chunk_index ?? 0) - (b.chunk_index ?? 0));
+
+  document.getElementById('total-label').textContent = `${allChunks.length} total chunks`;
+  buildTopicSidebar();
+  applyFilters();
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('chunk-grid').style.display = 'grid';
+}
+
+// ── Sidebar topics ───────────────────────────────────────────────────────────
+function buildTopicSidebar() {
+  const topicMap = {};
+  allChunks.forEach(c => {
+    const t = c.topic || 'unknown';
+    topicMap[t] = (topicMap[t] || 0) + 1;
+  });
+
+  const sel = document.getElementById('topic-filter');
+  sel.innerHTML = '<option value="">All Topics</option>';
+  
+  const list = document.getElementById('topic-list');
+  list.innerHTML = '';
+
+  const all = document.createElement('button');
+  all.className = 'topic-btn active';
+  all.id = 'topic-all';
+  all.innerHTML = `<span>📋 All</span><span class="topic-count">${allChunks.length}</span>`;
+  all.onclick = () => setTopic('');
+  list.appendChild(all);
+
+  Object.entries(topicMap)
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([topic, count]) => {
+      const row = document.createElement('div');
+      row.className = 'topic-row';
+
+      const btn = document.createElement('button');
+      btn.className = 'topic-btn';
+      btn.id = `topic-btn-${topic}`;
+      const emoji = topicEmoji(topic);
+      btn.innerHTML = `<span>${emoji} ${topic}</span><span class="topic-count">${count}</span>`;
+      btn.onclick = () => setTopic(topic);
+      row.appendChild(btn);
+
+      // Delete button for this topic
+      const delBtn = document.createElement('button');
+      delBtn.className = 'topic-delete-btn';
+      delBtn.title = `Delete topic "${topic}" permanently`;
+      delBtn.innerHTML = '🗑️';
+      delBtn.onclick = (e) => {
+        e.stopPropagation(); // prevent setting active topic
+        deleteTopic(topic);
+      };
+      row.appendChild(delBtn);
+
+      list.appendChild(row);
+
+      const opt = document.createElement('option');
+      opt.value = topic;
+      opt.textContent = `${emoji} ${topic} (${count})`;
+      sel.appendChild(opt);
+    });
+}
+
+// ── Delete Topic ─────────────────────────────────────────────────────────────
+async function deleteTopic(topic) {
+  if (!topic) return;
+  const count = allChunks.filter(c => c.topic === topic).length;
+  const confirmMsg = `⚠️ WARNING: Are you sure you want to permanently delete the topic "${topic}"?\n\nThis will delete all ${count} chunks in this topic from the raw files, rebuild the RAG index, and reload the database. This action CANNOT be undone!`;
+  
+  if (!confirm(confirmMsg)) return;
+  
+  // Show loading indicator
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('loading').querySelector('div:last-child').textContent = `Deleting topic '${topic}' and rebuilding RAG index...`;
+  document.getElementById('chunk-grid').style.display = 'none';
+  
+  try {
+    const res = await fetch('/api/university/delete-topic', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ topic: topic })
+    });
+    
+    if (res.ok) {
+      alert(`✅ Topic "${topic}" and all its chunks successfully deleted!`);
+      // Reload the data from the server
+      allChunks = [];
+      await loadChunks();
+    } else {
+      const errText = await res.text();
+      throw new Error(errText);
+    }
+  } catch (err) {
+    alert(`❌ Failed to delete topic: ${err.message}`);
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('chunk-grid').style.display = 'grid';
+  }
+}
+
+function topicEmoji(t) {
+  const map = { overview:'🏛️', programme:'📚', 'campus-life':'🏫', event:'📅', news:'📰',
+                admissions:'✅', scholarships:'🎓', research:'🔬', careers:'💼',
+                finance:'💰', staff:'👤', policy:'📜', accommodation:'🏠',
+                studentlife:'🎉', unknown:'❓' };
+  return map[(t||'').toLowerCase().replace(/[^a-z-]/g,'')] || '📄';
+}
+
+// ── Filtering ────────────────────────────────────────────────────────────────
+function setTopic(t) {
+  activeTopic = t;
+  document.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
+  const btn = t ? document.getElementById(`topic-btn-${t}`) : document.getElementById('topic-all');
+  if (btn) btn.classList.add('active');
+  document.getElementById('topic-filter').value = t;
+  currentPage = 1;
+  applyFilters();
+}
+
+function applyFilters() {
+  const q = searchQuery.toLowerCase();
+  filtered = allChunks.filter(c => {
+    const matchTopic = !activeTopic || c.topic === activeTopic;
+    if (!matchTopic) return false;
+    if (!q) return true;
+    return (
+      (c.title || '').toLowerCase().includes(q) ||
+      (c.text  || '').toLowerCase().includes(q) ||
+      (c.summary || '').toLowerCase().includes(q) ||
+      (c.keywords || []).some(k => k.toLowerCase().includes(q)) ||
+      String(c.chunk_index).includes(q)
+    );
+  });
+
+  document.getElementById('shown-count').textContent = `${filtered.length} chunks`;
+  renderPage();
+}
+
+// ── Render ───────────────────────────────────────────────────────────────────
+function renderPage() {
+  const grid = document.getElementById('chunk-grid');
+  grid.innerHTML = '';
+
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const page  = filtered.slice(start, start + PAGE_SIZE);
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="no-results">😕 No chunks match your search.</div>`;
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+
+  page.forEach(chunk => {
+    const card = document.createElement('div');
+    card.className = 'chunk-card';
+    const color = topicColor(chunk.topic);
+    card.style.setProperty('--topic-color', color);
+
+    const kws = (chunk.keywords || []).slice(0, 4).map(k =>
+      `<span class="kw-tag">${escHtml(k)}</span>`
+    ).join('');
+
+    const textPreview = (chunk.text || '').slice(0, 180) + (chunk.text?.length > 180 ? '…' : '');
+
+    card.innerHTML = `
+      <div class="card-header">
+        <div style="display:flex;align-items:center;gap:8px">
+          <input type="checkbox" class="chunk-select-checkbox" data-id="${chunk.id}" ${selectedChunkIds.has(chunk.id) ? 'checked' : ''} onclick="event.stopPropagation(); toggleChunkSelection('${chunk.id}')" />
+          <span class="chunk-id">#${chunk.chunk_index ?? '?'}</span>
+        </div>
+        <span class="topic-pill" style="background:${color}22;color:${color};border:1px solid ${color}44">
+          ${topicEmoji(chunk.topic)} ${chunk.topic || 'unknown'}
+        </span>
+      </div>
+      <div class="card-title">${escHtml(chunk.title || 'Untitled')}</div>
+      <div class="card-text">${escHtml(textPreview)}</div>
+      <div class="card-keywords">${kws}</div>
+      <div class="card-footer">
+        <span>🔤 ${chunk.tokens ?? '?'} tokens</span>
+        <span style="color:var(--cyan);font-size:0.72rem;">${(chunk.source_url || '').replace('https://','').slice(0,40)}</span>
+      </div>
+    `;
+    card.onclick = () => openModal(chunk);
+    grid.appendChild(card);
+  });
+
+  renderPagination();
+}
+
+function renderPagination() {
+  const total = Math.ceil(filtered.length / PAGE_SIZE);
+  const pag = document.getElementById('pagination');
+  pag.innerHTML = '';
+  if (total <= 1) return;
+
+  const prev = mkBtn('‹ Prev', currentPage > 1, () => { currentPage--; renderPage(); window.scrollTo(0,0); });
+  pag.appendChild(prev);
+
+  const range = pageRange(currentPage, total);
+  range.forEach(p => {
+    if (p === '...') {
+      const dots = document.createElement('span');
+      dots.textContent = '…'; dots.style.color='var(--muted)'; dots.style.padding='6px';
+      pag.appendChild(dots);
+    } else {
+      const btn = mkBtn(p, true, () => { currentPage = p; renderPage(); window.scrollTo(0,0); });
+      if (p === currentPage) btn.classList.add('active');
+      pag.appendChild(btn);
+    }
+  });
+
+  const next = mkBtn('Next ›', currentPage < total, () => { currentPage++; renderPage(); window.scrollTo(0,0); });
+  pag.appendChild(next);
+}
+
+function mkBtn(label, enabled, fn) {
+  const b = document.createElement('button');
+  b.className = 'page-btn';
+  b.textContent = label;
+  b.disabled = !enabled;
+  if (enabled) b.onclick = fn;
+  return b;
+}
+
+function pageRange(cur, total) {
+  if (total <= 7) return Array.from({length:total}, (_,i)=>i+1);
+  if (cur <= 4) return [1,2,3,4,5,'...',total];
+  if (cur >= total - 3) return [1,'...',total-4,total-3,total-2,total-1,total];
+  return [1,'...',cur-1,cur,cur+1,'...',total];
+}
+
+// ── Modal & Editing ──────────────────────────────────────────────────────────
+function openModal(c) {
+  activeChunk = c;
+  renderModalDetails();
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function renderModalDetails() {
+  if (!activeChunk) return;
+  const c = activeChunk;
+  const color = topicColor(c.topic);
+  const kwScores = c.keyword_scores || {};
+  const kwRows = (c.keywords || []).map(k => {
+    const score = kwScores[k] ?? 0;
+    return `<div class="kw-score-row">
+      <span>${escHtml(k)}</span>
+      <div style="display:flex;align-items:center;gap:8px">
+        <div class="score-bar-wrap"><div class="score-bar" style="width:${(score*100).toFixed(0)}%"></div></div>
+        <span style="color:var(--muted);font-size:0.75rem;width:30px">${score.toFixed(2)}</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  const entities = (c.entities || []).map(e =>
+    `<span class="entity-tag">${escHtml(e)}</span>`
+  ).join('');
+
+  document.getElementById('modal-content').innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <div class="modal-id">chunk_${c.chunk_index ?? '?'} · ${c.topic || 'unknown'} · ${c.tokens ?? '?'} tokens</div>
+      <div style="display:flex;gap:8px">
+        <button onclick="toggleEditMode()" style="background:rgba(0,245,255,0.15);border:1px solid rgba(0,245,255,0.3);color:var(--cyan);padding:4px 12px;border-radius:6px;font-size:0.8rem;cursor:pointer;font-weight:600">✏️ Edit</button>
+        <button onclick="deleteChunk()" style="background:rgba(244,63,94,0.15);border:1px solid rgba(244,63,94,0.3);color:var(--red);padding:4px 12px;border-radius:6px;font-size:0.8rem;cursor:pointer;font-weight:600">🗑️ Delete</button>
+      </div>
+    </div>
+    <div class="modal-title">${escHtml(c.title || 'Untitled')}</div>
+    <a class="modal-url" href="${c.source_url}" target="_blank">${c.source_url || ''}</a>
+
+    ${c.summary ? `
+    <div class="modal-section">
+      <div class="modal-label">📝 Summary</div>
+      <div class="modal-summary">${escHtml(c.summary)}</div>
+    </div>` : ''}
+
+    <div class="modal-section">
+      <div class="modal-label">📄 Full Text</div>
+      <div class="modal-text">${escHtml(c.text || '')}</div>
+    </div>
+
+    ${kwRows ? `
+    <div class="modal-section">
+      <div class="modal-label">🔑 Keywords & Scores</div>
+      <div>${kwRows}</div>
+    </div>` : ''}
+
+    ${entities ? `
+    <div class="modal-section">
+      <div class="modal-label">🏷️ Entities</div>
+      <div class="entities-list">${entities}</div>
+    </div>` : ''}
+
+    <div style="font-size:0.75rem;color:var(--muted);margin-top:16px">
+      Source: ${c.source_file || '—'} &nbsp;|&nbsp; Method: ${c.keywords_method || '—'} &nbsp;|&nbsp; ID: ${c.id || '—'}
+    </div>
+  `;
+}
+
+function toggleEditMode() {
+  if (!activeChunk) return;
+  const c = activeChunk;
+  document.getElementById('modal-content').innerHTML = `
+    <div class="edit-form">
+      <h3 style="margin-bottom:12px;color:var(--cyan)">Edit Chunk #${c.chunk_index ?? '?'}</h3>
+      
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Title</label>
+        <input type="text" id="edit-title" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text)" value="${escHtml(c.title || '')}" />
+      </div>
+      
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Topic</label>
+        <select id="edit-topic" style="width:100%;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text)">
+          ${["programme", "campus-life", "admissions", "scholarships", "overview", "event", "news", "research", "careers", "finance", "staff", "policy", "accommodation", "studentlife"].map(t => 
+            `<option value="${t}" ${c.topic === t ? 'selected' : ''}>${t}</option>`
+          ).join('')}
+        </select>
+      </div>
+
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Keywords (comma-separated)</label>
+        <input type="text" id="edit-keywords" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text)" value="${escHtml((c.keywords || []).join(', '))}" />
+      </div>
+
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Full Text</label>
+        <textarea id="edit-text" style="width:100%;height:220px;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text);font-family:inherit;line-height:1.5;resize:vertical">${escHtml(c.text || '')}</textarea>
+      </div>
+
+      <div style="display:flex;gap:12px;margin-top:16px">
+        <button class="create-btn" onclick="saveChunk()" style="background:var(--purple);border-color:var(--purple);color:#fff;padding:8px 16px">Save Changes</button>
+        <button class="create-btn" onclick="renderModalDetails()" style="background:rgba(255,255,255,0.1);border-color:transparent;color:var(--text);padding:8px 16px">Cancel</button>
+      </div>
+    </div>
+  `;
+}
+
+async function saveChunk() {
+  if (!activeChunk) return;
+  const title = document.getElementById('edit-title').value.trim();
+  const topic = document.getElementById('edit-topic').value.trim();
+  const keywordsStr = document.getElementById('edit-keywords').value;
+  const text = document.getElementById('edit-text').value.trim();
+  
+  if (!title || !text || !topic) {
+    alert("Title, topic, and text are required!");
+    return;
+  }
+  
+  const keywords = keywordsStr.split(',')
+    .map(k => k.trim())
+    .filter(k => k.length > 0);
+    
+  const payload = {
+    id: activeChunk.id,
+    title,
+    topic,
+    text,
+    keywords
+  };
+  
+  document.getElementById('modal-content').innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>Saving chunk and rebuilding index...</div>
+    </div>
+  `;
+  
+  try {
+    const res = await fetch('/api/university/save-chunk', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    
+    if (res.ok) {
+      alert("✅ Chunk saved successfully!");
+      const idx = allChunks.findIndex(c => c.id === activeChunk.id);
+      if (idx !== -1) {
+        allChunks[idx].title = title;
+        allChunks[idx].topic = topic;
+        allChunks[idx].text = text;
+        allChunks[idx].keywords = keywords;
+        allChunks[idx].tokens = text.split(/\s+/).length;
+      }
+      activeChunk = allChunks[idx];
+      renderModalDetails();
+      applyFilters();
+    } else {
+      let errMsg = "Unknown error";
+      try {
+        const errJson = await res.json();
+        errMsg = errJson.error || errJson.message || JSON.stringify(errJson);
+      } catch (e) {
+        const txt = await res.text();
+        errMsg = txt || `Status ${res.status}`;
+      }
+      throw new Error(errMsg);
+    }
+  } catch (err) {
+    const errMsg = err.message || err || "Unknown error";
+    alert("❌ Failed to save chunk: " + errMsg);
+    toggleEditMode();
+  }
+}
+
+async function deleteChunk() {
+  if (!activeChunk) return;
+  if (!confirm("⚠️ Are you sure you want to permanently delete this chunk? This action cannot be undone!")) return;
+  
+  document.getElementById('modal-content').innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>Deleting chunk and rebuilding index...</div>
+    </div>
+  `;
+  
+  try {
+    const res = await fetch('/api/university/delete-chunk', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: activeChunk.id })
+    });
+    
+    if (res.ok) {
+      alert("✅ Chunk deleted successfully!");
+      document.getElementById('modal-overlay').classList.remove('open');
+      allChunks = [];
+      document.getElementById('loading').style.display = 'flex';
+      document.getElementById('chunk-grid').style.display = 'none';
+      await loadChunks();
+    } else {
+      let errMsg = "Unknown error";
+      try {
+        const errJson = await res.json();
+        errMsg = errJson.error || errJson.message || JSON.stringify(errJson);
+      } catch (e) {
+        const txt = await res.text();
+        errMsg = txt || `Status ${res.status}`;
+      }
+      throw new Error(errMsg);
+    }
+  } catch (err) {
+    const errMsg = err.message || err || "Unknown error";
+    alert("❌ Failed to delete chunk: " + errMsg);
+    renderModalDetails();
+  }
+}
+
+function openCreateModal() {
+  document.getElementById('modal-content').innerHTML = `
+    <div class="edit-form">
+      <h3 style="margin-bottom:12px;color:var(--cyan)">Create New Chunk</h3>
+      
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Title</label>
+        <input type="text" id="create-title" placeholder="e.g. BEng Software Engineering Programme Details" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text)" />
+      </div>
+      
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Topic</label>
+        <select id="create-topic" style="width:100%;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text)">
+          <option value="programme">programme</option>
+          <option value="campus-life">campus-life</option>
+          <option value="admissions">admissions</option>
+          <option value="scholarships">scholarships</option>
+          <option value="overview">overview</option>
+          <option value="event">event</option>
+          <option value="news">news</option>
+          <option value="research">research</option>
+          <option value="careers">careers</option>
+          <option value="finance">finance</option>
+          <option value="staff">staff</option>
+          <option value="policy">policy</option>
+          <option value="accommodation">accommodation</option>
+          <option value="studentlife">studentlife</option>
+        </select>
+      </div>
+
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Keywords (comma-separated)</label>
+        <input type="text" id="create-keywords" placeholder="e.g. software engineering, computer science, admissions" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text)" />
+      </div>
+
+      <div class="form-group" style="margin-bottom:12px">
+        <label style="display:block;font-size:0.75rem;color:var(--muted);margin-bottom:4px">Full Text</label>
+        <textarea id="create-text" placeholder="Enter the full text of the knowledge chunk..." style="width:100%;height:220px;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:6px;padding:8px;color:var(--text);font-family:inherit;line-height:1.5;resize:vertical"></textarea>
+      </div>
+
+      <div style="display:flex;gap:12px;margin-top:16px">
+        <button class="create-btn" onclick="submitCreateChunk()" style="background:var(--purple);border-color:var(--purple);color:#fff;padding:8px 16px">Create Chunk</button>
+        <button class="create-btn" onclick="document.getElementById('modal-overlay').classList.remove('open')" style="background:rgba(255,255,255,0.1);border-color:transparent;color:var(--text);padding:8px 16px">Cancel</button>
+      </div>
+    </div>
+  `;
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+async function submitCreateChunk() {
+  const title = document.getElementById('create-title').value.trim();
+  const topic = document.getElementById('create-topic').value.trim();
+  const keywordsStr = document.getElementById('create-keywords').value;
+  const text = document.getElementById('create-text').value.trim();
+  
+  if (!title || !text || !topic) {
+    alert("Title, topic, and text are required!");
+    return;
+  }
+  
+  const keywords = keywordsStr.split(',')
+    .map(k => k.trim())
+    .filter(k => k.length > 0);
+    
+  const payload = {
+    title,
+    topic,
+    text,
+    keywords
+  };
+  
+  document.getElementById('modal-content').innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>Creating chunk and rebuilding index...</div>
+    </div>
+  `;
+  
+  try {
+    const res = await fetch('/api/university/create-chunk', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    
+    if (res.ok) {
+      alert("✅ Chunk created successfully!");
+      document.getElementById('modal-overlay').classList.remove('open');
+      allChunks = [];
+      document.getElementById('loading').style.display = 'flex';
+      document.getElementById('chunk-grid').style.display = 'none';
+      await loadChunks();
+    } else {
+      let errMsg = "Unknown error";
+      try {
+        const errJson = await res.json();
+        errMsg = errJson.error || errJson.message || JSON.stringify(errJson);
+      } catch (e) {
+        const txt = await res.text();
+        errMsg = txt || `Status ${res.status}`;
+      }
+      throw new Error(errMsg);
+    }
+  } catch (err) {
+    const errMsg = err.message || err || "Unknown error";
+    alert("❌ Failed to create chunk: " + errMsg);
+    openCreateModal();
+  }
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modal-overlay')) {
+    document.getElementById('modal-overlay').classList.remove('open');
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.getElementById('modal-overlay').classList.remove('open');
+});
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Events ───────────────────────────────────────────────────────────────────
+document.getElementById('search-input').addEventListener('input', e => {
+  searchQuery = e.target.value;
+  currentPage = 1;
+  applyFilters();
+});
+
+document.getElementById('topic-filter').addEventListener('change', e => {
+  setTopic(e.target.value);
+});
+
+// ── Boot ─────────────────────────────────────────────────────────────────────
+loadChunks();
+</script>
+</body>
+</html>

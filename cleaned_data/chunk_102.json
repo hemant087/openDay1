@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-06072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-06072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Tour Details",
+    "path": "/events/campus-tour-06072025/",
+    "chunk_index": 0,
+    "text": "Campus tour 06 July | August 2025 intake | SOLD OUT. Event Status: Completed. Date & Time: July 06, 2025 11:00 AM IST. Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India. Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer.",
+    "tokens": 98,
+    "language": "en",
+    "summary": "This chunk details an in-person campus tour at the University of Southampton Delhi, held on July 6, 2025, in Gurugram, Haryana. The event, which offered a chance to explore facilities and campus life, is now completed and sold out.",
+    "keywords": [
+      "campus tour",
+      "University of Southampton Delhi",
+      "in-person event",
+      "campus life",
+      "Gurugram",
+      "International Tech Park"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.95,
+      "University of Southampton Delhi": 0.90,
+      "in-person event": 0.88,
+      "campus life": 0.85,
+      "Gurugram": 0.82,
+      "International Tech Park": 0.79
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Campus tour"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

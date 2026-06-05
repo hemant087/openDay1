@@ -1,0 +1,46 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/uks-university-of-southampton-becomes-first-foreign-university-to-operationalise-campus-in-india/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/uks-university-of-southampton-becomes-first-foreign-university-to-operationalise-campus-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Inaugurated in India",
+    "path": "/news/uks-university-of-southampton-becomes-first-foreign-university-to-operationalise-campus-in-india/",
+    "chunk_index": 0,
+    "text": "UK's University of Southampton launched its Indian campus here on Wednesday, becoming the first foreign university to operationalise a full fledged campus in the country. Read article at Press Trust of India UK’s University of Southampton launched its Indian campus here on Wednesday, becoming the first foreign university to operationalise a full fledged campus in the country under UGC norms, officials said. Union Education Minister Dharmendra Pradhan, who inaugurated the campus along with Haryana Chief Minister Nayab Singh Saini, termed it a significant milestone in India’s higher education landscape. The university received a Letter of Intent (LoI) last year under the University Grants Commission’s (Setting up and Operation of Campuses of Foreign Higher Educational Institutions in India) Regulations to set up a campus in India.",
+    "tokens": 128,
+    "language": "en",
+    "summary": "The University of Southampton launched its first Indian campus, becoming the first foreign university to operate under UGC norms, inaugurated by Union Education Minister Dharmendra Pradhan and Haryana Chief Minister Nayab Singh Saini.",
+    "keywords": [
+      "University of Southampton",
+      "Indian campus",
+      "foreign university",
+      "UGC norms",
+      "higher education",
+      "campus inauguration",
+      "Letter of Intent"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton": 0.95,
+      "Indian campus": 0.90,
+      "foreign university": 0.88,
+      "UGC norms": 0.82,
+      "higher education": 0.79,
+      "campus inauguration": 0.75,
+      "Letter of Intent": 0.70
+    },
+    "entities": [
+      "University of Southampton",
+      "India",
+      "Press Trust of India",
+      "UGC",
+      "Dharmendra Pradhan",
+      "Nayab Singh Saini",
+      "Haryana",
+      "University Grants Commission"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:48.697Z"
+  }
+]

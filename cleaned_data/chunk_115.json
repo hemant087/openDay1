@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/career-fair-bcm-ludhiana-17042025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/career-fair-bcm-ludhiana-17042025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Ludhiana Career Fair Event Details 2025",
+    "path": "/events/career-fair-bcm-ludhiana-17042025/",
+    "chunk_index": 0,
+    "text": "Career fair in Ludhiana\nEvent Status: Completed\nDate: April 17, 2025\nLocation: BCM Sr. Sec. School Sec 32A, Chandigarh Rd, Sector 32A, Ludhiana, Punjab 141010, India\nBCM Sr. Sec. School Sec 32A, Chandigarh Rd, Sector 32A, Ludhiana, Punjab 141010, India\nOpen address in Google Maps",
+    "tokens": 68,
+    "language": "en",
+    "summary": "This event details a completed career fair held on April 17, 2025, at BCM Sr. Sec. School in Ludhiana, Punjab, India.",
+    "keywords": [
+      "career fair",
+      "Ludhiana",
+      "BCM Sr. Sec. School",
+      "event status",
+      "Punjab India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "career fair": 0.95,
+      "Ludhiana": 0.90,
+      "BCM Sr. Sec. School": 0.88,
+      "event status": 0.82,
+      "Punjab India": 0.79
+    },
+    "entities": [
+      "BCM Sr. Sec. School",
+      "Ludhiana",
+      "Punjab",
+      "India",
+      "Career fair"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:26.471Z"
+  }
+]

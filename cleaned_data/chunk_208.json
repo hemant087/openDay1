@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-strengthens-delhi-campus-with-new-director-of-learning-and-teaching/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-strengthens-delhi-campus-with-new-director-of-learning-and-teaching/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Appoints Learning Director",
+    "path": "/news/university-of-southampton-strengthens-delhi-campus-with-new-director-of-learning-and-teaching/",
+    "chunk_index": 0,
+    "text": "The University of Southampton Delhi campus announces the strengthening of its operations with the appointment of a new Director of Learning and Teaching. This news was published on 24 February 2025. For the full article and more details, readers are directed to Cine Buzz News.",
+    "tokens": 54,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus announced a new Director of Learning and Teaching on February 24, 2025, with details available on Cine Buzz News.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Director of Learning and Teaching",
+      "academic appointment",
+      "campus news",
+      "Cine Buzz News"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Director of Learning and Teaching": 0.90,
+      "academic appointment": 0.88,
+      "campus news": 0.85,
+      "Cine Buzz News": 0.82
+    },
+    "entities": [
+      "University of Southampton",
+      "University of Southampton Delhi",
+      "Cine Buzz News",
+      "Delhi"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

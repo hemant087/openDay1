@@ -1,0 +1,145 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-shagata-mukherjee#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-shagata-mukherjee",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Shagata Mukherjee: Overview, Role, and Research Interests",
+    "path": "/team/dr-shagata-mukherjee",
+    "chunk_index": 0,
+    "text": "Dr Shagata Mukherjee BSc MSc PhD\nHe has previously served as the Deputy Director at the Centre for Social and Behaviour Change, Ashoka University, Lead of the Behavioural Insights Unit of India at the National Institution for Transforming India, NITI Aayog and Associate Professor at the Meghnad Desai Academy of Economics. He holds a Master’s Degree and a PhD in Economics from Georgia State University, USA.\nRole: Associate Professor\nResearch Interests: Development economics Financial inclusion and microfinance Gender and social norms Health and nutrition Women empowerment\nDepartment: Economics academics",
+    "tokens": 89,
+    "language": "en",
+    "summary": "Dr Shagata Mukherjee is an Associate Professor of Economics at the University of Southampton, Delhi.",
+    "keywords": [
+      "Behavioural and Experimental Economics",
+      "Development Economics",
+      "Public Policy"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Behavioural and Experimental Economics": 0.95,
+      "Development Economics": 0.9,
+      "Public Policy": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Centre for Social and Behaviour Change",
+      "Ashoka University",
+      "National Institution for Transforming India",
+      "NITI Aayog",
+      "Meghnad Desai Academy of Economics",
+      "Georgia State University",
+      "Jawaharlal Nehru University",
+      "Presidency College, Calcutta University"
+    ],
+    "aliases": [
+      "Shagata Mukherjee",
+      "Dr. Shagata Mukherjee",
+      "Mukherjee Shagata",
+      "S. Mukherjee",
+      "Shagata",
+      "Mukherjee"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-shagata-mukherjee#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-shagata-mukherjee",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Shagata Mukherjee: Research Publications",
+    "path": "/team/dr-shagata-mukherjee",
+    "chunk_index": 1,
+    "text": "No Coming Back: COVID-19 Disease Threat and Male Migrants Willingness to Return to Work in India (with Varun Arora, Sujoy Chakravarty, Hansika Kapoor, Shubhabrata Roy, and Anirudh Tagat)\nPromote to Protect: Data-driven Computational Model of Peer Influence for Vaccine Perception (with Sayantari Ghosh, Saumik Bhattacharya, and Sujoy Chakravarty)\nDouble Jab: Survey Evidence on Vaccine Hesitancy, Beliefs, and Attitudes in India (with Anirudh Tagat, Hansika Kapoor, Varun Arora, Sujoy Chakravarty and Shubhabrata Roy)\nA Culture-Centered Approach to Experiences of the Coronavirus Pandemic Lockdown among Internal Migrants in India (with Devalina Mookherjee, Sujoy Chakravarty, Shubhabrata Roy and Anirudh Tagat)\nWhat Drives Gender Differences in Trust and Trustworthiness?\nCOVID-19 Vaccination Status and Hesitancy:Survey Evidence from Rural India (with Sneha Shashidhara and Sharon Barnhardt). In Contextualizing the COVID Pandemic in India: A Development Perspective, 2023 (pp. 225-247). Singapore: Springer Nature Singapore.",
+    "tokens": 137,
+    "language": "en",
+    "summary": "Research publications by Dr Shagata Mukherjee at University of Southampton Delhi.",
+    "keywords": [
+      "research publications",
+      "journal articles",
+      "dr shagata mukherjee",
+      "university of southampton delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "research publications": 0.9,
+      "journal articles": 0.85,
+      "dr shagata mukherjee": 0.8,
+      "university of southampton delhi": 0.75
+    },
+    "entities": [
+      "Dr Shagata Mukherjee",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Shagata Mukherjee",
+      "Dr. Shagata Mukherjee",
+      "Mukherjee Shagata",
+      "S. Mukherjee",
+      "Shagata",
+      "Mukherjee"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-shagata-mukherjee#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-shagata-mukherjee",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Shagata Mukherjee: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-shagata-mukherjee",
+    "chunk_index": 2,
+    "text": "Dr Shagata Mukherjee is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Shagata Mukherjee, Dr. Shagata Mukherjee, Mukherjee Shagata, S. Mukherjee, Shagata, Mukherjee. All of these names refer to the same individual.",
+    "tokens": 45,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Shagata Mukherjee. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "faculty",
+      "staff",
+      "shagata",
+      "shagata mukherjee",
+      "dr. shagata mukherjee",
+      "university of southampton delhi",
+      "s. mukherjee",
+      "dr shagata mukherjee",
+      "mukherjee",
+      "mukherjee shagata"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "faculty": 0.95,
+      "staff": 0.9,
+      "shagata": 0.85,
+      "shagata mukherjee": 0.8,
+      "dr. shagata mukherjee": 0.75,
+      "university of southampton delhi": 0.7,
+      "s. mukherjee": 0.65,
+      "dr shagata mukherjee": 0.6,
+      "mukherjee": 0.55,
+      "mukherjee shagata": 0.5
+    },
+    "entities": [
+      "Dr Shagata Mukherjee",
+      "Shagata Mukherjee",
+      "Dr. Shagata Mukherjee",
+      "Mukherjee Shagata",
+      "S. Mukherjee",
+      "Shagata",
+      "Mukherjee",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Shagata Mukherjee",
+      "Dr. Shagata Mukherjee",
+      "Mukherjee Shagata",
+      "S. Mukherjee",
+      "Shagata",
+      "Mukherjee"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

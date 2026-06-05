@@ -1,0 +1,42 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/regional-forum-mumbai-26042025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/regional-forum-mumbai-26042025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Regional Forum Mumbai: IC3 Event Details for Future Applicants",
+    "path": "/events/regional-forum-mumbai-26042025/",
+    "chunk_index": 0,
+    "text": "Regional forum in Mumbai Event Status: Completed Date: April 26, 2025 Location: Nahar International School, GM Colony, Yadav Nagar, Chandivali, Powai, Mumbai, Maharashtra 400072, India Recommended for: Potential applicants Book now The IC3 Regional Forums are a mission-driven effort to bring counseling to every school. At the heart of the forums lies the belief that every student deserves access to guidance and clarity to build a fulfilling future. Nahar International School, GM Colony, Yadav Nagar, Chandivali, Powai, Mumbai, Maharashtra 400072, India Open address in Google Maps",
+    "tokens": 93,
+    "language": "en",
+    "summary": "The Regional Forum in Mumbai, held at Nahar International School on April 26, 2025, was an IC3 event focused on providing counseling to potential university applicants.",
+    "keywords": [
+      "Regional Forum Mumbai",
+      "IC3 Regional Forums",
+      "Nahar International School",
+      "student counseling",
+      "university applicants",
+      "Mumbai event"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Regional Forum Mumbai": 0.95,
+      "IC3 Regional Forums": 0.9,
+      "Nahar International School": 0.88,
+      "student counseling": 0.85,
+      "university applicants": 0.8,
+      "Mumbai event": 0.75
+    },
+    "entities": [
+      "Regional forum in Mumbai",
+      "IC3 Regional Forums",
+      "Nahar International School",
+      "Mumbai",
+      "Maharashtra",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:28.860Z"
+  }
+]

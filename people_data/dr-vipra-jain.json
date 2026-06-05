@@ -1,0 +1,91 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-vipra-jain#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-vipra-jain",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Vipra Jain: Overview, Role, and Research Interests",
+    "path": "/team/dr-vipra-jain",
+    "chunk_index": 0,
+    "text": "Dr Vipra Jain PhD\nShe is Assistant Professor in Economics at University of Southampton Delhi. Her research interests lie in behavioural and experimental economics.\nRole: Assistant Professor\nResearch Interests: Behavioural economics Experimental economics\nDepartment: Economics academics",
+    "tokens": 36,
+    "language": "en",
+    "summary": "Dr Vipra Jain is an Assistant Professor in Economics at the University of Southampton Delhi, with research interests in Behavioural and Experimental Economics.",
+    "keywords": [],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [],
+    "aliases": [
+      "Dr Vipra Jain",
+      "Dr. Vipra Jain",
+      "Vipra Jain",
+      "V. Jain",
+      "Vipra Jaine",
+      "Viprah Jain",
+      "Veepra Jain",
+      "Beepra Jain"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-vipra-jain#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-vipra-jain",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Vipra Jain: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-vipra-jain",
+    "chunk_index": 1,
+    "text": "Dr Vipra Jain is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Dr Vipra Jain, Dr. Vipra Jain, Vipra Jain, V. Jain, Vipra Jaine, Viprah Jain, Veepra Jain, Beepra Jain. All of these names refer to the same individual.",
+    "tokens": 52,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Vipra Jain. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "v. jain",
+      "vipra jaine",
+      "faculty",
+      "dr vipra jain",
+      "staff",
+      "vipra jain",
+      "dr. vipra jain",
+      "university of southampton delhi",
+      "viprah jain"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "v. jain": 0.95,
+      "vipra jaine": 0.9,
+      "faculty": 0.85,
+      "dr vipra jain": 0.8,
+      "staff": 0.75,
+      "vipra jain": 0.7,
+      "dr. vipra jain": 0.65,
+      "university of southampton delhi": 0.6,
+      "viprah jain": 0.55
+    },
+    "entities": [
+      "Dr Vipra Jain",
+      "Dr Vipra Jain",
+      "Dr. Vipra Jain",
+      "Vipra Jain",
+      "V. Jain",
+      "Vipra Jaine",
+      "Viprah Jain",
+      "Veepra Jain",
+      "Beepra Jain",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Vipra Jain",
+      "Dr. Vipra Jain",
+      "Vipra Jain",
+      "V. Jain",
+      "Vipra Jaine",
+      "Viprah Jain",
+      "Veepra Jain",
+      "Beepra Jain"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

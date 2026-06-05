@@ -1,0 +1,203 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Design and Ethos",
+    "path": "/campus",
+    "chunk_index": 0,
+    "text": "Our campus offers an innovative learning environment with versatile teaching spaces, including lecture theatres, seminar rooms, and collaborative workspaces, designed to support diverse learning styles and encourage interdisciplinary exchange. The campus design embraces the University of Southampton's Triple Helix approach, integrating education, research, and knowledge exchange to foster collaboration between academia, industry, and government. This creates opportunities for students and academics to engage with real-world challenges and drive advancements. The campus is designed to foster a strong sense of place, honouring Southampton’s heritage while celebrating India’s rich cultural identity. Interiors feature international standards of comfort, blending natural materials inspired by Southampton’s green landscapes with patterns and motifs from Indian architectural and craft traditions.",
+    "tokens": 194,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus features innovative learning spaces and a design embracing the Triple Helix approach, blending UK heritage with Indian cultural identity.",
+    "keywords": [
+      "campus design",
+      "learning environment",
+      "Triple Helix approach",
+      "interdisciplinary exchange",
+      "Indian cultural identity",
+      "academic collaboration"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus design": 0.92,
+      "learning environment": 0.88,
+      "Triple Helix approach": 0.85,
+      "interdisciplinary exchange": 0.80,
+      "Indian cultural identity": 0.78,
+      "academic collaboration": 0.75
+    },
+    "entities": [
+      "University of Southampton",
+      "India"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Adaptable Learning Facilities and Campus Location",
+    "path": "/campus",
+    "chunk_index": 1,
+    "text": "The campus design prioritizes adaptability and efficiency with multi-purpose areas that transition between formal teaching, independent learning, research, and workplace activities, maximizing resource use and student-faculty engagement. The campus is being outfitted for its first student cohort in August 2025. It is located at International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101. Visitors can book a pre-planned tour via the events page. Students can choose from various study spaces like pods, collaborative informal areas, private meeting rooms, and a quiet reading room. Teaching occurs in multi-functional, modular spaces and traditional tiered lecture theatres. The library offers extensive on-campus physical and digital resources, plus inter-library digital loans. The modern campus features high-speed Wi-Fi, charging points, video screens for teaching, and recorded lectures for on-demand playback. Our multi-floor campus is truly accessible, with lifts, ramped exterior access, and interior spaces designed for accessibility.",
+    "tokens": 344,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus, opening August 2025 in Gurugram's International Tech Park, features adaptable teaching spaces, a comprehensive library, advanced technology, and full accessibility.",
+    "keywords": [
+      "learning facilities",
+      "campus location",
+      "International Tech Park Gurgaon",
+      "flexible teaching spaces",
+      "digital library resources",
+      "accessible campus",
+      "student experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "learning facilities": 0.91,
+      "campus location": 0.89,
+      "International Tech Park Gurgaon": 0.87,
+      "flexible teaching spaces": 0.84,
+      "digital library resources": 0.82,
+      "accessible campus": 0.79,
+      "student experience": 0.76
+    },
+    "entities": [
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "August 2025"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Sustainable Campus and Specialized Laboratories",
+    "path": "/campus",
+    "chunk_index": 2,
+    "text": "The campus promotes a sustainable future, located within the International Tech Park, which holds USGBC LEED Platinum certification, featuring a rich landscape and green urban environment. Our campus includes air conditioning with Higher MERV & UVGI for effective air filtration. Specialized laboratories enhance practical learning: the Financial Laboratory houses Bloomberg Terminals for global financial data, news, and analytics, providing students with industry-standard technology for private study, tutorials, society events, and trading competitions (FinTech Lab). The Computing Laboratory is a dedicated computer science facility for individual and project work, offering support from programming and IT help desks, and hosting events like the Global Game Jam and career workshops. The Electronics Laboratory is crucial for course modules requiring 'test and measure' activities, equipped with bespoke lab benches, standard test equipment (PSU, oscilloscope/logic analyser, digital bench multimeter, arbitrary waveform generator), and control PCs.",
+    "tokens": 273,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus is LEED Platinum certified for sustainability and features state-of-the-art Financial, Computing, and Electronics laboratories for specialized practical learning.",
+    "keywords": [
+      "sustainable campus",
+      "USGBC LEED Platinum",
+      "Financial laboratory",
+      "Bloomberg Terminals",
+      "FinTech Lab",
+      "Computing laboratory",
+      "Electronics laboratory",
+      "Global Game Jam"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "sustainable campus": 0.93,
+      "USGBC LEED Platinum": 0.89,
+      "Financial laboratory": 0.87,
+      "Bloomberg Terminals": 0.85,
+      "FinTech Lab": 0.83,
+      "Computing laboratory": 0.80,
+      "Electronics laboratory": 0.78,
+      "Global Game Jam": 0.75
+    },
+    "entities": [
+      "International Tech Park",
+      "USGBC LEED Platinum",
+      "Bloomberg Terminals",
+      "FinTech Lab",
+      "Global Game Jam"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Campus Integration with Tech Park and Transport Links",
+    "path": "/campus",
+    "chunk_index": 3,
+    "text": "As part of an established technology park, the campus benefits from additional high-quality shared facilities, offering networking opportunities with local businesses and entrepreneurs. The campus is located in the heart of a 60-acre International Technology Park, featuring 8 million square feet of premium business space. This 'new growth corridor' near Sector 59, off Golf Course Extension Road, is a bustling area with multiple amenities and well-planned infrastructure. For transportation, students at the official hostel can use the university's free private shuttle bus between accommodation and campus. A dedicated International Tech Park shuttle connects staff, students, and visitors to the Rapid Metro Station at Sector 55/56 Gurgaon. The campus is also conveniently located near major routes in Sector 59, south of Delhi, approximately a 45-minute drive from Indira Gandhi International Airport. The wider region around campus provides restaurants, hotels, a golf course, and an equestrian centre, along with other amenities expected in a thriving Technology Park.",
+    "tokens": 277,
+    "language": "en",
+    "summary": "The University of Southampton Delhi campus is situated within a vibrant International Technology Park, offering shared facilities, business networking, and excellent transport links, including shuttle buses and proximity to Indira Gandhi International Airport.",
+    "keywords": [
+      "International Technology Park",
+      "shared facilities",
+      "networking opportunities",
+      "campus transport",
+      "shuttle bus service",
+      "Rapid Metro Station",
+      "Indira Gandhi International Airport"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International Technology Park": 0.93,
+      "shared facilities": 0.89,
+      "networking opportunities": 0.86,
+      "campus transport": 0.83,
+      "shuttle bus service": 0.80,
+      "Rapid Metro Station": 0.78,
+      "Indira Gandhi International Airport": 0.75
+    },
+    "entities": [
+      "International Technology Park",
+      "Golf Course Extension Road",
+      "Sector 59",
+      "Rapid Metro Station",
+      "Sector 55/56 Gurgaon",
+      "Delhi",
+      "Indira Gandhi International Airport",
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/campus#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/campus",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Campus Visit and Team Meeting Information",
+    "path": "/campus",
+    "chunk_index": 4,
+    "text": "Regarding travel between the student hostel and campus, a private shuttle bus offers a free service at regular intervals every weekday. To visit the campus in person or book a tour, our campus is located at International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101. The best way to see the campus is to book a pre-planned tour from our events page. To meet the university team, you can connect online or at physical events in major cities across India. Event tickets and registration for online sessions are available on the Events area of our website.",
+    "tokens": 182,
+    "language": "en",
+    "summary": "Information on campus travel via a free shuttle bus, how to book a campus tour at International Tech Park Gurgaon, and ways to meet the university team online or at events in India.",
+    "keywords": [
+      "student hostel travel",
+      "campus tour booking",
+      "International Tech Park Gurgaon",
+      "meet university team",
+      "events page",
+      "shuttle bus service"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student hostel travel": 0.90,
+      "campus tour booking": 0.88,
+      "International Tech Park Gurgaon": 0.85,
+      "meet university team": 0.82,
+      "events page": 0.79,
+      "shuttle bus service": 0.76
+    },
+    "entities": [
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

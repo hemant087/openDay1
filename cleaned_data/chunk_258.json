@@ -1,0 +1,43 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/collect-your-student-id-card/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/collect-your-student-id-card/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student ID Card Collection and Induction Week Details",
+    "path": "/welcome/collect-your-student-id-card/",
+    "chunk_index": 0,
+    "text": "To collect your student ID card, which is essential for campus access and identification, ensure you have created your university IT account, supplied a passport-style photo for document verification, and enrolled as a student. ID cards should be collected on Friday 29 August 2025 from campus reception after receiving a confirmation message. Displaying your card grants access to campus facilities, the library, lecture and seminar rooms, and identifies you as a student. Replacement cards cost Rs. 500 if the original is lost. Additionally, prepare for the Student Induction and Support Week, offering support and advice from professional and academic teams on campus from 25-29 August 2025.",
+    "tokens": 122,
+    "language": "en",
+    "summary": "This chunk details how to collect your student ID card, including eligibility, collection date (August 29, 2025), and replacement fees, alongside information about the Student Induction and Support Week (August 25-29, 2025).",
+    "keywords": [
+      "student ID card",
+      "campus access",
+      "student induction",
+      "document verification",
+      "university IT account",
+      "replacement card fee"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student ID card": 0.95,
+      "campus access": 0.88,
+      "student induction": 0.90,
+      "document verification": 0.82,
+      "university IT account": 0.79,
+      "replacement card fee": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Student Induction and Support Week",
+      "campus",
+      "reception",
+      "library",
+      "lecture rooms",
+      "seminar rooms"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

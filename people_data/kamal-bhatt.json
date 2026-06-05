@@ -1,0 +1,91 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/kamal-bhatt#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/kamal-bhatt",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Mr. Kamal Bhatt: Overview, Role, and Research Interests",
+    "path": "/team/kamal-bhatt",
+    "chunk_index": 0,
+    "text": "Mr. Kamal Bhatt\nAn experienced Finance Governance, Risk & Compliance Specialist with over nine years of diversified experience across Agri tech, Hospitality, Logistics, and Infrastructure sectors.\nRole: Head of Finance\nDepartment: Professional staff",
+    "tokens": 33,
+    "language": "en",
+    "summary": "Head of Finance at the University of Southampton – Delhi",
+    "keywords": [],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [],
+    "aliases": [
+      "Mr. Kamal Bhatt",
+      "Kamal Bhatt",
+      "Dr. Kamal Bhatt",
+      "Kamal",
+      "Bhatt",
+      "Kamal Bhart",
+      "Kamal Bhutt",
+      "Kamal Bhat"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/kamal-bhatt#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/kamal-bhatt",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Mr. Kamal Bhatt: Name Aliases and Alternate Spellings",
+    "path": "/team/kamal-bhatt",
+    "chunk_index": 1,
+    "text": "Mr. Kamal Bhatt is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Mr. Kamal Bhatt, Kamal Bhatt, Dr. Kamal Bhatt, Kamal, Bhatt, Kamal Bhart, Kamal Bhutt, Kamal Bhat. All of these names refer to the same individual.",
+    "tokens": 50,
+    "language": "en",
+    "summary": "Alias resolution chunk for Mr. Kamal Bhatt. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "mr. kamal bhatt",
+      "faculty",
+      "staff",
+      "kamal bhart",
+      "kamal bhatt",
+      "university of southampton delhi",
+      "dr. kamal bhatt",
+      "bhatt",
+      "kamal"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "mr. kamal bhatt": 0.95,
+      "faculty": 0.9,
+      "staff": 0.85,
+      "kamal bhart": 0.8,
+      "kamal bhatt": 0.75,
+      "university of southampton delhi": 0.7,
+      "dr. kamal bhatt": 0.65,
+      "bhatt": 0.6,
+      "kamal": 0.55
+    },
+    "entities": [
+      "Mr. Kamal Bhatt",
+      "Mr. Kamal Bhatt",
+      "Kamal Bhatt",
+      "Dr. Kamal Bhatt",
+      "Kamal",
+      "Bhatt",
+      "Kamal Bhart",
+      "Kamal Bhutt",
+      "Kamal Bhat",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Mr. Kamal Bhatt",
+      "Kamal Bhatt",
+      "Dr. Kamal Bhatt",
+      "Kamal",
+      "Bhatt",
+      "Kamal Bhart",
+      "Kamal Bhutt",
+      "Kamal Bhat"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

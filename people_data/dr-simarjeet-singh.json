@@ -1,0 +1,129 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-simarjeet-singh#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-simarjeet-singh",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Simarjeet Singh: Overview, Role, and Research Interests",
+    "path": "/team/dr-simarjeet-singh",
+    "chunk_index": 0,
+    "text": "Dr Simarjeet Singh PhD\nDr. Simarjeet Singh is a finance academician with strong expertise in behavioural finance, investment strategies, and applied financial education.\nRole: Assistant Professor\nResearch Interests: AI and finance Behavioural finance Factor investing Personal finance\nDepartment: Accounting and Finance academics",
+    "tokens": 42,
+    "language": "en",
+    "summary": "Dr. Simarjeet Singh is a finance academic with expertise in behavioural finance, investment strategies, and applied financial education.",
+    "keywords": [],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {},
+    "entities": [],
+    "aliases": [
+      "Dr Simarjeet Singh",
+      "Dr. Simarjeet Singh",
+      "Simarjeet Singh",
+      "S. Singh",
+      "Simarjeet",
+      "Singh",
+      "Simarjeeet Singh"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-simarjeet-singh#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-simarjeet-singh",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Dr Simarjeet Singh: Research Publications",
+    "path": "/team/dr-simarjeet-singh",
+    "chunk_index": 1,
+    "text": "Momentum investing: a systematic literature review and bibliometric analysis\nBehavioural biases affecting investors’ decision-making process: a scale development approach\nRisk-managed time-series momentum: an emerging economy experience\nTaming momentum crashes through triple momentum investing",
+    "tokens": 33,
+    "language": "en",
+    "summary": "Research publications by Dr Simarjeet Singh at University of Southampton Delhi.",
+    "keywords": [
+      "research publications",
+      "journal articles",
+      "dr simarjeet singh",
+      "university of southampton delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "research publications": 0.9,
+      "journal articles": 0.85,
+      "dr simarjeet singh": 0.8,
+      "university of southampton delhi": 0.75
+    },
+    "entities": [
+      "Dr Simarjeet Singh",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Simarjeet Singh",
+      "Dr. Simarjeet Singh",
+      "Simarjeet Singh",
+      "S. Singh",
+      "Simarjeet",
+      "Singh",
+      "Simarjeeet Singh"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/dr-simarjeet-singh#alias-chunk",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/dr-simarjeet-singh",
+    "source_file": "file:///mnt/data/people_data_aliases",
+    "title": "Dr Simarjeet Singh: Name Aliases and Alternate Spellings",
+    "path": "/team/dr-simarjeet-singh",
+    "chunk_index": 2,
+    "text": "Dr Simarjeet Singh is a faculty member at University of Southampton Delhi. This person may also be referred to by the following names or spellings: Dr Simarjeet Singh, Dr. Simarjeet Singh, Simarjeet Singh, S. Singh, Simarjeet, Singh, Simarjeeet Singh. All of these names refer to the same individual.",
+    "tokens": 48,
+    "language": "en",
+    "summary": "Alias resolution chunk for Dr Simarjeet Singh. Lists all known alternate spellings and name variants to prevent retrieval errors caused by misspellings.",
+    "keywords": [
+      "simarjeet",
+      "s. singh",
+      "dr. simarjeet singh",
+      "faculty",
+      "staff",
+      "simarjeet singh",
+      "university of southampton delhi",
+      "singh",
+      "dr simarjeet singh"
+    ],
+    "keywords_method": "manual-alias-curation",
+    "keyword_scores": {
+      "simarjeet": 0.95,
+      "s. singh": 0.9,
+      "dr. simarjeet singh": 0.85,
+      "faculty": 0.8,
+      "staff": 0.75,
+      "simarjeet singh": 0.7,
+      "university of southampton delhi": 0.65,
+      "singh": 0.6,
+      "dr simarjeet singh": 0.55
+    },
+    "entities": [
+      "Dr Simarjeet Singh",
+      "Dr Simarjeet Singh",
+      "Dr. Simarjeet Singh",
+      "Simarjeet Singh",
+      "S. Singh",
+      "Simarjeet",
+      "Singh",
+      "Simarjeeet Singh",
+      "University of Southampton Delhi"
+    ],
+    "aliases": [
+      "Dr Simarjeet Singh",
+      "Dr. Simarjeet Singh",
+      "Simarjeet Singh",
+      "S. Singh",
+      "Simarjeet",
+      "Singh",
+      "Simarjeeet Singh"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2026-06-04T08:39:28Z"
+  }
+]

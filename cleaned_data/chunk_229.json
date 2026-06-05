@@ -1,0 +1,47 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/policies/accessibility/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/policies/accessibility/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Website Accessibility Statement",
+    "path": "/policies/accessibility/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi is committed to ensuring digital accessibility for all users, in compliance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. We are dedicated to providing an online service that is usable and accessible to the widest possible audience, including those with disabilities. This accessibility statement applies to www.delhi.southampton.ac.uk , including the application form within this site. Compliance status: This website and application form are partially compliant with the Web Content Accessibility Guidelines (WCAG) version 2.2 AA standard. The non-compliances and exemptions are detailed in this statement. How you can access our website and application form: You should be able to use most of www.delhi.southampton.ac.uk in the following ways: Navigate using a keyboard instead of a mouse. Use a screen reader or speech recognition software. Zoom in up to 300% without the text spilling off the screen. Change fonts, colours, or contrast for better readability. Access AbilityNet for free technology support: https://abilitynet.org.uk/. How you might find it hard to access our website: We are aware of the following issues that might make our website hard to access: General website issues including ARIA labelling on button icons not present, PDF buttons not clearly labelled, some videos lacking captions, and inconsistent accessibility of tables and maps. General application form issues include pages scrolling in two dimensions and not all radio button options being readable under the ‘How did you hear about us?’ question. What to do if you are having problems accessing our website: Request alternative formats by contacting protectingdata@oxfordinternational.com at Oxford International Education Group, 259 Greenwich High Road, London SE10 8NB. We will respond within 30 days with suitable formats like large print, easy read, audio recording, or Braille. Make a complaint: Email protectingdata@oxfordinternational.com for accessibility concerns. The Equality and Human Rights Commission (EHRC) enforces the accessibility regulations. If unsatisfied, contact the Equality Advisory and Support Service (EASS) [+44 (0)808 800 0082]. What we are doing to improve accessibility: We are continuously improving our website through regular reviews, updates, and accessibility training for our teams. We also work with third-party vendors to ensure their services are accessible. Preparation of this accessibility statement: This statement was prepared on 13/01/25, last reviewed on 20/03/25, and tested on 26/03/25 by Simon Brooker – Oxford International Education Group. Non-accessible content: Content outside the scope of regulations includes PDFs created before 23 September 2018 that are not essential, and live video streams without captions. Third-party content: We encourage vendors to provide Accessibility Conformance Reports (ACR) using the Voluntary Product Accessibility Template (VPAT) to improve accessibility of services like forms and timetables.",
+    "tokens": 544,
+    "language": "en",
+    "summary": "University of Southampton Delhi's accessibility statement details its commitment to digital accessibility, compliance with regulations, how users can access the site, known issues, reporting problems, and ongoing improvement efforts.",
+    "keywords": [
+      "digital accessibility",
+      "WCAG AA standard",
+      "Public Sector Bodies Accessibility Regulations",
+      "alternative formats",
+      "accessibility improvements",
+      "third-party content",
+      "website compliance"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "digital accessibility": 0.95,
+      "WCAG AA standard": 0.9,
+      "Public Sector Bodies Accessibility Regulations": 0.88,
+      "alternative formats": 0.82,
+      "accessibility improvements": 0.79,
+      "third-party content": 0.75,
+      "website compliance": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018",
+      "Web Content Accessibility Guidelines",
+      "WCAG",
+      "AbilityNet",
+      "Oxford International Education Group",
+      "Equality and Human Rights Commission (EHRC)",
+      "Equality Advisory and Support Service (EASS)",
+      "Simon Brooker"
+    ],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:33.445Z"
+  }
+]

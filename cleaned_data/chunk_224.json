@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/ndtv-this-uk-university-to-open-campus-at-gurugrams-tech-park/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/ndtv-this-uk-university-to-open-campus-at-gurugrams-tech-park/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi to Open Gurugram Campus",
+    "path": "/news/ndtv-this-uk-university-to-open-campus-at-gurugrams-tech-park/",
+    "chunk_index": 0,
+    "text": "The University of Southampton Delhi is set to open a new campus at Gurugram’s Tech Park. This announcement was published on 12 December 2024. For further details, the full article can be read at NDTV.",
+    "tokens": 40,
+    "language": "en",
+    "summary": "The University of Southampton Delhi plans to open a campus in Gurugram, India, as reported by NDTV on December 12, 2024.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurugram campus",
+      "Tech Park",
+      "NDTV news",
+      "India expansion"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "Gurugram campus": 0.88,
+      "Tech Park": 0.82,
+      "NDTV news": 0.78,
+      "India expansion": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Gurugram",
+      "Tech Park",
+      "NDTV"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

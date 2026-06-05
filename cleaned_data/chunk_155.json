@@ -1,0 +1,58 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/press-release-comviva-partners-with-university-of-southampton-delhi-to-empower-tech-talent-in-india/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/press-release-comviva-partners-with-university-of-southampton-delhi-to-empower-tech-talent-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Comviva Partners with University of Southampton Delhi for Tech Talent",
+    "path": "/news/press-release-comviva-partners-with-university-of-southampton-delhi-to-empower-tech-talent-in-india/",
+    "chunk_index": 0,
+    "text": "Press Release: Comviva partners with University of Southampton Delhi to empower tech talent in India\n\nComviva, a global leader in customer experience and data monetization solutions, has signed a strategic Memorandum of Understanding (MoU) with the University of Southampton Delhi. With its Comviva 2.0 vision of driving innovation, fostering ecosystem partnerships, and empowering the workforce of the future, this collaboration marks a significant step in strengthening industry-academia ties and nurturing a robust pipeline of next-generation digital talent. Through this partnership, Comviva and the University of Southampton Delhi aim to co-develop strategic initiatives focused on talent development, collaborative innovation, and community impact. The engagement will create enriched learning opportunities for students at the University’s Delhi campus by enabling them to work on cutting-edge digital technologies and real-world business challenges. As part of the agreement, Comviva will lead a series of structured engagements throughout the academic year, including drop-in sessions for student interaction, employer talks to share insights on industry trends and career paths, skill development workshops to equip students with practical competencies.\n\nThe University of Southampton has established its Indian campus at the International Tech Park in Gurgaon, with the first cohort of students due to start in August. With this move, the University of Southampton has become the first international university to set up a campus in India under the country’s new higher education framework. The initial offerings will be undergraduate and postgraduate degrees in business, computing, economics and finance. Over the coming years, the course offering will expand significantly, to include engineering, healthcare, art and design, social sciences and science and technology. The partnership with Comviva was facilitated by the India Business Group, a leading strategic advisory consultancy that has been assisting the University of Southampton with stakeholder engagement for its India campus.\n\nOn this partnership, Rajesh Chandiramani, CEO of Comviva, said, “At Comviva, we believe the future of digital innovation lies in building meaningful partnerships that bridge academia and industry. This collaboration with the University of Southampton reflects our commitment to nurturing future-ready talent, fostering a culture of innovation, and supporting inclusive growth. It is a key pillar of our Comviva 2.0 vision to empower young minds and co-create solutions that address real-world challenges. Beyond talent development, this partnership will also serve as a platform for collaborative R&D, capacity building, and community-focused programs, thereby advancing our shared vision of innovation excellence and long-term societal impact.”\n\nProfessor Andrew Atherton, Vice-President International and Engagement at the University of Southampton, said, “This partnership with Comviva reflects our ongoing commitment to create meaningful, career-focused opportunities for our students in India. Through this collaboration, we aim to equip our graduates with the skills and experience required to succeed in a global workplace and competitive industry. We look forward to working with a global company like Comviva across talent development, innovation and broader community engagement.”\n\nComviva will also enable paid summer internships for University of Southampton Delhi students and defined opportunities for student placements during the academic year. The university students will also have the access to Comviva’s graduate assessment process for eligible students and Comviva has agreed for an intake of graduates for employment, contingent upon successful completion of the assessment centre.",
+    "tokens": 480,
+    "language": "en",
+    "summary": "Comviva and University of Southampton Delhi have partnered via an MoU to empower tech talent in India, offering students development, innovation, and career opportunities through internships and workshops.",
+    "keywords": [
+      "Comviva partnership",
+      "University of Southampton Delhi",
+      "tech talent India",
+      "industry-academia collaboration",
+      "student internships",
+      "digital innovation",
+      "workforce development"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Comviva partnership": 0.92,
+      "University of Southampton Delhi": 0.90,
+      "tech talent India": 0.88,
+      "industry-academia collaboration": 0.85,
+      "student internships": 0.82,
+      "digital innovation": 0.80,
+      "workforce development": 0.78
+    },
+    "entities": [
+      "Comviva",
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "India Business Group",
+      "Rajesh Chandiramani",
+      "Professor Andrew Atherton",
+      "India",
+      "Gurgaon",
+      "Memorandum of Understanding",
+      "undergraduate degrees",
+      "postgraduate degrees",
+      "business",
+      "computing",
+      "economics",
+      "finance",
+      "engineering",
+      "healthcare",
+      "art and design",
+      "social sciences",
+      "science and technology"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

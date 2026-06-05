@@ -1,0 +1,81 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/about-us/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/about-us/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi: Rankings, Approval, and Global Vision",
+    "path": "/about-us/",
+    "chunk_index": 0,
+    "text": "We are the first university to receive approval by the University Grants Commission (UGC) to set up a campus in India under National Education Policy (NEP) 2020. We are the only global top 100 university with a campus in India and a UK Russell Group – research intensive - university. We are opening our doors to students in August 2025.\n\nRanked top 100 in the world\nSource: QS World University Rankings 2025\nGlobal 'Top 110' best university for employability\nSource: QS Graduate Employability Rankings 2022\nUK's #15 university for graduate prospects\nSource: Times and Sunday Times Good University Guide 2025\n\nSupporting internationalisation in India\nUniversity of Southampton Delhi is the only Foreign Higher Educational Institution with a full licence approved by University Grants Commission (UGC) to run a campus in India. We are proud to be involved in a new chapter of internationalisation, as envisioned in the National Education Policy (NEP) 2020, helping to underpin momentum for “internationalisation at home” by promoting India as a global study destination.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "University of Southampton Delhi is India's first UGC-approved, top 100 global university, opening in August 2025. As a UK Russell Group institution, it supports internationalisation in India under NEP 2020.",
+    "keywords": [
+      "University Grants Commission",
+      "National Education Policy 2020",
+      "QS World University Rankings",
+      "Russell Group University",
+      "internationalisation in India",
+      "Graduate Employability"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University Grants Commission": 0.95,
+      "National Education Policy 2020": 0.93,
+      "QS World University Rankings": 0.91,
+      "Russell Group University": 0.88,
+      "internationalisation in India": 0.87,
+      "Graduate Employability": 0.82
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University Grants Commission",
+      "National Education Policy 2020",
+      "Russell Group",
+      "QS World University Rankings 2025",
+      "QS Graduate Employability Rankings 2022",
+      "Times and Sunday Times Good University Guide 2025",
+      "India",
+      "UK"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:14.501Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/about-us/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/about-us/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Prospective Student FAQs: Meetings, Start Dates, and Application Advice",
+    "path": "/about-us/",
+    "chunk_index": 1,
+    "text": "You might also want to know\nHow can I meet your team?\nYou can meet us online, and in a selection of major cities in India. You can see when and where, by visiting the Events area of our website. When event tickets are available, you will be able to book a physical event, or to register for an on online session, from the event page. The best way to see campus is to book a pre-planned tour from our events page.\n\nWhen will the next academic year start?\nYou can see the most up to date information about start dates on our page showing key information.\n\nShould I wait to make my application to study?\nWe encourage students to make their application to study at University of Southampton Delhi as soon as they can. This means we can issue an early Conditional Offer and that students will have the best the chance to meet their offer conditions. If demand is high, we may choose to close applications earlier than mentioned, but students with Offers to study would receive preferential treatment.",
+    "tokens": 178,
+    "language": "en",
+    "summary": "Prospective students can meet the University of Southampton Delhi team online or at events, find academic year start dates, and should apply early for conditional offers and preferential treatment.",
+    "keywords": [
+      "prospective students",
+      "meet the team",
+      "academic year start dates",
+      "application process",
+      "conditional offer",
+      "early application"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "prospective students": 0.94,
+      "meet the team": 0.91,
+      "academic year start dates": 0.90,
+      "application process": 0.89,
+      "conditional offer": 0.87,
+      "early application": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "India"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:14.501Z"
+  }
+]

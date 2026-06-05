@@ -1,0 +1,52 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/shri-dharmendra-pradhan-along-with-shri-nayab-saini-inaugurated-india-campus-of-university-of-southampton-in-gurugram-2/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/shri-dharmendra-pradhan-along-with-shri-nayab-saini-inaugurated-india-campus-of-university-of-southampton-in-gurugram-2/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton India Campus Inaugurated in Gurugram",
+    "path": "/news/shri-dharmendra-pradhan-along-with-shri-nayab-saini-inaugurated-india-campus-of-university-of-southampton-in-gurugram-2/",
+    "chunk_index": 0,
+    "text": "Shri Dharmendra Pradhan along with Shri Nayab Saini inaugurated India campus of University of Southampton in Gurugram. The inauguration marks a significant milestone in India’s higher education landscape, commemorating five years of the National Education Policy 2020. Shri Dharmendra Pradhan, Union Minister of Education, today inaugurated the India campus of the University of Southampton in Gurugram, Haryana, along with Shri Nayab Singh Saini, Chief Minister of Haryana. Industries and Commerce Minister of Haryana Shri Rao Narbir Singh; Lord Patel OBE, Chancellor and Member of the UK House of Lords; Ms. Lindy Cameron, British High Commissioner to India; Mr. Mark E. Smith, President and Vice-Chancellor, University of Southampton; Ms. Eloise Phillips, Academic Provost, University of Southampton, New Delhi; and senior officials of the Ministry of Education were also present on the occasion. The inauguration marks a significant milestone in India’s higher education landscape, commemorating five years of the National Education Policy 2020. The University of Southampton—a QS Top 100 global institution and founding member of the UK’s Russell Group—becomes the first foreign university to operationalize a campus in India under the University Grants Commission’s (Setting up and Operation of Campuses of Foreign Higher Educational Institutions in India) Regulations.",
+    "tokens": 204,
+    "language": "en",
+    "summary": "The University of Southampton India campus in Gurugram was inaugurated by Union Minister Shri Dharmendra Pradhan and Haryana CM Shri Nayab Saini, a milestone for India's National Education Policy 2020.",
+    "keywords": [
+      "University of Southampton India campus",
+      "Gurugram inauguration",
+      "National Education Policy 2020",
+      "Shri Dharmendra Pradhan",
+      "Shri Nayab Saini",
+      "Russell Group",
+      "foreign university in India"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton India campus": 0.95,
+      "Gurugram inauguration": 0.88,
+      "National Education Policy 2020": 0.92,
+      "Shri Dharmendra Pradhan": 0.90,
+      "Shri Nayab Saini": 0.89,
+      "Russell Group": 0.80,
+      "foreign university in India": 0.87
+    },
+    "entities": [
+      "Shri Dharmendra Pradhan",
+      "Shri Nayab Singh Saini",
+      "University of Southampton",
+      "Gurugram",
+      "Haryana",
+      "National Education Policy 2020",
+      "Shri Rao Narbir Singh",
+      "Lord Patel OBE",
+      "Lindy Cameron",
+      "Mark E. Smith",
+      "Eloise Phillips",
+      "Ministry of Education",
+      "Russell Group",
+      "University Grants Commission"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

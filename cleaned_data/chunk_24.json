@@ -1,0 +1,35 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/forms/accommodation-waitlist/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/forms/accommodation-waitlist/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Express Interest in Student Accommodation Waitlist",
+    "path": "/forms/accommodation-waitlist/",
+    "chunk_index": 0,
+    "text": "This form allows you to express interest and receive more information about the student hostel. You are not making a booking or committing to any contract or payment. The University will contact you to advise on accommodation availability and how to book a room.",
+    "tokens": 60,
+    "language": "en",
+    "summary": "Students can express interest in the University of Southampton Delhi student hostel to receive information on availability and booking without commitment.",
+    "keywords": [
+      "student accommodation",
+      "hostel interest",
+      "accommodation waitlist",
+      "room booking",
+      "student housing"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student accommodation": 0.95,
+      "hostel interest": 0.90,
+      "accommodation waitlist": 0.88,
+      "room booking": 0.82,
+      "student housing": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "campus-life",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

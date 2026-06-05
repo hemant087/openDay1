@@ -1,0 +1,234 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Welcome for International Students at University of Southampton Delhi",
+    "path": "/admissions/international-admissions/",
+    "chunk_index": 0,
+    "text": "International admissions. International students bring diversity and vibrancy to our campus. We welcome applications from all parts of the world. The University of Southampton community welcomes international students from every part of the world. Our Delhi campus opened in August 2025 and houses an International Student Office to support students studying at our campus in India.",
+    "tokens": 78,
+    "language": "en",
+    "summary": "The University of Southampton Delhi welcomes international students, enriching campus diversity. The Delhi campus, opened in August 2025, provides dedicated support via its International Student Office.",
+    "keywords": [
+      "International admissions",
+      "international students",
+      "University of Southampton Delhi",
+      "Delhi campus",
+      "International Student Office"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International admissions": 0.95,
+      "international students": 0.92,
+      "University of Southampton Delhi": 0.90,
+      "Delhi campus": 0.88,
+      "International Student Office": 0.85
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi International Application Process",
+    "path": "/admissions/international-admissions/",
+    "chunk_index": 1,
+    "text": "Application process. The entry requirements for each programme are stated on the programme web pages, with additional information for students holding other qualifications at University of Southampton international entry equivalencies. All programmes are taught in English, and we require students to meet English proficiency requirements. These requirements may be met through school-level English language studies, or by appearing for one of the tests that we accept as evidence of English language proficiency. There is a common application form for all students, and an application fee of Rs. 5,500/- is payable at the time of submitting your application form. Academic transcripts must be accompanied by a translation into English for us to consider your application. Additionally, we will require the accreditation status of the last institution attended. For detailed programme-specific eligibility, please refer to details on individual programme pages.",
+    "tokens": 169,
+    "language": "en",
+    "summary": "This section outlines the international application process, including English proficiency requirements, a common application form with a Rs. 5,500 fee, and the need for translated academic transcripts and institutional accreditation details.",
+    "keywords": [
+      "Application process",
+      "entry requirements",
+      "English proficiency",
+      "application form",
+      "academic transcripts",
+      "accreditation status",
+      "programme-specific eligibility"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Application process": 0.95,
+      "entry requirements": 0.90,
+      "English proficiency": 0.88,
+      "application form": 0.85,
+      "academic transcripts": 0.82,
+      "accreditation status": 0.79,
+      "programme-specific eligibility": 0.77
+    },
+    "entities": [
+      "University of Southampton"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "International Student Fee Structure and OCI Policy",
+    "path": "/admissions/international-admissions/",
+    "chunk_index": 2,
+    "text": "Fee structure. International student fees are specified separately for each programme. They are applicable to those who do not hold an Indian passport and are not Overseas Citizens of India (OCI). Overseas Citizens of India (OCIs) are considered under the Indian student fee structure. For international fee information, please refer to 'Our fees' on individual programme pages.",
+    "tokens": 64,
+    "language": "en",
+    "summary": "This section details the international student fee structure, which varies by programme and applies to non-Indian passport holders, while Overseas Citizens of India (OCI) pay Indian student rates.",
+    "keywords": [
+      "International student fees",
+      "fee structure",
+      "Indian passport",
+      "Overseas Citizens of India",
+      "OCI",
+      "programme pages"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International student fees": 0.95,
+      "fee structure": 0.90,
+      "Indian passport": 0.88,
+      "Overseas Citizens of India": 0.85,
+      "OCI": 0.83,
+      "programme pages": 0.78
+    },
+    "entities": [
+      "Overseas Citizens of India"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Support Services from the International Student Office",
+    "path": "/admissions/international-admissions/",
+    "chunk_index": 3,
+    "text": "International Student Office. The International Student Office serves as a central support hub for students from diverse cultural backgrounds. Whether you need assistance settling into university life, navigating a new culture, or general academic guidance, our team is here to support you throughout your journey. The International Student Office offers guidance with: Pre-arrival and arrival support Cultural and academic transition Day-to-day student life. You can reach out to the office whenever you require support.",
+    "tokens": 96,
+    "language": "en",
+    "summary": "The International Student Office is a central support hub for international students, offering guidance on pre-arrival, cultural and academic transition, and day-to-day university life.",
+    "keywords": [
+      "International Student Office",
+      "student support",
+      "cultural backgrounds",
+      "university life",
+      "pre-arrival support",
+      "academic transition",
+      "student life guidance"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International Student Office": 0.95,
+      "student support": 0.92,
+      "cultural backgrounds": 0.88,
+      "university life": 0.85,
+      "pre-arrival support": 0.82,
+      "academic transition": 0.79,
+      "student life guidance": 0.77
+    },
+    "entities": [
+      "International Student Office"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Indian Student Visa and FRRO Registration for International Students",
+    "path": "/admissions/international-admissions/",
+    "chunk_index": 4,
+    "text": "Your Student Visa. International students must obtain a visa as per Government of India’s regulations as specified from time to time. You must hold a valid Student Visa to study in India for the anticipated full duration of the programme of study. The student, or student’s guardian where applicable at any stage of the process, is responsible for applying for the Student Visa, payment of all visa and associated fees and expenses and compliance with visa requirements, documentation and processes required by the Government of India. International students must have a valid offer from University of Southampton Delhi before applying for a Student Visa. To apply for a visa: Hold an unconditional offer to study a programme with University of Southampton Delhi. Students need to confirm a place in student housing and provide proof of accommodation to obtain a Student visa. Our Delhi campus offers fully furnished student housing, integrated with support services for you to settle into a new country quickly and easily. After accepting your offer and paying the tuition deposit, apply for your student visa. You can find information on how to make your visa application using the Study In India Visa Guidelines or the Authorized Visa Portal. Register on the Study in India portal, as required for visa processing. Your visa must be endorsed to University of Southampton. Upon enrolment, the university will register your details on the Foreign Student Information System (FSIS) portal. On arrival in India, all international students must register at the Foreigners Registration Office (FRO) / Foreigners Regional Registration Office (FRRO) as required by regulations specified by the Government of India from time to time. Please start this process immediately on arrival in India, after registering yourself on the FRO/ FRRO portal. You are required to complete FRRO registration within 14 days of your arrival in India using these helpful Study In India FRRO Guidelines.",
+    "tokens": 305,
+    "language": "en",
+    "summary": "International students must secure an Indian Student Visa, requiring an unconditional offer and proof of accommodation. Upon arrival, mandatory FRRO registration must be completed within 14 days as per Government of India regulations.",
+    "keywords": [
+      "Student Visa",
+      "Government of India",
+      "unconditional offer",
+      "student housing",
+      "tuition deposit",
+      "FRRO registration",
+      "Foreigners Registration Office"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Student Visa": 0.95,
+      "Government of India": 0.92,
+      "unconditional offer": 0.89,
+      "student housing": 0.87,
+      "tuition deposit": 0.84,
+      "FRRO registration": 0.81,
+      "Foreigners Registration Office": 0.78
+    },
+    "entities": [
+      "Government of India",
+      "University of Southampton Delhi",
+      "Study In India Visa Guidelines",
+      "Authorized Visa Portal",
+      "Study in India portal",
+      "University of Southampton",
+      "Foreign Student Information System (FSIS)",
+      "Foreigners Registration Office (FRO)",
+      "Foreigners Regional Registration Office (FRRO)",
+      "Study In India FRRO Guidelines"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/admissions/international-admissions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "International Admissions Frequently Asked Questions",
+    "path": "/admissions/international-admissions/",
+    "chunk_index": 5,
+    "text": "You might also want to know. Who is considered an international student at University of Southampton Delhi? A student who does not hold an Indian passport is considered an international student. However, Overseas Citizens of India (OCI) are classified under the Indian fee structure. What level of English proficiency is required? All programmes are taught in English. You must meet the university’s English language requirements, either through school-level qualifications or by submitting a valid score from an accepted English proficiency test such as IELTS, TOEFL, or equivalent. How do I apply as an international student? You need to complete the application form, upload the required documents (including certified English translations of transcripts), and pay an application fee of INR 5,500. For programme-specific requirements, please check the relevant programme page. What are the tuition fees for international students? International tuition fees are listed separately for each programme. OCI cardholders are subject to the Indian student fee rates. Do I need a visa to study at University of Southampton Delhi? As an international student, you must apply for a Student Visa endorsed to University of Southampton after receiving your offer letter and completing your tuition deposit. Please apply through the official Indian visa portal. What is FRRO registration and how do I complete it? FRRO (Foreigners Regional Registration Office) registration is mandatory for international students and must be completed within 14 days of arrival in India. The university will assist you in initiating this process. Can international students work while studying in India? Currently, the Indian student visa does not permit part-time employment. You are advised to check the most recent government guidelines or speak to the International Student Office for updated information.",
+    "tokens": 296,
+    "language": "en",
+    "summary": "This FAQ addresses key international student inquiries, covering definitions, English proficiency, application steps, tuition fees, visa requirements, mandatory FRRO registration, and current part-time work restrictions in India.",
+    "keywords": [
+      "International student definition",
+      "English proficiency",
+      "application process",
+      "tuition fees",
+      "Student Visa",
+      "FRRO registration",
+      "part-time employment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "International student definition": 0.95,
+      "English proficiency": 0.92,
+      "application process": 0.89,
+      "tuition fees": 0.87,
+      "Student Visa": 0.84,
+      "FRRO registration": 0.81,
+      "part-time employment": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Overseas Citizens of India (OCI)",
+      "IELTS",
+      "TOEFL",
+      "University of Southampton",
+      "Indian visa portal",
+      "FRRO (Foreigners Regional Registration Office)",
+      "International Student Office"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00.000Z"
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/mr-hemant-raj#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/mr-hemant-raj",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Mr Hemant Raj's Academic Profile and Contributions",
+    "path": "/team/mr-hemant-raj",
+    "chunk_index": 0,
+    "text": "Mr Hemant Raj BSc PhD FRSC SFHEA NTF is a Lab Teaching Associate in Computer Science at the University of Southampton, Delhi. He has experience in Data Science and Robotics, having previously worked as a Coding Instructor. He has mentored undergraduate students in AI/ML and Robotics and conducted several AI/ML workshops across institutes. Hemant holds a B.Tech in Electronics and Communication Engineering and a PG Diploma in Data Science from IIT Madras, India. He actively participated in various technical competitions and served as a Lead for the Google Developer Students Club, where he mentored over 200 students, organized impactful technical events, and contributed to open-source projects. His technical contributions include developing a FaceNet-based CCTV Auto Attendance System deployed on Jetson nano and a Voice Assistant with Computer Vision for a Humanoid Robot. Hemant is passionate about integrating real-world applications into the curriculum and fostering student growth through project-based learning, technical clubs, and open-source collaboration.",
+    "tokens": 205,
+    "language": "en",
+    "summary": "Mr Hemant Raj, a Lab Teaching Associate in Computer Science at UoSD, specializes in Data Science and Robotics, with extensive experience in AI/ML education, project leadership, and technical contributions.",
+    "keywords": [
+      "Hemant Raj",
+      "Lab Teaching Associate",
+      "Computer Science",
+      "Data Science",
+      "Robotics",
+      "AI/ML workshops",
+      "IIT Madras",
+      "Google Developer Students Club",
+      "FaceNet-based CCTV",
+      "Humanoid Robot"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Hemant Raj": 0.95,
+      "Lab Teaching Associate": 0.9,
+      "Computer Science": 0.88,
+      "Data Science": 0.85,
+      "Robotics": 0.82,
+      "AI/ML workshops": 0.8,
+      "IIT Madras": 0.75,
+      "Google Developer Students Club": 0.7,
+      "FaceNet-based CCTV": 0.65,
+      "Humanoid Robot": 0.6
+    },
+    "entities": [
+      "Hemant Raj",
+      "University of Southampton, Delhi",
+      "IIT Madras",
+      "Google Developer Students Club",
+      "FaceNet-based CCTV Auto Attendance System",
+      "Jetson Nano",
+      "Humanoid Robot"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/team/mr-hemant-raj#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/team/mr-hemant-raj",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Computing Department's Research Groups and Expertise",
+    "path": "/team/mr-hemant-raj",
+    "chunk_index": 1,
+    "text": "The Department of Computing academics at the University of Southampton, Delhi is associated with several research groups. Agents, Interaction and Complexity focuses on the science and engineering of complex systems, including human-machine teams and human-in-the-loop interaction. Vision, Learning and Control explores the theory behind technological areas such as control, machine learning, and computer vision. The Centre for Robotics aims to bridge the gap between robot perception, control, and interaction to create robotic systems that seamlessly integrate into society, transforming industries and lives.",
+    "tokens": 100,
+    "language": "en",
+    "summary": "UoSD's Computing Department features research groups in complex systems, human-machine interaction, control, machine learning, computer vision, and the creation of integrated robotic systems.",
+    "keywords": [
+      "Research groups",
+      "Agents, Interaction and Complexity",
+      "Vision, Learning and Control",
+      "Centre for Robotics",
+      "complex systems",
+      "human-machine teams",
+      "machine learning",
+      "computer vision",
+      "robotic systems"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Research groups": 0.95,
+      "Agents, Interaction and Complexity": 0.9,
+      "Vision, Learning and Control": 0.88,
+      "Centre for Robotics": 0.85,
+      "complex systems": 0.8,
+      "human-machine teams": 0.75,
+      "machine learning": 0.7,
+      "computer vision": 0.65,
+      "robotic systems": 0.6
+    },
+    "entities": [
+      "University of Southampton, Delhi",
+      "Agents, Interaction and Complexity",
+      "Vision, Learning and Control",
+      "Centre for Robotics"
+    ],
+    "topic": "faculty-bio",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

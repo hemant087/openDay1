@@ -1,0 +1,45 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-27112025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-27112025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Tour Event in Gurugram",
+    "path": "/events/campus-tour-27112025/",
+    "chunk_index": 0,
+    "text": "Campus tour 27 November Event Status: Book Now Date & Time: November 27, 2025 3:00 PM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Book now Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first-hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Open address in Google Maps",
+    "tokens": 125,
+    "language": "en",
+    "summary": "Join the University of Southampton Delhi for an in-person campus tour on November 27, 2025, at 3:00 PM IST to explore facilities and experience campus life.",
+    "keywords": [
+      "campus tour",
+      "University of Southampton Delhi",
+      "in-person event",
+      "Gurugram",
+      "state-of-the-art facilities",
+      "campus life",
+      "event registration"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.95,
+      "university of southampton delhi": 0.90,
+      "in-person event": 0.88,
+      "gurugram": 0.85,
+      "state-of-the-art facilities": 0.82,
+      "campus life": 0.80,
+      "event registration": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Campus tour"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2023-10-27T10:00:00.000Z"
+  }
+]

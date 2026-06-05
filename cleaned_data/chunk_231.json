@@ -1,0 +1,35 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/policies/scholarship-terms-and-conditions/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/policies/scholarship-terms-and-conditions/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Scholarship Terms Document",
+    "path": "/policies/scholarship-terms-and-conditions/",
+    "chunk_index": 0,
+    "text": "Scholarship terms and conditions Resources PDF Scholarship terms and conditions v1.1 March 2025 119 KB",
+    "tokens": 20,
+    "language": "en",
+    "summary": "This page provides access to the official PDF document outlining the terms and conditions for University of Southampton Delhi scholarships, updated to version 1.1 in March 2025.",
+    "keywords": [
+      "scholarship terms and conditions",
+      "University of Southampton Delhi scholarships",
+      "PDF document",
+      "scholarship policy",
+      "March 2025 policy"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "scholarship terms and conditions": 0.95,
+      "University of Southampton Delhi scholarships": 0.9,
+      "PDF document": 0.85,
+      "scholarship policy": 0.8,
+      "March 2025 policy": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "scholarship",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:34.536Z"
+  }
+]

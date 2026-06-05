@@ -1,0 +1,47 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-31-july-august-2025-intake/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-31-july-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus Tour Event (July 2025)",
+    "path": "/events/campus-tour-31-july-august-2025-intake/",
+    "chunk_index": 0,
+    "text": "Open day and campus tour 31 July. This event, now completed, took place on July 31, 2025, at 4:00 PM IST. The location was International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India. The campus tour was an exciting in-person event at University of Southampton Delhi, offering attendees the chance to explore state-of-the-art facilities and experience vibrant campus life. It was an opportunity to discover all that the University of Southampton has to offer its community.",
+    "tokens": 99,
+    "language": "en",
+    "summary": "The University of Southampton Delhi hosted a campus tour on July 31, 2025, offering prospective students a chance to explore facilities and campus life in Gurgaon.",
+    "keywords": [
+      "campus tour",
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "July 2025 event",
+      "in-person event",
+      "university facilities",
+      "campus life experience"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "campus tour": 0.95,
+      "University of Southampton Delhi": 0.92,
+      "Gurgaon campus": 0.88,
+      "July 2025 event": 0.85,
+      "in-person event": 0.83,
+      "university facilities": 0.81,
+      "campus life experience": 0.80
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "University of Southampton",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Open day",
+      "campus tour",
+      "July 31, 2025"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

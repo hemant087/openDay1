@@ -1,0 +1,37 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-gets-nod-to-start-its-campus-in-india/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-gets-nod-to-start-its-campus-in-india/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Approved to Establish India Campus",
+    "path": "/news/university-of-southampton-gets-nod-to-start-its-campus-in-india/",
+    "chunk_index": 0,
+    "text": "University of Southampton gets nod to start its campus in India 30 August 2024 Read article at The Hindu 30 August 2024",
+    "tokens": 22,
+    "language": "en",
+    "summary": "The University of Southampton has received approval to establish its campus in India, as reported by The Hindu on August 30, 2024.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "India campus approval",
+      "The Hindu report",
+      "higher education India",
+      "international university"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.95,
+      "India campus approval": 0.90,
+      "The Hindu report": 0.88,
+      "higher education India": 0.82,
+      "international university": 0.80
+    },
+    "entities": [
+      "University of Southampton",
+      "The Hindu",
+      "India"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

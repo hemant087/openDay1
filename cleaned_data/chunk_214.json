@@ -1,0 +1,38 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-expands-to-gurgaon-with-new-campus-at-international-tech-park/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/news/university-of-southampton-delhi-expands-to-gurgaon-with-new-campus-at-international-tech-park/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Announces Gurgaon Campus Expansion",
+    "path": "/news/university-of-southampton-delhi-expands-to-gurgaon-with-new-campus-at-international-tech-park/",
+    "chunk_index": 0,
+    "text": "University of Southampton Delhi is expanding to Gurgaon with a new campus at International Tech Park. This expansion was announced on 12 December 2024. Further details can be found by reading the article on Edu News.",
+    "tokens": 44,
+    "language": "en",
+    "summary": "University of Southampton Delhi announced on December 12, 2024, the opening of a new campus in Gurgaon, located at the International Tech Park.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "Gurgaon campus",
+      "International Tech Park",
+      "university expansion",
+      "new campus"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university of southampton delhi": 0.95,
+      "gurgaon campus": 0.90,
+      "international tech park": 0.88,
+      "university expansion": 0.82,
+      "new campus": 0.80
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Gurgaon",
+      "International Tech Park",
+      "Edu News"
+    ],
+    "topic": "news",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:45:25.383Z"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/policies/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/policies/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Key Policies and Documents",
+    "path": "/policies/",
+    "chunk_index": 0,
+    "text": "Welcome to our Policies page. Here, you’ll find a comprehensive list of our key policies that guides our operations, ensure compliance, and maintain transparency. Please take a moment to review the relevant policies for a deeper understanding of our practices and commitments. Policies View Making a complaint View Privacy Notice View Website accessibility statement Policy Documents Download Policy on admission of students under the age of 18 Download Scholarship terms and conditions Download Tuition Fee refund policy",
+    "tokens": 97,
+    "language": "en",
+    "summary": "This page provides a comprehensive list of key policies guiding the University of Southampton Delhi's operations, ensuring compliance and transparency across various areas.",
+    "keywords": [
+      "university policies",
+      "admission policy",
+      "scholarship terms",
+      "tuition fee refund",
+      "privacy notice",
+      "website accessibility"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "university policies": 0.92,
+      "admission policy": 0.88,
+      "scholarship terms": 0.85,
+      "tuition fee refund": 0.83,
+      "privacy notice": 0.8,
+      "website accessibility": 0.78
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Making a complaint",
+      "Privacy Notice",
+      "Website accessibility statement",
+      "Policy on admission of students under the age of 18",
+      "Scholarship terms and conditions",
+      "Tuition Fee refund policy"
+    ],
+    "topic": "policy",
+    "embedding_id": null,
+    "created_at": "2024-07-30T10:00:00Z"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/online-event-09082025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/online-event-09082025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Careers After MSc Finance Online Event Recap",
+    "path": "/events/online-event-09082025/",
+    "chunk_index": 0,
+    "text": "\"Careers after MSc Finance\" online event Event Status: Completed Date & Time: August 09, 2025 7:00 PM IST Recommended for: Offer holders and potential applicants Book now At our webinar, you will: Explore the varied career pathways available after pursuing an MSc in Finance. Discover how the programme bridges academic theory with real-world industry practice and prepares you for global opportunities while staying relevant in the Indian context. Gain insider insights from an industry expert on hiring trends, emerging roles, and the key skills employers look for. Get a glimpse of the curriculum, learning experience, and student support at University of Southampton Delhi. Our esteemed panellists are : Dr Mohammad Anam Akhtar, Head of Business (Education), University of Southampton Delhi Imran Khan, Operations and Governance Unit Head, Arab Bank, Dubai Register your details to secure a spot at this online event. The webinar is scheduled for Saturday, 09 August 2025 from 7:00 PM to 8:00 PM (IST).",
+    "tokens": 157,
+    "language": "en",
+    "summary": "This completed online event from August 9, 2025, explored diverse career pathways after an MSc in Finance, featuring insights from industry experts and University of Southampton Delhi representatives.",
+    "keywords": [
+      "MSc Finance careers",
+      "online event",
+      "career pathways",
+      "industry insights",
+      "University of Southampton Delhi",
+      "finance program",
+      "global opportunities"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "msc finance careers": 0.95,
+      "online event": 0.90,
+      "career pathways": 0.88,
+      "industry insights": 0.85,
+      "university of southampton delhi": 0.87,
+      "finance program": 0.82,
+      "global opportunities": 0.80
+    },
+    "entities": [
+      "Dr Mohammad Anam Akhtar",
+      "Imran Khan",
+      "University of Southampton Delhi",
+      "Arab Bank",
+      "MSc Finance",
+      "Careers after MSc Finance online event",
+      "webinar",
+      "Dubai",
+      "Delhi",
+      "India"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:02.596Z"
+  }
+]

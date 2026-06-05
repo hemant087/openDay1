@@ -1,0 +1,39 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/career-fair-dps-jodhpur-19072025/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/career-fair-dps-jodhpur-19072025/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Career Fair Held at DPS Jodhpur, July 2025",
+    "path": "/events/career-fair-dps-jodhpur-19072025/",
+    "chunk_index": 0,
+    "text": "Career fair in Jodhpur Event Status: Completed Date: July 19, 2025 Location: DPS Jodhpur, Bypass Road Pal, Pal Gaon, Jodhpur, Rajasthan 342014, India",
+    "tokens": 32,
+    "language": "en",
+    "summary": "The University of Southampton Delhi hosted a completed career fair at DPS Jodhpur, Rajasthan, on July 19, 2025.",
+    "keywords": [
+      "Career fair",
+      "DPS Jodhpur",
+      "Jodhpur event",
+      "Rajasthan",
+      "University of Southampton Delhi"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Career fair": 0.95,
+      "DPS Jodhpur": 0.90,
+      "Jodhpur event": 0.88,
+      "Rajasthan": 0.85,
+      "University of Southampton Delhi": 0.80
+    },
+    "entities": [
+      "DPS Jodhpur",
+      "Jodhpur",
+      "Rajasthan",
+      "University of Southampton Delhi",
+      "Career fair"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:44:13.331Z"
+  }
+]

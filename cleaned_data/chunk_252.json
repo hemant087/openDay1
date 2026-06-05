@@ -1,0 +1,112 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#payfees#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#payfees",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Welcome and Key Enrollment Dates",
+    "path": "/welcome/#payfees",
+    "chunk_index": 0,
+    "text": "Welcome to the university We are excited to welcome our first students to the university. Complete these steps to join our community and start your studies. We hope that you are as excited as we are for you to become part of the only Global Top 100 university here in India.As part of our first cohort, you have shown true spirit, incredible tenacity and a genuine confidence in your future. You are one of the first students in the country with the courage to transform your future with a new style of education. You can be proud to be remembered in history as an educational trailblazer.We want to make your journey to University of Southampton Delhi as smooth as possible. Over the next few weeks, we will ask you to complete a number of important steps to join our community:-Set up IT account between 20-22 August 2025.Verify your documents between 22-24 August 2025.Check in to student hostel from 23 August 2025 onwards.Enrol at the university between 27-29 August 2025.Collect your student ID card on Friday 29 August 2025.Student induction and support week from 25-29 August 2025.Careers and employer week from 01-05 September 2025.Pay tuition fees by 08 September 2025.We will provide more detail on these steps over the next few days, and our expert staff will be on hand to guide you through them. It is important that you complete these tasks before teaching starts on campus on 08 September 2025.",
+    "tokens": 279,
+    "language": "en",
+    "summary": "The University of Southampton Delhi welcomes its first student cohort to a Global Top 100 university in India. This section outlines crucial steps and dates for new students, including IT setup, document verification, enrolment, and tuition payment, all to be completed before teaching begins on September 8, 2025.",
+    "keywords": [
+      "University of Southampton Delhi",
+      "student welcome",
+      "first cohort",
+      "enrollment dates",
+      "academic year",
+      "campus entry",
+      "Global Top 100 university"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "University of Southampton Delhi": 0.9,
+      "student welcome": 0.9,
+      "first cohort": 0.9,
+      "enrollment dates": 0.9,
+      "academic year": 0.9,
+      "campus entry": 0.9,
+      "Global Top 100 university": 0.9
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "August 2025",
+      "September 2025"
+    ],
+    "topic": "overview",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#payfees#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#payfees",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "New Student Essential Registration and Access Details",
+    "path": "/welcome/#payfees",
+    "chunk_index": 1,
+    "text": "Set up IT account You must set up your IT account to access the university's IT systems. Verify your documents You should have original documents verified so that we can check you meet the requirements of your offer letter. Check in to student hostel If you have booked accommodation, you must check in before you travel to the accommodation or move into your room. Enrol at the university You must officially enrol to join the university as a student. Collect your student ID card You must have a student ID card to access campus and identify you as a member of the student community.",
+    "tokens": 209,
+    "language": "en",
+    "summary": "New students must complete essential steps: setting up an IT account, verifying original documents against the offer letter, checking into booked student accommodation, officially enrolling as a university student, and collecting a student ID card for campus access.",
+    "keywords": [
+      "IT account setup",
+      "document verification",
+      "student hostel check-in",
+      "university enrolment",
+      "student ID card",
+      "campus access"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "IT account setup": 0.9,
+      "document verification": 0.9,
+      "student hostel check-in": 0.9,
+      "university enrolment": 0.9,
+      "student ID card": 0.9,
+      "campus access": 0.9
+    },
+    "entities": [
+      "Student ID card"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/#payfees#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/#payfees",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Student Induction, Career Support, and Fee Payment Information",
+    "path": "/welcome/#payfees",
+    "chunk_index": 2,
+    "text": "Student induction and support week Prepare to 'hit the ground running' with support and advice from professional and academic teams. Sessions take place on campus from 25-29 August 2025. Careers and employer week Get advice from employers and our careers team on being career-ready while you study. Sessions take place on campus from 01-05 September 2025. Pay tuition fees You must pay the next instalment of your tuition fees before the academic term starts. Academic term starts Seminars and lectures start from Monday 08 September 2025. Check your timetable so you know where and when.",
+    "tokens": 167,
+    "language": "en",
+    "summary": "This section covers the Student Induction and Support Week (25-29 August 2025) and Careers and Employer Week (01-05 September 2025), along with the requirement to pay tuition fees by September 8, 2025, when academic lectures commence.",
+    "keywords": [
+      "student induction week",
+      "career support",
+      "employer week",
+      "tuition fees payment",
+      "academic term starts",
+      "lectures"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "student induction week": 0.9,
+      "career support": 0.9,
+      "employer week": 0.9,
+      "tuition fees payment": 0.9,
+      "academic term starts": 0.9,
+      "lectures": 0.9
+    },
+    "entities": [
+      "August 2025",
+      "September 2025"
+    ],
+    "topic": "student-services",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]

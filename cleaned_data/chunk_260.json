@@ -1,0 +1,73 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/careers-and-employer-week/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/careers-and-employer-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Careers and Employer Week",
+    "path": "/welcome/careers-and-employer-week/",
+    "chunk_index": 0,
+    "text": "The University of Southampton Delhi is hosting a Careers and Employer Week, offering students advice from employers and the careers team on being career-ready. Sessions will take place on campus from 01-05 September 2025. The week features a diverse schedule of events:\n\nMonday 01 September 2025: Your future starts now: Employability & career readiness. Topics include a welcome & career advancement services keynote, 'Success at Southampton – Why employability starts now', an overview of the 'Careers & employability ecosystem – India & UK support', employer insights from Investec Global Services, and student club elections & campaigns.\n\nTuesday 02 September 2025: Culture collide: India × UK mashup. This day includes 'Bridging worlds, blending wisdoms', a self-mapping exercise for skills & aspirations, free time, a workshop on emotional intelligence in the world of AI, and an Indian traditional day & tastes of India celebration.\n\nWednesday 03 September 2025: Strong body, stronger bonds. Focusing on 'Building resilience, community & support systems', with employer insights & live briefs (SIP), 'Stranded! The ultimate survival challenge: teamwork & leadership', and reflection over tea & coffee.\n\nThursday 04 September 2025: Navigating the digital landscape. Themes include being 'Responsible, innovative, and future-ready', with alumni insights on 'Journeys & lessons from Southampton', and exploring opportunities as a student, followed by a movie evening.\n\nFriday 05 September 2025: IGNITE: First light of the first batch. A celebration titled 'Celebrate your journey, your cohort, your spark', including dress rehearsals & campus setup, 'UoSD’s Got Talent – Shine on!', and free time before the big night.",
+    "tokens": 303,
+    "language": "en",
+    "summary": "University of Southampton Delhi hosts a Careers and Employer Week from September 1-5, 2025, offering workshops, employer insights, skill-building, and networking opportunities for student career readiness.",
+    "keywords": [
+      "Careers Week",
+      "Employer Insights",
+      "Career Readiness",
+      "Employability",
+      "Student Development",
+      "Investec Global Services",
+      "UoSD Got Talent"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Careers Week": 0.95,
+      "Employer Insights": 0.88,
+      "Career Readiness": 0.82,
+      "Employability": 0.79,
+      "Student Development": 0.75,
+      "Investec Global Services": 0.72,
+      "UoSD Got Talent": 0.68
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "Investec Global Services",
+      "Careers and Employer Week",
+      "UoSD’s Got Talent"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/welcome/careers-and-employer-week/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/welcome/careers-and-employer-week/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Important Tuition Fee Payment Deadline",
+    "path": "/welcome/careers-and-employer-week/",
+    "chunk_index": 1,
+    "text": "What is your next step? Pay tuition fees. You must pay the next instalment of your tuition fees before Monday 08 September 2025. Make a payment.",
+    "tokens": 31,
+    "language": "en",
+    "summary": "Students at University of Southampton Delhi must pay their next tuition fee instalment by Monday, September 8, 2025. Payment options are available online.",
+    "keywords": [
+      "Tuition Fees",
+      "Payment Deadline",
+      "Student Finance",
+      "Instalment Payment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Tuition Fees": 0.92,
+      "Payment Deadline": 0.87,
+      "Student Finance": 0.81,
+      "Instalment Payment": 0.75
+    },
+    "entities": [
+      "University of Southampton Delhi"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00.000Z"
+  }
+]

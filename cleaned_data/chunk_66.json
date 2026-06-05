@@ -1,0 +1,46 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/events/campus-tour-14-august-august-2025-intake/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/events/campus-tour-14-august-august-2025-intake/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "University of Southampton Delhi Campus and Accommodation Tour Event",
+    "path": "/events/campus-tour-14-august-august-2025-intake/",
+    "chunk_index": 0,
+    "text": "Campus & accommodation tour 14 August SELLING FAST Event Status: Completed Date & Time: August 14, 2025 4:00 PM IST Location: International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Book now Campus tour Join us for an exciting in-person event at University of Southampton Delhi where you can explore our state-of-the-art facilities and get a feel for campus life. This is your chance to experience first hand what it’s like to be a part of our vibrant community. Don’t miss out on this opportunity to discover all that the University of Southampton has to offer. Accomodation tour Our student hostel is a home away from home during study at University of Southampton Delhi. Tour the peaceful residential Suncity location only 6km away from campus. Take the shuttlebus from campus, and then return back to campus when the accommodation tour has finished. International Tech Park Gurgaon, Near Sec 59, Off, Golf Course Ext Rd, Gurugram, Haryana 122101, India Open address in Google Maps",
+    "tokens": 191,
+    "language": "en",
+    "summary": "This event page details a completed in-person campus and accommodation tour for the University of Southampton Delhi on August 14, 2025, offering a glimpse into facilities and student life.",
+    "keywords": [
+      "Campus tour",
+      "Accommodation tour",
+      "University of Southampton Delhi",
+      "Gurugram",
+      "Student hostel",
+      "Campus facilities",
+      "Suncity location"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Campus tour": 0.95,
+      "Accommodation tour": 0.92,
+      "University of Southampton Delhi": 0.88,
+      "Gurugram": 0.80,
+      "Student hostel": 0.75,
+      "Campus facilities": 0.70,
+      "Suncity location": 0.68
+    },
+    "entities": [
+      "University of Southampton Delhi",
+      "International Tech Park Gurgaon",
+      "Gurugram",
+      "Haryana",
+      "India",
+      "Suncity",
+      "Google Maps",
+      "Campus & accommodation tour 14 August"
+    ],
+    "topic": "event",
+    "embedding_id": null,
+    "created_at": "2025-11-20T19:43:58.912Z"
+  }
+]

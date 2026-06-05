@@ -1,0 +1,242 @@
+[
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/#chunk-0",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Economics MSc Program Introduction and Core Curriculum",
+    "path": "/programmes/economics-msc/",
+    "chunk_index": 0,
+    "text": "Economics MSc Award MSc Duration 1 year Course Type Full Time Start Date 24 August 2026 Gain in-depth knowledge of the concepts, methods and applications of modern microeconomics, macroeconomics and econometrics with a one-year master’s degree from an international university. The degree will prepare you for a career as an economist working in finance, consulting and policy or to continue research studies. The programme equips you to understand the theoretical foundations of economic analysis, work with economic models and apply economic analysis to a range of policy areas. You will develop research skills and learn to use a variety of research methodologies to test and evaluate economic models. You will look at economic theory and econometric methods across a range of topics and develop in-depth knowledge to carry out independent research. This will lead to a dissertation on a subject of your interest.",
+    "tokens": 140,
+    "language": "en",
+    "summary": "The Economics MSc is a one-year full-time program starting August 2026, providing in-depth knowledge in microeconomics, macroeconomics, and econometrics for careers in finance, consulting, or research.",
+    "keywords": [
+      "Economics MSc",
+      "microeconomics",
+      "macroeconomics",
+      "econometrics",
+      "economic analysis",
+      "research studies",
+      "dissertation"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "Economics MSc": 0.95,
+      "microeconomics": 0.88,
+      "macroeconomics": 0.87,
+      "econometrics": 0.86,
+      "economic analysis": 0.82,
+      "research studies": 0.79,
+      "dissertation": 0.75
+    },
+    "entities": [
+      "Economics MSc"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/#chunk-1",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Economics MSc Programme Structure, Semesters, and UK Equivalence",
+    "path": "/programmes/economics-msc/",
+    "chunk_index": 1,
+    "text": "What you will study This is a full-time 1 year degree programme. The programme structure comprises 2 semesters of taught study followed by a final semester of independent research for your dissertation in the final semester 3. Semester 1 builds sound working knowledge of concepts and methods used in economics and economic research at the postgraduate level. Semester 2 allows you to build on these foundations and deepen your understanding of advanced methods in economics as well as analysing questions and problems in specific areas of economics that reflect your interest. After completing the taught component, you will engage for three months in supervised independent research, yielding a master’s dissertation. Programme structure The programmes are designed to ensure that students gain the fundamentals of their discipline and then add specialisation and perspective through available optional modules. The Programme Description Document contains an overview of the programme, its aims, information on programme modules and shows how we assess student progress as they learn with us. As a research-led University, we undertake a continuous review of our programmes to ensure quality enhancement and to manage our resources. As a result, this programme may be revised during a student’s period of registration; however, any revision will be balanced against the requirement that the student should receive the educational service expected. Key information We are mandated by the University Grants Commission (UGC) to deliver the equivalent programme and quality as we offer in the UK. To match the programme lengths of internationally respected UK awarded degrees, the MSc Economics degree has a duration of one year. Dates mentioned are subject to change. Our programmes are taught in English, and content is equivalent to the MSc Economics degree delivered at University of Southampton in the UK.",
+    "tokens": 260,
+    "language": "en",
+    "summary": "The one-year full-time MSc Economics program involves two taught semesters and a final research dissertation, with content equivalent to the UK University of Southampton degree and mandated by the UGC.",
+    "keywords": [
+      "programme structure",
+      "taught study",
+      "independent research",
+      "master’s dissertation",
+      "optional modules",
+      "University Grants Commission",
+      "UK awarded degrees",
+      "English taught"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "programme structure": 0.92,
+      "taught study": 0.85,
+      "independent research": 0.83,
+      "master’s dissertation": 0.81,
+      "optional modules": 0.78,
+      "University Grants Commission": 0.90,
+      "UK awarded degrees": 0.87,
+      "English taught": 0.76
+    },
+    "entities": [
+      "University Grants Commission",
+      "University of Southampton",
+      "MSc Economics"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/#chunk-2",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Economics MSc Graduate Career Paths and Employability Support",
+    "path": "/programmes/economics-msc/",
+    "chunk_index": 2,
+    "text": "Your future career We are a top 20 UK university for employability (QS Graduate Employability Rankings 2022) and offer extensive support for today’s competitive and rapidly changing financial landscape. The programme emphasises the application of evidence-based economic reasoning to policy questions, providing students with much-demanded skills as economists in financial or consulting firms, as well as in government or other institutions. Career opportunities Graduates commonly work in a range of organisations or sectors including banking and financial services, not-for-profit organisations, consultancies, Government departments and think tanks. Careers directly related to this course: Data analyst Economist Financial risk analyst Investment analyst Political risk analyst Statistician Wider career opportunities: Data scientist Diplomatic service Administrative service Management consultant Careers services at University of Southampton Delhi Our proprietary Southampton skills model is integrated into our curriculum. When you join us, you’ll be able to use our skills model to track, plan, and benefit your career development and progress. As well as support from the Careers and Employability team in Delhi, you’ll have access to our market-leading employability development offering. This includes: online resources regular workshops personalised career guidance and support through our MyCareer platform and e-mentoring With links to multinational and industrial organisations, we enable you to engage with employers and explore potential career paths. We also host regular alumni events in-person across major cities in India, allowing you to grow your own networks. Our support is ongoing, and once you graduate, you’ll be part of a global community of over 220,000 alumni that spans over 180 countries.",
+    "tokens": 270,
+    "language": "en",
+    "summary": "Graduates of the Economics MSc program are highly employable in finance, consulting, and government, supported by the University of Southampton Delhi's career services, skills model, and extensive alumni network.",
+    "keywords": [
+      "employability",
+      "career opportunities",
+      "financial services",
+      "consulting firms",
+      "economists",
+      "Southampton skills model",
+      "career guidance",
+      "alumni network"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "employability": 0.90,
+      "career opportunities": 0.88,
+      "financial services": 0.85,
+      "consulting firms": 0.83,
+      "economists": 0.81,
+      "Southampton skills model": 0.80,
+      "career guidance": 0.77,
+      "alumni network": 0.75
+    },
+    "entities": [
+      "QS Graduate Employability Rankings 2022",
+      "University of Southampton Delhi",
+      "Economics MSc",
+      "Delhi",
+      "India"
+    ],
+    "topic": "programme",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/#chunk-3",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Economics MSc Admissions: Academic and English Language Requirements",
+    "path": "/programmes/economics-msc/",
+    "chunk_index": 3,
+    "text": "Eligibility criteria In order to apply for the programme, you require an upper second-class degree, termed a 2:1 degree, or international equivalent in a relevant subject such as: economics mathematics engineering data science computer science physics a related subject with a high maths content English language requirement We accept several ways of meeting our English Language requirement. These include: IELTS Test, with scores of 6.5 overall (6.0 in reading, writing, speaking, and listening) other tests listed on our website an approved academic qualification having the required grade If you’ve successfully completed a degree, taught and assessed in English, up to 2 years before the date of first enrolment at the University of Southampton, we may be able to accept this as evidence of your English language ability. Refer to our English Language proficiency guide for more information about English language requirements. Our academic admissions criteria Typical academic admissions criteria represent the usual level of academic attainment an applicant is expected to achieve prior to being admitted to that programme. These criteria are not intended to provide a guarantee that all applicants who satisfy the criteria may be offered a place, nor that all applicants to be made an offer will receive an identical offer to one another.",
+    "tokens": 190,
+    "language": "en",
+    "summary": "Applicants for the Economics MSc need an upper second-class degree in a relevant subject and must meet English language requirements, such as an IELTS score of 6.5, or have completed an English-taught degree.",
+    "keywords": [
+      "eligibility criteria",
+      "academic admissions",
+      "English language requirement",
+      "IELTS Test",
+      "2:1 degree",
+      "relevant subject",
+      "English-taught degree"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "eligibility criteria": 0.92,
+      "academic admissions": 0.88,
+      "English language requirement": 0.86,
+      "IELTS Test": 0.84,
+      "2:1 degree": 0.80,
+      "relevant subject": 0.78,
+      "English-taught degree": 0.75
+    },
+    "entities": [
+      "Economics MSc",
+      "IELTS Test",
+      "University of Southampton"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/#chunk-4",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Economics MSc Tuition Fees and Instalment Payments for 2026",
+    "path": "/programmes/economics-msc/",
+    "chunk_index": 4,
+    "text": "Our fees The fees for the year starting in August 2026 for Indian students are: 16,17,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,61,700 INR for India students The balance of the yearly tuition fee is paid in 3 instalments. 3,88,080 INR by Monday 07 September 2026 5,33,610 INR by Monday 25 January 2027 5,33,610 INR by Monday 19 April 2027 Fees for international students The fees for the year starting in August 2026 for international students are: 18,48,000 INR The tuition fee is paid in 4 instalments. Your first payment will be a deposit of 10% of the programme fee. To confirm your offer, you must pay your deposit as specified in your Offer. For students starting in August 2026, the deposit is: 1,84,800 INR for international students If you are an international student, you’ll have to make 3 separate payments of: 4,33,520 INR by Monday 07 September 2026 6,09,840 INR by Monday 25 January 2027 6,09,840 INR by Monday 19 April 2027 We may adjust the fees in the future to account for inflation and changes in other costs. Exact payment dates for future years will vary according to the academic calendar.",
+    "tokens": 200,
+    "language": "en",
+    "summary": "The Economics MSc tuition fees for August 2026 are 16,17,000 INR for Indian students and 18,48,000 INR for international students, payable in four instalments, including a 10% deposit.",
+    "keywords": [
+      "tuition fees",
+      "Indian students",
+      "international students",
+      "payment instalments",
+      "programme deposit",
+      "August 2026",
+      "academic calendar",
+      "inflation adjustment"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "tuition fees": 0.95,
+      "Indian students": 0.88,
+      "international students": 0.87,
+      "payment instalments": 0.85,
+      "programme deposit": 0.82,
+      "August 2026": 0.80,
+      "academic calendar": 0.77,
+      "inflation adjustment": 0.75
+    },
+    "entities": [
+      "Economics MSc",
+      "August 2026"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  },
+  {
+    "id": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/#chunk-5",
+    "source_url": "https://www.delhi.southampton.ac.uk/programmes/economics-msc/",
+    "source_file": "file:///mnt/data/www.delhi.southampton.ac.uk_pages.jsonl",
+    "title": "Economics MSc Scholarships and Admissions Application Guidance",
+    "path": "/programmes/economics-msc/",
+    "chunk_index": 5,
+    "text": "Scholarships We offer competitive scholarships to talented students. Our application process We are now accepting registrations for a place at our campus in the Delhi NCR for the academic year starting August 2026. Potential students can understand more about our application process by looking at helpful guidance and advice on university admissions pages. To start the application process, register yourself. How to apply Our programmes are taught in English, and content is equivalent to that delivered to other University of Southampton students. To match the programme lengths of internationally respected UK awarded degrees, undergraduates study for three years, and postgraduates study for one year. You might also want to know Can I get an offer with predicted scores? We encourage students to apply as soon as possible so that they can receive a Conditional Offer based on predicted scores for their chosen programme. We can accept an application from a student using their predicted grades if we receive their final grades once they are available.",
+    "tokens": 150,
+    "language": "en",
+    "summary": "The University offers competitive scholarships and is accepting registrations for August 2026, with an application process that includes conditional offers based on predicted scores for both postgraduate and undergraduate programs.",
+    "keywords": [
+      "competitive scholarships",
+      "application process",
+      "Delhi NCR campus",
+      "academic year 2026",
+      "conditional offer",
+      "predicted scores",
+      "postgraduate study"
+    ],
+    "keywords_method": "hybrid-keybert-tfidf-ner",
+    "keyword_scores": {
+      "competitive scholarships": 0.92,
+      "application process": 0.88,
+      "Delhi NCR campus": 0.85,
+      "academic year 2026": 0.83,
+      "conditional offer": 0.81,
+      "predicted scores": 0.79,
+      "postgraduate study": 0.76
+    },
+    "entities": [
+      "Economics MSc",
+      "Delhi NCR",
+      "August 2026",
+      "University of Southampton"
+    ],
+    "topic": "admissions",
+    "embedding_id": null,
+    "created_at": "2024-07-30T12:00:00Z"
+  }
+]
